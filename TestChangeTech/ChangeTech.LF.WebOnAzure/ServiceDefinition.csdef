@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="ChangeTech.LF.WebOnAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WebRole name="ChangeTech.LF.Web" vmsize="Small">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Https" endpointName="Https" />
+          <Binding name="Http" endpointName="Http" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="Https" protocol="https" port="443" certificate="soshalsa" />
+      <InputEndpoint name="Http" protocol="http" port="80" />
+    </Endpoints>
+    <Imports>
+      <Import moduleName="Diagnostics" />
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+    <Certificates>
+      <Certificate name="soshalsa" storeLocation="CurrentUser" storeName="My" />
+    </Certificates>
+  </WebRole>
+</ServiceDefinition>

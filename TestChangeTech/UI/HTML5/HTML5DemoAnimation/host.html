@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>NM</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="Scripts/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery-ui-1.js"></script>
+		<link type="text/css" href="Themes/jquery-ui-1.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="Themes/styles.css">
+		<link type="text/css" rel="stylesheet" href="Themes/addition.css">
+		<script type="text/javascript" src="Scripts/jquery.ghindaVideoPlayer.js"></script>
+		<script type="text/javascript" src="Scripts/PageTransition.js"></script>
+		<script type="text/javascript" src="Scripts/context_blender.js"></script>
+		<script type="text/javascript" src="Scripts/html5global.js"></script>
+		<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+        <script type="text/javascript">						
+			$(document).ready(function() {
+				if(navigator.userAgent.toLowerCase().match(/iP(hone|ad)/i)== null) {
+					//$('body').addClass('iphone');
+					$('body').addClass('no-ipad');
+				}
+				if(navigator.userAgent.toLowerCase().match(/iPhone/i)!= null) {
+					$('body').addClass('iphone');
+					var mt = $('meta[name=some-name]');
+					mt = mt.length ? mt : $('<meta name="viewport" />').appendTo('head');
+					mt.attr('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
+					window.addEventListener("load", function() { setTimeout(loaded, 1000) }, false);
+				}
+				$.getScript("Scripts/custom.js");
+				loadXmlAjax();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="page_wrapper">
+			<div id="topbar">
+				<div class="divider-left"></div>
+				<div class="divider-right"></div>
+				<a href="#" class="backbtn"><span>Back</span></a>
+				<p class="progtitle">
+					<!--PROGRAMTITLE<span> DAY #</span>-->
+				</p>
+				<a href="#" class="setbtn"><span>Settings</span></a>
+			</div>
+			<div id="mainarea">
+			<div id="main-wrapper" style="display:none"></div>
+            <div id="popupDialog" style="display:none">
+            <p>This is dialog testing page</p>
+            <p>This is dialog testing page</p>
+            <input type="button" value="Ok" id="popupBtn">
+            </div>
+				<div id="bubbles">
+					<div id="bubble-white" style="display:none;">
+						<div class="bubcontent"><p>&nbsp;</p></div><div class="bubble-white-arrow"></div>
+					</div>
+					<div id="bubble-yellow" style="display:none;">
+						<div class="bubcontent"><p>&nbsp;</p></div><div class="bubble-yellow-arrow"></div>
+					</div>
+					<div id="bubble-black" style="display:none;">
+						<div class="bubcontent"><p>&nbsp;</p></div><div class="bubble-black-arrow"></div>
+					</div>
+					<div id="bubble-blue" style="display:none;">
+						<div class="bubcontent"></div><div class="bubble-blue-arrow"></div>
+					</div>
+				</div>
+			</div>
+			<div id="pic">
+				<img src=""  id="backgroundpic" alt="" />
+				<img src="" class="fullbg" id="fullbgImg" alt="" />
+			</div>
+		</div>
+		<div id="hiddenElements"></div>
+		<div id="hiddenImage" style="display:none;"></div>
+		<div id="hiddenBg" style="display:none;"></div>
+		<div class="body-wrapper"><p><img src="Images/loading.gif">Loading XML...</p></div>
+		<!--dummy input value-->
+       <input type="hidden" id="AttentionQ1" value="30" />
+       <input type="hidden" id="AttentionQ2" value="40" />
+       <input type="hidden" id="AttentionQ3" value="50" />
+       <input type="hidden" id="AttentionQ4" value="60" />
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ChangeTech.WorkerOnAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="ChangeTech.Worker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="DiagnosticsConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="changetech" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEAKLkxgzAW2mRQ6zvlmRulMwDQYJKoZIhvcNAQEBBQAEggEAQ6R8DkxXj52eWHYMyzlVeragB9Padx9qDAq5sGVtXqgJS0K0k0gRTM2K52BWmvFp+MBlxlzQA6BgZGfvHCeaJM8yeo1kEVI4I1lKPU+pTdjEzJQigZy3ClBtCNUY+lOim+48G0I1mGrGIEueTJb4IeZ19gaHHhCRUF8LCUI+b9FzHndrLxd9cwedVohB1zFlWbqSi7Ie/fwZrHQ2abaqclJjW/jI+qO3JZKPaKfnwdoaSTkVjLx0nZZYVgcsFK8VzfDevjkwC5AolJuysiUPiRzn7MXdcyZqaQbYiH2cAXvY8hfOpwOyOYVBXBW8eukKw9+KHLzoWRErOs+Y/atyrTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECA8de7b4WVhsgBAcagbadGWFUnh6ahBzoLH7" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2012-11-30T23:59:59.0000000+08:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=changetechstorage;AccountKey=N5LVrFmIBcu19kVgu4e8Z5L48x+8x44z+he/QBQ9+Wtag46Gsn5Ok58idmXAZOe7C372opmNLPcxbmqoz9lgTw==" />
+      <!--If the value of ManualyEmailDateTime is String.Empty, it means this setting is no use. Else, we can modify the ManualyEmailDateTime to yesterday's datetime or any day before today to send the emails of that day. eg. "2012-03-06 23:00:00"-->
+      <Setting name="ManualyEmailDateTime" value="" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="CC063E8E7B49EE58F65B91DF8A2AF46FF70A8C9A" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

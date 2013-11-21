@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TempSite.master.cs" Inherits="ChangeTech.DeveloperWeb.TempSite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/general.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="Themes/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/added.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="Scripts/json2.js"></script>
+    <script type="text/javascript" src="Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="Scripts/ct.program.js"></script>
+    <script type="text/javascript" src="Scripts/Global.js"></script>
+    <title>Changetech Developer</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+  <div id="wrapper-header">
+  <asp:LoginView ID="LoginView" runat="server">
+        <LoggedInTemplate>
+        <div class="logo"><a href="ListProgram.aspx"><img src="gfx/logo-developer.png" width="230" height="30" alt="Changetech Developer" /></a></div>
+        <div class="version"> <%= VersionNumber%></div>
+        <div class="usermenu">
+                            <asp:Localize ID="loginAsLocalize" Text="<%$ Resources: Share, LoginAs%>" runat="server">
+                            </asp:Localize>
+                            <asp:LoginName ID="LoginName" runat="server" />
+                            |
+                            <asp:LinkButton ID="logoutLnkBtn" Text="<%$ Resources: Share, Logout%>" runat="server"
+                                OnClick="logoutLnkBtn_Click" CausesValidation="false">
+                            </asp:LinkButton>
+                            | <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources: Share, ContactUs%>"></asp:Localize></a>
+                        </div>
+                        </LoggedInTemplate>
+                        <%--<AnonymousTemplate>
+                            <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources:Share, ContactUs %>"></asp:Localize></a>
+                        </AnonymousTemplate>--%>
+                    </asp:LoginView>
+  <div class="clear"></div>
+</div>
+<div id="breadcrumbs"  style="height:25px;">
+    <ul>
+        <asp:LoginView ID="menuLoginView" runat="server">
+            <LoggedInTemplate>
+                <li class="mainmenu">
+                    <asp:DropDownList ID="OperateDDL" runat="server" Width="140px" AutoPostBack="true"
+                        OnSelectedIndexChanged="OperateDDL_SelectedIndexChanged">
+                    </asp:DropDownList>
+                    <%--<input type="button" class="button-next" name="go_button" id= "go_button" value="" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" />--%>
+                    <asp:Button ID="GoOperateBtn" CssClass="button-next" runat="server" Text="" OnClick="GoOperateBtn_Click"/>
+                </li>
+                <li>
+                     <asp:HyperLink ID="hpHomeLink" NavigateUrl="~/Home.aspx" Width="35px" runat="server" Text="<%$ Resources: Share, Home%>"
+                    ToolTip="<%$ Resources: Share, GoPrograms%>"></asp:HyperLink>
+                </li>
+                    <asp:ContentPlaceHolder ID="SiteMapPath" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <li>
+                    <%if (!(Request.Url.ToString().ToLower().Contains("home.aspx") || Request.Url.ToString().ToLower().Contains("default.aspx") || Request.Url.ToString().ToLower().Contains("ListProgram.aspx") || Request.Url.ToString().ToLower().Contains("information.aspx")))
+                  { %>
+                    <asp:HyperLink ID="hpBackLink" runat="server" Text="<%$ Resources: Share, Back%>"></asp:HyperLink>
+                    <%} %>
+                    </li>
+            </LoggedInTemplate>
+        </asp:LoginView>
+    </ul>
+  <div class="clear"></div>
+</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+    <div id="footer">
+            <asp:Localize ID="footerLocalize" runat="server"></asp:Localize>
+    </div>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.TimerTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls"
+    Loaded="UserControl_Loaded">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="160"></ColumnDefinition>
+            <ColumnDefinition Width="230"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--Heading-->
+        <TextBlock Text="Title:" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <TextBox x:Name="titleTextBox" Grid.Row="1" Grid.Column="2" Height="25" Grid.ColumnSpan="2"></TextBox>
+        
+        <!--Text-->
+        <TextBlock Text="Text:" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" FontWeight="Bold"></TextBlock>
+        <ScrollViewer x:Name="textScrollView" Grid.Row="2" Grid.Column="2" Grid.RowSpan="3" Grid.ColumnSpan="2" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="textTextBox" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+        </ScrollViewer>
+        <!--Primary button-->
+        <TextBlock Text="Primary button name:" Grid.Row="5" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="buttonPrimaryNameTextBox" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Height="25"></TextBox>
+        
+        <!--Before property-->
+        <TextBlock Text="Before Property:" Grid.Row="6" Grid.Column="1" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <HyperlinkButton x:Name="BeforeShowExpressionLink" Grid.Row="6" Grid.Column="2" Click="BeforeShowExpressionLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder"></HyperlinkButton>
+        
+        <!--After property-->
+        <TextBlock Text="After property:" Grid.Row="7" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <ComboBox x:Name="AfterPropertyComboBox" Grid.Row="7" Grid.Column="2" SelectionChanged="AfterPropertyComboBox_SelectionChanged" Height="25">
+            <ComboBoxItem Content="Go to next page"></ComboBoxItem>
+            <ComboBoxItem Content="Expression"></ComboBoxItem>
+        </ComboBox>
+        <HyperlinkButton x:Name="AfterExpressionLink" Grid.Row="7" Grid.Column="3" VerticalAlignment="Center" Click="AfterExpressionLink_Click" Content="Expression Builder" Visibility="Collapsed"></HyperlinkButton>
+        
+        <TextBlock Text="Variable:" Grid.Row="8" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="variableNameTextBlock" Grid.Row="8" Grid.Column="3" VerticalAlignment="Center"></TextBlock>
+        <HyperlinkButton x:Name="variableHyperlinkButtion" Content="Set variable" Grid.Row="8" Grid.Column="2" Click="variableHyperlinkButtion_Click" VerticalAlignment="Center"></HyperlinkButton>
+        <!--Expresion Builder-->
+        <ChangeTechControl:ExpressionBuilder x:Name="ExpressionBuilder" Grid.Row="1" Grid.Column="1" Grid.RowSpan="9" Grid.ColumnSpan="5" Visibility="Collapsed" Canvas.ZIndex="1"></ChangeTechControl:ExpressionBuilder>
+        <!--Variable list-->
+        <ChangeTechControl:PageVariableManager x:Name="VariableList" Grid.Row="0" Grid.Column="0" Grid.RowSpan="9" Grid.ColumnSpan="5" Visibility="Collapsed" SelectedEvent="SelectVaribleHandler"></ChangeTechControl:PageVariableManager> 
+    </Grid>
+</UserControl>

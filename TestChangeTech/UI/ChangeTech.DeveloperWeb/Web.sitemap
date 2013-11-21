@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+
+    <siteMapNode url="ListProgram.aspx" title="$resources:Share, Programs"  description="$resources:Share, GoPrograms">
+      <siteMapNode url="EditProgram.aspx" title="$resources:Share, EditProgram" description="$resources:Share, GoEditProgram">
+        <siteMapNode url="ManageProgram.aspx" title="Manage program" description=""></siteMapNode>
+        <siteMapNode url="ListProgramRoom.aspx" title="$resources:Share, ProgramRoom" description=""></siteMapNode>
+        <siteMapNode url="ManageProgramLanguage.aspx" title="Manage program language" description=""></siteMapNode>
+        <siteMapNode url="ManageProgramColor.aspx" title="Program color" description=""></siteMapNode>
+        <siteMapNode url="ManageRelapsePageSequence.aspx" title="Subroutine"></siteMapNode>
+        <siteMapNode url="CheckProgram.aspx" title="Check program"></siteMapNode>
+        <siteMapNode url="ManageUserCompany.aspx" title="Manage company" description=""></siteMapNode>
+        <siteMapNode url="ManageTipMeassage.aspx" title="$resources: Share,TipMessage" description=""></siteMapNode>
+        <siteMapNode url="Report.aspx" title="$resources: Share,Report" description="">
+          <siteMapNode url="LogReport.aspx" title="Log report" description=""></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="AddPinCode.aspx" title="Manage PinCode template" description=""></siteMapNode>
+        <siteMapNode url="ManageSM.aspx" title="Short message" description=""></siteMapNode>
+        <siteMapNode url="ListSMS.aspx" title="SMS list" description=""></siteMapNode>
+        <siteMapNode url="ManageDailyReportSMS.aspx" title="Manage Daily Report SMS Overview" description=""></siteMapNode>
+        <siteMapNode url="ManageCopyTipMessage.aspx" title="Copy tip message" description=""></siteMapNode>
+        <siteMapNode url="ProgramSchedule.aspx" title="Program schedule" description=""></siteMapNode>
+        <siteMapNode url="EditEmailTemplate.aspx" title="$resources: Share,EmailTemplate" description=""></siteMapNode>
+        <siteMapNode url="ManageLoginTemplate.aspx" title="$resources: Share,Login" description=""></siteMapNode>
+        <siteMapNode url="ManagePasswordReminderTemplate.aspx" title="$resources: Share,PasswordReminder" description=""></siteMapNode>
+        <siteMapNode url="ManageSessionEndingTemplate.aspx" title="$resources: Share,SessionEnding" description=""></siteMapNode>
+        <siteMapNode url="ManatePayment.aspx" title="Manage payment" description=""></siteMapNode>
+        <siteMapNode url="ManageUserMenu.aspx" title="$resources: Share,ManageUserMenu" description=""></siteMapNode>
+        <siteMapNode url="ManageHelpItem.aspx" title="$resources: Share, HelpItem">
+          <siteMapNode url="AddHelpItem.aspx" title="$resources: Share, AddHelpItem"></siteMapNode>
+          <siteMapNode url="EditHelpItem.aspx" title="$resources: Share, EditHelpItem"></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="ManageCTPP.aspx" title="$resources: Share,ManageCTPP" description=""></siteMapNode>
+      </siteMapNode>
+        <siteMapNode url="AddProgram.aspx" title="$resources:Share, AddProgram" description="$resources:Share, GoAddProgram"/>
+        <siteMapNode url="AddSession.aspx" title="$resources:Share, AddSession" description="$resources:Share, GoAddSession"/>
+        <siteMapNode url="EditSession.aspx" title="$resources:Share, EditSession" description="$resources:Share, GoEditSession"/>        
+        <siteMapNode url="EditProgramRoom.aspx" title="$resources:Share, EditProgramRoom" description=""/>
+        <siteMapNode url="AddProgramRoom.aspx" title="$resources:Share, AddProgramRoom" description=""/>
+        <siteMapNode url="ManageProgramSecurity.aspx" title="$resources: Share, ProgramUser" description="$resources:Share, GoProgramSecurity"></siteMapNode>
+        <siteMapNode url="EditPageSequence.aspx" title="$resources: Share, EditPageSequence" description=""></siteMapNode>
+        <siteMapNode url="AddPageSequence.aspx" title="$resources: Share, AddPageSequence" description=""></siteMapNode>
+        <siteMapNode url="AddExistPageSequence.aspx" title="$resources: Share, AddExistPageSequence" description=""></siteMapNode>
+        <siteMapNode url="AddNewPageSequence.aspx" title="$resources: Share, AddNewPageSequence" description=""></siteMapNode>
+        <siteMapNode url="AddNewPageSequenceBaseOnExist.aspx" title="$resources: Share, AddNewPageSequenceBaseOnExist" description=""></siteMapNode>
+        <siteMapNode url="EditPage.aspx" title="$resources: Share, EditPage" description=""></siteMapNode>
+        <siteMapNode url="AddPage.aspx" title="$resources: Share, AddPage" description=""></siteMapNode>
+        <siteMapNode url="PreviewPage.aspx" title="$resources: Share, PreviewPage" description=""></siteMapNode>
+        <siteMapNode url="ListProgramStatus.aspx" title="$resources: Share, StatusManagement" description="$resources:Share, GoProgramStatus">
+          <siteMapNode url="EditProgramStatus.aspx" title="$resources: Share, EditStatus" description=""></siteMapNode>
+          <siteMapNode url="AddProgramStatus.aspx" title="$resources: Share, AddStatus" description=""></siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="NewUserForProgram.aspx" title="$resources: Share, NewProgramUser" description=""></siteMapNode>
+        <siteMapNode url="NewUserForApplication.aspx" title="$resources: Share, NewApplicationUser" description=""></siteMapNode>
+        <siteMapNode url="Preview.aspx" title="$resources: Share,Preview" description="">
+        </siteMapNode>
+        <siteMapNode url="AssignProjectManager.aspx" title="Add project manager" description=""></siteMapNode>        
+        <siteMapNode url="AddProgramLanguageStatus.aspx" title="Language status" description=""></siteMapNode>
+        <siteMapNode url="ManageGroup.aspx" title="Manage user group" description=""></siteMapNode>
+        <siteMapNode url="EditUserGroup.aspx" title="Edit user group" description=""></siteMapNode>
+        <siteMapNode url="AddUserGroup.aspx" title="Add user group" description=""></siteMapNode>
+        <siteMapNode url="EditCompanyRight.aspx" title="Edit company right" description=""></siteMapNode>
+        <siteMapNode url="AddCompany.aspx" title="Add company" description=""></siteMapNode>
+        <siteMapNode url="CopyFromAnotherDay.aspx" title="Copy from another day" description=""></siteMapNode>
+        <siteMapNode url="ManageSpecialString.aspx" title="Manage special string" description="">
+          <siteMapNode url="EditSpecialString.aspx" title="Edit special string" description=""></siteMapNode>
+        </siteMapNode>
+    <siteMapNode url="ManageApplicationSecurity.aspx" title="$resources: Share, ApplicationSecurity" description="$resources:Share, GoApplicationSecurity">
+      <siteMapNode url="AddAdminForApplication.aspx" title="$resources: Share, AddAdmin"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ManageOrderEmailTemplate.aspx" title="$resources: Share, OrderEmailTemplate" description="$resources:Share, GoOrderEmailTemplate">
+    </siteMapNode>
+    <siteMapNode url="ActivityLogList.aspx" title="$resources: Share, ActivityLog" description="$resources:Share, ActivityLog"></siteMapNode>
+    <siteMapNode url="ManageBrand.aspx" title="$resources: Share,Brand" description="$resources:Share,Brand">
+      <siteMapNode url="AddBrand.aspx" title="$resources:Share,AddBrand" ></siteMapNode>
+      <siteMapNode url="EditBrand.aspx" title="$resources:Share,EditBrand"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ManageProgramAccessory.aspx" title="$resources: Share, ProgramAccessory" description="">
+      <siteMapNode url="AddAccessoryPage.aspx" title="$resources: Share, AddAccessoryPage"></siteMapNode>
+      <siteMapNode url="EditAccessoryPage.aspx" title="$resources: Share, EditAccessoryPage"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="Language.aspx" title="$resources: Share, Language"></siteMapNode>
+    <siteMapNode url="Translation.aspx" title="$resources: Share, Translation">
+      <siteMapNode url="EditTranslation.aspx" title="$resources: Share, EditTranslation"/>
+    </siteMapNode>
+    <siteMapNode url="ProgramTranslation.aspx" title="$resources: Share, Translation">
+    </siteMapNode>
+    <siteMapNode url="ListPredictorCategory.aspx" title="$resources: Share, PredictorCategory" description="$resources: Share, GoPredictorCategory">
+      <siteMapNode url="AddPredictorCategory.aspx" title="$resources: Share, AddPredictorCategory" description="$resources: Share, GoAddPredictorCategory"></siteMapNode>
+      <siteMapNode url="EditPredictorCategory.aspx" title="$resources: Share, EditPredictorCategory" description="$resources: Share, GoEditPredictorCategory"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ListInterventCategory.aspx" title="$resources: Share, InterventCategory" description="$resources: Share, GoInterventCategory">
+      <siteMapNode url="AddInterventCategory.aspx" title="$resources: Share, AddInterventCategory" description="$resources: Share, GoAddInterventCategory"></siteMapNode>
+      <siteMapNode url="EditInterventCategory.aspx" title="$resources: Share, EditInterventCategory" description="$resources: Share, GoEditInterventCategory"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ListPredictor.aspx" title="$resources: Share, Predictor" description="$resources: Share, GoPredictor">
+      <siteMapNode url="AddPredictor.aspx" title="$resources: Share, AddPredictor" description="$resources: Share, GoAddPredictor"></siteMapNode>
+      <siteMapNode url="EditPredictor.aspx" title="$resources: Share, EditPredictor" description="$resources: Share, GoEditPredictor"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ListIntervent.aspx" title="$resources: Share, Intervent" description="$resources: Share, GoIntervent">
+      <siteMapNode url="MergeIntervent.aspx" title="Merge intervent" description=""></siteMapNode>
+      <siteMapNode url="AddIntervent.aspx" title="$resources: Share, AddIntervent" description="$resources: Share, GoAddIntervent"></siteMapNode>
+      <siteMapNode url="EditIntervent.aspx" title="$resources: Share, EditIntervent" description="$resources: Share, GoEditIntervent"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="PageVariableList.aspx" title="$resources: Share, PageVariable"></siteMapNode>
+    <siteMapNode url="Profile.aspx" title="$resources: Share,Profile" description="">
+      <siteMapNode url="EditProfile.aspx" title="$resources: Share,EditProfile" description=""></siteMapNode>
+      <siteMapNode url="UpdatePassword.aspx" title="$resources: Share,UpdatePassword" description=""></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ManageUser.aspx" title="$resources: Share,ManageUser" description="">
+      <siteMapNode url="UpdateUser.aspx" title="$resources: Share, UpdateUser" description=""></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="EditUserMenu.aspx" title="$resources: Share,EditUserMenu" description="">
+    </siteMapNode>
+    <siteMapNode url="ManageDeleteProgram.aspx" title="Delete program" description=""></siteMapNode>
+    <siteMapNode url="ManageTranslationJob.aspx" title="$resources: Share, ManageTranslationJob" description="">
+      <siteMapNode url="AddTranslationJob.aspx" title="Add Translation Job" description=""></siteMapNode>
+      <siteMapNode url="EditTranslationJob.aspx" title="Edit Translation Job" description=""></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="MovePageSequence.aspx" title="Move page sequence" description=""></siteMapNode>    
+    <siteMapNode url="ManagePaymentOrder.aspx" title="Payment order list" description=""></siteMapNode>   
+    <siteMapNode url="ManageLanguage.aspx" title="Language" description="">
+      <siteMapNode url="AddLanguage.aspx" title="Add language" description=""></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="ListStudy.aspx" title="Study List" description="">
+      <siteMapNode url="AddStudy.aspx" title="New study" description=""></siteMapNode>
+      <siteMapNode url="EditStudy.aspx" title="Edit study" description=""></siteMapNode>
+      <siteMapNode url="EditStudyContent.aspx" title="Edit content" description=""></siteMapNode>
+      <siteMapNode url="AddStudyContent.aspx" title="Add content" description=""></siteMapNode>
+    </siteMapNode>
+    </siteMapNode>
+</siteMap>

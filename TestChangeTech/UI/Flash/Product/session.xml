@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLModel UserGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2">
+  <!--<Session GUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Logo="logo.png" Name="Login" Description="the login session" Day="0">
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="1" Name="Login" ProgramRoomName="" ProgramRoomDescription="" CategoryName="" CategoryDescription="">
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Login" Order="1" Title="Welcome to login ChangeTech" Text="Please input your email address and password to login, this is a test login page.this is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login pagethis is a test login page;Email;Password" FooterText="Forget your password? Click here!" ButtonPrimaryName="Login"/>
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Password reminder" Order="2" Title="Retrieve your password" Text="Please input your email address, we will send your password to your email.;Email" FooterText="Back to login." ButtonPrimaryName="Retrieve password"/>
+    </PageSequence>
+  </Session>-->
+  <Session GUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Logo="logo.png" Name="Page templates" Description="The pages for day 1" Day="4">
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="1" Name="Standard" ProgramRoomName="Program room1" ProgramRoomDescription="This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1.This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. This is a description for the program room1. " CategoryName="Standard" CategoryDescription="This category shows different standard pages. The pages that using Standard template can contain Medias, which are Illustration, Audio and Video. One page should only cantain at most one media.">
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Standard" Order="1" Title="Standard page, Hello {V:FirstName} {V:LastName}, You are {V:Gender}, {V:MobilePhone}." Text="This is a standard page with no image and media. &lt;a href=&quot;http://baidu.com&quot;&gt;Baidu&lt;/a&gt; I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.. I want this page to be very long.." PresenterImage ="Changetech-okt09-112966.png" ButtonPrimaryName="Next" BeforeExpression="SET {V:MobilePhone} = 1+2"/>
+      <Page GUID="54121661-C5CA-4B24-8C9B-74B49A00C876" Type="Standard" Order="2" Title="Standard page with images, no media" Text="This is a standard page with image and background image. Press next button to get the page with media. The assigned number in last page is {V:MobilePhone}" ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Left" BackgroundImage="testbackgroundimage.jpg"/>
+      <Page GUID="B65CE911-F6E0-432D-878B-7B1D053B31C6" Type="Standard" Order="3" Title="Standard page with illustration" Text="This is a standard page with illustration." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right" >
+        <Media Type="Illustration" Media="testillustration.png"/>
+      </Page>
+      <Page GUID="B65CE911-F6E0-432D-878B-7B1D053B31C6" Type="Standard" Order="4" Title="Standard page with audio" Text="This is a standard page with audio." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right" >
+        <Media Type="Audio" Media="testsound.mp3"/>
+      </Page>
+      <Page GUID="B65CE911-F6E0-432D-878B-7B1D053B31C6" Type="Standard" Order="5" Title="Standard page with video" Text="This is a standard page with video." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right" >
+        <Media Type="Video" Media="textvideo.flv"/>
+      </Page>
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x00FF00" Order="2" Name="Get information" ProgramRoomName="Program room2" ProgramRoomDescription="This is a description for the program room2." CategoryName="Get information" CategoryDescription="This category shows the pages that using Get information template.These pages contains some interactive controls that can collect information from the end users. Numeric input, singleline input, multiline line input, radio buttons, check boxes, drop down list, slider and timepicker. 1 to 5 controls should be shown in one page. ">
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="1" Title="Numeric input page" Text="This is a Get information page with Numeric input." FooterText="This is footer text." ButtonPrimaryName="Next page" PresenterImage ="" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Numeric" Caption="This is a numeric control" ProgramVariable="NumberOfNumeric"/>
+        </Questions>
+      </Page>
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="2" Title="Singleline input page" Text="This is a Get information page with Singleline input. You have chosen {V:NumberOfNumeric} in the last page." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Singleline" Caption="Singleline caption." ProgramVariable="TextOfSingleline" IsRequired="true"/>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Multiline" Caption="Multiline caption caption caption caption caption caption caption caption caption caption caption caption captioncaption captioncaptioncaptioncaption caption caption caption caption caption caption caption caption caption caption caption"/>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Numeric" Caption="Number caption." ProgramVariable="NumberOfNumeric"/>
+        </Questions>
+      </Page>
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="3" Title="Multiline input page" Text="The input of the Singleline in the last page is {V:TextOfSingleline}. This is a Get information page with Multiline input." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Multiline" Caption="Multiline caption"/>
+        </Questions>
+      </Page>
+      <Page GUID="72709148-344C-4789-AAA2-7816C4870F83" Type="Get information" Order="4" Title="RadioButton page" Text="This is a Get information page with RadioButtons." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right" AfterExpression="IF {V:RadioButton}==2 GOTO 2.2">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="RadioButton" Caption="RadioButton caption RadioButton RadioButton RadioButton RadioButton RadioButtonRadioButtonRadioButton RadioButton RadioButton RadioButton RadioButton RadioButton RadioButton RadioButtonRadioButton RadioButton" ProgramVariable="RadioButton">
+            <Items>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="RadioButton item 1" Feedback="Not good" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="RadioButton item 2" Feedback="Good" Score="2"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="RadioButton item 3" Feedback="Very good" Score="3"/>
+            </Items>
+          </Question>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Multiline" Caption="Multiline caption caption caption caption caption caption caption caption caption caption caption caption captioncaption captioncaptioncaptioncaption caption caption caption caption caption caption caption caption caption caption caption"/>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Numeric" Caption="Number caption." ProgramVariable="NumberOfNumeric"/>
+        </Questions>
+      </Page>
+      <Page GUID="72709148-344C-4789-AAA2-7816C4870F83" Type="Get information" Order="5" Title="CheckBox page" Text="This is a Get information page with CheckBoxes." ButtonPrimaryName="Next page" PresenterImage ="" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="CheckBox" Caption="CheckBox caption.">
+            <Items>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="CheckBox item 1" Feedback="Not good" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="CheckBox item 2" Feedback="Good" Score="2"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="CheckBox item 3" Feedback="Very good" Score="3"/>
+            </Items>
+          </Question>
+        </Questions>
+      </Page>
+      <Page GUID="72709148-344C-4789-AAA2-7816C4870F83" Type="Get information" Order="6" Title="DropDownList page" Text="This is a Get information page with DropDownList." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="DropDownList" Caption="DropDown caption">
+            <Items>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="DropDownList item 1" Feedback="Not good" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="DropDownList item 2" Feedback="Good" Score="2"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="DropDownList item 3" Feedback="Very good" Score="3"/>
+            </Items>
+          </Question>
+        </Questions>
+      </Page>
+      <Page GUID="72709148-344C-4789-AAA2-7816C4870F83" Type="Get information" Order="7" Title="Slider page" Text="This is a Get information page with Slider." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Slider" Caption="Slider caption\;please choose.;Less;More">
+            <Items>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="1" Feedback="Good1" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="2" Feedback="Good2" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="3" Feedback="Good3" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="4" Feedback="Good4" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="5" Feedback="Good5" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="6" Feedback="Good6" Score="1"/>
+              <Item GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Item="7" Feedback="Good7" Score="1"/>
+            </Items>
+          </Question>
+        </Questions>
+      </Page>
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="8" Title="TimePicker page" Text="This is a Get information page with TimePicker." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="TimePicker" Caption="">
+            <Items>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Hours" Range="0-23" Feedback="" Score=""/>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Minutes" Range="0-59" Feedback="" Score=""/>
+            </Items>
+          </Question>
+        </Questions>
+      </Page>
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="9" Title="TimePicker page text order 9" Text="This is a Get information page with TimePicker. last minute is {V:TimePickerValue}" ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="TimePicker" Caption="" ProgramVariable="TimePickerValue">
+            <Items>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Hours" Range="0-23" Feedback="" Score=""/>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Minutes" Range="0-59" Feedback="" Score=""/>
+            </Items>            
+          </Question>
+        </Questions>
+      </Page>
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Get information" Order="10" Title="TimePicker page text order 10" Text="This is a Get information page with TimePicker." ButtonPrimaryName="Next page" PresenterImage ="Changetech-okt09-112966.png" PresenterImagePosition="Right">
+        <Questions>
+          <Question GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="TimePicker" Caption="" ProgramVariable="TimePickerValue">
+            <Items>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Hours" Range="0-23" Feedback="" Score=""/>
+              <Item GUID="72709148-344C-4789-AAA2-7816C4870F83" Item="Minutes" Range="0-59" Feedback="" Score=""/>
+            </Items>
+          </Question>
+        </Questions>
+      </Page>
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="3" Name="Push pictures" CategoryName="Push pictures" CategoryDescription="This category shows the pages that just contain one picture each. These page will just be shown for a defined while and the next page will be shown automatically without end user's interaction.">
+      <Page GUID="85A715D3-0535-4A3F-83CE-834E0EC6BAEE" Type="Push pictures" Order="1" Title="" Text="" ButtonPrimaryName="" PresenterImage ="testpicture1.jpg" PresenterImagePosition="" Interval="3" />
+      <Page GUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" Type="Push pictures" Order="2" Title="" Text="" ButtonPrimaryName="" PresenterImage ="testpicture2.jpg" PresenterImagePosition="" Interval="3" />
+      <Page GUID="72709148-344C-4789-AAA2-7816C4870F83" Type="Push pictures" Order="3" Title="" Text="" ButtonPrimaryName="" PresenterImage ="testpicture3.jpg" PresenterImagePosition="" Interval="3" />
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="4" Name="Choose preferences" CategoryName="Choose preferences" CategoryDescription="This category shows a series of images in one screen. After user chooses some of the images, it will play some pages with the related description according the chosen images. Up to 9 images can be shown in the first sight.">
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Choose preferences" Order="1" Title="" Text="This is a choose preferences page with 3 images, select max 3 items." ButtonPrimaryName="Done" MaxPreferences="3">
+        <Preferences>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage1" Description="This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. This is picture1. 0" Answer="This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1.This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1. This is the answer of picture1.This is the answer of picture1.This is the answer of picture1.This is the answer of picture1.This is the answer of picture1. This is the answer of picture1." ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage2" Description="This is picture2." Answer="This is the answer of picture2" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage3" Description="This is picture3." Answer="This is the answer of picture3" ButtonName="Continue"/>
+        </Preferences>
+      </Page>
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Choose preferences" Order="2" Title="" Text="This is a choose preferences page with 4 images, select max 3 items." ButtonPrimaryName="Done" MaxPreferences="3">
+        <Preferences>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage1" Description="This is picture1." Answer="This is the answer of picture1" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage2" Description="This is picture2." Answer="This is the answer of picture2" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage3" Description="This is picture3." Answer="This is the answer of picture3" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage4" Description="This is picture4." Answer="This is the answer of picture4" ButtonName="Continue"/>
+        </Preferences>
+      </Page>
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Choose preferences" Order="3" Title="" Text="This is a choose preferences page with 9 images, select max 3 items." ButtonPrimaryName="Done" MaxPreferences="3">
+        <Preferences>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage1" Description="This is picture1." Answer="This is the answer of picture1" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage2" Description="This is picture2." Answer="This is the answer of picture2" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage3" Description="This is picture3." Answer="This is the answer of picture3" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage4" Description="This is picture4." Answer="This is the answer of picture4" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage5" Description="This is picture5." Answer="This is the answer of picture5" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage6" Description="This is picture6." Answer="This is the answer of picture6" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage7" Description="This is picture7." Answer="This is the answer of picture7" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage8" Description="This is picture8." Answer="This is the answer of picture8" ButtonName="Continue"/>
+          <Preference GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Image ="testpreference.jpg" Name="testimage9" Description="This is picture9." Answer="This is the answer of picture9" ButtonName="Continue"/>
+        </Preferences>
+      </Page>
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="5" Name="Timer" ProgramRoomName="Program room5" ProgramRoomDescription="This is a description for the program room3." CategoryName="Timer" CategoryDescription="This category shows a page with timer.">
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Timer" Order="1" Title="This page shows a timer" Text="Please do something while the timer is running, and stop the timer when you are done." ButtonPrimaryName="Next" ProgramVariable="TimeOfAction"/>
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="6" Name="Line graph" CategoryName="Graph" CategoryDescription="This category shows a page with line graph.">
+      <Page GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Graph" Order="1" Title="This page shows a line graph" Text="This is a line graph shows your progress from week0 to week4. The time in last Timer page is {V:TimeOfAction}" ButtonPrimaryName="Next">
+        <Graphs>
+          <Graph GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Type="Line graph" Caption="Line graph" ScoreRange="0-5" BadScoreRange="0-1;4-5" MediumScoreRange="1-2;3-4" GoodScoreRange="2-3" TimeRange="0-4" TimeUnit="Week">
+            <Items>
+              <Item Name="PointType 1PointType 1PointType 1PointType 1PointType 1PointType 1" Values=";;;5.1;" Color="0xFF0000" PointType="1" />
+              <Item Name="PointType 2" Values="1.8;;;2.9;2.5" Color="0xFFFF00" PointType="2" />
+              <Item Name="PointType 3" Values="3.6;3.9;3;2.3;{V:WellBeing}" Color="0x00FF00" PointType="3" />
+              <Item Name="PointType 4" Values="1.6;2.9;2.5;2.3;1" Color="0x00FFFF" PointType="4" />
+              <Item Name="PointType 5" Values="4.6;3.9;4.9;3;3.8" Color="0x0000FF" PointType="5" />
+            </Items>
+          </Graph>
+        </Graphs>
+      </Page>
+    </PageSequence>
+    <PageSequence PrimaryThemeColor="0x5CAB3C" SecondaryThemeColor="0x084890" Order="7" Name="Register" CategoryName="Register" CategoryDescription="This category shows a register page.">
+      <Page GUID="B65CE911-F6E0-432D-878B-7B1D053B31C6" Type="Account creation" Order="1" Title="Register page" Text="Please input information to register.;Email;Password;Confirm password" ButtonPrimaryName="Next page" />
+    </PageSequence>
+  </Session>
+  <!--variable will be used in page title, text, question, graph and expression-->
+  <GeneralVariables>
+    <Variable Name="FirstName" Value="Chen" Type="String"/>
+    <Variable Name="LastName" Value="Pu" Type="String"/>
+    <Variable Name="Email" Value="pchen@ethos.com.cn" Type="String"/>
+    <Variable Name="MobilePhone" Value="13126656325" Type="String"/>
+    <Variable Name="Gender" Value="Male" Type="String"/>
+  </GeneralVariables>
+  <ProgramVariables>
+    <Variable Name="BrandOfBearYouDrink" Value="XO" Type="String"/>
+    <Variable Name="WhenYouGoBed" Value="11:00PM" Type="String"/>
+    <Variable Name="NumberOfNumeric" Value="5" Type="Numeric"/>
+    <Variable Name="TextOfSingleline" Value="" Type="String"/>
+    <Variable Name="RadioButton" Value="0" Type="Numeric"/>
+    <Variable Name="WellBeing" Value="2.5" Type="Numeric"/>
+    <Variable Name="TimeOfAction" Value="00:00:00" Type="String"/>
+    <Variable Name="TimePickerValue" Value="51" Type="Numeric" />
+  </ProgramVariables>
+  <TipMessages>
+    <Message Name="QuestionRequired" Title="Question is required" Message="You have one or more questions that required to be finished, please answer." BackButtonName="Back to answer the question"/>
+    <Message Name="NavigationError" Title="Navigation error" Message="Can not find page." BackButtonName="Back"/>
+    <Message Name="PreferenceInfo" Title="Preference Information" Message="" BackButtonName="Back"/>
+    <Message Name="ProgramRoomDescription" Title="" Message="" BackButtonName="Back"/>
+    <Message Name="NetworkError" Title="Network error!" Message="Cannot connect to server." BackButtonName="Retry"/>
+    <Message Name="LoginInfoRequired" Title="Woops!" Message="Please input your username and password to login." BackButtonName="OK, I see."/>
+    <Message Name="LoginFailed" Title="Login Field!" Message="" BackButtonName="Retry"/>
+    <Message Name="PasswordRemiderInfoRequired" Title="Woops!" Message="Please input your email to retrieve the password." BackButtonName="OK, I see."/>
+    <Message Name="RegisterInfoRequired" Title="Woops!" Message="Please input your username and password to register." BackButtonName="OK, I see."/>
+    <Message Name="RegisterPasswordConfirm" Title="Woops!" Message="The passwords that you input are different." BackButtonName="OK, I see."/>
+    <Message Name="RegisterSuccessfully" Title="Register Successfully!" Message="Congratulations! Register successfully!" BackButtonName="continue"/>
+  </TipMessages>
+</XMLModel>

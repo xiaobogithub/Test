@@ -1,0 +1,74 @@
+﻿/**** added for List ***/
+.list tr:first-child th {
+	border-bottom: 1px solid #a3bfd6;
+	vertical-align: middle;
+	height: 10px;
+	padding: 4px 10px;
+	text-align:left;
+	background-color: #e1e9f0;
+}
+.list tr:first-child th:first-child {
+	-moz-border-radius-topleft: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-o-border-top-left-radius: 8px;
+	border-top-left-radius: 8px;
+	text-align:left;
+}
+.list tr:first-child th:last-child {
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-o-border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-align:right;
+}
+.list tr:first-child th.descriptionLastTh
+{
+    text-align:left;
+}
+.list tr input.checkBoxInList
+{
+    opacity:1;
+}
+.list tr span.noOpacity input,
+.list tr .noOpacity
+{
+   opacity:1; 
+}
+.listmenu-sortby.nonFloat
+{
+    float:none;
+    width:auto;
+}
+/*** textfield **/
+span.requiredMarked
+{
+    color:Red;
+}
+
+/** button **/
+.button-delete.nonLast
+{
+    margin-right:5px;
+}
+.button-delete.hidden
+{
+    display:none;
+}
+.floatRight
+{
+    float:right;
+}
+.nonFloat
+{
+    float:none;
+}
+.box-main tr:last-child td:last-child.trNoPaddingBottom
+{
+    padding-bottom:0;
+}
+.box-main table tr td.verticalMiddle
+{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+

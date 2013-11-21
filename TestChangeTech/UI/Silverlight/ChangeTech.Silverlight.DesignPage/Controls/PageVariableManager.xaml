@@ -1,0 +1,86 @@
+﻿<UserControl xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data" 
+    x:Class="ChangeTech.Silverlight.DesignPage.Controls.PageVariableManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ChangeTechTool="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="602" d:DesignWidth="981">
+    <Canvas>
+        <Canvas 
+            MouseLeftButtonDown="RenameCategoryPopupPanel_MouseLeftButtonDown" MouseLeftButtonUp="RenameCategoryPopupPanel_MouseLeftButtonUp" MouseMove="RenameCategoryPopupPanel_MouseMove"
+            Canvas.Top="150" Canvas.Left="150" Cursor="Arrow">
+        <Border Padding="3" CornerRadius="5" BorderBrush="#FFFFFFFF" BorderThickness="1,1,1,1" Cursor="Hand" Canvas.Left="139" Canvas.Top="150">
+            <Border.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#bbcf7f" />
+                    <GradientStop Color="#5f7d00" Offset="1" />
+                </RadialGradientBrush>
+            </Border.Background>
+            <Grid x:Name="LayoutRoot" Margin="10,10,10,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="300"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="120"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <!--Variable Type-->
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Variable type:" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+                <ComboBox x:Name="comboPageVariableType" Width="100" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="comboPageVariableType_SelectionChanged">
+                    <ComboBoxItem Content="Program"></ComboBoxItem>
+                    <ComboBoxItem Content="General"></ComboBoxItem>
+                </ComboBox>
+                <!--Variable group-->
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Variable group:" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+                <ComboBox x:Name="comboPageVariableGroup" Width="100" Grid.Column="3" VerticalAlignment="Center" DisplayMemberPath="Name" SelectionChanged="comboPageVariableGroup_SelectionChanged"></ComboBox>
+                <HyperlinkButton x:Name="ManageGroupLink" Content="Manage group" VerticalAlignment="Center" FontWeight="Bold" Click="HyperlinkButton_Click" Grid.Column="4"></HyperlinkButton>
+                <!--Close Button-->
+                <Button x:Name="CloseButton" Grid.Row="0" Grid.Column="5" Content="Close" Style="{StaticResource CloseButton}" Cursor="Hand" Click="btnClose_Click" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                <!--Variable List-->
+                <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="7" BorderThickness="1" BorderBrush="Black">
+                    <data:DataGrid x:Name="dgList" AutoGenerateColumns="False" LoadingRow="dgList_LoadingRow" RowEditEnded="dgList_RowEditEnded" LayoutUpdated="dgList_LayoutUpdated" MouseLeftButtonDown="PageListDataGrid_MouseLeftButtonDown" MouseLeftButtonUp="PageListDataGrid_MouseLeftButtonUp">
+                        <data:DataGrid.Columns>
+                            <data:DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150"></data:DataGridTextColumn>
+                            <data:DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="150"></data:DataGridTextColumn>
+                            <data:DataGridTemplateColumn Header="Group" Width="100">
+                                <data:DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox x:Name="comboGroup" HorizontalAlignment="Left" DisplayMemberPath="Name" VerticalAlignment="Center" Width="90" SelectionChanged="comboGroup_SelectionChanged"></ComboBox>
+                                    </DataTemplate>
+                                </data:DataGridTemplateColumn.CellTemplate>
+                            </data:DataGridTemplateColumn>
+                            <data:DataGridTextColumn Header="Value" Width="100" Binding="{Binding Value}" IsReadOnly="True"></data:DataGridTextColumn>
+                            <data:DataGridTextColumn Header="Used Times" Width="100" Binding="{Binding UsedTimes}"></data:DataGridTextColumn>
+                            <data:DataGridTemplateColumn Header="Action" Width="100">
+                                <data:DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <HyperlinkButton x:Name="hbtnSelect" Content="Select" Margin="5" FontSize="12" Click="hbtnSelect_Click" FontWeight="Bold"></HyperlinkButton>
+                                    </DataTemplate>
+                                </data:DataGridTemplateColumn.CellTemplate>
+                            </data:DataGridTemplateColumn>
+                            <data:DataGridTemplateColumn Header="Action" Width="100">
+                                <data:DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <HyperlinkButton x:Name="hbtnDelete" Content="Delete" Margin="5" FontSize="12" Click="hbtnDelete_Click" FontWeight="Bold"></HyperlinkButton>
+                                    </DataTemplate>
+                                </data:DataGridTemplateColumn.CellTemplate>
+                            </data:DataGridTemplateColumn>
+                        </data:DataGrid.Columns>
+                    </data:DataGrid>
+                </Border>
+                <ComboBox x:Name="PageNoComboBox" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="25" SelectionChanged="PageNoComboBox_SelectionChanged"></ComboBox>
+                <Button x:Name="btnAdd" Grid.Row="2" Grid.Column="5" Content="New Variable" Click="btnAdd_Click" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
+                <TextBlock x:Name="promptTextBlock" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="6" Foreground="DarkBlue"></TextBlock>
+                <ChangeTechTool:ManagePageVariableGroup x:Name="ManageVariableGroup" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" AfterManageGroup="AfterManageGroup"></ChangeTechTool:ManagePageVariableGroup>
+            </Grid>
+        </Border>
+    </Canvas>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.Controls.ImageReferenceInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Loaded="UserControl_Loaded" >
+    <Canvas>
+        <Canvas             
+            Canvas.Top="0" Canvas.Left="0" Cursor="Arrow">
+            <Border Padding="3" CornerRadius="5" BorderBrush="#FFFFFFFF" BorderThickness="1,1,1,1" Cursor="Hand">
+                <Border.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#bbcf7f"/>
+                        <GradientStop Color="#5f7d00" Offset="1"/>
+                    </RadialGradientBrush>
+                </Border.Background>
+                <Grid x:Name="LayoutRoot">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="30" ></RowDefinition>
+                        <RowDefinition Height="390" ></RowDefinition>
+                        <RowDefinition Height="30" ></RowDefinition><!--Move to-->
+                        <RowDefinition Height="30" ></RowDefinition>
+                        <RowDefinition Height="30" ></RowDefinition><!--select preview--> 
+                        <RowDefinition Height="30" ></RowDefinition><!--crop delete-->
+                        <RowDefinition Height="10"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5"></ColumnDefinition>
+                        <ColumnDefinition Width="65"></ColumnDefinition>
+                        <ColumnDefinition Width="65"></ColumnDefinition>
+                        <ColumnDefinition Width="5"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                               Opacity="0.7" Fill="Black" Grid.Row="0" Grid.Column="0" Grid.RowSpan="8" Grid.ColumnSpan="4"/>
+                    
+                    <!--Reference Info-->
+                    <TextBlock x:Name="ImageNameTextBlock" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Foreground="White" Text="Click to choose from left"></TextBlock>
+                    <ScrollViewer x:Name="ImageReferenceInfoScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
+                        <TextBlock Text="" x:Name="ImageReferenceInfoTextBlock" Foreground="White"
+                                   ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible"></TextBlock>
+                    </ScrollViewer>
+                    
+                    <!--Category-->
+                    <Button x:Name="ChangeCategoryButton" Content="Move to" Grid.Row="3" Grid.Column="1" Height="25" VerticalAlignment="Center" Width="65" Click="ChangeCategoryButton_Click"></Button>
+                    <ComboBox x:Name="CategoryComoBox" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Center" DisplayMemberPath="CategoryName"></ComboBox>
+                    
+                    <!--Select-->
+                    <Button x:Name="SelectButton" Content="Select" Grid.Row="5" Grid.Column="1" Height="25" VerticalAlignment="Center" Width="65" Click="SelectButton_Click"></Button>
+                    <!--preview-->
+                    <Button x:Name="PreviewButton" Content="Preview" Grid.Row="5" Grid.Column="2" Height="25" VerticalAlignment="Center" Width="65" Click="PreviewButton_Click"></Button>
+                    
+                    <!--crop-->
+                    <!--<Button x:Name="CropButton" Content="Crop" Grid.Row="6" Grid.Column="2" Height="25" VerticalAlignment="Center" Width="65" Click="CropButton_Click"></Button>-->                    
+                    <!--delete-->
+                    <Button x:Name="DeleteButton" Content="Delete" Grid.Row="6" Grid.Column="1" Height="25" VerticalAlignment="Center" Width="65" Click="DeleteButton_Click" ></Button>
+                </Grid>
+            </Border>
+        </Canvas>
+    </Canvas>
+</UserControl>

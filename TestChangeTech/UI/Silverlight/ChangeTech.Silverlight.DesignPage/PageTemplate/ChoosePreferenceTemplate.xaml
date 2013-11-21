@@ -1,0 +1,71 @@
+﻿<UserControl 
+    x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.ChoosePreferenceTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls"
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    Loaded="UserControl_Loaded">
+    <Grid x:Name="LayoutRoot" RenderTransformOrigin="0.5,0.5" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30" ></RowDefinition>
+            <RowDefinition Height="30" ></RowDefinition>
+            <RowDefinition Height="30" ></RowDefinition>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="400"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="290"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="How many to choose:" Grid.Row="1" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBox x:Name="maxPreferebceTextBox" Grid.Row="1" Grid.Column="2" Height="25" Width="20" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="Primary button name:" Grid.Row="2" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <TextBox x:Name="PrimaryButtonNameTextBox" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Center" Text=""></TextBox>
+
+        <!--Before property-->
+        <TextBlock Text="Before Property:" Grid.Row="3" Grid.Column="1" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <HyperlinkButton x:Name="BeforeShowExpressionLink" Grid.Row="3" Grid.Column="2" Click="BeforeShowExpressionLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder"></HyperlinkButton>
+
+        <!-- After property-->
+        <TextBlock Text="After Property:" Grid.Row="4" Grid.Column="1" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <ComboBox x:Name="AfterPropertyComboBox" Grid.Row="4" Grid.Column="2" Height="25" Width="130" HorizontalAlignment="Left" SelectionChanged="AfterPropertyComboBox_SelectionChanged">
+            <ComboBoxItem Content="Go to next page"></ComboBoxItem>
+            <ComboBoxItem Content="Expression"></ComboBoxItem>
+        </ComboBox>
+        <HyperlinkButton x:Name="AfterPropertyExpressionLink" Grid.Row="4" Grid.Column="3" Click="AfterPropertyExpressionLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder" Visibility="Collapsed"></HyperlinkButton>
+
+        <HyperlinkButton x:Name="AddPreferenceLinkButton" Grid.Row="5" Grid.Column="3" Click="AddPreferenceLinkButton_Click" Content="Add preference" FontWeight="Bold" HorizontalContentAlignment="Right" VerticalAlignment="Center"></HyperlinkButton>
+        <data:DataGrid x:Name="PreferenceGrid" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" AutoGenerateColumns="False" LoadingRow="PreferenceGrid_LoadingRow" IsReadOnly="True">
+            <data:DataGrid.Columns>
+                <data:DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="80"></data:DataGridTextColumn>
+                <data:DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="230"></data:DataGridTextColumn>
+                <data:DataGridTextColumn Header="Answer text" Binding="{Binding AnswerText}" Width="230"></data:DataGridTextColumn>
+                <data:DataGridTemplateColumn Header="Edit" Width="100">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <HyperlinkButton x:Name="EditPreferenceLinkButton" Content="Edit" Margin="5" FontSize="12" 
+                                             Click="EditPreferenceLinkButton_Click" FontWeight="Bold"></HyperlinkButton>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTemplateColumn Header="Delete" Width="100">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <HyperlinkButton x:Name="DeletePreferenceLinkButton" Content="Delete" Margin="5" FontSize="12" 
+                                               Click="DeletePreferenceLinkButton_Click" FontWeight="Bold"></HyperlinkButton>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+            </data:DataGrid.Columns>
+        </data:DataGrid>
+        <!--Preference Unit-->
+        <ChangeTechControl:PreferenceUnit x:Name="PreferenceUnit" Grid.Row="0" Grid.RowSpan="7" Grid.Column="0" Grid.ColumnSpan="5" Visibility="Collapsed" Canvas.ZIndex="1"></ChangeTechControl:PreferenceUnit>
+        <!--Expresion Builder-->
+        <ChangeTechControl:ExpressionBuilder x:Name="ExpressionBuilder" Grid.Row="0" Grid.Column="0" Grid.RowSpan="7" Grid.ColumnSpan="5" Visibility="Collapsed" Width="400" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible"></ChangeTechControl:ExpressionBuilder>
+    </Grid>
+</UserControl>

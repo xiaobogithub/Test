@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (orientation: landscape) {
+}
+/* This setup for netboards */
+@media screen and (orientation: portrait) {
+/* Initial settings */
+body {
+	background-color: #d6dde3;
+}
+/* End of initial settings */
+
+
+
+
+
+
+
+
+
+
+/* The splash screens
+*******************************************************************************/
+
+.maintitle {
+	margin: 30% 5% 0% 5%;
+}
+/* End of splash screens */
+
+
+/* The settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* The columns used to set different layouts */
+.col-1third {
+	width: 100%;
+	margin-right: 0%;
+}
+.col-1third.last {
+	width: 100%;
+}
+.col-2third {
+	width: 100%;
+	margin-right: 0%;
+}
+.col-2third.last {
+	width: 100%;
+}
+/**/
+
+
+
+/* [END] Settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+
+
+
+
+
+
+/* The text bubbles
+*******************************************************************************/
+
+/* The default bubble wrapper */
+.wrapper-bubbles,
+#contentElement {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: -25%;
+	border-top: 1px solid #9db3c2;
+	background-color: #d6dde3;
+	/**added by xmx*/
+	min-height:120px;
+}
+#contentElement
+{
+    background:none;
+    border:none;
+}
+.wrapper-bubbles.clearmode.clearmode-fullscreenmode{background:none;border:none;}
+.wrapper-bubbles.illustrationmode,
+#contentElement.illustrationmode {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: 0;
+	height: auto;
+	border: none;
+	border-top: 1px solid #9db3c2;
+}
+#contentElement.illustrationmode {background:none;border:none;}
+#contentElement.fullscreenmode
+{
+    background:none;
+    
+}
+.illustrationmode .bubble-white {
+	margin-top: 0px;
+}
+.wrapper-bubbles.fullscreenmode,
+#contentElement.fullscreenmode {
+	position: fixed;
+	padding: 0% 5%;
+	margin-top: 0;
+	border-top: none;
+	background-color: transparent;
+}
+.wrapper-bubbles.clearmode,
+#contentElement.clearmode
+{
+    width:90%;
+    padding: 0% 5%;
+}
+.wrapper-bubbles.clearmode,
+#contentElement.clearmode {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: 7%;
+	border: none;
+	background-color: #d6dde3;
+}
+#contentElement.clearmode{background:none;}
+/* End of text bubbles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The image settings 
+*******************************************************************************/
+
+/* The helper image */
+.wrapper-image {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin-left: 0;
+	margin-bottom: 0;
+	/*margin-top: 0;*/
+	margin-top:20px;
+}
+.wrapper-image img
+{
+    margin-left:0%;
+}
+.wrapper-image.illustrationmode {
+	width: 100%;
+	margin-top: 40px;
+}
+.wrapper-image.fullscreenmode {
+	position: fixed;
+	height: 100%;
+		/**added by xmx*/
+	background:none;
+}
+/* End of image settings */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General stuff 
+****************************************************************/
+
+.bottomgradient {
+	display: none;
+}
+/* End of general stuff */
+
+
+
+
+
+
+
+div.row span.label
+{
+    width:90%;
+}
+div.row span .textfield
+{
+    width:95%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/* This mode for smartphones */
+@media screen and (max-width: 640px) {
+/* Initial settings */
+body {
+	background-color: #d6dde3;
+}
+body.settings-body{background:none;}
+body.settings-body .bottomgradient{display:none;}
+/* End of initial settings */
+
+
+
+/* The control bar 
+*******************************************************************************/
+.controlbar {
+	margin-top: -37px;
+}
+.controlbar-mini {
+	display: block;
+}
+.button-expand {
+	display: block;
+	margin-top: 0px;
+}
+.button-contract {
+	display: block;
+	margin-top: -9999px;
+}
+.button-settings {
+	width: 50px;
+	height: 40px;
+}
+.button-settings .buttontext {
+	display: none;
+}
+.button-back {
+	width: 50px;
+	height: 40px;
+}
+.button-back .buttontext {
+	display: none;
+}
+.settings-button-back a.button-back .buttontext {
+	display: inherit;
+}
+/* End of control bar */
+
+/* The dialogue box
+*******************************************************************************/
+.fadecover {
+	position: fixed;
+	z-index: 40;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	opacity: 0.8;
+}
+.wrapper-dialoguebox {
+	position: relative;
+	z-index: 40;
+	width: 90%;
+	padding: 10px 5% 10px 5%;
+}
+.dialoguebox {
+	-moz-box-shadow: 0px 1px 5px #698599;
+	-webkit-box-shadow: 0px 1px 5px #698599;
+	box-shadow: 0px 1px 5px #698599;
+}
+.dialoguebox h1 {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 10px;
+	line-height: 100%;
+}
+/*.dialoguebox .upper {
+	padding: 35px 40px 30px 40px;
+	line-height: 140%;
+}*/
+/*.dialoguebox .lower {
+	text-align: center;
+	background: #d6dde3;
+	padding: 20px 30px 20px 30px;
+	border-radius: 0 0 8px 8px;
+}*/
+
+/* [END] Dialogue box */
+
+
+/* The settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* The settings menu */
+ul.settingsmenu {
+	font-size: 18px;
+}
+.spacefiller {
+	display: none;
+}
+/**/
+
+
+/* [END] Settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+
+
+
+
+
+/* The splash screens
+*******************************************************************************/
+
+.maintitle {
+	margin: 10% 5% 0% 5%;
+}
+.wrapper-splashscreen .programtitle {
+	font-size: 1.5em;
+}
+.wrapper-splashscreen .chaptertitle {
+	font-size: 1.5em;
+}
+/* End of splash screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The text bubbles
+*******************************************************************************/
+
+/* The default bubble wrapper */
+.wrapper-bubbles,
+#contentElement {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: -25%;
+	border-top: 1px solid #9db3c2;
+	background-color: #d6dde3;
+	/*added by xmx*/
+	min-height:120px;
+}
+
+.wrapper-bubbles.illustrationmode,
+#contentElement.illustrationmode {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: 0;
+	height: auto;
+	border: none;
+	border-top: 1px solid #9db3c2;
+}
+#contentElement.illustrationmode
+{
+   background:none;
+   border:none;
+}
+.illustrationmode .bubble-white,
+.illustrationmode .white
+ {
+	margin-top: 0;
+}
+.wrapper-bubbles.fullscreenmode,
+#contentElement.fullscreenmode {
+	position: fixed;
+	padding: 0% 5%;
+	margin-top: 0;
+	border-top: none;
+	background-color: transparent;
+}
+.wrapper-bubbles.clearmode,
+#contentElement.clearmode {
+	position: relative;
+	width: 90%;
+	padding: 3% 5% 5% 5%;
+	margin-top: 7%;
+	border: none;
+	background-color: #d6dde3;
+}
+#contentElement.clearmode,
+.wrapper-bubbles.clearmode
+{
+   background:none;
+}
+.wrapper-bubbles.clearmode.clearmode-fullscreenmode,
+#contentElement
+{
+   background:none;
+   border:none;
+}
+/* End of text bubbles */
+
+
+
+
+
+
+
+
+
+
+
+
+/* The image settings 
+*******************************************************************************/
+
+/* The helper image */
+.wrapper-image {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin-left: 0;
+	/*margin-top: 0;*/
+	margin-top:20px;
+}
+.wrapper-image.illustrationmode {
+	width: 100%;
+	margin-top: 0px;
+}
+/* The helper image */
+.wrapper-image img {
+	max-width: 100%;
+	max-height: 100%;
+	 -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.wrapper-image.fullscreenmode {
+	position: fixed;
+	height: 100%;
+	/**added by xmx*/
+	background:none;
+}
+/* End of image settings */
+
+
+div.row span.label
+{
+    width:90%;
+}
+div.row span .textfield
+{
+    width:95%;
+}
+
+
+
+
+/* Form fields 
+***************************************************************/
+
+/* Picture version */
+p.pictureversion {
+width: 46%;
+}
+
+/* End of form field settings */
+}
+
+
+
+
+
+
+/* Special settings for extra small screensizes
+***************************************************************************/
+
+@media screen and (orientation: landscape) and (max-width: 640px) {
+.franchise-logo {
+	display: none;
+}
+.franchise-name {
+	display: block;
+}
+/* Form fields 
+***************************************************************/
+
+/* Picture version */
+p.pictureversion {
+width: 46%;
+}
+
+/* End of form field settings */
+}
+@media screen and (orientation: portrait) and (max-width: 640px) {
+.wrapper-splashscreen .programday {
+	display: block;
+}
+.wrapper-bubbles{min-height:120px;}
+/* Form fields 
+***************************************************************/
+
+.textfield-default.seventyfivepercent {
+	width: 90%;
+	font-size: 18px;
+}
+
+a.actionlink.blue{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: auto;
+}
+.wrapper-dialoguebox a.actionlink.blue
+{
+    position:relative;
+}
+a.actionlink.cancel{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50px;
+}
+div.row span.label
+{
+    width:90%;
+}
+div.row span .textfield
+{
+    width:95%;
+}
+/* Form fields 
+***************************************************************/
+
+/* Picture version */
+p.pictureversion {
+width: 97%;
+}
+
+/* End of form field settings */
+
+
+}

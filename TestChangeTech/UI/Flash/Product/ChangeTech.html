@@ -1,0 +1,166 @@
+<!-- saved from url=(0013)about:internet -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>ChangeTech</title>
+
+    <script language="javascript">        AC_FL_RunContent = 0; </script>
+
+    <script language="javascript">        DetectFlashVer = 0; </script>
+
+    <script src="AC_RunActiveContent.js" language="javascript"></script>
+
+    <script language="JavaScript" type="text/javascript">
+<!--
+        // -----------------------------------------------------------------------------
+        // Globals
+        // Major version of Flash required
+        var requiredMajorVersion = 9;
+        // Minor version of Flash required
+        var requiredMinorVersion = 0;
+        // Revision of Flash required
+        var requiredRevision = 115;
+        // -----------------------------------------------------------------------------
+// -->
+    </script>
+
+</head> 
+<body bgcolor="#FFFFFF" onload="document.getElementById('ChangeTech').focus();">
+    <!--url's used in the movie-->
+    <!--text used in the movie-->
+
+    <script language="JavaScript" type="text/javascript">
+<!--
+        if (AC_FL_RunContent == 0 || DetectFlashVer == 0) {
+            alert("This page requires AC_RunActiveContent.js.");
+        } else {
+            var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+            if (hasRightVersion) {  // if we've detected an acceptable version
+                // embed the flash movie
+                AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,115,0',
+			'width', '100%',
+			'height', '100%',
+			'src', 'ChangeTech',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'false',
+			'scale', 'showall',
+			'wmode', 'window',
+			'devicefont', 'false',
+			'id', 'ChangeTech',
+			'bgcolor', '#FFFFFF',
+			'name', 'ChangeTech',
+			'menu', 'false',
+			'allowScriptAccess', 'always',
+			'allowFullScreen', 'false',
+			'movie', 'ChangeTech',
+			'checkPolicyFile', 'true',
+			'salign', ''
+			); //end AC code
+            } else {  // flash is too old or we can't detect the plugin
+                var alternateContent = 'Alternate HTML content should be placed here.'
+			+ 'This content requires the Adobe Flash Player.'
+			+ '<a href=http://www.macromedia.com/go/getflash/>Get Flash</a>';
+                document.write(alternateContent);  // insert non-flash content
+            }
+        }
+// -->
+    </script>
+
+    <noscript>
+        // Provide alternate content for browsers that do not support scripting // or for
+        those that have scripting disabled. Alternate HTML content should be placed here.
+        This content requires the Adobe Flash Player. <a href="http://www.macromedia.com/go/getflash/">
+            Get Flash</a>
+    </noscript>
+
+    <script>
+        var isReady = false;
+        var cssURL = "ChangeTech.css";
+        var dataURL = //"root.xml";
+		//"helpRelapse.xml";
+		  //"http://172.16.133.25/AuthenticateUser.ashx?P=H8V8X8&Mode=Live&Security=28388D3C3DC87D7A63ACFBEE9320B636EE6F5744BEE63C7878B725146CF5D75CECEC81277935FB65A4C50F3B544ADA8CBA8816646E7CD79F88612EED7E19412655A98178463D5C8CE4A6E664C390A855";
+       
+	//	  CTPP test program2(helpInCTPP,relapse)
+	//"http://172.16.133.25/AuthenticateUser.ashx?P=0HFH08&Mode=Live&Security=678843DE554373B2BCD3FF23C03FD4E75D80AD18B4B7BFA635ADDD344DD6E24137E24189CBA274B4479FC99923B6BB61F6E73F3261DC398D34BA7119CA72DD54";
+		  
+		  //CTPP test program2(day2,session)
+		  //"http://172.16.133.25/AuthenticateUser.ashx?P=0HFH08&Mode=Live&Security=678843DE554373B2BCD3FF23C03FD4E7067E878B18265E9C5E19039CDF58C91A##"
+		 
+		 //day0
+		 //"http://172.16.133.25/AuthenticateUser.ashx?Mode=Trial&P=0HFH08"
+		  
+		 //tester in ChangeTech.no
+		// "https://program.changetech.no/AuthenticateUser.ashx?Mode=Trial&P=LF8NT4&UserType=TESTER"
+		
+		//TimeZone Test
+		  //"TimeZone.xml";
+		
+		//new server
+		//"http://172.16.133.25/AuthenticateUser.ashx?P=0HFH08&Mode=Live&Security=34CE2872EE7B518962DE006157611E73947D7B0C3E35891A###"
+
+		//"xml08313.xml";
+
+		//"Result.xml";
+		//"SMS.xml";
+		  
+		"Login.xml";
+
+        var mediaURLRoot = "";
+        var mode = "Preview";
+        //mode can be 3 value:
+        //Preview: for developer to preview.
+        //Live: for the paid user to use.
+        //Trial: for the potential use to try without pay.
+
+        function checkJSReady() {
+            //Note:Please put this statement at where the ASP.Net and JS is ready to send data to flash.
+            isReady = true;
+            //
+
+            return isReady;
+        }
+        function getMode() {
+            return mode;
+        }
+        function windowClose() {
+            alert("try close");
+            window.close();
+        }
+		function show(e) {
+            alert(e);
+        }
+        function getURL(option) {
+            //Note:The return value here is just for JiangNing to debug locally, please use the actual value when insert the project.
+            switch (option) {
+                case "css":
+                    return cssURL;
+                case "layout":
+                    return "layoutsetting.xml";
+                case "submit":
+                    return "http://172.16.133.25/AcceptAnswer.ashx";
+                    //return window.location.href.replace("ChangeTech.html", "AcceptAnswer.ashx");
+                    //return "http://webpublish.bj.ethos.com.cn/ChangeTechDevInternal/DebugHandler.ashx";
+                case "data":
+                    return dataURL;
+                    //return window.location.href.replace("ChangeTech.html", "AuthenticateUser.ashx");
+                case "mediaRoot":
+//                    return "http://changetechstorage.blob.core.windows.net/";
+                    return mediaURLRoot;
+                case "crossdomain":
+                    return "http://changetechstorage.blob.core.windows.net/crossdomain.xml";
+                case "payment":
+                    return "http://172.16.133.25/Payment.aspx";
+				case "originalimagecontainerRoot":
+					return "";
+		case "ctpp":
+		    return "http://172.16.133.25/CTPP.aspx";
+            }
+        } 
+    </script>
+
+</body>
+</html>

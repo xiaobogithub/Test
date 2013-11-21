@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C30318B-69F9-4985-B609-594FBCCCD650}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.Contracts</RootNamespace>
+    <AssemblyName>ChangeTech.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GoogleTranslateAPI">
+      <HintPath>..\..\Dependency\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IActivityLogService.cs" />
+    <Compile Include="IActivityMonitorEmailLogService.cs" />
+    <Compile Include="IAzureQueueService.cs" />
+    <Compile Include="IAzureTableService.cs" />
+    <Compile Include="IBrandService.cs" />
+    <Compile Include="ICompanyService.cs" />
+    <Compile Include="ICTPPService.cs" />
+    <Compile Include="IDeleteApplicationService.cs" />
+    <Compile Include="IEmailService.cs" />
+    <Compile Include="IEmailTemplateService.cs" />
+    <Compile Include="IEmailTemplateTypeService.cs" />
+    <Compile Include="IExportService.cs" />
+    <Compile Include="IExpressionGroupService.cs" />
+    <Compile Include="IExpressionService.cs" />
+    <Compile Include="IHPOrderEmailService.cs" />
+    <Compile Include="IHPOrderLicenceService.cs" />
+    <Compile Include="IHPOrderService.cs" />
+    <Compile Include="ILFAuthenticationLogService.cs" />
+    <Compile Include="IOrderContentService.cs" />
+    <Compile Include="IOrderEmailTemplateService.cs" />
+    <Compile Include="IOrderLicenceService.cs" />
+    <Compile Include="IOrderService.cs" />
+    <Compile Include="IPaymentService.cs" />
+    <Compile Include="IProgramCategoryService.cs" />
+    <Compile Include="IProgramLanguageService.cs" />
+    <Compile Include="IProgramScheduleService.cs" />
+    <Compile Include="IRelapseService.cs" />
+    <Compile Include="IReportService.cs" />
+    <Compile Include="IHelpItemService.cs" />
+    <Compile Include="IPageVariableGroupService.cs" />
+    <Compile Include="IPageVariableService.cs" />
+    <Compile Include="IProgramAccessoryService.cs" />
+    <Compile Include="IProgramRoomService.cs" />
+    <Compile Include="IProgramUserService.cs" />
+    <Compile Include="IResourceCategoryService.cs" />
+    <Compile Include="IResourceService.cs" />
+    <Compile Include="IInterventCategoryService.cs" />
+    <Compile Include="ILanguageService.cs" />
+    <Compile Include="IPageSequenceService.cs" />
+    <Compile Include="IPageService.cs" />
+    <Compile Include="IPredictorCategoryService.cs" />
+    <Compile Include="IPredictorService.cs" />
+    <Compile Include="IProgramService.cs" />
+    <Compile Include="IProgramStatusService.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="ISessionContentService.cs" />
+    <Compile Include="ISessionService.cs" />
+    <Compile Include="IInterventService.cs" />
+    <Compile Include="IShortMessageService.cs" />
+    <Compile Include="ISpecialStringService.cs" />
+    <Compile Include="IStudyContentService.cs" />
+    <Compile Include="IStudyService.cs" />
+    <Compile Include="IStudyUserService.cs" />
+    <Compile Include="ISystemSettingService.cs" />
+    <Compile Include="ITipMessageService.cs" />
+    <Compile Include="ITranslationJobService.cs" />
+    <Compile Include="ITranslationService.cs" />
+    <Compile Include="IUserAnswerService.cs" />
+    <Compile Include="IUserMenuService.cs" />
+    <Compile Include="IUserPageVariablePerDayService.cs" />
+    <Compile Include="IUserService.cs" />
+    <Compile Include="IWin8ProgramUserService.cs" />
+    <Compile Include="IXMLService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repository\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChangeTech.Models\ChangeTech.Models.csproj">
+      <Project>{1C3228C5-3E1C-44E7-A455-C33881F29927}</Project>
+      <Name>ChangeTech.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="MaintenanceHome.aspx" title="Maintenance" description="">
+    <siteMapNode url="EditCompany3rdParty.aspx" title="Edit company" description=""></siteMapNode>
+    <siteMapNode url="AddCompay3rdParty.aspx" title="New company" description=""></siteMapNode>
+    <siteMapNode url="CompanyUsers.aspx" title="Comany User" description=""></siteMapNode>
+    <siteMapNode url="CompanyUserInfoPage.aspx" title="Comany User Information" description=""></siteMapNode>
+    <siteMapNode url="EditNullCompany3rdParty.aspx" title="User not on company" description=""></siteMapNode>
+    <siteMapNode url="UsersNotInCompany.aspx" title="Users not on company" description=""></siteMapNode>
+    <siteMapNode url="UsersByEmailOrMobile.aspx" title="Users by email or mobile" description=""></siteMapNode>
+  </siteMapNode>
+</siteMap>

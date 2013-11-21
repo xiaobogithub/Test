@@ -1,0 +1,84 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+
+/* Pallette :: Ocean Blue */
+.wrapper-programribbon, .button-collapse {
+	background-color: #64b2d1;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #bbe6f9;
+	border-color: #bbe6f9;
+}
+
+/* Pallette :: Lime Green */
+.wrapper-programribbon, .button-collapse {
+	background-color: #93934c;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #e0e0a5;
+	border-color: #e0e0a5;
+}
+
+/* Pallette :: Magenta */
+.wrapper-programribbon, .button-collapse {
+	background-color: #c45a99;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #facfe8;
+	border-color: #facfe8;
+}
+
+/* Pallette :: Brown */
+.wrapper-programribbon, .button-collapse {
+	background-color: #bd8f67;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #f5e7db;
+	border-color: #f5e7db;
+}
+
+/* Pallette :: Military Green */
+.wrapper-programribbon, .button-collapse {
+	background-color: #abb18a;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #e8eeca;
+	border-color: #e8eeca;
+}
+
+/* Pallette :: Maroon */
+.wrapper-programribbon, .button-collapse {
+	background-color: #bd6437;
+}
+.programribbon h2, .programribbon .username, .programlogo {
+	color: #f9e3cb;
+	border-color: #f9e3cb;
+}
+
+/* Pallette :: Cool Blue */
+.wrapper-programribbon, .button-collapse {
+	background-color: #8892ad;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #d9e1f9;
+	border-color: #d9e1f9;
+}
+
+/* Pallette :: Purple */
+.wrapper-programribbon, .button-collapse {
+	background-color: #9b9bc6;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #dcdeff;
+	border-color: #dcdeff;
+}
+
+/* Pallette :: Sea Green */
+.wrapper-programribbon, .button-collapse {
+	background-color: #70a4a5;
+}
+.programribbon h2, .programribbon .username, .programlogo  {
+	color: #c6e6e7;
+	border-color: #c6e6e7;
+}

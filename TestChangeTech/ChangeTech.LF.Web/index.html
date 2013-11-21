@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/general.css" media="screen, projection, print" />
+<!--<link rel="stylesheet" href="css/print.css" media="print" />-->
+<meta name="viewport" content="width=950, user-scalable=yes, target-densitydpi=low-dpi;" />
+<title>Länsförsäkringars hälsotjänster</title>
+<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+<script src="jquery/jquery.menubehaviour.js" type="text/javascript"></script>
+<script src="jquery/showHide.js" type="text/javascript"></script>
+<script src="jquery/modernizr-latest.js" type="text/javascript"></script>
+<script src="Scripts/Common.js" type="text/javascript"></script>
+<script src="Scripts/GoWebStatus.js" type="text/javascript"></script>
+<script src="Scripts/Gohttps.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#validateLink").click(validateMethod);
+        $("#actionLink").click(beforeValidateCodeMethod);
+    })
+   </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35873124-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onkeydown="if (event.keyCode==13) {document.getElementById('validateLink').click(); return false;}">
+<div id="wrapper-dialoguebox" class="hidden">
+  <div class="dialoguebox-top"></div>
+  <div class="dialoguebox-main"> <a href="javascript:toggle1('wrapper-dialoguebox');" class="prioritylink">Avbryt och stäng</a>
+    <div class="clear"></div>
+    <h1>Du identifierar dig med ditt personnummer</h1>
+    <p>Du använder ditt personnummer, 12 siffror, för att vi ska veta att du har vår sjukvårdsförsäkring.</p>
+    <p>&nbsp;</p>
+    <p>På nästa sida får du själv välja ett användarnamn och ett lösenord.</p>
+    <p>&nbsp;</p>
+    <div class="alertmessage hidden" id="alertmessage">Tyvärr kunde vi inte hitta en Sjukvårdsförsäkring på detta personnummeret.</div>
+    <form action="#" autocomplete="off">
+      <input  type="text" class="textfield01" id="validateCode" name="validateCode"/>
+      <!--<a href="#" class="actionlink" id="validateLink">Identifiera</a>-->
+      <input type="button" class="buttonclass" id="validateLink" value="Fortsätt" />
+      <p>&nbsp;</p>
+    </form>
+    <h3>Sekretess </h3>
+    <p class="justifiedtext lock">SOS International är leverantör av hälsotjänster i Hälsoportalen.
+      SOS International sparar inga uppgifter om namn eller person i tjänsterna på denna sajt.  Det innebär att du alltid är anonym och att de uppgifter du lämnar till oss aldrig kopplas ihop med ditt personnummer. </p>
+    <div class="clear"></div>
+  </div>
+  <div class="dialoguebox-end"></div>
+</div>
+<div id="wrapper-sitenav-large">
+  <div class="sitenav">
+    <div class="logosalad"><img src="gfx/logo-sos-header-small.png" width="33" height="48" alt="SOS International" /></div>
+    <a href="index.html">
+    <div class="logo-halsoportalen">
+      <h1>Länsförsäkringars hälsotjänster</h1>
+    </div>
+    <div class="payoff">
+      <p>En del av din sjukvårdsförsäkring</p>
+      <p>hos Länsförsäkringar</p>
+    </div>
+    </a>
+    <div class="clear"></div>
+    <ul class="dropdown">
+      <li><a href="index.html" class="dropdown-startsida active">Start</a></li>
+      <li><a href="halsoprofil.html" class="dropdown-profil">Hälsoprofil</a></li>
+      <li><a href="program.html" class="dropdown-program">Hälsoprogram</a></li>
+      <li><a href="samtalsstod.html" class="dropdown-samtalstod">Personligt samtalsstöd</a></li>
+      <li><a href="foretag.html" class="dropdown-foretag">Företagstjänster</a></li>
+    </ul>
+    <ul class="dropdown2 hidden" id="dropdown2">
+      <li><a href="minhalsoprofil.html" class="dropdown-minhalsoprofil" id = "dropdown-minhalsoprofil">Min hälsoprofil</a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="sitenav-shade"></div>
+</div>
+<div class="wrapper-main">
+  <div id="about"></div>
+  <div class="box-halsoprofil">
+    <div class="col585">
+      <h2>Din egen hälsoprofil</h2>
+    </div>
+    <div class="clear"></div>
+    <div class="col280">
+      <h3>Få koll på din hälsa på tjugo minuter.</h3>
+      <p class="smallertextonfrontpage">Då ser du också vilka områden och vanor du behöver jobba extra med för att få en bättre hälsa.</p>
+      <p class="emptyline">&nbsp;</p>
+      <p><a href="halsoprofil.html" class="prioritylink">Läs mer om vår hälsoprofil </a></p>
+    </div>
+    <div class="280 spacing-left-25px">
+      <ul class="actionplate">
+        <ul>
+          <li class="upper">
+            <div class="actionlink"><a href="#" program="halsoprofil" id="actionLink">
+              <div class="arrow"></div>
+              <div class="time-20min"></div>
+              <h1>Gör din Hälsoprofil</h1>
+              <h3>Få koll på din hälsa</h3>
+              </a></div>
+          </li>
+          <li class="lower">
+            <div class="actionlink"><a href=" https://program.changetech.no/ChangeTech.html?Mode=Trial&P=N20FPF">
+              <div class="arrow"></div>
+              <div class="time-2min"></div>
+              <h1>Gör Snabbkollen</h1>
+              <h3>Snabbtest </h3>
+              </a></div>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="box-programmer">
+    <h2>Våra hälsoprogram</h2>
+    <div class="col280">
+      <p class="smallertextonfrontpage">Med våra hälsoprogram på webben kan du på ett enkelt sätt ta ditt första steg till en bättre hälsa. </p>
+      <p class="emptyline">&nbsp;</p>
+      <p class="smallertextonfrontpage">Vi erbjuder fem program som hjälper dig till bättre vanor och en hälsosammare livsstil.</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="col280 spacing-left-25px"><a href="program-stressamindre.html">
+      <div class="programlabel program-stressamindre">
+        <div class="motive"><img src="gfx/stressamindre-motive-small.jpg" width="280" height="90" alt="program" /></div>
+        <div class="programribbon">
+          <div class="backgroundcolors"><img src="gfx/stressamindre-bg.png" width="280" height="36" /></div>
+          <div class="host"><img src="gfx/stressamindre-host-small.jpg" width="48" height="48" /></div>
+          <h3>Stressa mindre</h3>
+        </div>
+      </div>
+      </a></div>
+    <div class="clear"></div>
+    <div class="col280"><a href="program-mabattre.html">
+      <div class="programlabel program-mabattre">
+        <div class="motive"><img src="gfx/mabattre-motive-small.jpg" width="280" height="90" alt="program" /></div>
+        <div class="programribbon">
+          <div class="backgroundcolors"><img src="gfx/mabattre-bg.png" width="280" height="36" /></div>
+          <div class="host"><img src="gfx/mabattre-host-small.jpg" width="48" height="48" /></div>
+          <h3>Må bättre</h3>
+        </div>
+      </div>
+      </a> </div>
+    <div class="col280 spacing-left-25px"> <a href="program-slutaroka.html">
+      <div class="programlabel program-slutaroka">
+        <div class="motive"><img src="gfx/roykeslutt-motive-small.jpg" width="280" height="90" alt="program" /></div>
+        <div class="programribbon">
+          <div class="backgroundcolors"><img src="gfx/roykeslutt-bg.png" width="280" height="36" /></div>
+          <div class="host"><img src="gfx/roykeslutt-host-small.jpg" width="48" height="48" /></div>
+          <h3>Sluta röka</h3>
+        </div>
+      </div>
+      </a> </div>
+    <div class="col280"> <a href="program-litesundare.html">
+      <div class="programlabel program-litesundare">
+        <div class="motive"><img src="gfx/litesundare-motive-small.jpg" width="280" height="90" alt="program" /></div>
+        <div class="programribbon">
+          <div class="backgroundcolors"><img src="gfx/litesundare-bg.png" width="280" height="36" /></div>
+          <div class="host"><img src="gfx/litesundare-host-small.jpg" width="48" height="48" /></div>
+          <h3>Lite sundare</h3>
+        </div>
+      </div>
+      </a> </div>
+    <div class="col280 spacing-left-25px"> <a href="program-minskaalkohol.html">
+      <div class="programlabel program-minskaalkohol">
+        <div class="motive"><img src="gfx/minskaalkohol-motive-small.jpg" width="280" height="90" alt="program" /></div>
+        <div class="programribbon">
+          <div class="backgroundcolors"><img src="gfx/minskaalkohol-bg.png" width="280" height="36" /></div>
+          <div class="host"><img src="gfx/minskaalkohol-host-small.jpg" width="48" height="48" /></div>
+          <h3>Balans</h3>
+        </div>
+      </div>
+      </a></div>
+    <div class="clear"></div>
+  </div>
+  <div class="box-halsolinjen">
+    <h2>Personligt samtalsstöd</h2>
+    <p class="smallertextonfrontpage">Vi ger dig rådgivning när problem uppstår i din vardag. Ring och prata med vår psykolog, jurist, ekonom eller hälsocoach. </p>
+    <p>&nbsp;</p>
+    <p><a href="samtalsstod.html" class="prioritylink">Läs mer</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <ul class="actionplate">
+      <ul>
+        <li class="upper">
+          <h3>Ring ditt vårdnummer </h3>
+          <h1>0771<span class="narrowtext">&nbsp;</span>–<span class="narrowtext2">&nbsp;</span>666<span class="narrowtext">&nbsp;</span><span class="narrowtext2">1</span>15</h1>
+        </li>
+        <li class="lower">
+          <h3>Ett nummer för allt som rör din hälsa</h3>
+        </li>
+      </ul>
+    </ul>
+  </div>
+  <div class="clear"></div>
+  <hr />
+  <div class="col430" style="padding:0;">
+    <iframe width="430px" height="440px" hspace="0" vspace="0" scrolling="no" frameborder="0" src="https://www.netdoktor.se/lf/sos/"></iframe>
+  </div>
+  <div class="col430 spacing-left-30px">
+    <h2>Mina erfarenheter av hälsotjänsterna </h2>
+    <p>&nbsp;</p>
+    <a href="vittnesmal.html">
+    <div class="col120 vittnesmal1"></div>
+    <div class="col280 statement">
+      <h3 class="statement">&quot;Jag tyckte inte att jag hade speciellt hög alkohol-konsumtion, men när jag hade besvarat det inledande testet hamnade jag på rött.&quot; <span class="redurl">Läs mer</span></h3>
+      <span class="infotext"> Åsa, 46 år</span> </div>
+    </a>
+    <div class="clear"></div>
+    <div>
+      <p class="emptyline">&nbsp;</p>
+      <p><a href="program-minskaalkohol.html" class="prioritylink">Läs mer om balansprogrammet</a></p>
+      <p>&nbsp;</p>
+    </div>
+    <a href="vittnesmal.html">
+    <div class="col120 vittnesmal2"></div>
+    <div class="col280 statement">
+      <h3 class="statement">&quot;Jag fick mycket goda råd och stöd via det personliga samtalsstödet när min fru berättade att hon ville skiljas.&quot; <span class="redurl">Läs mer</span></h3>
+      <span class="infotext">Lars, 43 år</span> </div>
+    </a>
+    <div class="clear"></div>
+    <div>
+      <p class="emptyline">&nbsp;</p>
+      <p><a href="samtalsstod.html" class="prioritylink">Läs mer om det personliga samtalsstödet</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="col890-2"> </div>
+  <div class="clear"></div>
+</div>
+<div id="footer">
+  <div class="footer-content">
+    <p class="col890"><a href="om.html">Om Länsförsäkringars hälsotjänster</a> - <a href="om.html#pul">Personuppgifter</a> - <a href="om.html">Kontakt</a> - <a href="support.html">Support</a></p>
+    <p><br />
+      Länsförsäkringars hälsotjänster är utvecklat av SOS International AB </p>
+    <p class="infotext"> SOS International Health Sweden - Andra Långgatan 19 - S-413 28 Göteborg <a href="mailto:fragor.pcp@health.sos.eu">fragor.pcp@health.sos.eu</a></p>
+    <div class="footer-logosalad">
+      <p class="logo-lf"><a href="https://www.lansforsakringar.se/Sjukvard"><img src="gfx/logo-lf-footer.png" width="204" height="37" /></a></p>
+      <p class="logo-sosi"><img src="gfx/logo-sos-header-small.png" width="33" height="48" alt="SOS International" /></p>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C3228C5-3E1C-44E7-A455-C33881F29927}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.Models</RootNamespace>
+    <AssemblyName>ChangeTech.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityLogModel.cs" />
+    <Compile Include="ApplicationUserSecurityModel.cs" />
+    <Compile Include="BrandModel.cs" />
+    <Compile Include="CompanyModel.cs" />
+    <Compile Include="CompanyUserInfoModel.cs" />
+    <Compile Include="Control.cs" />
+    <Compile Include="CTPPModel.cs" />
+    <Compile Include="DeleteApplicationModel.cs" />
+    <Compile Include="DropDownListItemModel.cs" />
+    <Compile Include="EmailTemplateModel.cs" />
+    <Compile Include="EmailTemplateTypeModel.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="ExpressionModel.cs" />
+    <Compile Include="FailEmail.cs" />
+    <Compile Include="HealthProfileOrderModel.cs" />
+    <Compile Include="HelpItemModel.cs" />
+    <Compile Include="HPOrderModel.cs" />
+    <Compile Include="OrderEmailTemplateModel.cs" />
+    <Compile Include="OrderModel.cs" />
+    <Compile Include="PageResourceModel.cs" />
+    <Compile Include="PageVariableModel.cs" />
+    <Compile Include="PaymentModel.cs" />
+    <Compile Include="ProgramProductModel.cs" />
+    <Compile Include="ProgramRoomModel.cs" />
+    <Compile Include="RelapseModel.cs" />
+    <Compile Include="ReportModel.cs" />
+    <Compile Include="ResourceCategoryModel.cs" />
+    <Compile Include="ResourceModel.cs" />
+    <Compile Include="InterventCategoryModel.cs" />
+    <Compile Include="LanguageModel.cs" />
+    <Compile Include="ModelBase.cs" />
+    <Compile Include="ModelUtility.cs" />
+    <Compile Include="PageModel.cs" />
+    <Compile Include="Pager.cs" />
+    <Compile Include="PageSequenceModel.cs" />
+    <Compile Include="PredictorCategoryModel.cs" />
+    <Compile Include="PredictorModel.cs" />
+    <Compile Include="ProgramModel.cs" />
+    <Compile Include="ProgramSecurityModel.cs" />
+    <Compile Include="ProgramStatusModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterModel.cs" />
+    <Compile Include="ResponseModel.cs" />
+    <Compile Include="ResultResponseModel.cs" />
+    <Compile Include="SessionModel.cs" />
+    <Compile Include="ShortMessageModel.cs" />
+    <Compile Include="SpecialStringModel.cs" />
+    <Compile Include="StudyContentModel.cs" />
+    <Compile Include="StudyModel.cs" />
+    <Compile Include="StudyUserModel.cs" />
+    <Compile Include="TipMessageModel.cs" />
+    <Compile Include="TranslationJobModel.cs" />
+    <Compile Include="TranslationModel.cs" />
+    <Compile Include="UserAnswerModel.cs" />
+    <Compile Include="UserGroupModel.cs" />
+    <Compile Include="UserMenuModel.cs" />
+    <Compile Include="UserModel.cs" />
+    <Compile Include="InterventModel.cs" />
+    <Compile Include="Win8ProgramUserModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Repository\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

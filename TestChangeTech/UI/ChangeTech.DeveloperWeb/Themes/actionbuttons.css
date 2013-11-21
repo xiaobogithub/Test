@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+/* The actionbuttons
+*******************************************************************************/
+
+
+/* Typography settings for all actionbuttons */
+.container-checkin-actual h2, .container-checkin-untaken h2, .container-checkin-complete h2, .container-emergency-actual h2 {
+	font-weight: normal;
+	color: #152F55;
+	font-size: 1.0em;
+}
+.container-checkin-actual h2 {
+	color: #152F55;
+}
+.container-checkin-untaken h2 {
+	color: #698195;
+}
+.container-checkin-complete h2 {
+	color: #6888a3;
+}
+.container-emergency-actual h2 {
+	color: #330000;
+}
+/* End */
+
+
+
+/* The checkin button :: Untaken state (The button is unavailable) */
+.container-checkin-untaken {
+	background: #e0e5eb;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b5c0cc), to(#e0e5eb));
+	background: -o-linear-gradient(#b5c0cc, #e0e5eb);
+	background: -moz-linear-gradient(100% 100% 90deg, #e0e5eb, #b5c0cc);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #b5c0cc;
+	font-size: 1.0em;
+	padding: 20px 30px 20px 30px;
+	width: 170px;
+	margin: 40px 0 20px 40px;
+}
+.container-checkin-untaken a.b-checkin {
+	font-weight: bold;
+	font-size: 1.0em;
+	text-align: center;
+	color: #d7e0e5;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin-top: 10px;
+	border: 1px solid #9fa5ac;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+	background: url(../Images/actionbutton-grey-idle.png) right center repeat-x #a3a9af;
+	-moz-box-shadow: inset 0 1px 0 0 #d7e0e5;
+	-webkit-box-shadow: inset 0 1px 0 0 #d7e0e5;
+	box-shadow: inset 0 1px 0 0 #d7e0e5;
+	text-shadow: none;
+}
+.container-checkin-untaken a:hover.b-checkin {
+	color: #c7cfd3;
+	background: url(../Images/actionbutton-grey-hover.png) right center repeat-x #747a80;
+}
+/* End */
+
+
+
+
+
+/* The checkin button :: Actual state (The button is available) */
+.container-checkin-actual {
+	background: #d1e8fc;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b2d3f0), to(#d1e8fc));
+	background: -o-linear-gradient(#b2d3f0, #d1e8fc);
+	background: -moz-linear-gradient(100% 100% 90deg, #d1e8fc, #b2d3f0);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #b2d3f0;
+	font-size: 1.0em;
+	padding: 20px 30px 20px 30px;
+	width: 170px;
+	margin: 40px 0 20px 40px;
+}
+a.b-checkin {
+	font-weight: bold;
+	font-size: 1.0em;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin-top: 10px;
+	border: 1px solid #4f86cf;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+	background: url(../Images/actionbutton-blue-idle.png) right center repeat-x #418cd5;
+	-moz-box-shadow: inset 0 1px 0 0 #aed8ee;
+	-webkit-box-shadow: inset 0 1px 0 0 #aed8ee;
+	box-shadow: inset 0 1px 0 0 #aed8ee;
+	text-shadow: -1px -1px 1px #35547b;
+}
+a:hover.b-checkin {
+	background: url(../Images/actionbutton-blue-hover.png) right center repeat-x #345da5;
+}
+/* End */
+
+
+
+
+
+/* The checkin button :: Complete state (The button is unavailable but showing a response) */
+.container-checkin-complete {
+	background: #d1e8fc;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b2d3f0), to(#d1e8fc));
+	background: -o-linear-gradient(#b2d3f0, #d1e8fc);
+	background: -moz-linear-gradient(100% 100% 90deg, #d1e8fc, #b2d3f0);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #b2d3f0;
+	font-size: 1.0em;
+	padding: 20px 30px 20px 30px;
+	width: 170px;
+	margin: 40px 0 20px 40px;
+}
+.container-checkin-complete .day-label-completed {
+	padding: 3px 8px 3px 8px;
+	background: #3faf6c;
+	border-radius: 8px;
+	font-size: 0.6em;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	position: inherit;
+	top: inherit;
+	right: inherit;
+	margin-top: 10px;
+}
+/* End */
+
+
+
+
+
+/* The emergency button :: Actual state (The button is available) */
+.container-emergency-actual {
+	background: #ffe5a8;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5bd36), to(#ffe5a8));
+	background: -o-linear-gradient(#f5bd36, #ffe5a8);
+	background: -moz-linear-gradient(100% 100% 90deg, #ffe5a8, #f5bd36);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #f5bd36;
+	font-size: 1.0em;
+	padding: 20px 30px 20px 30px;
+	width: 170px;
+	margin: 40px 0 20px 40px;
+}
+a.b-emergency {
+	font-weight: bold;
+	font-size: 1.0em;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin-top: 10px;
+	border: 1px solid #6d1919;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+	background: url(../Images/actionbutton-red-idle.png) right center repeat-x #c43f32;
+	-moz-box-shadow: inset 0 1px 0 0 #e49c93;
+	-webkit-box-shadow: inset 0 1px 0 0 #e49c93;
+	box-shadow: inset 0 1px 0 0 #e49c93;
+	text-shadow: -1px -1px 1px #430e0e;
+}
+a:hover.b-emergency {
+	background: url(../Images/actionbutton-red-hover.png) right center repeat-x #932727;
+}
+/* End */
+
+
+
+
+/* The open day button */
+.wrapper-openday{
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 200px;
+	box-shadow: 0px 1px 7px #4D6177;
+	-moz-box-shadow: 0px 1px 7px #4D6177;
+	-webkit-box-shadow: 0px 1px 7px #4D6177;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+}
+a.openday {
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	color: #FFF;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	border: 1px solid #4f86cf;
+	-moz-border-radius: 99px;
+	-webkit-border-radius: 99px;
+	border-radius: 99px;
+	background: url(../Images/actionbutton-blue-idle.png) right center repeat-x #418cd5;
+	-moz-box-shadow: inset 0 1px 0 0 #aed8ee;
+	-webkit-box-shadow: inset 0 1px 0 0 #aed8ee;
+	box-shadow: inset 0 1px 0 0 #aed8ee;
+	text-shadow: -1px -1px 1px #35547b;
+}
+a:hover.openday {
+	background: url(../Images/actionbutton-blue-hover.png) right center repeat-x #345da5;
+}
+/* End */
+h2#ReportButtonHeading,
+h2#HelpButtonHeading
+{
+    text-align:center;
+}
+
+
+
+
+
+
+

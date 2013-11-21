@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/general.css" media="screen, print" />
+<link rel="stylesheet" href="css/print.css" media="print" />
+<meta name="viewport" content="width=950, user-scalable=yes, target-densitydpi=low-dpi;" />
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<title>Snabbkollen - Länsförsäkringars hälsotjänster</title>
+<script type="text/javascript" src="../jquery/jquery-1.7.1.min.js"></script>
+<!--<script src="jquery/jquery.menubehaviour.js" type="text/javascript"></script>-->
+<script src="../jquery/showHide.js" type="text/javascript"></script>
+<script src="../Scripts/Common.js" type="text/javascript"></script>
+<script src="../Scripts/Result.js" type="text/javascript"></script>
+<script src="../Scripts/Gohttps.js" type="text/javascript"></script>
+<!--<script src="../Scripts/GoWebStatus.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+       $(function () {
+           $("#validateLink").click(validateMethod);
+           $("#actionLink").click(beforeValidateCodeMethod);
+           $("#dropdown-minhalsoprofil").attr("href", window.location);
+       })
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35873124-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style>
+.banner-430 {
+	display: block;
+	height: 40px;
+	padding: 10px 60px 10px 20px;
+	background: url(../gfx/arrow-results-small.png) 380px 20px no-repeat #f4f7fa;
+	border: 1px solid #bdccd6;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin-top: -30px;
+	margin-bottom: 0px;
+	/* Easing the transition on the bubble tip */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.banner-430:hover {
+	background: url(../gfx/arrow-results-small.png) 390px 20px no-repeat #e2ebf1;
+}
+.stretchdown {
+margin-top: 8px; 
+}
+.happyending {
+	display: block;
+	width: 400px;
+	height: 20px;
+}
+</style>
+</head>
+<body  onkeydown="if (event.keyCode==13) {document.getElementById('validateLink').click(); return false;}">
+<div class="mainmotive minhalsoprofil forcedbottomline">
+  <div id="wrapper-hostpresentation">
+    <div class="hostpresentation-for-print"><img src="gfx/host-motive1-print.png" width="430" height="350" /></div>
+    <div id="wrapper-textbubble">
+      <div class="textbubble-top">
+        <h1>Resultatet på din Snabbkoll</h1>
+        <p>Frågorna du besvarat belyser några av de viktigaste områderna för en bra hälsa. Vi har rödmarkerat de frågor du svarat ”ja”  på och som kan innebära risker för din hälsa. </p>
+        <p class="emptyline">&nbsp;</p>
+        <p>De riskfaktorer du ärvt går inte att förändra men de övriga går att påverka. Vi är duktiga på detta och kan ge dig hjälp och stöd att förändra dina vanor.</p>
+      </div>
+      <div class="textbubble-bottom"></div>
+      <div class="clear"></div>
+      <div class="clear"></div>
+      <div class="actionbuttons">
+        <div class="banner-430-samtalsstod">
+          <div class="banner-430-samtalsstod-part1">
+            <h3>Personligt samtalsstöd</h3>
+            <h1>0771<span class="narrowtext">&nbsp;</span>–<span class="narrowtext2">&nbsp;</span>666<span class="narrowtext">&nbsp;</span><span class="narrowtext2">1</span>15 </h1>
+          </div>
+          <div class="banner-430-samtalsstod-part2">
+            <h3>Ring gärna om du har funderingar kring ditt resultat.</h3>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <p class="emptyline">&nbsp;</p>
+      <div class="clear"></div>
+    </div>
+    <div class="col430"><a href="https://lansforsakringar.soshalsa.eu">
+    <div class="banner-430">
+      <h3>Läs mera om hur vi kan hjälpa dig att få en hälsosammare livsstil och må bättre</h3>
+    </div>
+    </a> </div>
+  <div class="col430 spacing-left-30px"> <a href="https://lansforsakringar.soshalsa.eu/halsoprofil.html">
+    <div class="banner-430">
+      <h3 class="stretchdown">Gör fullständig hälsoprofil</h3>
+    </div>
+    </a> </div>
+  <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper-main">
+  <div class="loader-results" style="display: none;">
+    <div class="spinner"> <img src="gfx/loader.gif" width="64" height="64" /> </div>
+    <div class="clear"></div>
+    <p>&nbsp;</p>
+    <p>Laddar profil, var god vänta...</p>
+  </div>
+  <ul class="results">
+  
+  <!-- [START] 02 --> 
+    <a class="green" href="rekommendationer-motion.html" name="motion">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-exercise-small.png" width="54" height="54" alt="Motion" /></div>
+      <h3 class="result-exercise">Motion</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 02 -->
+    
+    
+    <!-- [START] 01 --> 
+    <a class="green"href="rekommendationer-kost.html" name="kost">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-diet-small.png" width="54" height="54" alt="Kost" /></div>
+      <h3 class="result-diet">Matvanor</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    
+    <!-- [END] 01 --> 
+    
+     
+    
+    <!-- [START] 03 --> 
+    <a class="green" href="rekommendationer-midja.html" name="midja">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-waist-small.png" width="54" height="54" /></div>
+      <h3 class="result-waist">Vikt</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 03 --> 
+    
+    <!-- [START] 04 --> 
+    <a class="green"href="rekommendationer-levnad.html" name="levnad">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-life-small.png" width="54" height="54" alt="Levnadsförhållanden" /></div>
+      <h3 class="result-life">sjukdomar inom familjen</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 04 --> 
+    
+    <!-- [START] 05 --> 
+    <a class="green"href="rekommendationer-stress.html" name="stress">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-stress-small.png" width="54" height="54" alt="Stress" /></div>
+      <h3 class="result-stress">Stress</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 05 --> 
+    
+    <!-- [START] 06 --> 
+    <!-- No content here --> 
+    <!-- [END] 06 --> 
+    
+    <!-- [START] 07 --> 
+    <a class="green"href="rekommendationer-tobak.html" name="tobak">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-tobacco-small.png" width="54" height="54" alt="Tobak" /></div>
+      <h3 class="result-tobacco">Tobak</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 07 --> 
+    
+    <!-- [START] 08 --> 
+    <a class="green"href="rekommendationer-alkohol.html" name="alkohol">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-alcohol-small.png" width="54" height="54" alt="Alkohol" /></div>
+      <h3 class="result-alcohol">Alkoholvanor</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 08 --> 
+    
+    <!-- [START] 09 --> 
+    <a class="green" href="rekommendationer-droger.html" name="droger">
+    <li>
+      <div class="resultcolor-red"><img src="gfx/resultcolor-red.png" width="61" height="30" alt="Risk" /></div>
+      <div class="resultcolor-yellow"><img src="gfx/resultcolor-yellow.png" width="61" height="30" alt="Inte helt bra" /></div>
+      <div class="resultcolor-green"><img src="gfx/resultcolor-green.png" width="61" height="30" alt="Bra!" /></div>
+      <div class="icon"><img src="gfx/icon-drugs-small.png" width="54" height="54" alt="Droger" /></div>
+      <h3 class="result-drugs">Droger och Läkemedel</h3>
+      <h4>Läs mer</h4>
+      <h5 class="red">Risk</h5>
+      <h5 class="yellow">Inte helt bra</h5>
+      <h5 class="green">Bra!</h5>
+    </li>
+    </a> 
+    <!-- [END] 09 -->
+    
+  </ul>
+  
+    
+
+  
+  <div class="clear"></div>
+    <div class="happyending">
+    
+      </div>
+  
+  <div class="clear"></div>
+</div>
+<div id="footer">
+  <div class="footer-content">
+    <p class="col890 hidden"><a href="../om.html">Om Länsförsäkringars hälsotjänster</a> - <a href="../om.html#pul">Personuppgifter</a> - <a href="../om.html">Kontakt</a> - <a href="../support.html">Support</a></p>
+    <p><br />
+      Länsförsäkringars hälsotjänster är utvecklat av SOS International AB </p>
+    <div class="footer-logosalad">
+      <p class="logo-lf"><a href="http://www.lansforsakringar.se/Sjukvard"><img src="gfx/logo-lf-footer.png" width="204" height="37" /></a></p>
+      <p class="logo-sosi"><img src="gfx/logo-sos-header-small.png" width="33" height="48" alt="SOS International" /></p>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

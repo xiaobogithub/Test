@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://healthportalautentication.services.web.suppliers.sos.eu/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="PortalAutenticationServiceService" targetNamespace="http://healthportalautentication.services.web.suppliers.sos.eu/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns:tns="http://healthportalautentication.services.web.suppliers.sos.eu" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://healthportalautentication.services.web.suppliers.sos.eu">
+      <xsd:complexType name="PortalResponse">
+        <xsd:sequence>
+          <xsd:element name="autenticated" type="xsd:int" />
+          <xsd:element name="expirationDate" type="xsd:dateTime" />
+          <xsd:element name="insurance" nillable="true" type="xsd:string" />
+          <xsd:element name="nationality" nillable="true" type="xsd:string" />
+          <xsd:element name="ssn" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PortalAutenticationException">
+        <xsd:sequence />
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns:ns0="http://healthportalautentication.services.web.suppliers.sos.eu" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://healthportalautentication.services.web.suppliers.sos.eu/">
+      <xsd:import namespace="http://healthportalautentication.services.web.suppliers.sos.eu" />
+      <xsd:element name="autenticate" type="tns:autenticate" />
+      <xsd:complexType name="autenticate">
+        <xsd:sequence>
+          <xsd:element name="requesterId" type="xsd:string" />
+          <xsd:element name="requesterPassword" type="xsd:string" />
+          <xsd:element name="ssn" nillable="true" type="xsd:string" />
+          <xsd:element name="nationality" nillable="true" type="xsd:string" />
+          <xsd:element name="insurance" nillable="true" type="xsd:string" />
+          <xsd:element name="insuranceCompany" type="xsd:string" />
+          <xsd:element name="insuranceProduct" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="autenticateResponse" type="tns:autenticateResponse" />
+      <xsd:complexType name="autenticateResponse">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="return" type="ns0:PortalResponse" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="PortalAutenticationException" nillable="true" type="ns0:PortalAutenticationException" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="autenticateResponse">
+    <wsdl:part name="parameters" element="tns:autenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="autenticate">
+    <wsdl:part name="parameters" element="tns:autenticate" />
+  </wsdl:message>
+  <wsdl:message name="PortalAutenticationException">
+    <wsdl:part name="PortalAutenticationException" element="tns:PortalAutenticationException" />
+  </wsdl:message>
+  <wsdl:portType name="PortalAutenticationService">
+    <wsdl:operation name="autenticate">
+      <wsdl:input name="autenticate" message="tns:autenticate" />
+      <wsdl:output name="autenticateResponse" message="tns:autenticateResponse" />
+      <wsdl:fault name="PortalAutenticationException" message="tns:PortalAutenticationException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PortalAutenticationServiceServiceSoapBinding" type="tns:PortalAutenticationService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="autenticate">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="autenticate">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="autenticateResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="PortalAutenticationException">
+        <soap:fault use="literal" name="PortalAutenticationException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PortalAutenticationServiceService">
+    <wsdl:port name="PortalAutenticationServicePort" binding="tns:PortalAutenticationServiceServiceSoapBinding">
+      <soap:address location="https://sos.dk/suppliers-test-services/PortalAutenticationService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,46 @@
+﻿<navigation:Page x:Class="ChangeTech.Silverlight.DesignPage.NewPage" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:ChangeTechUserControls="clr-namespace:ChangeTech.Silverlight.DesignPage.PageTemplate"
+           Title="New Page" Loaded="Page_Loaded"
+           >
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+            <ColumnDefinition Width="90"></ColumnDefinition>
+            <ColumnDefinition Width="80"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="150" ></ColumnDefinition>
+            <ColumnDefinition Width="150" ></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Order No." VerticalAlignment="Center" FontWeight="Bold" Margin="10,0,0,0"></TextBlock>
+        <ComboBox x:Name="cbPageNO" Grid.Row="1" Grid.Column="1" Height="25" Width="65" VerticalAlignment="Center"></ComboBox>
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Template:" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <ComboBox x:Name="cbTemplate" Grid.Row="1" Grid.Column="3" Height="25" VerticalAlignment="Center" HorizontalContentAlignment="Left" DisplayMemberPath="Name" SelectedItem="{Binding PageContent.Template}"
+          SelectionChanged="cbTemplate_SelectionChanged"></ComboBox>
+        <Button x:Name="SaveButton" Grid.Row="1" Grid.Column="4" Content="Save &amp; preview" Click="SaveButton_Click" Width="120" Height="25" HorizontalAlignment="Right"></Button>
+        <Button x:Name="CancelButton" Grid.Row="1" Grid.Column="5" Content="Cancel" Width="100" Height="25" Click="CancelButton_Click"></Button>
+       
+        <ChangeTechUserControls:StandardTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="StandardTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:StandardTemplate>
+        <ChangeTechUserControls:GetInformationTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="GetInformationTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:GetInformationTemplate>
+        <ChangeTechUserControls:PushPicturesTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="PushPicturesTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:PushPicturesTemplate>
+        <ChangeTechUserControls:ChoosePreferenceTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="ChoosePreferenceTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:ChoosePreferenceTemplate>
+        <ChangeTechUserControls:TimerTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="TimerTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:TimerTemplate>
+        <ChangeTechUserControls:AccountCreationTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="AccountCreationTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:AccountCreationTemplate>
+        <ChangeTechUserControls:Graph Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="GraphTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:Graph>
+        <ChangeTechUserControls:SMSTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="SMSTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:SMSTemplate>
+        <ChangeTechUserControls:ScreeningResultsTemplate Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" Visibility="Collapsed" x:Name="ScreeningResultsTemplate" HorizontalAlignment="Left" VerticalAlignment="Top"></ChangeTechUserControls:ScreeningResultsTemplate>
+        </Grid>
+    </ScrollViewer>
+</navigation:Page>

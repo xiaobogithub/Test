@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OrderSystem.master.cs" Inherits="ChangeTech.DeveloperWeb.OrderSystem.OrderSystem" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../Themes/default.css" rel="stylesheet" type="text/css" />
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/general.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/added.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="../Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../Scripts/json2.js"></script>
+    <script type="text/javascript" src="../Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="../Scripts/ct.program.js"></script>
+    <script type="text/javascript" src="../Scripts/Global.js"></script>
+    <title>Changetech OrderSystem</title>
+      <script type="text/javascript">
+          $(function () {
+              //ctl00_menuLoginView_SiteMapPath
+              var removeALink1 = $("a[href = '#ctl00_menuLoginView_SiteMapPath_SkipLink']");
+              var removeALink2 = $("#ctl00_menuLoginView_SiteMapPath_SkipLink");
+              var removeALink3 = $("#ctl00_menuLoginView_SiteMapPath");
+              removeALink1.css("display", "none");
+              removeALink2.css("display", "none");
+              removeALink3.css("class", "");
+          });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="container">
+  <div id="wrapper-header">
+  <asp:LoginView ID="LoginView" runat="server">
+        <LoggedInTemplate>
+        <div class="logo"><a href="../ListProgram.aspx"><img src="../gfx/logo-developer.png" width="230" height="30" alt="Changetech Developer" /></a></div>
+        <div class="version"> <%= VersionNumber%></div>
+        <div class="usermenu">
+                            <asp:Localize ID="loginAsLocalize" Text="<%$ Resources: Share, LoginAs%>" runat="server">
+                            </asp:Localize>
+                            <asp:LoginName ID="LoginName" runat="server" />
+                            |
+                            <asp:LinkButton ID="logoutLnkBtn" Text="<%$ Resources: Share, Logout%>" runat="server"
+                                OnClick="logoutLnkBtn_Click" CausesValidation="false">
+                            </asp:LinkButton>
+                            | <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources: Share, ContactUs%>"></asp:Localize></a>
+                        </div>
+                        </LoggedInTemplate>
+                        <%--<AnonymousTemplate>
+                            <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources:Share, ContactUs %>"></asp:Localize></a>
+                        </AnonymousTemplate>--%>
+                    </asp:LoginView>
+  <div class="clear"></div>
+</div>
+<div id="breadcrumbs"  style="height:25px;">
+    <ul>
+        <asp:LoginView ID="menuLoginView" runat="server">
+            <LoggedInTemplate>
+                <li style="background-color:White;">
+                    <asp:SiteMapPath ID="SiteMapPath" runat="server" SiteMapProvider="OrderSystemSiteMapProvider" PathSeparator="">
+                        <CurrentNodeStyle CssClass="currentNode" />
+                        <NodeStyle CssClass="node" />
+                    </asp:SiteMapPath>
+                </li>
+            </LoggedInTemplate>
+        </asp:LoginView>
+    </ul>
+  <div class="clear"></div>
+</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="footer">
+            <asp:Localize ID="footerLocalize" runat="server"></asp:Localize>
+    </div>
+</div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+

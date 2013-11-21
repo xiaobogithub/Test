@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/general.css" media="screen, print" />
+<link rel="stylesheet" href="css/print.css" media="print" />
+<meta name="viewport" content="width=950, user-scalable=yes, target-densitydpi=low-dpi;" />
+<title>Lite sundare - Länsförsäkringars hälsotjänster</title>
+<script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+<script src="jquery/jquery.menubehaviour.js" type="text/javascript"></script>
+<script src="jquery/showHide.js" type="text/javascript"></script>
+<script src="jquery/modernizr-latest.js" type="text/javascript"></script>
+<script src="Scripts/Common.js" type="text/javascript"></script>
+<script src="Scripts/GoWebStatus.js" type="text/javascript"></script>
+<script src="Scripts/Gohttps.js" type="text/javascript"></script>
+<script type="text/javascript">
+       $(function () {
+           $("#validateLink").click(validateMethod);
+           $("#actionLink").click(beforeValidateCodeMethod);
+       })
+   </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35873124-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body onkeydown="if (event.keyCode==13) {document.getElementById('validateLink').click(); return false;}">
+<div id="wrapper-dialoguebox" class="hidden">
+  <div class="dialoguebox-top"></div>
+  <div class="dialoguebox-main"> <a href="javascript:toggle1('wrapper-dialoguebox');" class="prioritylink">Avbryt och stäng</a>
+    <div class="clear"></div>
+    <h1>Du identifierar dig med ditt personnummer</h1>
+    <p>Du använder ditt personnummer, 12 siffror, för att vi ska veta att du har vår sjukvårdsförsäkring.</p>
+    <p>&nbsp;</p>
+    <p>På nästa sida får du själv välja ett användarnamn och ett lösenord.</p>
+    <p>&nbsp;</p>
+    <div class="alertmessage hidden" id="alertmessage">Tyvärr kunde vi inte hitta en Sjukvårdsförsäkring på detta personnummeret.</div>
+    <form action="#" autocomplete="off">
+      <input id="validateCode" type="text" class="textfield01" name="validateCode"/>
+      <!--<a href="#" class="actionlink" id="validateLink">Identifiera</a>-->
+      <input type="button" class="buttonclass" id="validateLink" value="Identifiera" />
+      <p>&nbsp;</p>
+    </form>
+    <p>&nbsp;</p>
+    <h3>Sekretess </h3>
+    <p class="justifiedtext lock">SOS International är leverantör av hälsotjänster i Hälsoportalen.
+      SOS International sparar inga uppgifter om namn eller person i tjänsterna på denna sajt.  Det innebär att du alltid är anonym och att de uppgifter du lämnar till oss aldrig kopplas ihop med ditt personnummer. </p>
+    <div class="clear"></div>
+  </div>
+  <div class="dialoguebox-end"></div>
+</div>
+<div id="wrapper-sitenav-large">
+  <div class="sitenav">
+    <div class="logosalad"><img src="gfx/logo-sos-header-small.png" width="33" height="48" alt="SOS International" /></div>
+    <a href="index.html">
+    <div class="logo-halsoportalen">
+      <h1>Länsförsäkringars hälsotjänster</h1>
+    </div>
+    </a>
+    <div class="clear"></div>
+    <ul class="dropdown">
+      <li><a href="index.html" class="dropdown-startsida">Start</a></li>
+      <li><a href="halsoprofil.html" class="dropdown-profil">Hälsoprofil</a></li>
+      <li><a href="program.html" class="dropdown-program active">Hälsoprogram</a></li>
+      <li><a href="samtalsstod.html" class="dropdown-samtalstod">Personligt samtalsstöd</a></li>
+      <li><a href="foretag.html" class="dropdown-foretag">Företagstjänster</a></li>
+    </ul>
+    <ul class="dropdown2 hidden" id="dropdown2">
+      <li><a href="minhalsoprofil.html" class="dropdown-minhalsoprofil" id = "dropdown-minhalsoprofil">Min hälsoprofil</a></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+  <div class="wrapper-menu-lvl2">
+    <ul class="menu-lvl2">
+      <a href="program.html">
+      <li>Översikt</li>
+      </a> <a href="program-stressamindre.html">
+      <li>Stressa mindre</li>
+      </a> <a href="program-mabattre.html">
+      <li>Må bättre</li>
+      </a> <a href="program-slutaroka.html">
+      <li>Sluta röka</li>
+      </a> <a href="program-litesundare.html" class="active">
+      <li>Lite sundare</li>
+      </a> </a> <a href="program-minskaalkohol.html">
+      <li>Balans</li>
+      </a>
+    </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="sitenav-shade"></div>
+</div>
+<div class="mainmotive program-litesundare">
+  <div id="about"></div>
+  <div id="programribbon">
+    <div class="host"><img src="gfx/litesundare-host.jpg" width="92" height="92" /></div>
+    <a href="#" id="actionLink" program="litesundare"  class="actionlink">Gör programmet </a>
+    <h1>Lite sundare</h1>
+    <h3>Få hjälp att förebygga sjukdomar som beror på din livsstil</h3>
+  </div>
+</div>
+<div class="wrapper-main">
+  <div class="clear"></div>
+  <div class="col430">
+    <h2>Lite sundare – ett hälsoprogram som hjälper till en sundare livsstil</h2>
+    <p class="line-spacer">Programmets hjälper dig att komma igång med ett sundare liv och är framtaget för att förebygga hjärtsjukdomar, diabetes och andra livsstilssjukdomar. </p>
+    <p class="emptyline">&nbsp;</p>
+    <p class="line-spacer">De flesta vet vad som är sunt och vad som inte är det. Med Lite sundare hjälper vi dig att komma igång med det &quot;nya och sundare&quot; livet.</p>
+    <p class="emptyline">&nbsp;</p>
+    <p class="line-spacer">Med Lite sundare får du hjälp, dag för dag, att genomföra små förändringar i dina vanor, med tankesätt, tekniker och övningar hämtade från modern psykologi. </p>
+    <p class="emptyline">&nbsp;</p>
+    <p class="line-spacer">Programmet tar sju veckor med tre övningar per vecka. Övningarna tar cirka femton minuter per gång.</p>
+  </div>
+  <div class="col430 spacing-left-30px">
+    <p><img src="gfx/litesundare-platforms.jpg" alt="" width="430" height="317" style="margin: 20px 0 -10px 0;" /></p>
+    <p class="infotext">För att använda programmet behöver du en dator eller surfplatta med internet.</p>
+  </div>
+  <div class="clear"></div>
+  <hr />
+  <div class="clear"></div>
+  <div id="wrapper-facts">
+    <h3>Mål </h3>
+    <h4>Målet med Lite sundare är att förebygga livsstilssjukdomar som hjärtinfarkt och diabetes.</h4>
+    <hr />
+    <h3>Test </h3>
+    <h4>Du får fylla i ett test av dina matvanor på din första och sista kursdag. </h4>
+    <hr />
+    <h3>Hur då? </h3>
+    <h4>Programmet levereras på web och kommunicerar med dig och din dator eller surfplatta via e-post.  I början på 2013 kan du även  följa programmen på din smartphone.</h4>
+    <hr />
+    <h3>Telefonstöd </h3>
+    <h4>Till Lite sundare är det kopplat ett telefonstöd via ditt vårdnummer, 0771-666 115 välj telefonrådgivning, om du stöter på problem eller behöver extra stöd på vägen.</h4>
+  </div>
+  <div class="clear"></div>
+  <hr />
+  <div class="col890pcp">
+    <h2>Hälsoprogrammen bygger på forskning</h2>
+    <p class="line-spacer">Våra hälsoprogram bygger på forskning kring psykologi och personlig förändring – PCP. Kliniska studier och användarstudier visar att hälsoprogrammen både är mycket effektiva och att användarna är nöjda.</p>
+    <p>&nbsp;</p>
+    <p class="line-spacer"> Företaget Changetech, som utvecklar programmen, gör kontinuerligt användarstudier som visar hur användarna upplever hälsoprogrammen och dess effekter. Några av hälsoprogrammen har också deltagit i kliniska studier i samarbete med erkända forskningsinstitutioner.</p>
+    <p>&nbsp;</p>
+    <p class="line-spacer"> Resultaten av studierna visar bland annat att användarna är mycket nöjda, att hälsoprogrammen överträffar deras förväntningar och att över 80 procent kan tänka sig att rekommendera dem till andra.</p>
+    <p class="line-spacer">&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <div class="clear"></div>
+</div>
+<div id="footer">
+  <div class="footer-content">
+    <p class="col890"><a href="om.html">Om Länsförsäkringars hälsotjänster</a> - <a href="om.html#pul">Personuppgifter</a> - <a href="om.html">Kontakt</a> - <a href="support.html">Support</a></p>
+    <p><br />
+      Länsförsäkringars hälsotjänster är utvecklat av SOS International AB </p>
+    <div class="footer-logosalad">
+      <p class="logo-lf"><a href="http://www.lansforsakringar.se/Sjukvard"><img src="gfx/logo-lf-footer.png" width="204" height="37" /></a></p>
+      <p class="logo-sosi"><img src="gfx/logo-sos-header-small.png" width="33" height="48" alt="SOS International" /></p>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

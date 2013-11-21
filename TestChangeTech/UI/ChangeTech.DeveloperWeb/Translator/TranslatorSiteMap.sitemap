@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Translator/TranslatorHome.aspx" title="Translator"  description="">
+      <siteMapNode url="~/Translator/ManageTranslationJobContent.aspx" title="Translator Job Content" description="">
+        <siteMapNode url="~/Translator/ManageTranslationJobElement.aspx" title="Translator Job Element" description="">
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ChangeTech.Models" />
+      <xsd:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_SavePageVariableGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageVariableGroup" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePageVariableGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageVariableGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditStandTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditStandTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditStandTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditStandTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditGetInfoTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditGetInfoTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditGetInfoTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditGetInfoTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditPushPictureTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditPushPictureTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditPushPictureTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditPushPictureTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetTimerTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimerTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetTimerTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimerTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetGraphTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGraphTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetGraphTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGraphTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditChoosePreferenceTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditChoosePreferenceTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditChoosePreferenceTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditChoosePreferenceTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageMaterials_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageMaterials" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageMaterials_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageMaterialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetResourceName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceName" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetResourceName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditPageModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditPageModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetEditPageModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEditPageModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetResourceCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetResourceCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResourceCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSession" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetProgramLanguages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramLanguages" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetProgramLanguages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProgramLanguagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetCountOfPagesInPageSequence_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountOfPagesInPageSequence" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetCountOfPagesInPageSequence_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountOfPagesInPageSequenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPagesOfPageSequence_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPagesOfPageSequence" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPagesOfPageSequence_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPagesOfPageSequenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageVariableByProgram_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageVariableByProgram" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageVariableByProgram_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageVariableByProgramResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveResource_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResource" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveResource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveStandardTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStandardTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveStandardTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveStandardTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveResourceCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResourceCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveResourceCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResourceCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveGetInfoTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGetInfoTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveGetInfoTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGetInfoTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePageVariable_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageVariable" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePageVariable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageVariableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveChoosePreferenceTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveChoosePreferenceTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveChoosePreferenceTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveChoosePreferenceTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveGraphTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGraphTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveGraphTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveGraphTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveAccountCreationTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAccountCreationTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveAccountCreationTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveAccountCreationTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePushPicturesTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePushPicturesTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePushPicturesTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePushPicturesTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveTimerTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTimerTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_SaveTimerTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveTimerTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertResourceCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResourceCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertResourceCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertResourceCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateStandardTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStandardTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateStandardTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStandardTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdatePushPictureTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePushPictureTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdatePushPictureTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePushPictureTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateTimerTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTimerTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateTimerTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTimerTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateGetInfoTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGetInfoTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateGetInfoTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGetInfoTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateGraphTemplatePage_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGraphTemplatePage" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateGraphTemplatePage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateGraphTemplatePageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateChoosePreferencesTemplatePageContentModel_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChoosePreferencesTemplatePageContentModel" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateChoosePreferencesTemplatePageContentModel_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateChoosePreferencesTemplatePageContentModelResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_IsPageSequenceUsedInSameProgramButNotInSameSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsPageSequenceUsedInSameProgramButNotInSameSession" />
+  </wsdl:message>
+  <wsdl:message name="IService_IsPageSequenceUsedInSameProgramButNotInSameSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsPageSequenceUsedInSameProgramButNotInSameSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_BeforeEditPageSequence_InputMessage">
+    <wsdl:part name="parameters" element="tns:BeforeEditPageSequence" />
+  </wsdl:message>
+  <wsdl:message name="IService_BeforeEditPageSequence_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BeforeEditPageSequenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteResource_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResource" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteResource_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteResourceCategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResourceCategory" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteResourceCategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteResourceCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeletePageVariable_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePageVariable" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeletePageVariable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePageVariableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageVariableGroupForProgram_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageVariableGroupForProgram" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageVariableGroupForProgram_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageVariableGroupForProgramResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="SavePageVariableGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SavePageVariableGroup" message="tns:IService_SavePageVariableGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SavePageVariableGroupResponse" message="tns:IService_SavePageVariableGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEditStandTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetEditStandTemplatePageContentModel" message="tns:IService_GetEditStandTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetEditStandTemplatePageContentModelResponse" message="tns:IService_GetEditStandTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEditGetInfoTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetEditGetInfoTemplatePageContentModel" message="tns:IService_GetEditGetInfoTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetEditGetInfoTemplatePageContentModelResponse" message="tns:IService_GetEditGetInfoTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEditPushPictureTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetEditPushPictureTemplatePageContentModel" message="tns:IService_GetEditPushPictureTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetEditPushPictureTemplatePageContentModelResponse" message="tns:IService_GetEditPushPictureTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimerTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetTimerTemplatePageContentModel" message="tns:IService_GetTimerTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetTimerTemplatePageContentModelResponse" message="tns:IService_GetTimerTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGraphTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetGraphTemplatePageContentModel" message="tns:IService_GetGraphTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetGraphTemplatePageContentModelResponse" message="tns:IService_GetGraphTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEditChoosePreferenceTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetEditChoosePreferenceTemplatePageContentModel" message="tns:IService_GetEditChoosePreferenceTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetEditChoosePreferenceTemplatePageContentModelResponse" message="tns:IService_GetEditChoosePreferenceTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageMaterials">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPageMaterials" message="tns:IService_GetPageMaterials_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPageMaterialsResponse" message="tns:IService_GetPageMaterials_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetResourceName" message="tns:IService_GetResourceName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetResourceNameResponse" message="tns:IService_GetResourceName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEditPageModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetEditPageModel" message="tns:IService_GetEditPageModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetEditPageModelResponse" message="tns:IService_GetEditPageModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetResourceCategory" message="tns:IService_GetResourceCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetResourceCategoryResponse" message="tns:IService_GetResourceCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetSession" message="tns:IService_GetSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetSessionResponse" message="tns:IService_GetSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramLanguages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetProgramLanguages" message="tns:IService_GetProgramLanguages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetProgramLanguagesResponse" message="tns:IService_GetProgramLanguages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCountOfPagesInPageSequence">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetCountOfPagesInPageSequence" message="tns:IService_GetCountOfPagesInPageSequence_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetCountOfPagesInPageSequenceResponse" message="tns:IService_GetCountOfPagesInPageSequence_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPagesOfPageSequence">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPagesOfPageSequence" message="tns:IService_GetPagesOfPageSequence_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPagesOfPageSequenceResponse" message="tns:IService_GetPagesOfPageSequence_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageVariableByProgram">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPageVariableByProgram" message="tns:IService_GetPageVariableByProgram_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPageVariableByProgramResponse" message="tns:IService_GetPageVariableByProgram_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveResource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveResource" message="tns:IService_SaveResource_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveResourceResponse" message="tns:IService_SaveResource_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveStandardTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveStandardTemplatePage" message="tns:IService_SaveStandardTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveStandardTemplatePageResponse" message="tns:IService_SaveStandardTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveResourceCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveResourceCategory" message="tns:IService_SaveResourceCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveResourceCategoryResponse" message="tns:IService_SaveResourceCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveGetInfoTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveGetInfoTemplatePage" message="tns:IService_SaveGetInfoTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveGetInfoTemplatePageResponse" message="tns:IService_SaveGetInfoTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePageVariable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SavePageVariable" message="tns:IService_SavePageVariable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SavePageVariableResponse" message="tns:IService_SavePageVariable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveChoosePreferenceTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveChoosePreferenceTemplatePageContentModel" message="tns:IService_SaveChoosePreferenceTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveChoosePreferenceTemplatePageContentModelResponse" message="tns:IService_SaveChoosePreferenceTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveGraphTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveGraphTemplatePageContentModel" message="tns:IService_SaveGraphTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveGraphTemplatePageContentModelResponse" message="tns:IService_SaveGraphTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveAccountCreationTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveAccountCreationTemplatePage" message="tns:IService_SaveAccountCreationTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveAccountCreationTemplatePageResponse" message="tns:IService_SaveAccountCreationTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePushPicturesTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SavePushPicturesTemplatePage" message="tns:IService_SavePushPicturesTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SavePushPicturesTemplatePageResponse" message="tns:IService_SavePushPicturesTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTimerTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SaveTimerTemplatePage" message="tns:IService_SaveTimerTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SaveTimerTemplatePageResponse" message="tns:IService_SaveTimerTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertResourceCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertResourceCategory" message="tns:IService_InsertResourceCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertResourceCategoryResponse" message="tns:IService_InsertResourceCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStandardTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateStandardTemplatePage" message="tns:IService_UpdateStandardTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateStandardTemplatePageResponse" message="tns:IService_UpdateStandardTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePushPictureTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdatePushPictureTemplatePage" message="tns:IService_UpdatePushPictureTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdatePushPictureTemplatePageResponse" message="tns:IService_UpdatePushPictureTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimerTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateTimerTemplatePage" message="tns:IService_UpdateTimerTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateTimerTemplatePageResponse" message="tns:IService_UpdateTimerTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGetInfoTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateGetInfoTemplatePage" message="tns:IService_UpdateGetInfoTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateGetInfoTemplatePageResponse" message="tns:IService_UpdateGetInfoTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGraphTemplatePage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateGraphTemplatePage" message="tns:IService_UpdateGraphTemplatePage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateGraphTemplatePageResponse" message="tns:IService_UpdateGraphTemplatePage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChoosePreferencesTemplatePageContentModel">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateChoosePreferencesTemplatePageContentModel" message="tns:IService_UpdateChoosePreferencesTemplatePageContentModel_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateChoosePreferencesTemplatePageContentModelResponse" message="tns:IService_UpdateChoosePreferencesTemplatePageContentModel_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsPageSequenceUsedInSameProgramButNotInSameSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/IsPageSequenceUsedInSameProgramButNotInSameSession" message="tns:IService_IsPageSequenceUsedInSameProgramButNotInSameSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/IsPageSequenceUsedInSameProgramButNotInSameSessionResponse" message="tns:IService_IsPageSequenceUsedInSameProgramButNotInSameSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BeforeEditPageSequence">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/BeforeEditPageSequence" message="tns:IService_BeforeEditPageSequence_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/BeforeEditPageSequenceResponse" message="tns:IService_BeforeEditPageSequence_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteResource">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteResource" message="tns:IService_DeleteResource_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteResourceResponse" message="tns:IService_DeleteResource_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteResourceCategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteResourceCategory" message="tns:IService_DeleteResourceCategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteResourceCategoryResponse" message="tns:IService_DeleteResourceCategory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePageVariable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeletePageVariable" message="tns:IService_DeletePageVariable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeletePageVariableResponse" message="tns:IService_DeletePageVariable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageVariableGroupForProgram">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPageVariableGroupForProgram" message="tns:IService_GetPageVariableGroupForProgram_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPageVariableGroupForProgramResponse" message="tns:IService_GetPageVariableGroupForProgram_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SavePageVariableGroup">
+      <soap:operation soapAction="http://tempuri.org/IService/SavePageVariableGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEditStandTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetEditStandTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEditGetInfoTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetEditGetInfoTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEditPushPictureTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetEditPushPictureTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimerTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetTimerTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGraphTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetGraphTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEditChoosePreferenceTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetEditChoosePreferenceTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageMaterials">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPageMaterials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceName">
+      <soap:operation soapAction="http://tempuri.org/IService/GetResourceName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEditPageModel">
+      <soap:operation soapAction="http://tempuri.org/IService/GetEditPageModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResourceCategory">
+      <soap:operation soapAction="http://tempuri.org/IService/GetResourceCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSession">
+      <soap:operation soapAction="http://tempuri.org/IService/GetSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProgramLanguages">
+      <soap:operation soapAction="http://tempuri.org/IService/GetProgramLanguages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountOfPagesInPageSequence">
+      <soap:operation soapAction="http://tempuri.org/IService/GetCountOfPagesInPageSequence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPagesOfPageSequence">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPagesOfPageSequence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageVariableByProgram">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPageVariableByProgram" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveResource">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveResource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveStandardTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveStandardTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveResourceCategory">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveResourceCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveGetInfoTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveGetInfoTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePageVariable">
+      <soap:operation soapAction="http://tempuri.org/IService/SavePageVariable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveChoosePreferenceTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveChoosePreferenceTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveGraphTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveGraphTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveAccountCreationTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveAccountCreationTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePushPicturesTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/SavePushPicturesTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTimerTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/SaveTimerTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertResourceCategory">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertResourceCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStandardTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateStandardTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePushPictureTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdatePushPictureTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimerTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateTimerTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGetInfoTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateGetInfoTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateGraphTemplatePage">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateGraphTemplatePage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateChoosePreferencesTemplatePageContentModel">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateChoosePreferencesTemplatePageContentModel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsPageSequenceUsedInSameProgramButNotInSameSession">
+      <soap:operation soapAction="http://tempuri.org/IService/IsPageSequenceUsedInSameProgramButNotInSameSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BeforeEditPageSequence">
+      <soap:operation soapAction="http://tempuri.org/IService/BeforeEditPageSequence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteResource">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteResource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteResourceCategory">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteResourceCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePageVariable">
+      <soap:operation soapAction="http://tempuri.org/IService/DeletePageVariable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageVariableGroupForProgram">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPageVariableGroupForProgram" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://localhost:41265/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

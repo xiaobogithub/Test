@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.SMSTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="160"></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <HyperlinkButton x:Name="variableHyperlinkButtion" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="4" Content="Insert variable" Click="variableHyperlinkButtion_Click"></HyperlinkButton>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Text" VerticalAlignment="Top"></TextBlock>
+        <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="6" x:Name="textTextBox" AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Time" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="HH:" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="hhtimeTextBox" Grid.Row="3" Grid.Column="3" Height="25" VerticalAlignment="Center"></TextBox>
+        <TextBlock Grid.Row="3" Grid.Column="4" Text="MM:" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="mmtimeTextBox" Grid.Row="3" Grid.Column="5" Height="25" VerticalAlignment="Center"></TextBox>        
+        <TextBlock Grid.Row="4" Grid.Column="1" Text="Days to send" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="daysToSendTextBox" Grid.Row="4" Grid.Column="2" Height="25" VerticalAlignment="Center"></TextBox>
+        <TextBlock Grid.Row="5" Grid.Column="1" Text="PageVariable" Height="25" VerticalAlignment="Center"></TextBlock>
+        <TextBlock x:Name="variableNameTextBlock" Grid.Row="5" Grid.Column="6" VerticalAlignment="Center"></TextBlock>
+        <HyperlinkButton x:Name="pagevariableHyperlinkButtion" Content="Set variable" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="4" Click="pagevariableHyperlinkButtion_Click" VerticalAlignment="Center"></HyperlinkButton>
+
+        <!--Variable list-->
+        <ChangeTechControl:PageVariableManager x:Name="VariableList" Grid.Row="0" Grid.Column="0" Grid.RowSpan="7" Grid.ColumnSpan="6" Visibility="Collapsed" SelectedEvent="SelectVaribleHandler"></ChangeTechControl:PageVariableManager>
+        <ChangeTechControl:PageVariableManager x:Name="pageVariableList" Grid.Row="0" Grid.Column="0" Grid.RowSpan="7" Grid.ColumnSpan="6" Visibility="Collapsed" SelectedEvent="SelectPageVaribleHandler"></ChangeTechControl:PageVariableManager>
+    </Grid>
+</UserControl>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF1631D2-5D18-4F9E-9A96-C0A37DBE72BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.Services</RootNamespace>
+    <AssemblyName>ChangeTech.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GoogleTranslateAPI">
+      <HintPath>..\..\Dependency\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Dependency\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.3.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependency\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services.Client">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityLogService.cs" />
+    <Compile Include="ActivityMonitorEmailLogService.cs" />
+    <Compile Include="AzureQueueService.cs" />
+    <Compile Include="AzureTableService.cs" />
+    <Compile Include="BrandService.cs" />
+    <Compile Include="CompanyService.cs" />
+    <Compile Include="CTPPService.cs" />
+    <Compile Include="DeleteApplicationService.cs" />
+    <Compile Include="EmailService.cs" />
+    <Compile Include="EmailTemplateService.cs" />
+    <Compile Include="EmailTemplateTypeService.cs" />
+    <Compile Include="ExpressionGroupService.cs" />
+    <Compile Include="ExpressionService.cs" />
+    <Compile Include="ExportService.cs" />
+    <Compile Include="HPOrderEmailService.cs" />
+    <Compile Include="HPOrderLicenceService.cs" />
+    <Compile Include="HPOrderService.cs" />
+    <Compile Include="LFAuthenticationLogService.cs" />
+    <Compile Include="OrderContentService.cs" />
+    <Compile Include="OrderEmailTemplateService.cs" />
+    <Compile Include="OrderLicenceService.cs" />
+    <Compile Include="OrderService.cs" />
+    <Compile Include="PaymentService.cs" />
+    <Compile Include="ProgramCategoryService.cs" />
+    <Compile Include="ProgramLanguageService.cs" />
+    <Compile Include="ProgramScheduleService.cs" />
+    <Compile Include="RelapseService.cs" />
+    <Compile Include="ReportService.cs" />
+    <Compile Include="HelpItemService.cs" />
+    <Compile Include="PageVariableGroupService.cs" />
+    <Compile Include="PageVariableService.cs" />
+    <Compile Include="ProgramAccessoryService.cs" />
+    <Compile Include="ProgramRoomService.cs" />
+    <Compile Include="ProgramUserService.cs" />
+    <Compile Include="ResourceCategoryService.cs" />
+    <Compile Include="ResourceService.cs" />
+    <Compile Include="InterventCategoryService.cs" />
+    <Compile Include="LanguageService.cs" />
+    <Compile Include="PageSequenceService.cs" />
+    <Compile Include="PageService.cs" />
+    <Compile Include="PredictorCategoryService.cs" />
+    <Compile Include="PredictorService.cs" />
+    <Compile Include="ProgramService.cs" />
+    <Compile Include="ProgramStatusService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceUtility.cs" />
+    <Compile Include="SessionContentService.cs" />
+    <Compile Include="SessionService.cs" />
+    <Compile Include="InterventService.cs" />
+    <Compile Include="ShortMessageService.cs" />
+    <Compile Include="SpecialStringService.cs" />
+    <Compile Include="StudyContentService.cs" />
+    <Compile Include="StudyService.cs" />
+    <Compile Include="StudyUserService.cs" />
+    <Compile Include="SystemSettingService.cs" />
+    <Compile Include="TipMessageService.cs" />
+    <Compile Include="TranslationJobService.cs" />
+    <Compile Include="TranslationService.cs" />
+    <Compile Include="UserAnswerService.cs" />
+    <Compile Include="UserMenuService.cs" />
+    <Compile Include="UserPageVariablePerDayService.cs" />
+    <Compile Include="UserService.cs" />
+    <Compile Include="Win8ProgramUserService.cs" />
+    <Compile Include="XMLService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.DependencyInjection\Ethos.DependencyInjection.csproj">
+      <Project>{4D195A03-665E-464C-A3D6-C8C36C239859}</Project>
+      <Name>Ethos.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.EmailModule\Ethos.EmailModule.csproj">
+      <Project>{EE414145-D643-4766-9BB4-B38F73AEC4E2}</Project>
+      <Name>Ethos.EmailModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.SMSModule\Ethos.SMSModule\Ethos.SMSModule.csproj">
+      <Project>{31BCC1C1-910A-4EDA-BC91-3B4FC40AD90F}</Project>
+      <Name>Ethos.SMSModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.Utility\Ethos.Utility.csproj">
+      <Project>{6E5B19D4-0E0C-46F2-8DBE-7B42D2C07A35}</Project>
+      <Name>Ethos.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\ChangeTech.IDataRepository\ChangeTech.IDataRepository.csproj">
+      <Project>{4878FA0E-57DA-4FF1-B06D-B1397A97B7E4}</Project>
+      <Name>ChangeTech.IDataRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChangeTech.Contracts\ChangeTech.Contracts.csproj">
+      <Project>{7C30318B-69F9-4985-B609-594FBCCCD650}</Project>
+      <Name>ChangeTech.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChangeTech.Models\ChangeTech.Models.csproj">
+      <Project>{1C3228C5-3E1C-44E7-A455-C33881F29927}</Project>
+      <Name>ChangeTech.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)"  "$(SolutionDir)\UI\ChangeTech.DeveloperWeb\Bin" /y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

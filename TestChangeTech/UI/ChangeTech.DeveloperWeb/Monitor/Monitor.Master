@@ -1,0 +1,207 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Monitor.master.cs" Inherits="ChangeTech.DeveloperWeb.Monitor.Monitor" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../Themes/default.css" rel="stylesheet" type="text/css" />
+    <link href="../css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/general.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../css/added.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="../Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../Scripts/json2.js"></script>
+    <script type="text/javascript" src="../Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="../Scripts/ct.program.js"></script>
+    <script type="text/javascript" src="../Scripts/Global.js"></script>
+    <title>Changetech Monitor</title>
+      <script type="text/javascript">
+          $(function () {
+              //ctl00_menuLoginView_SiteMapPath
+              var removeALink1 = $("a[href = '#ctl00_menuLoginView_SiteMapPath_SkipLink']");
+              var removeALink2 = $("#ctl00_menuLoginView_SiteMapPath_SkipLink");
+              var removeALink3 = $("#ctl00_menuLoginView_SiteMapPath");
+              removeALink1.css("display", "none");
+              removeALink2.css("display", "none");
+              removeALink3.css("class", "");
+          });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="container">
+  <div id="wrapper-header">
+  <asp:LoginView ID="LoginView" runat="server">
+        <LoggedInTemplate>
+        <div class="logo"><a href="../ListProgram.aspx"><img src="../gfx/logo-developer.png" width="230" height="30" alt="Changetech Developer" /></a></div>
+        <div class="version"> <%= VersionNumber%></div>
+        <div class="usermenu">
+                            <asp:Localize ID="loginAsLocalize" Text="<%$ Resources: Share, LoginAs%>" runat="server">
+                            </asp:Localize>
+                            <asp:LoginName ID="LoginName" runat="server" />
+                            |
+                            <asp:LinkButton ID="logoutLnkBtn" Text="<%$ Resources: Share, Logout%>" runat="server"
+                                OnClick="logoutLnkBtn_Click" CausesValidation="false">
+                            </asp:LinkButton>
+                            | <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources: Share, ContactUs%>"></asp:Localize></a>
+                        </div>
+                        </LoggedInTemplate>
+                        <%--<AnonymousTemplate>
+                            <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources:Share, ContactUs %>"></asp:Localize></a>
+                        </AnonymousTemplate>--%>
+                    </asp:LoginView>
+  <div class="clear"></div>
+</div>
+<div id="breadcrumbs"  style="height:25px;">
+    <ul>
+        <asp:LoginView ID="menuLoginView" runat="server">
+            <LoggedInTemplate>
+                <li class="mainmenu">
+                    <asp:DropDownList ID="OperateDDL" runat="server" Width="140px" AutoPostBack="true" OnSelectedIndexChanged="OperateDDL_SelectedIndexChanged">
+                    </asp:DropDownList>
+                    <asp:Button ID="GoOperateBtn" CssClass="button-next" runat="server" Text="" OnClick="GoOperateBtn_Click"/>
+                </li>
+                <li  style="background-color:White;">
+                    <asp:SiteMapPath ID="SiteMapPath" runat="server" SiteMapProvider="XmlSiteMapProvider" PathSeparator="">
+                        <CurrentNodeStyle CssClass="currentNode" />
+                        <NodeStyle CssClass="node" />
+                    </asp:SiteMapPath>
+                </li>
+            </LoggedInTemplate>
+        </asp:LoginView>
+    </ul>
+  <div class="clear"></div>
+</div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div id="footer">
+            <asp:Localize ID="footerLocalize" runat="server"></asp:Localize>
+    </div>
+</div>
+    </form>
+</body>
+<%--<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <div style="float: left; padding-right: 10px;">
+                    <asp:Localize ID="Localize3" runat="server" Text="<%$ Resources:Share, CompanyName %>"></asp:Localize></div>
+                <div style="font-size: 10px; float: left;">
+                    <%= VersionNumber%>
+                </div>
+                <div id="logout">
+                    <asp:LoginView ID="LoginView" runat="server">
+                        <LoggedInTemplate>
+                            <asp:Localize ID="loginAsLocalize" Text="<%$ Resources: Share, LoginAs%>" runat="server">
+                            </asp:Localize>
+                            <asp:LoginName ID="LoginName" runat="server" />
+                            |
+                            <asp:LinkButton ID="logoutLnkBtn" Text="<%$ Resources: Share, Logout%>" runat="server"
+                                OnClick="logoutLnkBtn_Click" CausesValidation="false">
+                            </asp:LinkButton>
+                            | <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources: Share, ContactUs%>"></asp:Localize></a>
+                        </LoggedInTemplate>
+                        <AnonymousTemplate>
+                            <a href="mailto:support@changetech.no">
+                                <asp:Localize ID="Localize1" runat="server" Text="<%$ Resources:Share, ContactUs %>"></asp:Localize></a>
+                        </AnonymousTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <div id="centerPart">
+            <asp:LoginView ID="menuLoginView" runat="server">
+                <LoggedInTemplate>
+                    <div id="leftmenu">
+                        <ul>
+                            <li><b>
+                                <asp:Localize ID="Localize2" runat="server" Text="<%$ Resources: Share, Log%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlUserLog" runat="server" Text="<%$ Resources: Share, UserLog%>"
+                                            CausesValidation="false" NavigateUrl="ListUserLog.aspx"></asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlInActiveUser" runat="server" Text="<%$ Resources: Share, InactiveUser%>"
+                                            CausesValidation="false" NavigateUrl="ListInactiveUser.aspx"></asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlLoginUser" runat="server" Text="<%$ Resources: Share, LoginUser%>"
+                                            CausesValidation="false" NavigateUrl="ListLoginUser.aspx"></asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlRegisteredUser" runat="server" Text="<%$ Resources: Share, RegisteredUser%>"
+                                            CausesValidation="false" NavigateUrl="ListRegisteredUser.aspx"></asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlMissedClassUser" runat="server" Text="<%$ Resources: Share, MissedClassUser%>"
+                                            CausesValidation="false" NavigateUrl="ListMissedClassUser.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>
+                                <asp:Localize ID="Localize4" runat="server" Text="<%$ Resources: Share, CTDLog%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlCTDLog" runat="server" Text="<%$ Resources: Share, CTDLog%>"
+                                            CausesValidation="false" NavigateUrl="ListCTDLog.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>
+                                <asp:Localize ID="Localize5" runat="server" Text="<%$ Resources: Share, ErrorLog%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlErrorLog" runat="server" Text="<%$ Resources: Share, ErrorLog%>"
+                                            CausesValidation="false" NavigateUrl="ListErrorLog.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>
+                                <asp:Localize ID="Localize6" runat="server" Text="<%$ Resources: Share, SystemLog%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlSystemLog" runat="server" Text="<%$ Resources: Share, SystemLog%>"
+                                            CausesValidation="false" NavigateUrl="ListSystemLog.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>
+                                <asp:Localize ID="Localize7" runat="server" Text="<%$ Resources: Share, SQLAzure%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlSQLAzure" runat="server" Text="<%$ Resources: Share, SQLAzure%>"
+                                            CausesValidation="false" NavigateUrl="ListSQLAzure.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>
+                                <asp:Localize ID="Localize3" runat="server" Text="<%$ Resources: Share, Setting%>"></asp:Localize></b>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="hlLogType" runat="server" Text="<%$ Resources: Share, LogType%>"
+                                            CausesValidation="false" NavigateUrl="ListLogType.aspx"></asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </LoggedInTemplate>
+            </asp:LoginView>
+            <div id="centerContent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <asp:Localize ID="footerLocalize" runat="server"></asp:Localize>
+        </div>
+    </div>
+    </form>
+</body>--%>
+</html>

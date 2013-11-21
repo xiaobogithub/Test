@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <AMF_GATEWAY>http://weborb.balance-stag-no.redboxdigital.net/weborb.aspx</AMF_GATEWAY>
+  <CULTURE>nb-NO</CULTURE>
+  <debugMode>false</debugMode>
+  <alwaysShowLogin>true</alwaysShowLogin>
+  <flashVarOveride>false</flashVarOveride>
+  <flashVars>
+    <mode>DAILY</mode>
+    <previewCode>1433</previewCode>
+    <dayOveride>2</dayOveride>
+    <companyId/>
+  </flashVars>
+  <unsubscribeActive>true</unsubscribeActive>
+  <popup_modules>
+    <path>com/redbox/changetech/view/modules/popup_modules/</path>
+    <module>personal_details</module>
+    <module>unsubscribe</module>
+    <module>help</module>
+    <module>privacy</module>
+    <module>terms_conditions</module>
+    <module>legal_notice</module>
+    <module>logout</module>
+    <module>contact_us</module>
+  </popup_modules>
+</config>

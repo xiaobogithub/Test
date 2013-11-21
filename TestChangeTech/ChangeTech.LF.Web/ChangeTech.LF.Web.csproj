@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D02362AF-01BE-4C6D-9055-B5A602011009}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.LF.Web</RootNamespace>
+    <AssemblyName>ChangeTech.LF.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3rdParty\wkhtmltopdf\libeay32.dll" />
+    <Content Include="3rdParty\wkhtmltopdf\libgcc_s_dw2-1.dll" />
+    <Content Include="3rdParty\wkhtmltopdf\mingwm10.dll" />
+    <Content Include="3rdParty\wkhtmltopdf\ssleay32.dll" />
+    <Content Include="3rdParty\wkhtmltopdf\wkhtmltopdf.exe" />
+    <Content Include="css\general.css" />
+    <Content Include="css\print.css" />
+    <Content Include="foretag-beroendemissbruk.html" />
+    <Content Include="foretag-chefsstod.html" />
+    <Content Include="foretag-halsoprofil.html" />
+    <Content Include="foretag-rehab.html" />
+    <Content Include="foretag.html" />
+    <Content Include="GenericErrorPage.htm" />
+    <Content Include="gfx\arrow-actionbutton-program-idle.png" />
+    <Content Include="gfx\arrow-actionplate-beige-idle.png" />
+    <Content Include="gfx\arrow-actionplate-red-idle.png" />
+    <Content Include="gfx\arrow-back.png" />
+    <Content Include="gfx\arrow-dropdowm-hover.png" />
+    <Content Include="gfx\arrow-dropdowm-idle.png" />
+    <Content Include="gfx\arrow-dropdownmenu-idle.png" />
+    <Content Include="gfx\arrow-dropdownmenu-litesundare-hover.png" />
+    <Content Include="gfx\arrow-dropdownmenu-mabattre-hover.png" />
+    <Content Include="gfx\arrow-dropdownmenu-minskaalkohol-hover.png" />
+    <Content Include="gfx\arrow-dropdownmenu-slutaroka-hover.png" />
+    <Content Include="gfx\arrow-dropdownmenu-stressamindre-hover.png" />
+    <Content Include="gfx\arrow-priority-email-hover.png" />
+    <Content Include="gfx\arrow-priority-email-idle.png" />
+    <Content Include="gfx\arrow-priority-hover.png" />
+    <Content Include="gfx\arrow-priority-idle.png" />
+    <Content Include="gfx\arrow-programlabel-litesundare-idle.png" />
+    <Content Include="gfx\arrow-programlabel-mabattre-idle.png" />
+    <Content Include="gfx\arrow-programlabel-minskaalkohol-idle.png" />
+    <Content Include="gfx\arrow-programlabel-slutaroka-idle.png" />
+    <Content Include="gfx\arrow-programlabel-stressamindre-idle.png" />
+    <Content Include="gfx\arrow-results-small.png" />
+    <Content Include="gfx\arrow-results.png" />
+    <Content Include="gfx\b-close.png" />
+    <Content Include="gfx\bg-actionplate-beige-hover.png" />
+    <Content Include="gfx\bg-actionplate-beige-idle.png" />
+    <Content Include="gfx\bg-actionplate-red-hover.png" />
+    <Content Include="gfx\bg-actionplate-red-idle.png" />
+    <Content Include="gfx\bg-actionplate-red-print.png" />
+    <Content Include="gfx\bg-dialoguebox-end.png" />
+    <Content Include="gfx\bg-dialoguebox-top.png" />
+    <Content Include="gfx\bg-dialoguebox.png" />
+    <Content Include="gfx\bg-dropdownmenu-end.png" />
+    <Content Include="gfx\bg-dropdownmenu.png" />
+    <Content Include="gfx\bg-footer.jpg" />
+    <Content Include="gfx\bg-foretag-beroendemissbruk-small.jpg" />
+    <Content Include="gfx\bg-foretag-beroendemissbruk.jpg" />
+    <Content Include="gfx\bg-foretag-chefsstod-small.jpg" />
+    <Content Include="gfx\bg-foretag-chefsstod.jpg" />
+    <Content Include="gfx\bg-foretag-halsoprofil-small.jpg" />
+    <Content Include="gfx\bg-foretag-halsoprofil.jpg" />
+    <Content Include="gfx\bg-foretag-rehab-small.jpg" />
+    <Content Include="gfx\bg-foretag-rehab.jpg" />
+    <Content Include="gfx\bg-foretag.jpg" />
+    <Content Include="gfx\bg-globalmenu-active-hover.png" />
+    <Content Include="gfx\bg-globalmenu-active-idle.png" />
+    <Content Include="gfx\bg-globalmenu-hover.png" />
+    <Content Include="gfx\bg-globalmenu-idle.png" />
+    <Content Include="gfx\bg-header.png" />
+    <Content Include="gfx\bg-hostmotives.png" />
+    <Content Include="gfx\bg-setup-foretag.jpg" />
+    <Content Include="gfx\bullett-foretag.png" />
+    <Content Include="gfx\food-circle-SE.jpg" />
+    <Content Include="gfx\food-model-SE.jpg" />
+    <Content Include="gfx\gui.png" />
+    <Content Include="gfx\halsoprofilen-motive-frontpage.jpg" />
+    <Content Include="gfx\halsoprofilen-motive-large.jpg" />
+    <Content Include="gfx\halsoprofilen-motive-medium.jpg" />
+    <Content Include="gfx\helseprofil-startpage-gui.png" />
+    <Content Include="gfx\host-motive-void.png" />
+    <Content Include="gfx\host-motive1-print.jpg" />
+    <Content Include="gfx\host-motive1-print.png" />
+    <Content Include="gfx\host-motive1.png" />
+    <Content Include="gfx\icon-alcohol-print.png" />
+    <Content Include="gfx\icon-alcohol-small.png" />
+    <Content Include="gfx\icon-alcohol.png" />
+    <Content Include="gfx\icon-diet-print.png" />
+    <Content Include="gfx\icon-diet-small.png" />
+    <Content Include="gfx\icon-diet.png" />
+    <Content Include="gfx\icon-drugs-print.png" />
+    <Content Include="gfx\icon-drugs-small.png" />
+    <Content Include="gfx\icon-drugs.png" />
+    <Content Include="gfx\icon-exercise-print.png" />
+    <Content Include="gfx\icon-exercise-small.png" />
+    <Content Include="gfx\icon-exercise.png" />
+    <Content Include="gfx\icon-life-print.png" />
+    <Content Include="gfx\icon-life-small.png" />
+    <Content Include="gfx\icon-life.png" />
+    <Content Include="gfx\icon-pdf.png" />
+    <Content Include="gfx\icon-print.png" />
+    <Content Include="gfx\icon-stress-print.png" />
+    <Content Include="gfx\icon-stress-small.png" />
+    <Content Include="gfx\icon-stress.png" />
+    <Content Include="gfx\icon-tobacco-print.png" />
+    <Content Include="gfx\icon-tobacco-small.png" />
+    <Content Include="gfx\icon-tobacco.png" />
+    <Content Include="gfx\icon-waist-print.png" />
+    <Content Include="gfx\icon-waist-small.png" />
+    <Content Include="gfx\icon-waist.png" />
+    <Content Include="gfx\icons-results.png" />
+    <Content Include="gfx\ill-foodcircle.jpg" />
+    <Content Include="gfx\ill-midjastuss-bukhojd.png" />
+    <Content Include="gfx\ill-midjastuss-midjastuss.png" />
+    <Content Include="gfx\ill-platter.jpg" />
+    <Content Include="gfx\litesundare-bg.png" />
+    <Content Include="gfx\litesundare-host-small.jpg" />
+    <Content Include="gfx\litesundare-host.jpg" />
+    <Content Include="gfx\litesundare-motive-large.jpg" />
+    <Content Include="gfx\litesundare-motive-medium.jpg" />
+    <Content Include="gfx\litesundare-motive-small.jpg" />
+    <Content Include="gfx\litesundare-platforms.jpg" />
+    <Content Include="gfx\loader.gif" />
+    <Content Include="gfx\lock.png" />
+    <Content Include="gfx\logo-lf-footer.png" />
+    <Content Include="gfx\logo-sos-footer.png" />
+    <Content Include="gfx\logo-sos-header-small.png" />
+    <Content Include="gfx\logo-sos-header.png" />
+    <Content Include="gfx\mabattre-bg.png" />
+    <Content Include="gfx\mabattre-host-small.jpg" />
+    <Content Include="gfx\mabattre-host.jpg" />
+    <Content Include="gfx\mabattre-motive-large.jpg" />
+    <Content Include="gfx\mabattre-motive-medium.jpg" />
+    <Content Include="gfx\mabattre-motive-small.jpg" />
+    <Content Include="gfx\mabattre-platforms.jpg" />
+    <Content Include="gfx\menushade.png" />
+    <Content Include="gfx\minskaalkohol-bg.png" />
+    <Content Include="gfx\minskaalkohol-host-small.jpg" />
+    <Content Include="gfx\minskaalkohol-host.jpg" />
+    <Content Include="gfx\minskaalkohol-motive-large.jpg" />
+    <Content Include="gfx\minskaalkohol-motive-medium.jpg" />
+    <Content Include="gfx\minskaalkohol-motive-small.jpg" />
+    <Content Include="gfx\minskaalkohol-platforms.jpg" />
+    <Content Include="gfx\motive-aboutpcp.jpg" />
+    <Content Include="gfx\program-motive-large.jpg" />
+    <Content Include="gfx\resultcolor-green.png" />
+    <Content Include="gfx\resultcolor-red.png" />
+    <Content Include="gfx\resultcolor-yellow.png" />
+    <Content Include="gfx\resultcolors.png" />
+    <Content Include="gfx\roykeslutt-bg.png" />
+    <Content Include="gfx\roykeslutt-host-small.jpg" />
+    <Content Include="gfx\roykeslutt-host.jpg" />
+    <Content Include="gfx\roykeslutt-motive-large.jpg" />
+    <Content Include="gfx\roykeslutt-motive-medium.jpg" />
+    <Content Include="gfx\roykeslutt-motive-small.jpg" />
+    <Content Include="gfx\roykeslutt-platforms.jpg" />
+    <Content Include="gfx\samtalsstod-motive-frontpage.jpg" />
+    <Content Include="gfx\samtalsstod-motive-large.jpg" />
+    <Content Include="gfx\stressamindre-bg.png" />
+    <Content Include="gfx\stressamindre-host-small.jpg" />
+    <Content Include="gfx\stressamindre-host.jpg" />
+    <Content Include="gfx\stressamindre-motive-large.jpg" />
+    <Content Include="gfx\stressamindre-motive-medium.jpg" />
+    <Content Include="gfx\stressamindre-motive-small.jpg" />
+    <Content Include="gfx\stressamindre-platforms.jpg" />
+    <Content Include="gfx\support.jpg" />
+    <Content Include="gfx\testimonial-motive1-large.jpg" />
+    <Content Include="gfx\testimonial-motive1-medium.jpg" />
+    <Content Include="gfx\testimonial-motive1-small.jpg" />
+    <Content Include="gfx\testimonial-motive2-large.jpg" />
+    <Content Include="gfx\testimonial-motive2-medium.jpg" />
+    <Content Include="gfx\testimonial-motive2-small.jpg" />
+    <Content Include="gfx\textbubble-bottom.png" />
+    <Content Include="gfx\textbubble-top.png" />
+    <Content Include="gfx\time-1min.png" />
+    <Content Include="gfx\time-20min.png" />
+    <Content Include="gfx\time-2min.png" />
+    <Content Include="halsoprofil.html" />
+    <Content Include="index.html" />
+    <Content Include="jquery\hoverIntent.js" />
+    <Content Include="jquery\jquery-1.7.1.min.js" />
+    <Content Include="jquery\jquery.dropdown.js" />
+    <Content Include="jquery\jquery.dropdownPlain.js" />
+    <Content Include="jquery\jquery.menubehaviour.js" />
+    <Content Include="jquery\modernizr-latest.js" />
+    <Content Include="jquery\modernizr.pindrop1.js" />
+    <Content Include="jquery\showHide.js" />
+    <Content Include="loadstorm-38590.html" />
+    <Content Include="minhalsoprofil-pdf.html" />
+    <Content Include="minhalsoprofil-void.html" />
+    <Content Include="minhalsoprofil.html" />
+    <Content Include="om.html" />
+    <Content Include="program-litesundare.html" />
+    <Content Include="program-mabattre.html" />
+    <Content Include="program-minskaalkohol.html" />
+    <Content Include="program-slutaroka.html" />
+    <Content Include="program-stressamindre.html" />
+    <Content Include="program.html" />
+    <Content Include="rekommendationer-alkohol.html" />
+    <Content Include="rekommendationer-droger.html" />
+    <Content Include="rekommendationer-kost.html" />
+    <Content Include="rekommendationer-levnad.html" />
+    <Content Include="rekommendationer-midja.html" />
+    <Content Include="rekommendationer-motion.html" />
+    <Content Include="rekommendationer-stress.html" />
+    <Content Include="rekommendationer-tobak.html" />
+    <Content Include="result\css\general.css" />
+    <Content Include="result\css\print.css" />
+    <Content Include="result\gfx\arrow-actionbutton-program-idle.png" />
+    <Content Include="result\gfx\arrow-actionplate-beige-idle.png" />
+    <Content Include="result\gfx\arrow-actionplate-red-idle.png" />
+    <Content Include="result\gfx\arrow-back.png" />
+    <Content Include="result\gfx\arrow-dropdowm-hover.png" />
+    <Content Include="result\gfx\arrow-dropdowm-idle.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-idle.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-litesundare-hover.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-mabattre-hover.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-minskaalkohol-hover.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-slutaroka-hover.png" />
+    <Content Include="result\gfx\arrow-dropdownmenu-stressamindre-hover.png" />
+    <Content Include="result\gfx\arrow-priority-email-hover.png" />
+    <Content Include="result\gfx\arrow-priority-email-idle.png" />
+    <Content Include="result\gfx\arrow-priority-hover.png" />
+    <Content Include="result\gfx\arrow-priority-idle.png" />
+    <Content Include="result\gfx\arrow-programlabel-litesundare-idle.png" />
+    <Content Include="result\gfx\arrow-programlabel-mabattre-idle.png" />
+    <Content Include="result\gfx\arrow-programlabel-minskaalkohol-idle.png" />
+    <Content Include="result\gfx\arrow-programlabel-slutaroka-idle.png" />
+    <Content Include="result\gfx\arrow-programlabel-stressamindre-idle.png" />
+    <Content Include="result\gfx\arrow-results-small.png" />
+    <Content Include="result\gfx\arrow-results.png" />
+    <Content Include="result\gfx\b-close.png" />
+    <Content Include="result\gfx\bg-actionplate-beige-hover.png" />
+    <Content Include="result\gfx\bg-actionplate-beige-idle.png" />
+    <Content Include="result\gfx\bg-actionplate-red-hover.png" />
+    <Content Include="result\gfx\bg-actionplate-red-idle.png" />
+    <Content Include="result\gfx\bg-actionplate-red-print.png" />
+    <Content Include="result\gfx\bg-dialoguebox-end.png" />
+    <Content Include="result\gfx\bg-dialoguebox-top.png" />
+    <Content Include="result\gfx\bg-dialoguebox.png" />
+    <Content Include="result\gfx\bg-dropdownmenu-end.png" />
+    <Content Include="result\gfx\bg-dropdownmenu.png" />
+    <Content Include="result\gfx\bg-footer.jpg" />
+    <Content Include="result\gfx\bg-foretag-beroendemissbruk-small.jpg" />
+    <Content Include="result\gfx\bg-foretag-beroendemissbruk.jpg" />
+    <Content Include="result\gfx\bg-foretag-chefsstod-small.jpg" />
+    <Content Include="result\gfx\bg-foretag-chefsstod.jpg" />
+    <Content Include="result\gfx\bg-foretag-halsoprofil-small.jpg" />
+    <Content Include="result\gfx\bg-foretag-halsoprofil.jpg" />
+    <Content Include="result\gfx\bg-foretag-rehab-small.jpg" />
+    <Content Include="result\gfx\bg-foretag-rehab.jpg" />
+    <Content Include="result\gfx\bg-foretag.jpg" />
+    <Content Include="result\gfx\bg-globalmenu-active-hover.png" />
+    <Content Include="result\gfx\bg-globalmenu-active-idle.png" />
+    <Content Include="result\gfx\bg-globalmenu-hover.png" />
+    <Content Include="result\gfx\bg-globalmenu-idle.png" />
+    <Content Include="result\gfx\bg-header.png" />
+    <Content Include="result\gfx\bg-hostmotives.png" />
+    <Content Include="result\gfx\bg-setup-foretag.jpg" />
+    <Content Include="result\gfx\bullett-foretag.png" />
+    <Content Include="result\gfx\food-circle-SE.jpg" />
+    <Content Include="result\gfx\food-model-SE.jpg" />
+    <Content Include="result\gfx\halsoprofilen-motive-frontpage.jpg" />
+    <Content Include="result\gfx\halsoprofilen-motive-large.jpg" />
+    <Content Include="result\gfx\halsoprofilen-motive-medium.jpg" />
+    <Content Include="result\gfx\helseprofil-startpage-gui.png" />
+    <Content Include="result\gfx\host-motive-void.png" />
+    <Content Include="result\gfx\host-motive1-print.jpg" />
+    <Content Include="result\gfx\host-motive1-print.png" />
+    <Content Include="result\gfx\host-motive1.png" />
+    <Content Include="result\gfx\icon-alcohol-print.png" />
+    <Content Include="result\gfx\icon-alcohol-small.png" />
+    <Content Include="result\gfx\icon-alcohol.png" />
+    <Content Include="result\gfx\icon-diet-print.png" />
+    <Content Include="result\gfx\icon-diet-small.png" />
+    <Content Include="result\gfx\icon-diet.png" />
+    <Content Include="result\gfx\icon-drugs-print.png" />
+    <Content Include="result\gfx\icon-drugs-small.png" />
+    <Content Include="result\gfx\icon-drugs.png" />
+    <Content Include="result\gfx\icon-exercise-print.png" />
+    <Content Include="result\gfx\icon-exercise-small.png" />
+    <Content Include="result\gfx\icon-exercise.png" />
+    <Content Include="result\gfx\icon-life-print.png" />
+    <Content Include="result\gfx\icon-life-small.png" />
+    <Content Include="result\gfx\icon-life.png" />
+    <Content Include="result\gfx\icon-pdf.png" />
+    <Content Include="result\gfx\icon-print.png" />
+    <Content Include="result\gfx\icon-stress-print.png" />
+    <Content Include="result\gfx\icon-stress-small.png" />
+    <Content Include="result\gfx\icon-stress.png" />
+    <Content Include="result\gfx\icon-tobacco-print.png" />
+    <Content Include="result\gfx\icon-tobacco-small.png" />
+    <Content Include="result\gfx\icon-tobacco.png" />
+    <Content Include="result\gfx\icon-waist-print.png" />
+    <Content Include="result\gfx\icon-waist-small.png" />
+    <Content Include="result\gfx\icon-waist.png" />
+    <Content Include="result\gfx\icons-results.png" />
+    <Content Include="result\gfx\ill-foodcircle.jpg" />
+    <Content Include="result\gfx\ill-midjastuss-bukhojd.png" />
+    <Content Include="result\gfx\ill-midjastuss-midjastuss.png" />
+    <Content Include="result\gfx\ill-platter.jpg" />
+    <Content Include="result\gfx\litesundare-bg.png" />
+    <Content Include="result\gfx\litesundare-host-small.jpg" />
+    <Content Include="result\gfx\litesundare-host.jpg" />
+    <Content Include="result\gfx\litesundare-motive-large.jpg" />
+    <Content Include="result\gfx\litesundare-motive-medium.jpg" />
+    <Content Include="result\gfx\litesundare-motive-small.jpg" />
+    <Content Include="result\gfx\litesundare-platforms.jpg" />
+    <Content Include="result\gfx\loader.gif" />
+    <Content Include="result\gfx\lock.png" />
+    <Content Include="result\gfx\logo-lf-footer.png" />
+    <Content Include="result\gfx\logo-sos-footer.png" />
+    <Content Include="result\gfx\logo-sos-header-small.png" />
+    <Content Include="result\gfx\logo-sos-header.png" />
+    <Content Include="result\gfx\mabattre-bg.png" />
+    <Content Include="result\gfx\mabattre-host-small.jpg" />
+    <Content Include="result\gfx\mabattre-host.jpg" />
+    <Content Include="result\gfx\mabattre-motive-large.jpg" />
+    <Content Include="result\gfx\mabattre-motive-medium.jpg" />
+    <Content Include="result\gfx\mabattre-motive-small.jpg" />
+    <Content Include="result\gfx\mabattre-platforms.jpg" />
+    <Content Include="result\gfx\menushade.png" />
+    <Content Include="result\gfx\minskaalkohol-bg.png" />
+    <Content Include="result\gfx\minskaalkohol-host-small.jpg" />
+    <Content Include="result\gfx\minskaalkohol-host.jpg" />
+    <Content Include="result\gfx\minskaalkohol-motive-large.jpg" />
+    <Content Include="result\gfx\minskaalkohol-motive-medium.jpg" />
+    <Content Include="result\gfx\minskaalkohol-motive-small.jpg" />
+    <Content Include="result\gfx\minskaalkohol-platforms.jpg" />
+    <Content Include="result\gfx\motive-aboutpcp.jpg" />
+    <Content Include="result\gfx\program-motive-large.jpg" />
+    <Content Include="result\gfx\resultcolor-green.png" />
+    <Content Include="result\gfx\resultcolor-red.png" />
+    <Content Include="result\gfx\resultcolor-yellow.png" />
+    <Content Include="result\gfx\resultcolors.png" />
+    <Content Include="result\gfx\roykeslutt-bg.png" />
+    <Content Include="result\gfx\roykeslutt-host-small.jpg" />
+    <Content Include="result\gfx\roykeslutt-host.jpg" />
+    <Content Include="result\gfx\roykeslutt-motive-large.jpg" />
+    <Content Include="result\gfx\roykeslutt-motive-medium.jpg" />
+    <Content Include="result\gfx\roykeslutt-motive-small.jpg" />
+    <Content Include="result\gfx\roykeslutt-platforms.jpg" />
+    <Content Include="result\gfx\samtalsstod-motive-frontpage.jpg" />
+    <Content Include="result\gfx\samtalsstod-motive-large.jpg" />
+    <Content Include="result\gfx\stressamindre-bg.png" />
+    <Content Include="result\gfx\stressamindre-host-small.jpg" />
+    <Content Include="result\gfx\stressamindre-host.jpg" />
+    <Content Include="result\gfx\stressamindre-motive-large.jpg" />
+    <Content Include="result\gfx\stressamindre-motive-medium.jpg" />
+    <Content Include="result\gfx\stressamindre-motive-small.jpg" />
+    <Content Include="result\gfx\stressamindre-platforms.jpg" />
+    <Content Include="result\gfx\support.jpg" />
+    <Content Include="result\gfx\testimonial-motive1-large.jpg" />
+    <Content Include="result\gfx\testimonial-motive1-medium.jpg" />
+    <Content Include="result\gfx\testimonial-motive2-large.jpg" />
+    <Content Include="result\gfx\testimonial-motive2-medium.jpg" />
+    <Content Include="result\gfx\textbubble-bottom.png" />
+    <Content Include="result\gfx\textbubble-top.png" />
+    <Content Include="result\gfx\time-1min.png" />
+    <Content Include="result\gfx\time-20min.png" />
+    <Content Include="result\rekommendationer-alkohol.html" />
+    <Content Include="result\rekommendationer-droger.html" />
+    <Content Include="result\rekommendationer-kost.html" />
+    <Content Include="result\rekommendationer-levnad.html" />
+    <Content Include="result\rekommendationer-midja.html" />
+    <Content Include="result\rekommendationer-motion.html" />
+    <Content Include="result\rekommendationer-stress.html" />
+    <Content Include="result\rekommendationer-tobak.html" />
+    <Content Include="result\snabbkoll1.html" />
+    <Content Include="result\snabbkoll2.html" />
+    <Content Include="samtalsstod.html" />
+    <Content Include="Scripts\Common.js" />
+    <Content Include="Scripts\Gohttps.js" />
+    <Content Include="Scripts\GoWebStatus.js" />
+    <Content Include="Scripts\Result.js" />
+    <Content Include="Scripts\Support.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="support.html" />
+    <Content Include="vittnesmal.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Handler\AuthenticateHandler.ashx.cs">
+      <DependentUpon>AuthenticateHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ConvertToPdfHandler.ashx.cs">
+      <DependentUpon>ConvertToPdfHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\GetGoWebSessionHandler.ashx.cs">
+      <DependentUpon>GetGoWebSessionHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ResultHandler.ashx.cs">
+      <DependentUpon>ResultHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LFContextService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Handler\SupportEmailHandler.ashx.cs">
+      <DependentUpon>SupportEmailHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\AuthenticateHandler.ashx" />
+    <Content Include="Handler\SupportEmailHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\ChangeTech.Contracts\ChangeTech.Contracts.csproj">
+      <Project>{7C30318B-69F9-4985-B609-594FBCCCD650}</Project>
+      <Name>ChangeTech.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\ChangeTech.Models\ChangeTech.Models.csproj">
+      <Project>{1C3228C5-3E1C-44E7-A455-C33881F29927}</Project>
+      <Name>ChangeTech.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\ChangeTech.Services\ChangeTech.Services.csproj">
+      <Project>{AF1631D2-5D18-4F9E-9A96-C0A37DBE72BC}</Project>
+      <Name>ChangeTech.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Ethos.DependencyInjection\Ethos.DependencyInjection.csproj">
+      <Project>{4D195A03-665E-464C-A3D6-C8C36C239859}</Project>
+      <Name>Ethos.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Ethos.EmailModule\Ethos.EmailModule.csproj">
+      <Project>{EE414145-D643-4766-9BB4-B38F73AEC4E2}</Project>
+      <Name>Ethos.EmailModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Ethos.SMSModule\Ethos.SMSModule\Ethos.SMSModule.csproj">
+      <Project>{31BCC1C1-910A-4EDA-BC91-3B4FC40AD90F}</Project>
+      <Name>Ethos.SMSModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Ethos.Utility\Ethos.Utility.csproj">
+      <Project>{6E5B19D4-0E0C-46F2-8DBE-7B42D2C07A35}</Project>
+      <Name>Ethos.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\ChangeTech.IDataRepository\ChangeTech.IDataRepository.csproj">
+      <Project>{4878FA0E-57DA-4FF1-B06D-B1397A97B7E4}</Project>
+      <Name>ChangeTech.IDataRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\ChangeTech.SQLServerRepository\ChangeTech.SQLServerRepository.csproj">
+      <Project>{B752A3A4-8DB1-453F-A537-2D7A42F9006E}</Project>
+      <Name>ChangeTech.SQLServerRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\ResultHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\GetGoWebSessionHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\ConvertToPdfHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="result\gfx\.DS_Store" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64657</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

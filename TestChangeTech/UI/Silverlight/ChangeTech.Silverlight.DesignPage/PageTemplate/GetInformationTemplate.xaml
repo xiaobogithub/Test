@@ -1,0 +1,233 @@
+﻿<UserControl 
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data" 
+    x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.GetInformationTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Loaded="UserControl_Loaded"
+    xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls">   
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170"></ColumnDefinition>
+            <ColumnDefinition Width="140"></ColumnDefinition>
+            <ColumnDefinition Width="190"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Title:" Margin="10,0,0,0" Grid.Row="0" Grid.Column="0" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="HeadingTextBox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Center"></TextBox>
+        <!--<HyperlinkButton x:Name="HeadingLink" Grid.Row="0" Grid.Column="2" Content="Insert Variable" Click="HeadingLink_Click" VerticalAlignment="Center"></HyperlinkButton>-->
+        <!--<TextBlock Text="Submit button name:" Margin="10,0,0,0" Grid.Row="1" Grid.Column="0" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>-->
+        <!--<TextBox x:Name="SubmitButtonTextBox" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Center"></TextBox>-->
+        <TextBlock Text="Primary button name:" Margin="10,0,0,0" Grid.Row="1" Grid.Column="0" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="PrimaryButtonTextBox" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Height="25" VerticalAlignment="Center"></TextBox>
+        <!--<HyperlinkButton x:Name="PrimaryLink" Grid.Row="1" Grid.Column="2" Content="Insert Variable" Click="PrimaryLink_Click" VerticalAlignment="Center"></HyperlinkButton>-->
+        
+        <!--Before property-->
+        <TextBlock Text="Before Property:" Margin="10,0,0,0" Grid.Row="2" Grid.Column="0" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+        <HyperlinkButton x:Name="BeforeShowExpressionLink" Grid.Row="2" Grid.Column="1" Click="BeforeShowExpressionLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder"></HyperlinkButton>
+        
+        <!-- After property-->
+        <TextBlock Text="After Property:" Margin="10,0,0,0" Grid.Row="3" Grid.Column="0" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+        <ComboBox x:Name="PrimaryButtonActionComoboBox" Grid.Row="3" Grid.Column="1" Height="25" Width="130" HorizontalAlignment="Left" SelectionChanged="PrimaryButtonActionComoboBox_SelectionChanged">
+            <ComboBoxItem Content="Go to next page"></ComboBoxItem>
+            <ComboBoxItem Content="Expression"></ComboBoxItem>
+        </ComboBox>
+        <HyperlinkButton x:Name="PrimaryButtonActionLinkButton" Grid.Row="3" Grid.Column="2" Click="PrimaryButtonActionLinkButton_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder" Visibility="Collapsed"></HyperlinkButton>
+        
+        <!--Heading-->
+        <TextBlock Text="Heading Text:" Margin="10,0,0,0" Grid.Row="4" Grid.Column="0" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <HyperlinkButton x:Name="BodyLink" Grid.Row="4" Grid.Column="1" Content="Insert variable" Width="100" 
+                         Click="BodyLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+        <HyperlinkButton x:Name="InsertResourceBodyLink" Grid.Row="4" Grid.Column="2" Content="Insert resource" Width="100"  
+                         Click="InsertResourceBodyLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+        <ScrollViewer x:Name="textScrollView" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" Margin="10,0,0,0" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="BodyTextBox" AcceptsReturn="True" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Visible"></TextBox>
+        </ScrollViewer>
+        
+        <!--Footer-->
+        <TextBlock Text="Footer text:" Margin="10,0,0,0" Grid.Row="8" Grid.Column="0" FontWeight="Bold" VerticalAlignment="Center" ></TextBlock>
+        <HyperlinkButton x:Name="FooterTextLink" Grid.Row="8" Grid.Column="1" Content="Insert variable" Width="100" 
+                         Click="FooterTextLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+        <HyperlinkButton x:Name="InsertResourceFooterLink" Grid.Row="8" Grid.Column="2" Content="Insert resource" Width="100" 
+                         Click="InsertResourceFooterLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+        <ScrollViewer x:Name="footerTextScrollView" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="10,0,0,0" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="FooterTextBox" AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+        </ScrollViewer>
+        
+        <!--Quetsion-->
+        <TextBlock Text="Questions:" Grid.Row="11" Grid.Column="0" Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center" ></TextBlock>
+        <HyperlinkButton x:Name="hbtnAddQuestion" Grid.Row="11" Grid.Column="1" Content="Add Question" FontSize="12" Click="hbtnAddQuestion_Click" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"></HyperlinkButton>
+
+        <!--Questions-->
+        <!--<Border  BorderThickness="1" BorderBrush="Black" >-->
+            <ScrollViewer Grid.Row="12" Grid.RowSpan="10" Grid.Column="0" Grid.ColumnSpan="4" Margin="10,2,3,3"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+                <data:DataGrid x:Name="dgQuestions" AutoGenerateColumns="False" LoadingRow="dgQuestions_LoadingRow" 
+                               RowDetailsVisibilityMode="VisibleWhenSelected"
+                               RowDetailsVisibilityChanged="dgQuestions_RowDetailsVisibilityChanged" 
+                               RowEditEnded="dgQuestions_RowEditEnded" 
+                               CanUserReorderColumns="False" 
+                               CanUserSortColumns="False"
+                               ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                               ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <data:DataGrid.Columns>
+                        <data:DataGridTemplateColumn Header="Order" Width="80">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <!--<TextBlock Text="{Binding Order}"></TextBlock>-->
+                                    <ComboBox x:Name="cbOrder" DisplayMemberPath="OrderNo" SelectionChanged="cbOrder_SelectionChanged"></ComboBox>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Type" Width="120">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox x:Name="cbName" DisplayMemberPath="Name" SelectionChanged="cbName_SelectionChanged"></ComboBox>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTextColumn Header="Caption" Binding="{Binding Caption}" Width="200"></data:DataGridTextColumn>
+                        <data:DataGridCheckBoxColumn Header="IsRequired" Binding="{Binding IsRequired}" Width="100"></data:DataGridCheckBoxColumn>
+                        <data:DataGridTemplateColumn Header="Add Item">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <HyperlinkButton x:Name="hbtnAddItem" Content="Add Item" VerticalContentAlignment="Center" FontSize="12" Visibility="Collapsed"
+                                                 Tag="{Binding SubItems}" Click="hbtnAddItem_Click" FontWeight="Bold"></HyperlinkButton>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Delete">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <HyperlinkButton x:Name="hbtnDeleteQuestion" Content="Delete" VerticalContentAlignment="Center" FontSize="12" 
+                                               Click="hbtnDeleteQuestion_Click" FontWeight="Bold"></HyperlinkButton>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Bind Variable">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <HyperlinkButton x:Name="hbtnBindPageVariable" Content="Bind Variable" VerticalContentAlignment="Center" FontSize="12" 
+                                                   Click="hbtnBindPageVariable_Click" FontWeight="Bold"></HyperlinkButton>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Copy">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <HyperlinkButton x:Name="hbtnCopy" Content="Copy" VerticalContentAlignment="Center" FontSize="12" 
+                                                 Click="hbtnCopy_Click" FontWeight="Bold"></HyperlinkButton>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                    </data:DataGrid.Columns>
+                    <data:DataGrid.RowDetailsTemplate>
+                        <DataTemplate>
+                            <data:DataGrid x:Name="dgQuestionItem" ItemsSource="{Binding SubItems}" AutoGenerateColumns="False" 
+                                       LoadingRow="dgQuestionItem_LoadingRow" RowEditEnded="dgQuestionItem_RowEditEnded" CanUserReorderColumns="False" CanUserSortColumns="False">
+                                <data:DataGrid.Columns>
+                                    <data:DataGridTemplateColumn Header="Order" Width="80">
+                                        <data:DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <ComboBox x:Name="cbItemOrder" DisplayMemberPath="OrderNo" SelectionChanged="cbItemOrder_SelectionChanged"></ComboBox>
+                                            </DataTemplate>
+                                        </data:DataGridTemplateColumn.CellTemplate>
+                                    </data:DataGridTemplateColumn>
+                                    <data:DataGridTextColumn Header="Item" Binding="{Binding Item}" Width="280"></data:DataGridTextColumn>
+                                    <data:DataGridTextColumn Header="Feedback" Binding="{Binding Feedback}" Width="300"></data:DataGridTextColumn>
+                                    <data:DataGridTextColumn Header="Score" Binding="{Binding Score}" Width="60"></data:DataGridTextColumn>
+                                    <data:DataGridTemplateColumn Header="Option" Width="100">
+                                        <data:DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <HyperlinkButton x:Name="hbtnDeleteItem" Content="Delete" Margin="5" FontSize="12" 
+                                                 Click="hbtnDeleteItem_Click" FontWeight="Bold"></HyperlinkButton>
+                                            </DataTemplate>
+                                        </data:DataGridTemplateColumn.CellTemplate>
+                                    </data:DataGridTemplateColumn>
+                                </data:DataGrid.Columns>
+                            </data:DataGrid>
+                        </DataTemplate>
+                    </data:DataGrid.RowDetailsTemplate>
+                </data:DataGrid>
+            </ScrollViewer>
+        <!--</Border>-->
+
+        <!-- Three image mode set up menu. (presenter image/fullscreen image/illustration image)-->
+        <Border Grid.Row="0" Grid.RowSpan="11" Grid.Column="3" BorderThickness="1" BorderBrush="Black" Margin="10,0,2,0" Height="330" Width="260"  VerticalAlignment="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="190"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition Width="160"></ColumnDefinition>
+                    <ColumnDefinition Width="90"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <HyperlinkButton x:Name="SetPresenterImageLinkButton" Click="SetPresenterImageLinkButton_Click" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Content="Set image" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+                <HyperlinkButton x:Name="presenterImageReset" Content="Reset" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="presenterImageReset_Click"></HyperlinkButton>
+                <Border Style="{StaticResource ImageViewStyle}" Height="180" Width="220" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image x:Name="PresenterImage" Stretch="Uniform" Margin="5,5,5,5" MouseLeftButtonDown="PresenterImage_MouseLeftButtonDown"></Image>
+                </Border>
+                <TextBlock x:Name="PresenterImageNameTextBlock" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Gray" FontSize="8"></TextBlock>
+                <!--RadioButton__Three image mode(presenter/fullscreen/illustration)-->
+                <RadioButton Content="Presenter mode" x:Name="PresenterModeRadioButton" Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" IsChecked="True" ></RadioButton>
+                <RadioButton Content="Illustration mode" x:Name="IllustrationModeRadioButton" Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" ></RadioButton>
+                <RadioButton Content="Fullscreen mode" Visibility="Collapsed" x:Name="FullscreenModeRadioButton" Grid.Row="5" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" ></RadioButton>
+                <!--Previous image position and image mod-->
+                <TextBlock x:Name="PresenterImagePositionTextBlock" Visibility="Collapsed" Text="Position:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+                <ComboBox x:Name="PresenterImagePositionComboBox" Visibility="Collapsed" Grid.Row="3" Grid.Column="1" Height="25" Width="65" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionChanged="PresenterImagePositionComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Left"></ComboBoxItem>
+                    <ComboBoxItem Content="Right"></ComboBoxItem>
+                </ComboBox>
+                <TextBlock x:Name="PresenterModeTextBlock" Visibility="Collapsed" Text="Mode:" Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+                <ComboBox x:Name="PresenterModeComboBox" Visibility="Collapsed" Grid.Row="3" Grid.Column="3" Height="25" Width="70" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionChanged="PresenterModeComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Normal"></ComboBoxItem>
+                    <ComboBoxItem Content="Big"></ComboBoxItem>
+                </ComboBox>
+            </Grid>
+        </Border>
+        <!--Image list-->
+        <ChangeTechControl:SelectPicture x:Name="ImageList" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed"></ChangeTechControl:SelectPicture>
+        
+        <!--<ChangeTechControl:ImageReferenceInfo x:Name="ImageInfo" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed"></ChangeTechControl:ImageReferenceInfo>-->
+        <!-- Page Variable -->
+        <ChangeTechControl:PageVariableManager x:Name="pageVarible" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed" Width="500" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible"></ChangeTechControl:PageVariableManager>
+        <!--Expresion Builder-->
+        <ChangeTechControl:ExpressionBuilder x:Name="ExpressionBuilder" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed" Width="400" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible"></ChangeTechControl:ExpressionBuilder>
+        <ChangeTechControl:EditSlider x:Name="EditSlider" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed" Width="500" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible"></ChangeTechControl:EditSlider>
+        <!--Resource Manager-->
+        <ChangeTechControl:ResourceManager x:Name="ResourceManager" Grid.Row="0" Grid.Column="0" Grid.RowSpan="21" Grid.ColumnSpan="3" Visibility="Collapsed"></ChangeTechControl:ResourceManager>
+    </Grid>
+</UserControl>

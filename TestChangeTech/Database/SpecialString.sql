@@ -1,0 +1,70 @@
+﻿INSERT INTO [Language] (LanguageGUID, Name) VALUES ('2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Finnish ')
+INSERT INTO [Language] (LanguageGUID, Name) VALUES ('9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Spanish ')
+INSERT INTO [Language] (LanguageGUID, Name) VALUES ('fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'English ')
+INSERT INTO [Language] (LanguageGUID, Name) VALUES ('8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'French ')
+INSERT INTO [Language] (LanguageGUID, Name) VALUES ('0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Swedish ')
+
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Day', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Dag')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_RANGE', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', '0-30')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_STRING', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Dager')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_RANGE', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', '0-23')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_STRING', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Timer')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_RANGE', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', '0-59')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_STRING', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Minutter')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('SettingMenu', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Innstillinger og hjelp')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Startpunkt', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Startpunkt')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Week', 'fbbd4e0e-03fe-4941-a8a3-ab606d44a9c4', 'Uke')
+
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Day', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Dag')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_RANGE', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', '0-30')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_STRING', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Dager')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_RANGE', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', '0-23')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_STRING', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Timer')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_RANGE', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', '0-59')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_STRING', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Minutter')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('SettingMenu', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Innstillinger og hjelp')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Startpunkt', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Startpunkt')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Week', '2ac49fbc-013e-4554-bdfd-0bd4221ac4e0', 'Uke')
+
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Day', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Dag')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_RANGE', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', '0-30')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_STRING', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Dager')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_RANGE', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', '0-23')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_STRING', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Timer')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_RANGE', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', '0-59')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_STRING', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Minutter')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('SettingMenu', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Innstillinger og hjelp')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Startpunkt', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Startpunkt')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Week', '9ebbaf62-427e-4bc4-9131-0d2363c33a3c', 'Uke')
+
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Day', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Dag')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_RANGE', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', '0-30')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_STRING', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Dager')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_RANGE', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', '0-23')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_STRING', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Timer')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_RANGE', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', '0-59')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_STRING', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Minutter')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('SettingMenu', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Innstillinger og hjelp')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Startpunkt', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Startpunkt')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Week', '8e3dae2c-a47c-4d2a-a224-bebe81ebfe07', 'Uke')
+
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Day', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Dag')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_RANGE', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', '0-30')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('DAY_STRING', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Dager')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_RANGE', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', '0-23')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('HOUR_STRING', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Timer')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_RANGE', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', '0-59')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('MINUTE_STRING', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Minutter')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('SettingMenu', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Innstillinger og hjelp')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Startpunkt', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Startpunkt')
+INSERT INTO SpecialString ([Name], LanguageGUID, Value) VALUES('Week', '0b04c574-be05-48b7-9857-d2e3d0ed3eba', 'Uke')
+
+UPDATE PageContent 
+SET Body = REPLACE(CAST(Body AS NVARCHAR(MAX)), 'http://changetech.ethostech.no/ClientBin/Audio', 'http://changetechstorage.blob.core.windows.net/audiocontainer')
+WHERE Body LIKE '%http://changetech.ethostech.no/ClientBin/Audio%'
+
+UPDATE PageContent 
+SET Body = REPLACE(CAST(Body AS NVARCHAR(MAX)), 'http://changetech.ethostech.no/ClientBin/Document', 'http://changetechstorage.blob.core.windows.net/documentcontainer')
+WHERE Body LIKE '%http://changetech.ethostech.no/ClientBin/Document%'
+
+

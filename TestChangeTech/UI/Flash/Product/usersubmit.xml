@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<XMLModel UserGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" SessionGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" PageSequenceOrder="1" PageGUID="D472E061-E8E5-492E-87DE-19D2F9D52398">
+    <!-- Get information template.-->
+    <Feedbacks>
+        <!-- GUID is the questionGUID -->
+        <!-- Numeric question.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="10"/>
+        <!-- Singleline question.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="This is a singleline input text."/>
+        <!-- Multiline question.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="This is a multiline input text."/>
+        <!-- Radio question : Value is the GUID of chosen item.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="D472E061-E8E5-492E-87DE-19D2F9D52398"/>
+        <!-- Checkbox question : Value is the GUID of chosen items which splited by ";".-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="D472E061-E8E5-492E-87DE-19D2F9D52398;D472E061-E8E5-492E-87DE-19D2F9D52398"/>
+        <!-- Dropdown question : Value is the GUID of chosen item.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="D472E061-E8E5-492E-87DE-19D2F9D52398"/>
+        <!-- Slider question : Value is the GUID of chosen item.-->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="D472E061-E8E5-492E-87DE-19D2F9D52398"/>
+        <!-- TimeOfDay question : Value is a string in format "hh:mm". -->
+        <Feedback GUID="D472E061-E8E5-492E-87DE-19D2F9D52398" Value="10:52"/>
+    </Feedbacks>
+
+    <!-- Ghoose preferences template.-->
+    <Feedbacks>
+        <!-- Value is the GUID of chosen items which splited by ";". -->
+        <Feedback GUID="" Value="D472E061-E8E5-492E-87DE-19D2F9D52398;D472E061-E8E5-492E-87DE-19D2F9D52398"/>
+    </Feedbacks>
+
+    <!-- Timer template. -->
+    <Feedbacks>
+        <!-- Value is a string in format "hh:mm:ss". -->
+        <Feedback GUID="" Value="01:23:45"/>
+    </Feedbacks>
+
+    <!-- Register template. -->
+    <Register Email="email@email.com" Password="password"/>
+    <!-- Failed server feedback: 0;failed message-->
+    <!-- Successful server feedback: 1-->
+
+    <!-- Login template. -->
+    <Login Username="email@email.com" Password="password"/>
+    <!-- Failed server feedback: 0;failed message-->
+    <!-- Successful server feedback: 1-->
+
+    <!-- Password reminder template.-->
+    <PasswordReminder Email="email@email.com"/>
+
+    <!-- Sms service-->
+    <SMS Text="hello, how are you" Time="14" Days="0" />
+
+    <!-- Session ending template.-->
+    <SessionEnding/>
+
+    <!-- Assignment -->
+    <Assignments>
+        <Assignment Variable="variableName1" Value="variableValue1"/>
+        <Assignment Variable="variableName2" Value="variableValue2"/>
+    </Assignments>
+    
+    <!--PageStart-->
+    <PageStart/>
+    <!--PageEnd-->
+    <PageEnd/>
+    <!--PageSequenceStart-->
+    <PageSequenceStart/>
+    <!--PageSequenceEnd-->
+    <PageSequenceEnd/>
+</XMLModel>
+
+<!-- Tip Friend, return 0 if failed, return 1 if successful. -->
+<TipFriend UserGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Invitee="abc@abc.com"/>
+
+<!-- Change profile, return 0 if failed, return 1 if successful. -->
+<ChangeProfile UserGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2">
+    <Items>
+        <Item Name="Email" NewValue="bbc@email.com"/>
+    </Items>
+</ChangeProfile>
+
+<!-- pause program -->
+<ProgrameStatus UserGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Status="pause"/>
+<!-- exit program -->
+<ProgrameStatus UserGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" ProgramGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Status="exit"/>

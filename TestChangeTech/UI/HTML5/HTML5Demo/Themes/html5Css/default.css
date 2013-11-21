@@ -1,0 +1,1229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Z indexes 
+
+.settings-button-close	 50
+.settings-button-back	 50
+#settings	             40
+.wrapper-splashscreen	 30
+.controlbar				 20
+.controlbar-mini		 20
+.wrapper-bubbles		 10
+.bottomgradient			-10
+.wrapper-image			-20
+
+
+*/
+
+
+/* Initial settings */
+body {
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	color: #435a6d;
+}
+body.settings-body
+{
+    background:none;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.emptyline {
+	line-height: 50%;
+}
+.hidden {
+	display: none;
+}
+.centeraligned {
+	text-align: center;
+}
+/* [END] Initial settings */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The control bar 
+*******************************************************************************/
+.controlbar {
+	/*position: fixed;*/
+	position:absolute;
+	z-index: 20;
+	margin: 0 auto;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	background: #435a6d;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQzNWE2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1YTc2OGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #435a6d 0%, #5a768d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #435a6d), color-stop(100%, #5a768d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #435a6d 0%, #5a768d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #435a6d 0%, #5a768d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #435a6d 0%, #5a768d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #435a6d 0%, #5a768d 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#435a6d', endColorstr='#5a768d', GradientType=0 ); /* IE6-8 */
+	/* Easing the show/hide animation */
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.controlbar-mini {
+	display: none;
+	/*position: fixed;*/
+	position:absolute;
+	left: 1%;
+	top: 5px;
+	z-index: 20;
+	height: 25px;
+	width: 50px;
+	background: #5a768d;
+	border-radius: 6px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.controlbar-mini:hover {
+	background: #435a6d;
+}
+.programtitle {
+	margin: 0 auto;
+	color: #b9cbdb;
+	text-shadow: -1px -1px 0 #394f61;
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-size: 1.2em;
+	font-weight:800;
+}
+.programday {
+	color: #FFF;
+}
+/* Buttons */
+.button-expand {
+	float: left;
+	background: url(../design/gui1.png) -50px -14px no-repeat;
+	margin-top: -500px;
+	height: 100%;
+	width: 100%;
+	border: 0px solid;
+	border-radius: 6px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.button-expand:hover {
+	background-position: -50px -12px;
+}
+.button-contract {
+	float: left;
+	background: url(../design/gui1.png) -4px -13px no-repeat;
+	margin-top: -500px;
+	height: 100%;
+	width: 100%;
+	border: 0px solid;
+	border-radius: 6px;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.button-contract:hover {
+	background-position: -4px -15px;
+}
+.button-back {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 40px;
+	text-decoration: none;
+	background: url(../design/gui1.png) -5px -110px no-repeat;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+	position:absolute;
+	left:0;
+	display:none;
+}
+.button-back:hover {
+	background-position: -10px -110px;
+}
+.button-back .buttontext {
+	position: relative;
+	float: left;
+	top: 13px;
+	left: 50px;
+	opacity: 0.0;
+	color: #FFF;
+	/*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.button-back:hover .buttontext {
+	opacity: 1.0;
+}
+.button-settings {
+	display: block;
+	position: relative;
+	float: right;
+	/*width: 150px;*//* comment by xmx*/
+	height: 40px;
+	text-decoration: none;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	position:absolute;
+	right:0;
+	display:none;
+}
+.button-settings .buttontext {
+	position: relative;
+	top: 10px;
+	opacity: 0.0;
+	color: #FFF;
+	/*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	/*ADDED BY XMX*/
+    right:40px;
+}
+.button-settings:hover .icon-settings {
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.button-settings:hover .buttontext {
+	opacity: 1.0;
+}
+.icon-settings {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: url(../design/gui1.png) -20px -60px no-repeat;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* [END] Control bar */
+
+
+
+
+
+
+
+
+
+
+/* The splash screens
+******************************************************************************
+Used on startup screen and chapter screens */
+
+
+/* The default splash screen */
+.wrapper-splashscreen {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 30;
+}
+.wrapper-splashscreen .cover {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	opacity: 1.0;
+}
+.wrapper-splashscreen .content {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.maintitle {
+	position: fixed;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	margin: 10% 5% 0% 5%;
+}
+.franchise-logo {
+	display: block;
+}
+.franchise-name {
+	display: none;
+	color: #92a4b3;
+}
+.bottomlogo {
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	bottom: 3%;
+	text-align: center;
+}
+.loaderanim {
+	margin-top: 20px;
+}
+.wrapper-splashscreen .programtitle {
+	color: #435a6d;
+	text-shadow: none;
+	font-size: 2.2em;
+}
+.wrapper-splashscreen .chaptertitle {
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: 'Lora', Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	color: #000;
+	text-shadow: 1px 1px 0 #FFF;
+	padding-top: 10px;
+	font-size: 2.2em;
+	/*font-weight: bold;*/
+}
+.wrapper-splashscreen .programday {
+	color: #92a4b3;
+}
+/* [END] Splash screen */
+
+/* The dialogue box
+*******************************************************************************/
+
+.fadecover {
+	position: fixed;
+	z-index: 40;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	opacity: 0.8;
+}
+.wrapper-dialoguebox {
+	position: relative;
+	z-index: 40;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 600px;
+	padding: 60px 10% 10px 10%;
+}
+.dialoguebox {
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid #698599;
+	border-radius: 8px;
+	background-color: #FFF;
+	-moz-box-shadow: 0px 1px 10px #698599;
+	-webkit-box-shadow: 0px 1px 10px #698599;
+	box-shadow: 0px 1px 10px #698599;
+}
+.dialoguebox h1 {
+	font-size: 24px;
+	font-weight: 800;
+	margin-bottom: 10px;
+	line-height: 100%;
+}
+.dialoguebox .upper {
+	padding: 35px 40px 30px 40px;
+	line-height: 140%;
+}
+.dialoguebox .lower {
+	text-align: center;
+	background: #d6dde3;
+	padding: 20px 30px 20px 30px;
+	border-radius: 0 0 8px 8px;
+}
+a.actionlink  {
+	display: inline-block;
+	padding: 8px 30px;
+	margin: 0 10px 5px 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FFF;
+	background: #59758c;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	/* Easing the transition between idle and hover */
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+a.actionlink:hover  {
+	background: #435a6d;
+}
+a.actionlink.grey  {
+	background: #59758c;
+}
+a.actionlink.grey:hover  {
+	background: #435a6d;
+}
+a.actionlink.blue  {
+	background: #5688b9;
+}
+a.actionlink.blue:hover  {
+	background: #006096;
+}
+a.actionlink.red  {
+	background: #cc3333;
+}
+a.actionlink.red:hover  {
+	background: #b22f2f;
+}
+
+
+.button-close {
+	display: block;
+	position: relative;
+	float: right;
+	width: 70px;
+	height: 35px;
+	border-radius: 0 8px 0 0;
+	text-decoration: none;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.button-close .buttontext {
+	position: relative;
+	top: 8px;
+	opacity: 0.0;
+	color: #435a6d;
+	/*font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.button-close:hover .icon-close {
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}
+.button-close:hover .buttontext {
+	opacity: 1.0;
+}
+.icon-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: url(../design/gui1.png) -160px -20px no-repeat;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/* [END] Dialogue box */
+
+
+
+/* The settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+#settings {
+	position: absolute;
+	z-index: 40;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+}
+/* Making sure the iFrame shows correct background color on smaller screens + portrait mode */
+#iframe-settings {
+	background-color: transparent;
+	display:none;
+}
+.settings-detail{background:transparent;display:none;}
+#iframe-settings p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.wrapper-settings {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	margin: 70px 10% 0 10%;
+	text-align: left;
+	/*background: #FFF;*/
+}
+.warning {
+	color: #C00;
+}
+/**/
+
+
+
+/* The buttons for "Back" and "Close" */
+.settings-button-close {
+	position: fixed;
+	z-index: 50;
+	margin: 0 auto;
+	height: 35px;
+	width: 80px;
+	top: 0;
+	right: 2%;
+	margin: 10px 2% 0 2%;
+	text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background: #FFF;
+}
+.settings-button-close a.button-close .buttontext {
+	opacity: 0.6;
+	color: #435a6d;
+}
+.settings-button-close:hover a.button-close .buttontext {
+	opacity: 1.0;
+}
+.settings-button-back {
+	position: fixed;
+	z-index: 50;
+	margin: 0 auto;
+	height: 35px;
+	width: 105px;
+	top: 0;
+	left: 2%;
+	margin: 10px 2% 0 2%;
+	text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background: #FFF;
+}
+.settings-button-back a.button-back {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: inherit;
+	text-decoration: none;
+	margin: 0;
+	background: url(../design/gui1.png) -17px -154px no-repeat;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.settings-button-back:hover a.button-back {
+	background-position: -22px -154px;
+}
+.settings-button-back a.button-back .buttontext {
+	opacity: 0.6;
+	top: 11px;
+	left: 40px;
+	font-size: 12px;
+	color: #435a6d;
+}
+.settings-button-back:hover a.button-back .buttontext {
+	opacity: 1.0;
+}
+.spacefiller {
+	display: block;
+	height: 50px;
+}
+/**/
+
+
+
+/* The columns used to set different layouts */
+.col-1full {
+	position: relative;
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.col-1half {
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+	margin-bottom: 20px;
+}
+.col-1half.last {
+	float: left;
+	width: 48%;
+	margin-right: 0%;
+	margin-bottom: 20px;
+}
+.col-1half.centeraligned {
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+	width: 50%;
+	margin-bottom: 20px;
+}
+.col-2third.centeraligned {
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+	width: 75%;
+	margin-bottom: 20px;
+}
+.col-1third {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+}
+.col-1third.last {
+	float: left;
+	width: 30%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+.col-2third {
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+}
+.col-2third.last {
+	float: left;
+	width: 65%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+/**/
+
+
+
+/* Typography */
+.wrapper-settings h1 {
+	font-size: 28px;
+	font-weight: 800;
+}
+#iframe-settings .wrapper-settings h1 
+{
+    line-height:140%;
+}
+.settings-detail .wrapper-settings h1
+{
+    	line-height:1;
+}
+.wrapper-settings h3 {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.wrapper-settings .help-list h3
+{
+    line-height:140%;
+}
+.wrapper-settings p {
+	line-height: 140%;
+}
+/**/
+
+
+
+/* The settings menu */
+ul.settingsmenu {
+	margin: 0 auto;
+	font-size: 24px;
+	padding-top: 50px;
+}
+ul.settingsmenu li {
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid;
+	border-color: #d5e1eb;
+	border-radius: 8px;
+	background-color: #f6f8fa;
+}
+ul.settingsmenu a li {
+	color: #435a6d;
+}
+ul.settingsmenu li:hover {
+	border-color: #bfd1e0;
+	background-color: #eaeef1;
+}
+/**/
+
+
+
+/* [END] Settings box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+
+
+
+/* The text bubbles
+*******************************************************************************/
+
+/* The default bubble wrapper */
+.wrapper-bubbles,
+#contentElement {
+	position: relative;
+	width: 45%;
+	clear: both;
+	float: right;
+	padding: 0% 10% 5% 0%;
+	margin-top: 7%;
+	z-index: 10;
+}
+#contentElement{
+	/*position: relative;
+	width: 45%;
+	clear: both;
+	float: right;
+	padding: 0% 10% 5% 0%;
+	margin-top: 7%;
+	z-index: 1;*/
+	/*padding: 0% 10% 5% 0%;*/
+	/*width: 45%;*/z-index:-1;
+}
+.white
+{
+     line-height:120%;
+   /* width:45%;*/
+}
+/* The wrapper style when viewed with an illustration on the left side */
+/* The wrapper needs to be in fixed position in order to fill the entire area with grey background and left border */
+.wrapper-bubbles.illustrationmode,
+#contentElement.illustrationmode {
+	position: fixed;
+	overflow: auto;
+	right: 0;
+	width: 40%;
+	height: 100%;
+	margin-top: 0;
+	padding: 0% 5% 0% 5%;
+	border-left: 1px solid #9db3c2;
+	background-color: #d6dde3;
+}
+.wrapper-bubbles.fullscreenmode,
+#contentElement.fullscreenmode  {
+	position: fixed;
+	bottom: 5%;
+	width: 90%;
+	padding: 0% 5%;
+	background-color: transparent;
+}
+.wrapper-bubbles.clearmode,
+#contentElement.clearmode {
+	position: relative;
+	width: 60%;
+	clear: both;
+	padding: 0% 20%;
+	margin-top: 7%;
+}
+/* The white bubble */
+#bubble-white,
+.white {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 20px;
+	line-height: 120%;
+	border: 1px solid #606a7f;
+	border-radius: 10px;
+	background: #FFF;
+	-moz-box-shadow: inset 0 1px 5px 1px #d0e2ef, 0px 1px 5px #adb7c0;
+	-webkit-box-shadow: inset 0 1px 5px 1px #d0e2ef, 0px 1px 5px #adb7c0;
+	box-shadow: inset 0 1px 5px 1px #d0e2ef, 0px 1px 5px #adb7c0;
+}
+#bubble-white,
+#bubble-blue,
+#bubble-yellow,
+#bubble-black,
+.wrapper-image
+{
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.illustrationmode #bubble-white,
+.illustrationmode .white
+ {
+	margin-top: 60px;
+}
+#bubble-white .tip {
+	/*position: relative;*/
+	float: left;
+	top: 7px;
+	margin-left: -28px;
+	width: 15px;
+	height: 11px;
+	background: url(../design/gui1.png) -100px -20px no-repeat;
+}
+#bubble-white h1,
+#white h1{
+	/*font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;*/
+	font-family: 'Lora', Helvetica, Arial, sans-serif;
+   font-weight: 700;
+	font-size: 1.5em;
+	color: #000;
+	line-height: 100%;
+	margin-bottom: 5px;
+}
+/* The blue bubble */
+#bubble-blue,
+#blue {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 7px 20% 15px 20px;
+	border: 1px solid #606a7f;
+	border-radius: 8px;
+	background: url(../design/forward.png) 90% 50% no-repeat #e6f4ff;
+	-moz-box-shadow: inset 0 1px 5px 1px #a7ccec, 0px 1px 5px #adb7c0;
+	-webkit-box-shadow: inset 0 1px 5px 1px #a7ccec, 0px 1px 5px #adb7c0;
+	box-shadow: inset 0 1px 5px 1px #a7ccec, 0px 1px 5px #adb7c0;
+	/* Animate the tip */
+	-moz-animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-name: slidein;
+	-webkit-animation-name: slidein;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	/* Easing the transition on the bubble tip */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+:hover#bubble-blue {
+	cursor: pointer;
+	background-color: #d0e5f5;
+}
+a #bubble-blue {
+	text-decoration: none;
+	color: #233645;
+}
+#bubble-blue .tip {
+	/*position: relative;*/
+	margin-top: 17px;
+	margin-left: -28px;
+	width: 15px;
+	height: 11px;
+	background: url(../design/gui1.png) -100px -40px no-repeat;
+	/* Easing the transition on the bubble tip */
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+:hover#bubble-blue .tip {
+	background-image: url(../design/gui2.png);
+}
+#bubble-blue p,
+#blue p
+{
+    margin-top:-17px;
+}
+/* Animate the tip */
+@-moz-keyframes slidein {
+ 0% {
+ background-position: 95% 50%;
+}
+ 50% {
+ background-position: 85% 50%;
+}
+ 100% {
+ background-position: 95% 50%;
+}
+}
+@-webkit-keyframes slidein {
+ 0% {
+ background-position: 95% 50%;
+}
+ 50% {
+ background-position: 85% 50%;
+}
+ 100% {
+ background-position: 95% 50%;
+}
+}
+/* The yellow bubble */
+#bubble-yellow,
+#yellow{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 20px;
+	line-height: 120%;
+	border: 1px solid #806c61;
+	border-radius: 10px;
+	background: #fdf3d4;
+	-moz-box-shadow: inset 0 1px 5px 1px #dfc783, 0px 1px 5px #adb7c0;
+	-webkit-box-shadow: inset 0 1px 5px 1px #dfc783, 0px 1px 5px #adb7c0;
+	box-shadow: inset 0 1px 5px 1px #dfc783, 0px 1px 5px #adb7c0;
+	/*position:relative;*/
+}
+#bubble-yellow .tip {
+	/*position: relative;*/
+	float: right;
+	top: 7px;
+	margin-right: -28px;
+	width: 15px;
+	height: 11px;
+	background: url(../design/gui1.png) -100px -80px no-repeat;
+	right:-28px;
+}
+#bubble-yellow h1 ,
+#blue h1{
+	/*font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;*/
+	font-family: 'Lora', Helvetica, Arial, sans-serif;
+font-weight: 700;
+	font-size: 1.5em;
+	color: #000;
+	line-height: 100%;
+	margin-bottom: 5px;
+}
+/* [END] Text bubbles*/
+
+
+
+/**/
+/* The black bubble */
+#bubble-black,
+#black {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 20px;
+	border: 1px solid #606a7f;
+	border-radius: 10px;
+	background: #000;
+	-moz-box-shadow: 0px 1px 5px #adb7c0;
+	-webkit-box-shadow: 0px 1px 5px #adb7c0;
+	box-shadow: 0px 1px 5px #adb7c0;
+}
+#black{border:none;background:none;-moz-box-shadow: 0px 0px 0px none;
+	-webkit-box-shadow: 0px 0px 0px none;box-shadow:none;}
+#bubble-black .tip {
+	position: relative;
+	float: left;
+	top: 7px;
+	margin-left: -28px;
+	width: 15px;
+	height: 11px;
+	background: url(../design/gui1.png) -100px -100px no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The image settings 
+*******************************************************************************/
+
+/* The DEFAULT IMAGE wrapper :: Used especially for the helper images */
+.wrapper-image {
+	position: fixed;
+	z-index: -20;
+	width: 100%;
+	height: 100%;
+	min-height: 250px;
+	/*margin-left: -25%;*/
+	margin-top: 20px;
+	text-align: center;
+	background-color: #FFF;
+}
+.wrapper-image img {
+	max-width: 100%;
+	max-height: 100%;
+		margin-left: -50%;
+margin-left: -45%\9; /* IE9 hack */
+ -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+/* The ILLUSTRATION IMAGE wrapper :: This wrapper makes sure you see the entire motive */
+.wrapper-image.illustrationmode {
+	width: 50%;
+	height: 90%;
+	margin-left: 0;
+	margin-top: 40px;
+}
+/* The FULLSCREEN IMAGE wrapper */
+.wrapper-image.fullscreenmode {
+	margin: 0;
+	/*added by xmx*/
+	background:none;
+}
+.fullscreenimage {
+	width: 100%;
+	height: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* Defining what image should be shown in fullscreen mode */
+.fullscreenimage.image002 {
+	/*background-image: url(../img/3presenters.jpg);*/
+}
+/* [END] Image settings */
+
+
+
+
+
+
+
+
+
+
+/* General stuff 
+****************************************************************/
+
+.bottomgradient {
+	position: fixed;
+	z-index: -10;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1OTc1OGMiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(89,117,140,0.25) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(89,117,140,0.25))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(89,117,140,0.25) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(89,117,140,0.25) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(89,117,140,0.25) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(89,117,140,0.25) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4059758c', GradientType=0 ); /* IE6-8 */
+}
+body.settings-body .bottomgradient{display:none;}
+/* [END] General stuff */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form fields 
+***************************************************************/
+ p.settingMenuSmsToEmail span
+{
+    position:relative;
+    display:inline-block;
+}
+p > input,
+p.settingMenuSmsToEmail span  input {
+	padding: 0;
+	margin: 0;
+	height: 16px;
+	width: 16px;
+	float: left;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+}
+p.settingMenuSmsToEmail span  input
+{
+    top:16px;
+    left:10px;
+}
+p > label,
+ p.settingMenuSmsToEmail span  label{
+	line-height: 1;
+	padding: 10px;
+	background-color: #f2e3b5;
+	display: block;
+	-moz-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	-webkit-transition: color 1s ease;
+	transition: color 1s ease;
+	vertical-align: middle;
+	border: 1px solid #bdb28f;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+ p.settingMenuSmsToEmail span  label
+ {
+     border:none;
+     background:none;
+ }
+p > label:hover {
+	background-color: #e0d2a5;
+}
+ p.settingMenuSmsToEmail span  label:hover{background:none;}
+p:not(#foo) > input:hover + label, p:not(#foo) > input:focus + label, p:not(#foo) > input + label:hover, p:not(#foo) > input:focus + label {
+	color: #000;
+}
+p:not(#foo) > input + label:before ,
+p.settingMenuSmsToEmail span  label:before
+{
+	background: url(../design/forms-inputs.png) 0 -1px no-repeat;
+	height: 16px;
+	width: 16px;
+	content: "";
+	display: inline-block;
+	margin-right: 6px;
+}
+p:not(#foo) > input[type=radio] + label:before {
+	background-position: 0 -161px;
+}
+/* Checked styles */
+p:not(#foo) > input[type=radio]:checked + label:before{
+	background-position: 0 -241px;
+}
+p:not(#foo) > input[type=checkbox]:checked + label:before ,
+p.settingMenuSmsToEmail span input[type=checkbox]:checked + label:before {
+	background-position: 0 -81px;
+}
+p:not(#foo) > input[type=checkbox]:hover:checked + label:before, p:not(#foo) > input[type=checkbox]:focus:checked + label:before, p:not(#foo) > input[type=checkbox]:checked + label:hover:before, p:not(#foo) > input[type=checkbox]:focus:checked + label:before {
+	background-position: 0 -101px;
+}
+p:not(#foo) > input[type=radio]:hover:checked + label:before, p:not(#foo) > input[type=radio]:focus:checked + label:before, p:not(#foo) > input[type=radio]:checked + label:before:hover, p:not(#foo) > input[type=radio]:focus:checked + label :before {
+background-position: 0 -261px;
+}
+/* [END] Form fields */
+
+
+
+/* Picture version */
+p.pictureversion {
+width: 31%;
+margin-left: 1%;
+margin-right: 1%;
+/*margin-bottom: 5px;
+margin-top: 5px;*/
+/*float: left;*/
+display: inline-block;
+position:relative;
+}
+p.pictureversion img {
+width: 100%;
+height: auto;
+display: block;
+margin: -28px 0 0 0;
+}
+p.pictureversion > input {
+height: 16px;
+width: 16px;
+float: left;
+display: block;
+position: absolute;
+left: 20px;
+left:13px;
+top:18px;
+z-index:200;
+}
+p.pictureversion label {
+display: block;
+border: 3px solid #bdb28f /*dark beige*/;
+padding: 0px;
+border-radius: 0;
+}
+p.pictureversion label:hover {
+border-color: #948863 /*darkest beige*/;
+}
+
+p.pictureversion > input + label:before {
+position: relative;
+z-index: 100;
+background: url(../design/forms-inputs.png) 0 -1px no-repeat;
+height: 16px;
+width: 16px;
+content: "";
+display: inline-block;
+margin: 10px 0 0 10px;
+}
+/* [END] Form fields */
+
+/* This box fills the empty space below the image with grey color */
+.box-grey {
+position: relative;
+border-top: 1px solid #9db3c2;
+width: auto;
+height: 100%;
+background-color: #d6dde3;
+}
+#graphcontainer{margin-top:50px;}
+
+
+p > select {
+    font-size: 16px;
+}
+.textfield-default {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AEA19A;
+    border-radius: 8px 8px 8px 8px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+    padding: 5px 10px;
+    position: relative;
+    width: 100%;
+}
+.textfield-default.seventyfivepercent {
+    width: 75%;
+}
+select.seventyfivepercent {
+    width: 75%;
+}

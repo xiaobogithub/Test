@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Setting the colors for each program */
+#program-roykeslutt {
+	background: #265e5f;
+	color: #b4d1d2;
+}
+#program-roykeslutt .container-footer {
+	border-top: 1px dotted #79afb1;
+	color: #b4d1d2;	
+}
+/* End */
+
+/* The dialogue box :: where you can log in */
+#dialoguebox {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-align: left;
+	width: 90%;
+	box-shadow: 0 1px 10px #4f596d;
+	-moz-box-shadow: 0 1px 10px #4f596d;
+	-webkit-box-shadow: 0 1px 10px #4f596d;
+	background:#FFF;
+	padding: 0;
+}
+.logscheme {
+	padding: 25px 40px 25px 40px;
+	color: #435a6d;
+	font-size: 0.85em;
+}
+.logscheme h2 {
+	font-weight: normal;
+	font-size: 1.5em;
+	color: #000;
+}
+a.closewindow  {
+	float: right;
+	width: 35px;
+	height: 31px;
+	border-top-right-radius: 10px;
+	background: url(../Images/c-closewindow-idle.png) no-repeat;
+}
+a:hover.closewindow  {
+	background: url(../Images/c-closewindow-hover.png) no-repeat;
+}
+.loginbutton {
+	border-top: 1px solid #adb9c3;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ced6db), to(#ecf1f4));
+	background: -o-linear-gradient(#ced6db, #ecf1f4);
+	background: -moz-linear-gradient(100% 100% 90deg, #ecf1f4, #ced6db);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	padding: 25px 0 30px 0;
+}
+.logoutbutton {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ced6db), to(#ecf1f4));
+	background: -o-linear-gradient(#ced6db, #ecf1f4);
+	background: -moz-linear-gradient(100% 100% 90deg, #ecf1f4, #ced6db);
+	border-radius: 10px;
+	text-align: center;
+	padding: 25px 0 30px 0;
+}
+.textfield {
+	width: 97%;
+	padding: 5px;
+	border-radius: 6px;
+	border: 1px solid #92a5b4;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.0em;
+}
+.formbutton {
+	font-size: 1.5em;
+	width: 150px;
+	height: 35px;
+}
+/* End */
+
+
+
+
+
+
+/* The User menu :: Presenting the name of the person who's logged in, and a log out- button */
+#usermenu {
+	color: #b4d1d2;	
+	float: right;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin: 15px 0 0 0;
+}
+#usermenu li {
+	float: right;
+}
+#usermenu li a {
+	color: #fff;
+	padding-left: 10px;
+}
+/* End */
+
+
+
+
+

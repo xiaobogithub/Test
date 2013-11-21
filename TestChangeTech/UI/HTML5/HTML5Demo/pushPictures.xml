@@ -1,0 +1,1627 @@
+1;<XMLModel Mode="Preview" UserGUID="3C74F10A-64C6-4F06-97DD-64763DF888B7" ProgramGUID="146660E0-1BBF-4E94-BE9C-2E18DED14F0C" ProgramName="Balance For Test On 1110" CTPPName="BalanceTest Program" IsNeedPinCode="0" IsContainTwoParts="0" IsNeedSerialNumber="0" MissedDay="false" IsRetake="True" IsCTPPEnable="1">
+  <Session GUID="D0783050-7793-45CA-A279-D0A6ABCB041B" Name="ddd" Day="1" Description="" Logo="76ef46b1-2d69-41ca-9db0-2e54bdcc4f4d.png">
+    <PageSequence GUID="42F609ED-68D6-4382-BA76-37909D5AFE6C" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="1" TopBarColor="0x5e89b7" CoverShadowVisible="0" ProgramRoomName="Motivasjon" ProgramRoomDescription="">
+ 
+	  <Page GUID="98B2B5B2-D85C-41F2-A78E-63D6D76A9BFB" Order="1" Title="" Text="Sykdom" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="82582144-98cf-4120-9d58-fa3a7dffc63b.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A6C9A36E-0A96-464F-AA37-9978EFD20E92" Order="2" Title="Litt om programmet." Text="De tre viktigste forutsetningene for å klare å forandre en vane, er Motivasjon, Viljestyrke og Humør. Derfor er Balance delt inn i tre forskjellige &quot;rom&quot; med disse samme navnene.&#xD;&#xA;&#xD;&#xA;Hvert rom har sin guide, som vil gjøre sitt beste for å holde deg på topp innenfor hvert område.&#xD;&#xA;&#xD;&#xA;Akkurat nå er vi i Motivasjonsrommet. senere i dag vil du også besøke både Viljestyrke- og Humørrommet." Type="Standard" ButtonPrimaryName="Før du går videre har vi et par spørsmål til deg" ButtonSecondaryName="Back" PresenterImage="fd4425b0-04d0-4e21-b935-f4851fb71831.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1007962F-058D-4020-8993-4F71A3FF65F9" Order="3" Title="De tre viktigste grunnene til å endre vaner." Text="Her kan det hende du må tenke deg litt om. Og ikke bare svare at du synes du drikker for mye, men hvilke konsekvenser du mener det kan få. &#xD;&#xD;Eksempler på hva andre har skrevet:&#xD;&#xA;”Jeg er ofte trøtt og uopplagt på jobben fordi det har blitt  et glass eller to for mye på kvelden.”&#xD;&#xA;”Jeg er bekymret for om jeg er et dårlig forbilde for barna mine.”&#xD;&#xA;”Jeg vil ta bedre vare på helsen min.”" Type="Standard" ButtonPrimaryName="Klikk her når du har tenkt ferdig" ButtonSecondaryName="Back" PresenterImage="c707b5ea-bdbc-470a-91b1-4a10cc368523.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="EFBFBF36-EAD7-4B83-B963-B1CA1A204AA2" Order="4" Title="Noen forklaringer og tips." Text="Du kan gå bakover til forrige side ved å klikke på den venstre delen av den store &quot;framoverknappen&quot;.&#xD;&#xD;Øverst til høyre finner du Innstillinger og Hjelp. Der kan du forandre og oppdatere informasjon, og få svar på forskjellige ting du kanskje lurer på. &#xD;&#xD;Nå skal du straks få legge inn de forandringene du ønsker å gjennomføre, med utgangspunkt i den typiske uken du satte opp som en del av Hurtigsjekken.&#xD;&#xD;Men først er det noe veldig viktig, som vi vil du skal tenke over." Type="Standard" ButtonPrimaryName="De viktigste grunnene til at du vil forandre alkoholvanene" ButtonSecondaryName="Back" PresenterImage="229db6fd-23f8-4619-83ef-74cfe3dfee68.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="912B27B5-0B7E-4BCD-BE51-7B41617D5950" Order="5" Title="Den andre grunnen for å endre vaner er..." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="18a770d6-db47-4720-b8a5-6447a96c998e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="01B71656-A182-4F7B-8FB2-1D2F4FAEE08B" Type="Singleline" Caption="Grunn 2" ProgramVariable="Reason2" IsRequired="1">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="58FB2409-31AF-4A94-B028-78D1A24CEBEB" Order="6" Title="Den første grunnen for å endre vaner er..." Text="Svar så godt og ærlig du kan, for svarene vil bli brukt senere i programmet." Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="1744915f-4545-4a14-bc13-f8f8cddc0a08.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="7C89B40B-8696-4B14-9FD2-B76D1511EF8C" Type="Singleline" Caption="Grunn 1" ProgramVariable="Reason1" IsRequired="1">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="95C98454-23C1-478F-A354-09CE778BCB7D" Order="7" Title="Den tredje grunnen for å endre vaner er..." Text="" Type="Get information" ButtonPrimaryName="Nå skal det handle om å sette seg mål" ButtonSecondaryName="Back" PresenterImage="3312b22a-b76a-407f-95c9-e16086ec4f6f.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="D88A5EE8-3DF7-47BE-A3C7-68EFEE243DBB" Type="Singleline" Caption="Grunn 3" ProgramVariable="Reason3" IsRequired="1">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C92852E3-8430-4A9C-A667-E7309B32BDD6" Order="8" Title="Lurt å tenke på når du setter mål." Text="Husker du at du la inn din &quot;typiske uke&quot;, da du tok Hurtigsjekken? Den får du et gjensyn med. &#xD;&#xA;Men nå skal du legge inn hvor mange glass du skal tillate deg, i løpet av en uke. Det er dette vi kaller målene dine. &#xD;&#xA;Bare sett mål du tror du klarer. Ikke mål som krever full omlegging av livet ditt. Du skal kunne kose deg også.&#xD;&#xA;Du kan heller forandre målene etter hvert. Det kan være lurt å starte litt forsiktig og så stramme inn når du ser hvordan det går. &#xD;&#xA;Det har tatt lang tid å få den vanen du har i dag. Ikke prøv å forandre den radikalt over natten." Type="Standard" ButtonPrimaryName="Nå er du klar for å legge inn målene" ButtonSecondaryName="Back" PresenterImage="4cba834c-63c7-43ce-8211-bb5aebaa39ec.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="9723F5CD-E5FC-444B-8496-1DFB05D98F23" Order="9" Title="Legg inn hvor mange glass du skal tillate deg." Text="I testen fortalte du oss at du i enn typisk uke drikker {V:TypicalWEEK} glass. Tenk nå over hva som er et fornuftig mål for akkurat deg.&#xD;&#xD;Vi går gjennom uken dag for dag, der du også kan se tallet du la inn for den dagen i din &quot;Typiske uke&quot;. &#xD;&#xD;Legg inn målet ditt ved å dra måleren til det nye tallet. Ta deg god tid!" Type="Standard" ButtonPrimaryName="Sett i gang" ButtonSecondaryName="Back" PresenterImage="7f14eae0-5265-4a47-b007-05b9eeeef891.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="95D6D0C6-FEBA-4350-ADD7-A111C6A7346B" Order="10" Title="Mandag" Text="Antall glass du vanligvis drikker på Mandag i en &quot;Typisk Uke&quot;: {V:MondayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="D538B3A6-EE6C-4DED-9BDD-DA1B15781934" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="MondayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="6AA5842D-6090-40E1-93A8-EFA6F316AE7F" Item="0" Score="0" />
+              <Item GUID="2CF0C6C0-DC1B-4681-B937-CE25E99A0283" Item="1" Score="1" />
+              <Item GUID="BFD1D857-60C6-4DAD-AD84-8477006837E3" Item="2" Score="2" />
+              <Item GUID="BB2944DC-C46D-41EC-94D9-45BB0116A9C5" Item="3" Score="3" />
+              <Item GUID="B8FFDAD8-6B9D-4617-8496-2C18D0116719" Item="4" Score="4" />
+              <Item GUID="3305691E-EB31-452C-BC28-D13093CC6EDA" Item="5" Score="5" />
+              <Item GUID="147F3CBD-B9FB-457D-9788-F1861CB2A3E0" Item="6" Score="6" />
+              <Item GUID="0EF5F1FA-3397-4892-A57E-50D84968253F" Item="7" Score="7" />
+              <Item GUID="A041507B-0378-4154-985B-F3FC1FC1725B" Item="8" Score="8" />
+              <Item GUID="A0D77527-2AD3-4AFE-B460-49777CD709A6" Item="9" Score="9" />
+              <Item GUID="0C7D229B-C65A-4B9F-AA8D-42A44CAD47F4" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="20C43286-2402-4404-9613-2FCB6433A818" Order="11" Title="Tirsdag" Text="Antall glass du vanligvis drikker på Tirsdag i en &quot;Typisk Uke&quot;: {V:TuesdayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="8CD895ED-9267-477B-BAD3-693445863CA9" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="TuesdayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="557DE6D0-2898-44F3-AD54-353B9062849E" Item="0" Score="0" />
+              <Item GUID="93E7D477-629D-415C-86C8-294F3FECD00C" Item="1" Score="1" />
+              <Item GUID="18501A2D-F577-4491-829A-15EE8C79C564" Item="2" Score="2" />
+              <Item GUID="94940AD9-EC33-440C-AED5-6163530018E5" Item="3" Score="3" />
+              <Item GUID="7DA3D016-F580-4C84-A55F-ACED07B0376E" Item="4" Score="4" />
+              <Item GUID="CDB28E5A-8C93-44E9-8377-391457772A5C" Item="5" Score="5" />
+              <Item GUID="134A92B0-B582-477D-BF9C-530E29E8449A" Item="6" Score="6" />
+              <Item GUID="0CF85D68-145D-4ED4-8F9C-7F2D13F453C3" Item="7" Score="7" />
+              <Item GUID="3362E8E9-9361-4DB1-BBC1-A4887E2C9F4E" Item="8" Score="8" />
+              <Item GUID="AB950060-0A56-4B5B-8BDF-112FE7501A7F" Item="9" Score="9" />
+              <Item GUID="09B74C69-5338-4EE5-B09C-540CA6776475" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="21B2286B-E1BD-4920-9375-D150CC1BA07A" Order="12" Title="Onsdag" Text="Antall glass du vanligvis drikker på Onsdag i en &quot;Typisk Uke&quot;: {V:WednesdayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="ABED6706-54C7-48DF-8A49-CA4B80A5F0D6" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="WednesdayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="59481BF0-741D-43CD-A3E2-21BE7CD3E16A" Item="0" Score="0" />
+              <Item GUID="312663CF-30CD-466F-9ECB-82BBDFE6F077" Item="1" Score="1" />
+              <Item GUID="0DDBB1A6-2F19-41EB-BDD9-AF069E00E9D0" Item="2" Score="2" />
+              <Item GUID="FBB9BF0B-EECF-4325-8A44-F4D921035877" Item="3" Score="3" />
+              <Item GUID="63603A26-935F-405A-AA33-5AA6B60F5F82" Item="4" Score="4" />
+              <Item GUID="3E8B8B97-E9AE-46FF-9D14-73B41FEC9DF5" Item="5" Score="5" />
+              <Item GUID="3940861C-E61C-4240-8CFD-EB84E3F82E6C" Item="6" Score="6" />
+              <Item GUID="ED0B3112-A3D9-49D4-BE7E-F78CDA8ACCA9" Item="7" Score="7" />
+              <Item GUID="0CFFB75E-7838-457F-9507-63317B3C8DBF" Item="8" Score="8" />
+              <Item GUID="0D95BFD7-4143-4938-BECA-1E04ECED9009" Item="9" Score="9" />
+              <Item GUID="BDA77A8E-5C86-47F8-BA68-C25F11E8B20E" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="09ACCEA4-B8D1-45BF-97C4-06D05F205F1C" Order="13" Title="Torsdag" Text="Antall glass du vanligvis drikker på Torsdag i en &quot;Typisk Uke&quot;:  {V:ThursdayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="B76E96BC-79C2-42EC-A2F5-8C8691A9883D" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="ThursdayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="A488A963-A2F2-40C7-8A44-A7741FAF5BEF" Item="0" Score="0" />
+              <Item GUID="1472A19C-83BB-4D1A-9257-DF3EBAAC7A48" Item="1" Score="1" />
+              <Item GUID="69A6E6D3-0401-4B48-85D7-FF26C719299C" Item="2" Score="2" />
+              <Item GUID="2FFFD7ED-8A48-451F-BD0C-E968EA16BCBB" Item="3" Score="3" />
+              <Item GUID="AD5E115D-D48E-4BF0-B669-38FCA2E59AD8" Item="4" Score="4" />
+              <Item GUID="2BC5FAC2-AD96-4BF6-AF84-4F5EB4D30E43" Item="5" Score="5" />
+              <Item GUID="7EEB4771-6D85-447F-B2DE-500CDAFAE0AE" Item="6" Score="6" />
+              <Item GUID="96446AEE-B1BE-4145-B5F3-125A0395D436" Item="7" Score="7" />
+              <Item GUID="E91492C2-28C5-435D-99AA-43E63F82C206" Item="8" Score="8" />
+              <Item GUID="0F95F394-DA8E-4E24-824B-F675D53A7E89" Item="9" Score="9" />
+              <Item GUID="477E7EB6-3AA9-47AF-8BEA-E3BFCFBFA2CC" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B741C315-0C68-4708-84C9-1C15FD0DB8D6" Order="14" Title="Fredag" Text="Antall glass du vanligvis drikker på Fredag i en &quot;Typisk Uke&quot;: {V:FridayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="CFC20ADF-B976-4582-BAAE-99335DF000B4" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="FridayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="84312C14-2DCD-47CA-A2E7-C7E98F03A80A" Item="0" Score="0" />
+              <Item GUID="8566FAD9-95BC-497B-AF22-C8E0351A2EBC" Item="1" Score="1" />
+              <Item GUID="D5772D06-69FA-483D-BED7-0B52F2DA5AC1" Item="2" Score="2" />
+              <Item GUID="148354BF-5DFC-451B-B06E-5F94B8F4E57D" Item="3" Score="3" />
+              <Item GUID="D3B4EAE9-1762-4DCD-8D87-3129C5CA6ABC" Item="4" Score="4" />
+              <Item GUID="AFCFF37C-3F3E-42B5-8F70-E96D27EAAF88" Item="5" Score="5" />
+              <Item GUID="4B261EF6-FB07-4921-9F2C-831C77183F8C" Item="6" Score="6" />
+              <Item GUID="016CAC82-67A4-423F-94F7-3576508A3F55" Item="7" Score="7" />
+              <Item GUID="167AECFA-E6D6-41DB-92B3-D4321049B701" Item="8" Score="8" />
+              <Item GUID="078D69EC-D9FD-4EB4-837C-6E75DBB1CFE7" Item="9" Score="9" />
+              <Item GUID="530415E1-1B4C-42F4-A2B8-798536B88627" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="21EF7B74-79C9-4D03-8566-A301265E4C85" Order="15" Title="Lørdag" Text="Antall glass du vanligvis drikker på Lørdag i en &quot;Typisk Uke&quot;: {V:SaturdayTypical}" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="83ACC2CE-2197-478E-840D-9A1C6A054850" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="SaturdayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="6D5E3375-5652-4762-9E2A-6829FA352CB5" Item="0" Score="0" />
+              <Item GUID="E901F29E-9D77-4D8C-8024-768C2A8C28E7" Item="1" Score="1" />
+              <Item GUID="AE327549-D901-4F89-A893-916BCD27DA28" Item="2" Score="2" />
+              <Item GUID="9D75F916-5A20-4DD8-8930-795B36D89E95" Item="3" Score="3" />
+              <Item GUID="FC230E32-E9C9-47D2-AB15-0F9BC89842C1" Item="4" Score="4" />
+              <Item GUID="0C0E17D6-49D5-41CC-9911-8939EFD1EA8A" Item="5" Score="5" />
+              <Item GUID="172FB44A-92FC-4357-88B7-3303081A07ED" Item="6" Score="6" />
+              <Item GUID="573ABFA5-FBCD-41BB-83DB-1F4B0588553B" Item="7" Feedback="" Score="7" />
+              <Item GUID="E555EC92-A348-49F4-AACC-D61F39F0EDD8" Item="8" Score="8" />
+              <Item GUID="8D09AF03-C106-4C86-A5F3-F22782A48E7D" Item="9" Score="9" />
+              <Item GUID="B12A6C1A-2341-4815-8E9D-9C0E5151FA85" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="50C1FA2D-906D-4FBC-B81D-571F5BD4F97A" Order="16" Title="Søndag" Text="Antall glass du vanligvis drikker på Søndag i en &quot;Typisk Uke&quot;: {V:SundayTypical}" Type="Get information" ButtonPrimaryName="Takk!" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="A4D427B9-EDA1-46FD-A20B-22614CCB1546" Type="Slider" Caption="Ditt mål ;;(glass)" ProgramVariable="SundayW1Goal" IsRequired="1">
+            <Items>
+              <Item GUID="B351317D-9D02-4215-B8D1-A8E30417B546" Item="0" Score="0" />
+              <Item GUID="19A90E97-6EDC-4165-B865-236C5898EB3B" Item="1" Score="1" />
+              <Item GUID="F6F32F62-AE0F-4185-95B5-DBA8BCB2ACBF" Item="2" Score="2" />
+              <Item GUID="5F6EB6C9-D300-40BC-9486-AF7A6E2F08B0" Item="3" Score="3" />
+              <Item GUID="AB34F795-4221-46AB-BDBA-67F1F4E0AF9A" Item="4" Score="4" />
+              <Item GUID="900B66AB-5F1D-4B30-AE1E-A7953589EB30" Item="5" Score="5" />
+              <Item GUID="2A50BC85-8602-4600-B40C-89897F25B3B3" Item="6" Score="6" />
+              <Item GUID="333FA895-ECE6-45B3-A7AC-471050862375" Item="7" Score="7" />
+              <Item GUID="71EBA1F3-3CAF-49E7-8F21-85425641C694" Item="8" Score="8" />
+              <Item GUID="B0DB44BA-458C-4FBA-8F19-C13C32096F61" Item="9" Score="9" />
+              <Item GUID="5C5FCA24-846F-4E17-BA40-5F8D3CCFD3FE" Item="10" Score="10" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="21514DBA-3E81-4B5E-84F4-1A9CC04E1087" Order="17" Title="Målet ditt for uken er maks {V:Week1Goal} glass." Text="Her ser du målet ditt i antall glass for hver ukedag: &#xD;&#xA;&#xD;&#xA;&lt;table width='500px' columns='20%,5%,75%' color='0x6a99cb' fontColor='0x000000' fontSize='14px'&gt;Mandag,{V:MondayW1Goal};Tirsdag,{V:TuesdayW1Goal};Onsdag,{V:WednesdayW1Goal};Torsdag,{V:ThursdayW1Goal};Fredag,{V:FridayW1Goal};Lørdag,{V:SaturdayW1Goal};Søndag,{V:SundayW1Goal}&lt;/table&gt;" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:Week1Goal} =  ({V:MondayW1Goal} + {V:TuesdayW1Goal} + {V:WednesdayW1Goal} + {V:ThursdayW1Goal} + {V:FridayW1Goal} + {V:SaturdayW1Goal} + {V:SundayW1Goal})" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0F17D697-D245-4486-9950-918084F78065" Order="18" Title="t" Text="&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Video&amp;media=86573c8d-cc38-ee18-52a4-e1602c90afab.flv&amp;name=DinForEvig_1.flv' target='_blank'&gt;DinForEvig_1.flv&lt;/A&gt;" Type="Standard" ButtonPrimaryName="t" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="b15b4cf5-78be-40d7-a1d6-4d683dc026b8.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="76DFCE70-4420-4BB3-B5FD-E297202BA8EE" Order="19" Title="r" Text="&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&#xD;&#xA;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eadf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;medida=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=ddBladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt; &lt;A href='http://loddcalhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&#xD;&#xA;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladdderny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&#xD;&#xA;&lt;A href='http://localhost:41265/RequestResource.aspx?dddtarget=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;nadddme=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt; &lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;dddmedia=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;mdddedia=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;mddddedia=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaddddf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;namdddsse=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='hvvvvttp://localhost:41265/RequestResource.aspx?target=Audio&amp;media=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;mdddddedia=33ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=3dddddd3ac8b6c-cab5-4109-9f79-85044edb9eaf.mp3&amp;name=Bladerny DK.mp3' target='_blank'&gt;Bladerny DK.mp3&lt;/A&gt;" Type="Standard" ButtonPrimaryName="r" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="01DD5B75-6D56-4433-B0AB-35389F2A5338" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="2" TopBarColor="0x5e89b7" CoverShadowVisible="0" ProgramRoomName="Viljestyrke" ProgramRoomDescription="">
+      <Page GUID="72E5791D-BD2B-4EBE-8120-9146A69A7725" Order="1" Title="Gratulerer!!!" Text="Nå har du tatt et stort skritt på veien til å få nye alkoholvaner. Og fra og med i dag vil du få effektiv hjelp til å klare de målene du nettopp har satt deg.&#xD;&#xA;&#xD;&#xA;Du kommer til å merke at Balance både holder motivasjonen ved like, øker viljestyrken og hjelper deg til å holde et jevnt og godt humør.&#xD;&#xA;&#xD;&#xA;Sjansen for å lykkes er større jo mer du følger programmet.&#xD;&#xA;&#xD;&#xA;Det er viktig at du virkelig prøver å gjøre det du får beskjed om. Selv om det kan virke litt rart og kanskje til og med litt naivt noen ganger.&#xD;&#xA;&#xD;&#xA;OK?" Type="Standard" ButtonPrimaryName="Hva er egentlig en vane, forresten?" ButtonSecondaryName="Back" PresenterImage="f19e6646-e16a-4004-816b-f0387acaf44b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C565F516-ABC4-40B6-8561-3BC67DDBD1AC" Order="2" Title="Hva er en vane egentlig?" Text="Det er ting du gjør ofte og automatisk, uten å tenke over det. Som å pusse tennene om morgenen eller ta på sikkerhetsbeltet før du kjører.&#xD;&#xA;Noen vaner blir så automatiske at vi gjør dem helt ubevisst.&#xD;Hvordan var det, låste jeg døra? &#xD;&#xA;Å drikke alkohol kan være en sånn automatisert vane. Noe du gjør uten å tenke over det. Kanskje til og med uten at du har så veldig lyst, akkurat der og da. &#xD;&#xA;Automatiserte vaner er vanskelig å bryte. Men det finnes en smart måte, som egentlig er ganske logisk, når du først tenker over det." Type="Standard" ButtonPrimaryName="Her er det du skal gjøre" ButtonSecondaryName="Back" PresenterImage="9323bc17-ec83-4796-9795-c30164cc548d.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="52D745F4-04D7-4085-8B98-479E262BBFC3" Order="3" Title="&quot;Gammel vane...&quot;" Text="Når du først står med glasset i hånden, er det nesten umulig å la være å drikke. Men det har skjedd en god del, før du kommer så langt.&#xD;&#xA;Du har kanskje kommet sliten hjem, gått til skapet, tatt fram et glass, tatt ut flasken, helt i glasset og løftet glasset, klar til å drikke.  &#xD;&#xA;Altså mange handlinger før du skal til å drikke. Denne rekken er det lettere å bryte. Det gjør du ved å bestemme deg på forhånd. F. eks: Ikke ta ut glasset. &#xD;&#xA;De neste dagene kommer du til å lære mer om planlegging for å bryte en vane." Type="Standard" ButtonPrimaryName="Gjett hvem som også kan lure deg" ButtonSecondaryName="Back" PresenterImage="7ba30a5e-78e6-46f9-a597-82160061511e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1F673CCA-60DE-4C82-A36E-53E376DDE3C4" Order="4" Title="Hjernen kan &quot;lure deg&quot; til å ta et glass." Text="Når vi gjør en bestemt ting i en bestemt situasjon, og dette gjentar seg flere ganger, lagrer hjernen en ”link” mellom det vi gjør og omstendighetene rundt.&#xD;&#xA;For eksempel hvis vi ofte tar et glass når vi opplever noe spesielt, eller når vi får en bestemt følelse.&#xD;&#xA;Etter hvert vil denne linken fungere som en slags ”sufflør ” slik at hjernen ”gir deg beskjed” om å ta et glass når den registrerer den samme situasjonen eller følelsen." Type="Standard" ButtonPrimaryName="Hvilke ”linker” har du?" ButtonSecondaryName="Back" PresenterImage="cf2d797d-15af-4971-891b-fcf093bdb818.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C6D1F6FC-8922-437F-879E-C13FABBB33C7" Order="5" Title="Her er en liten test." Text="Nå skal du få en enkel test som viser hvor sterke linker du har til åtte situasjoner eller tilstander, som vi har valgt ut for deg.&#xD;&#xD;Det kan godt hende du har linker til andre (og mer positive) situasjoner også, men denne testen fokuserer altså på disse åtte.&#xD;&#xD;Senere er noe av innholdet i Balance er delt i to valgfrie deler. Vi kommer til å gi deg en anbefaling om hvilken del du bør velge, basert på denne testen. &#xD;&#xD;Men det er du som har det siste ordet. Vi ser på dette etter at du har tatt testen." Type="Standard" ButtonPrimaryName="Først en liten forklaring" ButtonSecondaryName="Back" PresenterImage="68dc68c7-719d-4ac0-bf64-508b846a947c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CDD4A409-2B69-4068-BC10-D2F47D2A25F1" Order="6" Title="Slik virker testen." Text="Et bilde og et ord som forklarer det, vil dukke opp på skjermen.&#xD;&#xD;Når bildet forsvinner skal du svare på to spørsmål, ved å klikke på to skalaer. &#xD;Dette gjentar seg 8 ganger, med en nedtelling mellom hver gang.&#xD;&#xD;Du skal ikke tenke eller vurdere så mye, bare klikk på det tallet som faller deg inn. Hvert bilde står bare et øyeblikk, så det er viktig at du konsentrer deg.&#xD;&#xD;Det kan være lurt å si ordet som står over bildet høyt, for å forsterke inntrykket. Du får altså 8 bilder tilsammen. &#xD;&#xD;Klikk på Start test, når du er klar." Type="Standard" ButtonPrimaryName="Start test" ButtonSecondaryName="Back" PresenterImage="c18c4696-99ed-4e47-a419-921920f88478.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C80ECC81-3F14-4B0A-B845-3F060E490968" Order="7" Title="" Text="Konfrontasjon" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="b6059137-43d6-436f-b39f-349651100a77.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C3BFA9A4-340D-4AAA-AD84-78C8988B4A5E" Order="8" Title="Klikk på tallet" Text="" Type="Get information" ButtonPrimaryName="Neste" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="EFA87FE4-52A4-4046-B3BE-E7BB5E1806C1" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="NVC Q1 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="9D5EE829-18F2-4E45-86EA-600635B36226" Item="1" Score="0" />
+              <Item GUID="BF28F086-B226-4368-B05F-2C19E21E8734" Item="2" Score="1" />
+              <Item GUID="A84EFEE5-BD9D-4F1C-BED0-83DB837D97EC" Item="3" Score="2" />
+              <Item GUID="1C3B4BA1-23C3-42DF-8D59-A580DF936C9D" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="C9FD3142-07D8-4BEE-B35A-EB13C2705F68" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="NVC Q1 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="AC370B3A-30FF-415C-976A-23652E473521" Item="1" Score="3" />
+              <Item GUID="8A6B1A76-3259-4A80-BB7D-FD66846A9171" Item="2" Score="2" />
+              <Item GUID="3597D705-7624-4587-ACB4-F6F996A26A35" Item="3" Score="1" />
+              <Item GUID="231A6438-B097-4C27-A0C8-70509B7B704B" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0FF6F6E2-A996-47E8-8CD4-F94A1F0DB367" Order="9" Title="" Text="Skyldfølelse" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="839be0e5-0034-4453-988a-df6d95f4900a.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="90122D3A-61E8-48F5-A545-DB29A24CE024" Order="10" Title="Klikk på tallet." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="5715C0F7-2E4C-4210-8D1E-A1B04E5329CF" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="ACT Q1 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="5F972EA9-9A56-4E79-A4BC-63468DE50509" Item="1" Score="0" />
+              <Item GUID="6BCFABCA-CE5C-407F-BA13-50472F000898" Item="2" Score="1" />
+              <Item GUID="D0CAD20A-F354-4146-84BB-6B585B339C5D" Item="3" Score="2" />
+              <Item GUID="8603CBC2-17FD-416A-BF96-126160E9622F" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="13A722BF-DE99-4E10-9CBE-D9518F0C587B" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="ACT Q1 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="34D6B91A-0970-42F5-B5FB-6545E9D5BCBD" Item="1" Score="3" />
+              <Item GUID="F99D57E1-F05C-4081-BA39-61D3B7DB78B1" Item="2" Score="2" />
+              <Item GUID="A46E281A-5C20-4809-92B7-78AC513A6308" Item="3" Score="1" />
+              <Item GUID="5F58BACC-B12A-4F13-9BFC-F9A0F7AA80DD" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B8CC6B5C-ACEF-43B5-A8BB-AD64C6D7E1C5" Order="11" Title="" Text="Aggresjon" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="71a1e11f-eed9-40ca-ba52-dd93c6697ef2.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A1E8EF98-AA67-4C91-8528-835A9785C786" Order="12" Title="Klikk på tallet." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="CF302C79-0626-4064-94E1-16F03F48DF28" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="NVC Q2 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="47A41A1B-6E45-45FC-A272-F6220BD23629" Item="1" Score="0" />
+              <Item GUID="8CD2E282-D867-4E38-AD08-BBDFDAECD960" Item="2" Score="1" />
+              <Item GUID="522280B5-8BED-4AD7-9DEC-B5B607CE65A0" Item="3" Score="2" />
+              <Item GUID="69FAB0B7-A835-4814-B76E-5AC8A1E09149" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="D8FB6001-A075-44BD-8F02-EC162604CD67" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="NVC Q2 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="77A9A3B2-0261-4D72-8F48-06E30FD4D317" Item="1" Score="3" />
+              <Item GUID="86E4CFCE-C26C-4E9B-A78D-F42BE3EF80FA" Item="2" Score="2" />
+              <Item GUID="AD629DFA-0768-48FF-8D92-E85A8FC2F158" Item="3" Score="1" />
+              <Item GUID="ED93AAEB-BB1D-4B61-88F9-BC15DDF4CFEE" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="BA4B613B-8A32-42E5-AFFF-1FF7AF208403" Order="13" Title="" Text="Krangel" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="a137fe21-3bf8-43cf-add1-12c1ff6f019f.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A13846E5-FA74-46BA-8590-44D7EA5E87C2" Order="14" Title="Klikk på tallet." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="FE91B038-DD3A-422A-9023-16F863D9CBA4" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="NVC Q3 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="17FDAD6F-50E2-4CCD-9044-BFEE8EC81CDD" Item="1" Score="0" />
+              <Item GUID="B4A2685B-2BAF-4E35-9564-B937502D6457" Item="2" Score="1" />
+              <Item GUID="43CB353D-1507-4898-81C5-945D603AE3DD" Item="3" Score="2" />
+              <Item GUID="2BCBA854-C5C7-49FC-9DC1-2E1630AED2AB" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="A83BD083-B3B5-498A-803A-22E61A28FCC0" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="NVC Q3 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="3EC10A65-C184-4AA3-8534-9379C7922BE7" Item="1" Score="3" />
+              <Item GUID="E0E2D0AF-BBD3-4227-9DAC-6027720CB714" Item="2" Score="2" />
+              <Item GUID="AFA50386-5BDF-4CF9-AF0B-9A66D3A0B219" Item="3" Score="1" />
+              <Item GUID="3C31C5CE-6D37-41E3-A5EF-8A20283785B6" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="27228378-96DE-4E7B-921A-299D9233FB74" Order="15" Title="" Text="Tristhet" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="7c971dcd-8d88-4c27-861d-48a38fd90721.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="33C0121D-D977-44BA-9DC6-03858B5845EE" Order="16" Title="Klikk på tallet" Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="ABB5E3BD-0B35-4F5D-8410-FA9BD43E66D0" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="ACT Q2 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="9DC605CD-BFF5-4899-9F5C-27162C39B8FB" Item="1" Score="0" />
+              <Item GUID="553C37A2-8256-45B4-A571-D84E8F3D4E35" Item="2" Score="1" />
+              <Item GUID="5DB7E5FF-8D61-4BAC-BE1B-BA6443021E1A" Item="3" Score="2" />
+              <Item GUID="5A1B40BC-5D32-4348-8CDC-CBF7ADD26019" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="ED7FB1AA-B320-4ED4-9454-91CBB0E3B9E3" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="ACT Q2 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="5F9899C3-CF63-49BC-8FB3-60F989706F86" Item="1" Score="3" />
+              <Item GUID="BE7BD7B0-AA3D-4DCA-89DD-E0045D6F0215" Item="2" Score="2" />
+              <Item GUID="A74EFD7B-3249-40A7-9007-E753222A0650" Item="3" Score="1" />
+              <Item GUID="25B6ADEE-AF1D-455C-977A-2F0D88465E53" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="2B1D6884-38F6-4149-A6CC-0F4E23FF6737" Order="17" Title="Hei og velkommen til din første dag i Balance!" Text="Vi gleder oss til å hjelpe deg med å forandre alkoholvanene dine, slik du selv ønsker!&#xD;&#xA;&#xD;&#xA;Det viktigste som skjer i dag, er at du skal bestemme hvor mye du vil forandre. Det vil du få god hjelp til. &#xD;&#xA;&#xD;&#xA;Når det er gjort, skal vi se nærmere på hva en vane egentlig er. Og hvordan den kan brytes.&#xD;&#xA;&lt;A href='http://localhost:41265/RequestResource.aspx?target=Audio&amp;media=b15b4cf5-78be-40d7-a1d6-4d683dc026b8.mp3&amp;name=Bladerny FIN.mp3' target='_blank'&gt;aaa&lt;/A&gt;" Type="Standard" ButtonPrimaryName="Men først..." ButtonSecondaryName="Back" PresenterImage="42d7475b-411c-49fd-ae12-7e31e6b93fa2.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8CB346B4-50A0-4FC3-BE85-369A023CDF24" Order="18" Title="Klikk på tallet." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="77E375B6-E4B1-42B8-AB5E-2708B472382F" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="ACT Q3 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="26F2B642-D18E-4386-A9BA-705A5FA7DB9B" Item="1" Score="0" />
+              <Item GUID="6B7A8083-572D-4EB2-9DEC-CFFA99335D99" Item="2" Score="1" />
+              <Item GUID="B0C5411E-C45D-47B7-972D-40E94F3BA87E" Item="3" Score="2" />
+              <Item GUID="ED2092BB-71B7-412C-908E-92D5558C916F" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="03DF2CE9-FB32-4B6F-963B-77801A553FE1" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="ACT Q3 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="09426405-6755-4794-BDF0-B253BAB9A96E" Item="1" Score="3" />
+              <Item GUID="0D9EB6D4-5082-4F8F-A8FD-253FD6E3E67D" Item="2" Score="2" />
+              <Item GUID="DC43B8B7-236D-45DC-8F54-710600EFA94D" Item="3" Score="1" />
+              <Item GUID="C9D098CD-E81A-4444-BCEC-5F0B22F03E65" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="AE373DAE-1AF7-422C-BA36-5F45BBAB95BF" Order="19" Title="" Text="Kritikk" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="ea8b4f78-cc24-4c69-8056-0fa566e71b80.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3FA824CC-6928-44A7-9164-F3876A8156CA" Order="20" Title="Klikk på tallet." Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="EB02AB11-1825-44B0-A8E3-E1E0EA850292" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="NVC Q4 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="D1A9DE8D-202B-4236-95A0-C3ACEB033BF6" Item="1" Score="0" />
+              <Item GUID="260D8C4A-187C-41CC-939E-0038257E1292" Item="2" Score="1" />
+              <Item GUID="4BBF8FE6-B44D-4359-B87B-4914C3D23EA7" Item="3" Score="2" />
+              <Item GUID="65B8B4C2-FA13-4FE6-B7C1-CB0B0D47BCE0" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="9FC437C3-AB9B-4630-892F-A2DDF09637E8" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="NVC Q4 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="8D54905F-CD59-4A6A-84F9-7E26DA3C76FB" Item="1" Score="3" />
+              <Item GUID="9C7F0F33-7D6A-4746-BF39-338DCA82F0D8" Item="2" Score="2" />
+              <Item GUID="C1AA5CD9-C0F4-4210-B0EC-179892091A33" Item="3" Score="1" />
+              <Item GUID="F1C9EFEC-A7AA-45FE-BF88-7D1DDF458154" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="DA1A3406-955D-485F-AFC6-A2735E835F5A" Order="21" Title="" Text="Stress" Type="Push pictures" ButtonSecondaryName="Back" PresenterImage="d1264a07-22db-44fe-936d-849490fea854.png" Interval="3" MaxPreferences="0">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0CAC82AB-2C8A-4C60-BE3A-F56BD24DD587" Order="22" Title="Klikk på tallet" Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="SET {V:ACT Sum Scores} = ({V:ACT Q1 Desire} + {V:ACT Q1 Resistans} + {V:ACT Q2 Desire} + {V:ACT Q2 Resistans} + {V:ACT Q3 Desire} + {V:ACT Q3 Resistans} + {V:ACT Q4 Desire} + {V:ACT Q4 Resistans}) SET {V:NAC Sum Scores} = ({V:NVC Q1 Desire} + {V:NVC Q1 Resistans} + {V:NVC Q2 Desire} + {V:NVC Q2 Resistans} + {V:NVC Q3 Desire} + {V:NVC Q3 Resistans} + {V:NVC Q4 Desire} + {V:NVC Q4 Resistans})">
+        <Questions>
+          <Question GUID="3A77953C-F7A4-4236-80F8-F1C7C3B35388" Type="Slider" Caption="Hvor sterk lyst får du til å drikke?;Ingen lyst;Sterk lyst" ProgramVariable="ACT Q4 Desire" IsRequired="1">
+            <Items>
+              <Item GUID="433527F9-9794-440F-947E-B340EA2F8A7D" Item="1" Score="0" />
+              <Item GUID="BE31C174-E1A9-4D37-9082-DCC7340AD8C5" Item="2" Score="1" />
+              <Item GUID="384C419A-1501-41FD-A92D-CD4251D28F2E" Item="3" Score="2" />
+              <Item GUID="6FAB2D91-144C-495B-BA3D-A586A1B2B1BA" Item="4" Score="3" />
+            </Items>
+          </Question>
+          <Question GUID="7836237B-B05E-4448-AE9A-219595E6DF2A" Type="Slider" Caption="Du blir tilbudt et glass. Hvor sikker er du på at du kan motstå?;Svært usikker;Svært sikker" ProgramVariable="ACT Q4 Resistans" IsRequired="1">
+            <Items>
+              <Item GUID="5CFDB834-1791-4EA5-8EC5-25ADA788E470" Item="1" Score="3" />
+              <Item GUID="86B3F99D-C275-4420-BB32-DBA9D0AC2AA5" Item="2" Score="2" />
+              <Item GUID="18D62EAC-224D-4664-8741-58C7E29F0DB5" Item="3" Score="1" />
+              <Item GUID="DD62FE1E-B5B9-45C5-BD2C-0A86EA57A610" Item="4" Score="0" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CB8AF3EC-2BFF-48FF-9C7E-03390167A103" Order="23" Title="Takk! Nå har vi behandlet svarene dine." Text="En dag i uken er noe av innholdet i Balance delt i to valgfrie deler. &#xD;&#xD;Den ene delen lærer deg hvordan du unngår at negative tanker og følelser påvirker deg for mye. Den heter &quot;Håndtering av tanker og følelser&quot;.&#xD;&#xD;Den andre delen viser deg hvordan man kan oppnå det man ønsker, uten konflikt, gjennom bedre kommunikasjon. &quot;Den heter &quot;Behovsrettet samtale&quot;.&#xD;&#xD;Basert på svarene dine anbefaler vi &quot;Håndtering av negative tanker og følelser&quot;. Men det er ingen ting i veien for at du velger det andre alternativet.&#xD;&#xD;Valget gjør du på neste side." Type="Standard" ButtonPrimaryName="Det er du som bestemmer!" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:ACT Sum Scores} &lt; {V:NAC Sum Scores} GOTO 2.24" AfterExpression="GOTO 2.25">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="69AA0C8A-5382-43D7-8112-7B7B9AB2B1AC" Order="24" Title="Hvilket innhold velger du?" Text="" Type="Get information" ButtonPrimaryName="Da går det mot slutten for i dag" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="3730A76F-02C2-4C3F-B69C-5E3BF5ED6D64" Type="RadioButton" Caption="Velg mellom disse to:" ProgramVariable="Cue Reactivity Choice" IsRequired="1">
+            <Items>
+              <Item GUID="30E983EE-49FE-4E04-8190-0DDF9C658B7E" Item="Håndtering av negative tanker og følelser" Score="0" />
+              <Item GUID="19FA4BB4-87B1-4558-B89A-8262FA5C6E59" Item="Behovsrettet Samtale" Score="1" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3E720255-7232-4CC2-BEFB-93310C890A31" Order="25" Title="Takk! Vi har behandlet svarene dine." Text="En dag i uken er noe av innholdet i Balance delt i to valgfrie deler. &#xD;&#xD;Den ene delen lærer deg hvordan du unngår at negative tanker og følelser påvirker deg for mye. Den heter &quot;Håndtering av tanker og følelser&quot;.&#xD;&#xD;Den andre delen viser deg hvordan man kan oppnå det man ønsker, uten konflikt, gjennom bedre kommunikasjon. &quot;Den heter &quot;Behovsrettet samtale&quot;.&#xD;&#xD;Basert på svarene dine anbefaler vi &quot;Behovsrettet samtale&quot;. Men det er ingen ting i veien for at du velger det andre alternativet.&#xD;&#xD;Valget gjør du på neste side." Type="Standard" ButtonPrimaryName="Det er du som bestemmer!" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="0A141E61-82DD-48DD-B374-624E4C66131F" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="3" TopBarColor="0x5e89b7" CoverShadowVisible="0" ProgramRoomName="Humør" ProgramRoomDescription="">
+      <Page GUID="493D5827-7DBE-4ADE-9BCC-09695257ACB3" Order="1" Title="I morgen er det en spennende dag her i Balance." Text="Alle, absolutt alle kan utvikle dårlige alkoholvaner. Det skal du få høre mer om i morgen. &#xD;&#xA;Dessuten får du en del ting som er spesielt tilpasset deg, basert på det vi har lært om deg hittil.&#xD;&#xA;Fra og med i morgen skal du også legge inn antall glass du drakk dagen før, altså i dag i dette tilfellet.&#xD;&#xA;Høres det mye ut? Neida, det virker bare sånn nå til å begynne med. Vi gleder oss til å se deg i morgen!" Type="Standard" ButtonPrimaryName="Avslutt" ButtonSecondaryName="Back" PresenterImage="b8431756-dfd3-407a-ad0c-08a6d1bd01c1.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Session>
+  <GeneralVariables>
+    <Variable Name="FirstName" Value="g" Type="String" />
+    <Variable Name="LastName" Value="xin" Type="String" />
+    <Variable Name="Email" Value="guangxinjiao@ethos.com.cn" Type="String" />
+    <Variable Name="MobilePhone" Value="123                                                                                                                                                                                                                                                            " Type="String" />
+    <Variable Name="Gender" Value="1" Type="Numeric" />
+  </GeneralVariables>
+  <ProgramVariables>
+    <Variable Name="Mastery" Type="Numeric" Value="0" />
+    <Variable Name="Stability" Type="Numeric" Value="1" />
+    <Variable Name="Independence" Type="Numeric" Value="0" />
+    <Variable Name="TypicalWEEK" Type="Numeric" Value="0" />
+    <Variable Name="Love" Type="Numeric" Value="1" />
+    <Variable Name="FastScoreFemale" Type="Numeric" Value="1" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="5" />
+    <Variable Name="CategoryTypWeek" Type="Numeric" Value="0" />
+    <Variable Name="Self Esteem" Type="Numeric" Value="0" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="Friendship" Type="Numeric" Value="0" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="7" />
+    <Variable Name="Health" Type="Numeric" Value="1" />
+    <Variable Name="Honesty" Type="Numeric" Value="0" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Numeric" Value="4 til 5 dager i uken" />
+    <Variable Name="Perform" Type="Numeric" Value="0" />
+    <Variable Name="TxtBingeFemale" Type="Numeric" Value="Sjelden eller aldri" />
+    <Variable Name=" Best Possible Life 1" Type="Unknown" Value="" />
+    <Variable Name="AccountCreated" Type="Unknown" Value="" />
+    <Variable Name="ACT Q1 Desire" Type="Unknown" Value="" />
+    <Variable Name="ACT Q1 Resistans" Type="Unknown" Value="" />
+    <Variable Name="ACT Q2 Desire" Type="Unknown" Value="" />
+    <Variable Name="ACT Q2 Resistans" Type="Unknown" Value="" />
+    <Variable Name="ACT Q3 Desire" Type="Unknown" Value="" />
+    <Variable Name="ACT Q3 Resistans" Type="Unknown" Value="" />
+    <Variable Name="ACT Q4 Desire" Type="Unknown" Value="" />
+    <Variable Name="ACT Q4 Resistans" Type="Unknown" Value="" />
+    <Variable Name="ACT Sum Scores" Type="Unknown" Value="" />
+    <Variable Name="Age" Type="Unknown" Value="" />
+    <Variable Name="AuditFemale" Type="Unknown" Value="" />
+    <Variable Name="AuditScoreMale" Type="Unknown" Value="" />
+    <Variable Name="Best Possible LifeT1" Type="Unknown" Value="" />
+    <Variable Name="Binge Female" Type="Unknown" Value="" />
+    <Variable Name="Binge Male" Type="Unknown" Value="" />
+    <Variable Name="BingeF68" Type="Unknown" Value="" />
+    <Variable Name="BingeFemale" Type="Unknown" Value="" />
+    <Variable Name="CategoryTypWeek" Type="Unknown" Value="" />
+    <Variable Name="ChangeGoal" Type="Unknown" Value="" />
+    <Variable Name="ChangeGSure" Type="Unknown" Value="" />
+    <Variable Name="ChooseLapse" Type="Unknown" Value="" />
+    <Variable Name="ContactMedical" Type="Unknown" Value="" />
+    <Variable Name="ConvertedFastMale" Type="Unknown" Value="" />
+    <Variable Name="Cue Reactivity Choice" Type="Unknown" Value="" />
+    <Variable Name="Dream Day" Type="Unknown" Value="" />
+    <Variable Name="DrinkingDaysFemale" Type="Unknown" Value="" />
+    <Variable Name="DrinkingDaysMale" Type="Unknown" Value="" />
+    <Variable Name="DrinksFridayW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksFriW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksFriW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksMondayW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksMondayW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksMondW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksSaturdW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksSaturW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksSatW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksSundW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksSunW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksSunW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksThursdW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksThursdW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksThursW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksTuesdW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksTuesW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksTuesW3" Type="Unknown" Value="" />
+    <Variable Name="DrinksWednesdW1" Type="Unknown" Value="" />
+    <Variable Name="DrinksWednesW2" Type="Unknown" Value="" />
+    <Variable Name="DrinksWednW3" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ1" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ10" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ2" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ3" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ4" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ5" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ6" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ7" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ8" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ9" Type="Unknown" Value="" />
+    <Variable Name="FailedNormalActivities" Type="Unknown" Value="" />
+    <Variable Name="FastScoreFemale" Type="Unknown" Value="" />
+    <Variable Name="FastScoreMale" Type="Unknown" Value="" />
+    <Variable Name="Forget" Type="Unknown" Value="" />
+    <Variable Name="FridayGoalW3" Type="Unknown" Value="" />
+    <Variable Name="FridayTypical" Type="Unknown" Value="" />
+    <Variable Name="FridayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="FridayW2Goal" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="FriDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="FriendsConcerned" Type="Unknown" Value="" />
+    <Variable Name="Friendship" Type="Unknown" Value="" />
+    <Variable Name="FriGoalFU" Type="Unknown" Value="" />
+    <Variable Name="FriGoalW4" Type="Unknown" Value="" />
+    <Variable Name="FriGoalW5" Type="Unknown" Value="" />
+    <Variable Name="FriGoalW6" Type="Unknown" Value="" />
+    <Variable Name="FriGoalW7" Type="Unknown" Value="" />
+    <Variable Name="FriGoalW8" Type="Unknown" Value="" />
+    <Variable Name="FriNew" Type="Unknown" Value="" />
+    <Variable Name="Gender" Type="Unknown" Value="" />
+    <Variable Name="GoalMondW2" Type="Unknown" Value="" />
+    <Variable Name="GoLapse" Type="Unknown" Value="" />
+    <Variable Name="gotoRelapse" Type="Unknown" Value="" />
+    <Variable Name="GraphDrinks" Type="Unknown" Value="" />
+    <Variable Name="GraphGoal" Type="Unknown" Value="" />
+    <Variable Name="GreenTrack" Type="Unknown" Value="" />
+    <Variable Name="Health" Type="Unknown" Value="" />
+    <Variable Name="Honesty" Type="Unknown" Value="" />
+    <Variable Name="Independence" Type="Unknown" Value="" />
+    <Variable Name="Interupt Registration" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramMI" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramMI2" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramYellow" Type="Unknown" Value="" />
+    <Variable Name="Love" Type="Unknown" Value="" />
+    <Variable Name="Main Values" Type="Unknown" Value="" />
+    <Variable Name="Mastery" Type="Unknown" Value="" />
+    <Variable Name="MIImportance" Type="Unknown" Value="" />
+    <Variable Name="MISelfEfficacy" Type="Unknown" Value="" />
+    <Variable Name="Mobile" Type="Unknown" Value="" />
+    <Variable Name="MondayDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="MondayGoalW3" Type="Unknown" Value="" />
+    <Variable Name="MondayTypical" Type="Unknown" Value="" />
+    <Variable Name="MondayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="MondDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="MondDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="MondDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="MondGoalW4" Type="Unknown" Value="" />
+    <Variable Name="MondGoalW5" Type="Unknown" Value="" />
+    <Variable Name="MondGoalW6" Type="Unknown" Value="" />
+    <Variable Name="MonDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="MonDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="MonGoalFU" Type="Unknown" Value="" />
+    <Variable Name="MonGoalW7" Type="Unknown" Value="" />
+    <Variable Name="MonGoalW8" Type="Unknown" Value="" />
+    <Variable Name="MonNew" Type="Unknown" Value="" />
+    <Variable Name="NAC Sum Scores" Type="Unknown" Value="" />
+    <Variable Name="NextEgoDepLapse" Type="Unknown" Value="" />
+    <Variable Name="NextRelapse" Type="Unknown" Value="" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Unknown" Value="" />
+    <Variable Name="NVC Q1 Desire" Type="Unknown" Value="" />
+    <Variable Name="NVC Q1 Resistans" Type="Unknown" Value="" />
+    <Variable Name="NVC Q2 Desire" Type="Unknown" Value="" />
+    <Variable Name="NVC Q2 Resistans" Type="Unknown" Value="" />
+    <Variable Name="NVC Q3 Desire" Type="Unknown" Value="" />
+    <Variable Name="NVC Q3 Resistans" Type="Unknown" Value="" />
+    <Variable Name="NVC Q4 Desire" Type="Unknown" Value="" />
+    <Variable Name="NVC Q4 Resistans" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Q1" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Q2" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Q3" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Q4" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Q5" Type="Unknown" Value="" />
+    <Variable Name="PAFD Act of Kidness Total" Type="Unknown" Value="" />
+    <Variable Name="PAFD Choice" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Q1" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Q2" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Q3" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Q4" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Q5" Type="Unknown" Value="" />
+    <Variable Name="PAFD Flow Total" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Q1" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Q2" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Q3" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Q4" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Q5" Type="Unknown" Value="" />
+    <Variable Name="PAFD Optimism Total" Type="Unknown" Value="" />
+    <Variable Name="Perform" Type="Unknown" Value="" />
+    <Variable Name="Pleasurable Activities Day 10" Type="Unknown" Value="" />
+    <Variable Name="PrintResultRED" Type="Unknown" Value="" />
+    <Variable Name="Program Selection Group 1" Type="Unknown" Value="" />
+    <Variable Name="Reason1" Type="Unknown" Value="" />
+    <Variable Name="Reason2" Type="Unknown" Value="" />
+    <Variable Name="Reason3" Type="Unknown" Value="" />
+    <Variable Name="SaturdayGoalW3" Type="Unknown" Value="" />
+    <Variable Name="SaturdayTypical" Type="Unknown" Value="" />
+    <Variable Name="SaturdayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="SaturdayW2Goal" Type="Unknown" Value="" />
+    <Variable Name="SaturdGoalW4" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="SaturDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="SaturGoalFU" Type="Unknown" Value="" />
+    <Variable Name="SaturGoalW5" Type="Unknown" Value="" />
+    <Variable Name="SaturGoalW6" Type="Unknown" Value="" />
+    <Variable Name="SaturGoalW7" Type="Unknown" Value="" />
+    <Variable Name="SaturGoalW8" Type="Unknown" Value="" />
+    <Variable Name="SaturNew" Type="Unknown" Value="" />
+    <Variable Name="SE1" Type="Unknown" Value="" />
+    <Variable Name="SE2" Type="Unknown" Value="" />
+    <Variable Name="SE3" Type="Unknown" Value="" />
+    <Variable Name="Self Esteem" Type="Unknown" Value="" />
+    <Variable Name="SelfEfficacyHelper" Type="Unknown" Value="" />
+    <Variable Name="SelfEfficacyOften" Type="Unknown" Value="" />
+    <Variable Name="SHS 2" Type="Unknown" Value="" />
+    <Variable Name="SHS 3" Type="Unknown" Value="" />
+    <Variable Name="SHS 4" Type="Unknown" Value="" />
+    <Variable Name="SHS Median" Type="Unknown" Value="" />
+    <Variable Name="SHS1" Type="Unknown" Value="" />
+    <Variable Name="Speech for Yourself" Type="Unknown" Value="" />
+    <Variable Name="Stability" Type="Unknown" Value="" />
+    <Variable Name="Step towards your Best Possible Life" Type="Unknown" Value="" />
+    <Variable Name="Stop registration" Type="Unknown" Value="" />
+    <Variable Name="SundayGoalW3" Type="Unknown" Value="" />
+    <Variable Name="SundayGoalW4" Type="Unknown" Value="" />
+    <Variable Name="SundayTypical" Type="Unknown" Value="" />
+    <Variable Name="SundayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="SundayW2Goal" Type="Unknown" Value="" />
+    <Variable Name="SundDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="SunDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="SunDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="SunDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="SunDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="SunDrinkW8" Type="Unknown" Value="" />
+    <Variable Name="SunGoalFU" Type="Unknown" Value="" />
+    <Variable Name="SunGoalW5" Type="Unknown" Value="" />
+    <Variable Name="SunGoalW6" Type="Unknown" Value="" />
+    <Variable Name="SunGoalW7" Type="Unknown" Value="" />
+    <Variable Name="SunGoalW8" Type="Unknown" Value="" />
+    <Variable Name="SunNew" Type="Unknown" Value="" />
+    <Variable Name="ThurDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="ThurDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="ThurGoalW6" Type="Unknown" Value="" />
+    <Variable Name="ThursdayTypical" Type="Unknown" Value="" />
+    <Variable Name="ThursdayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="ThursdayW2Goal" Type="Unknown" Value="" />
+    <Variable Name="ThursdGoalW3" Type="Unknown" Value="" />
+    <Variable Name="ThursdGoalW4" Type="Unknown" Value="" />
+    <Variable Name="ThursDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="ThursDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="ThursDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="ThursDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="ThursGoalFU" Type="Unknown" Value="" />
+    <Variable Name="ThursGoalW5" Type="Unknown" Value="" />
+    <Variable Name="ThursGoalW7" Type="Unknown" Value="" />
+    <Variable Name="ThursGoalW8" Type="Unknown" Value="" />
+    <Variable Name="ThursNew" Type="Unknown" Value="" />
+    <Variable Name="Time 1" Type="Unknown" Value="" />
+    <Variable Name="Time 2" Type="Unknown" Value="" />
+    <Variable Name="Time sms Ego 1" Type="Unknown" Value="" />
+    <Variable Name="Time sms Ego 3" Type="Unknown" Value="" />
+    <Variable Name="Time sms Ego 4" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 1" Type="Unknown" Value="" />
+    <Variable Name="Time sms motivation 2" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 3" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 4" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 5" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 6" Type="Unknown" Value="" />
+    <Variable Name="Time sms Motivation 7" Type="Unknown" Value="" />
+    <Variable Name="Time sms self 1" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 2" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 3" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 4" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 5" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 6" Type="Unknown" Value="" />
+    <Variable Name="Time sms Self 7" Type="Unknown" Value="" />
+    <Variable Name="Timer sms Ego 2" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW1" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW2" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW3" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="TotalDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalFU" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW2" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW3" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW4" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW5" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW6" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW7" Type="Unknown" Value="" />
+    <Variable Name="TotalGoalW8" Type="Unknown" Value="" />
+    <Variable Name="TotalWeeklyDrinks68" Type="Unknown" Value="" />
+    <Variable Name="TotalWeeklyDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="TuesdayGoalW3" Type="Unknown" Value="" />
+    <Variable Name="TuesdayTypical" Type="Unknown" Value="" />
+    <Variable Name="TuesdayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="TuesDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="TuesdW2Goal" Type="Unknown" Value="" />
+    <Variable Name="TuesGoal7" Type="Unknown" Value="" />
+    <Variable Name="TuesGoalFU" Type="Unknown" Value="" />
+    <Variable Name="TuesGoalW4" Type="Unknown" Value="" />
+    <Variable Name="TuesGoalW5" Type="Unknown" Value="" />
+    <Variable Name="TuesGoalW6" Type="Unknown" Value="" />
+    <Variable Name="TuesGoalW8" Type="Unknown" Value="" />
+    <Variable Name="TuesNew" Type="Unknown" Value="" />
+    <Variable Name="TxtBingeFemale" Type="Unknown" Value="" />
+    <Variable Name="TxtBingeMale" Type="Unknown" Value="" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Unknown" Value="" />
+    <Variable Name="TypicalWEEK" Type="Unknown" Value="" />
+    <Variable Name="WednDrinksFU" Type="Unknown" Value="" />
+    <Variable Name="WednDrinksW4" Type="Unknown" Value="" />
+    <Variable Name="WednDrinksW7" Type="Unknown" Value="" />
+    <Variable Name="WednesdayTypical" Type="Unknown" Value="" />
+    <Variable Name="WednesdayW1Goal" Type="Unknown" Value="" />
+    <Variable Name="WednesdayW2Goal" Type="Unknown" Value="" />
+    <Variable Name="WednesdDrinksW5" Type="Unknown" Value="" />
+    <Variable Name="WednesDrinksW6" Type="Unknown" Value="" />
+    <Variable Name="WednesDrinksW8" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalFU" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalW3" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalW4" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalW5" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalW7" Type="Unknown" Value="" />
+    <Variable Name="WednesGoalW8" Type="Unknown" Value="" />
+    <Variable Name="WednesNew" Type="Unknown" Value="" />
+    <Variable Name="WednGoalW6" Type="Unknown" Value="" />
+    <Variable Name="Week1Goal" Type="Unknown" Value="" />
+  </ProgramVariables>
+  <TipMessages>
+    <Message Name="ExitProgramFailed" Title="Avmelding var mislykket." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="PauseProgramSuccessful" Title="Programmet er nå satt på pause." Message="Programmet starter av seg selv. Du vil da motta e-post fra oss igjen. " BackButtonName="OK" />
+    <Message Name="RegisterPasswordConfirm" Title="Passordene dine stemmer ikke overens." Message="Kontroller stavingen og gjenta passordet på nytt." BackButtonName="OK" />
+    <Message Name="RegisterSuccessfully" Title="Du er påmeldt Balance!" Message="Programmet starter førstkommende mandag. Da får du en e-post på den oppgitte e-postadressen. Den inneholder en link du skal klikke på for å starte programmet. &#xD;&#xA;&#xD;&#xA;Hvis det er mandag i dag, vil du allerede om kort tid motta en e-post med link til dagens program.&#xD;&#xA;&#xD;&#xA;Hjertelig takk for påmeldingen" BackButtonName="OK" />
+    <Message Name="ProgramIsPaused" Title="Programmet er satt på pause" Message="Du kan ikke logge iinn fordi du har satt programmet på pause" BackButtonName="OK" />
+    <Message Name="RegisterInfoRequired" Title="Vi trenger e-post adresse og passord." Message="For å registrere deg trenger vi e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Vennligst fyll inn." BackButtonName="OK" />
+    <Message Name="QuestionRequired" Title="Vi trenger ditt svar før du kan gå videre." Message="Vennligst svar så godt du kan på spørsmålet (eller spørsmålene) på siden før du går videre." BackButtonName="OK" />
+    <Message Name="InvalidEmailAddress" Title="E-post adressen er ikke korrekt." Message="Kontroller stavingen og prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="TimerRequired" Title="Oppgi tid" Message="Vennligst oppgi tid før du kan gå videre. Klikk på knappen for å starte/stoppe klokken." BackButtonName="OK" />
+    <Message Name="NeedToJoinProgram" Title="Du er ikke påmeldt." Message="Du har ikke meldt deg på Balance. Ta kontakt med support ved mail til balance@akan.no eller tlf 22 40 28 00 for å få hjelp til å melde deg på." BackButtonName="OK" />
+    <Message Name="InvalidateCompany" Title="Linken er ikke lengre åpen for påmelding" Message="Vennligst ta kontakt med Balance. " BackButtonName="OK" />
+    <Message Name="TipFriendFailed" Title="Meldingen ble ikke sent." Message="Vi kunne ikke sende meldingen. Vennligst sjekk at e-post adressen er korrekt." BackButtonName="OK" />
+    <Message Name="SendPinCodeSuccess" Title="Pinkode er nå sendt " Message="" BackButtonName="OK" />
+    <Message Name="NavigationError" Title="Navigeringsfeil" Message="Vennligst ta kontakt med support ved mail til balance@akan.no eller tlf 22 40 28 00 og oppgi feilmeldingen du har mottatt." BackButtonName="OK" />
+    <Message Name="PasswordRemiderInfoRequired" Title="Glemt passord?" Message="Skriv inn din epostadresse, så sender vi deg nytt passord." BackButtonName="OK" />
+    <Message Name="LoginFailed" Title="Det oppsto en feil ved innlogging." Message="Sjekk at du tastet riktig brukernavn og passord, og at ikke &quot;Caps Lock&quot; på tastaturet ditt er på." BackButtonName="OK" />
+    <Message Name="ProgramRoomDescription" Title="Beskrivelse av rommene." Message="Beskrivelse av rommene." BackButtonName="Tilbake" />
+    <Message Name="ProfileChangeSuccessful" Title="Oppdateringen var vellykket." Message="Oppdatering av profilen din var vellykket, og all informasjon er overført." BackButtonName="OK" />
+    <Message Name="HaveFinishedTodaysClass" Title="Hei igjen!" Message="Du har allerede gjennomgått dagens program. Velkommen tilbake en annen dag. " BackButtonName="Avslutt" />
+    <Message Name="RegisterFailed" Title="Feil ved registrering." Message="Det har oppstått en feil ved registrering. &#xD;&#xA;&#xD;&#xA;Vennligst prøv igjen eller kontakt support ved mail til balance@akan.no eller tlf 22 40 28 00 for å få hjelp til å melde deg på.&#xD;&#xA;&#xD;&#xA;Med vennlig hilsen&#xD;&#xA;Balance&#xD;&#xA;" BackButtonName="Tilbake" />
+    <Message Name="WaitUntilNextModay" Title="Programmet starter alltid på en mandag." Message="Hvis du er påmeldt vil du få en e-post med link til dagens program førstkommende mandag. Velkommen tilbake!" BackButtonName="Avslutt" />
+    <Message Name="LoginInfoRequired" Title="Velkommen til innlogging." Message="Vennligst skriv inn e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Takk!" BackButtonName="OK" />
+    <Message Name="NoClassYet" Title="Dagens program er ikke tilgjengelig." Message="Dagens program er ikke tilgjengelig ennå. Prøv igjen senere." BackButtonName="Avslutt" />
+    <Message Name="InvalidEmail" Title="Feil i e-postadresse" Message="Dette er ikke en gyldig e-post adresse." BackButtonName="OK" />
+    <Message Name="PreferenceInfo" Title="Er dette viktigst for deg?" Message="" BackButtonName="Tilbake" />
+    <Message Name="CatchingUpEarlyDay" Title="Du har gått glipp av noen dager i programmet." Message="Derfor vil du nå først gå igjennom de dagene du har gått glipp av, slik at du kommer ajour. " BackButtonName="OK" />
+    <Message Name="PauseProgramFailed" Title="Å pause programmet mislyktes." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="TipFriendSuccessful" Title="Meldingen er sendt." Message="Vi har sendt meldingen til den epostadressen du oppga.&#xD;&#xA;&#xD;&#xA;Takk for at du tipset en venn!" BackButtonName="OK" />
+    <Message Name="NetworkError" Title="Problemer med tilkobling til nettverk." Message="Vennligst sjekk at du har tilgang til internett.&#xD;&#xA;&#xD;&#xA;Hvis du har tilgang til internett, sjekk at ikke tilgangen blokkeres av brannmur eller antivirusprogram.&#xD;&#xA;" BackButtonName="OK" />
+    <Message Name="PasswordWrong" Title="Feil passord" Message="Vennligst kontroller passord og skriv inn på nytt." BackButtonName="OK" />
+    <Message Name="ProfileChangeFailed" Title="Oppdateringen var mislykket." Message="Oppdatering av profilen din var mislykket. Vennligst prøv igjen, og ta kontakt med Support ved mail til balance@akan.no eller tlf 22 40 28 00 dersom oppdateringen fremdeles ikke lykkes." BackButtonName="Tilbake" />
+    <Message Name="SendPinCodeFailed" Title="Pinkode ble ikke sendt" Message="Beklager det oppstod en feil. Vennligst prøv igjen, eller ta kontakt med Support" BackButtonName="OK" />
+    <Message Name="UserNotExisted" Title="Ukjent bruker." Message="Denne brukeren er ikke registrert i Balance" BackButtonName="Avslutt" />
+    <Message Name="RegisteredButPasswordWrong" Title="Feil ved innlogging." Message="Brukernavn eller passord er feil. Prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="RegisteredInProgram" Title="Du er påmeldt." Message="Du er allerede registrert som bruker. Dersom du ønsker å registrere deg flere ganger må du oppgi ny e-post adresse." BackButtonName="Avslutt" />
+    <Message Name="ExitProgramSuccessful" Title="Avmelding var vellykket." Message="Du har nå meldt deg av Balance og vil ikke motta flere e-poster fra programmet. Du kan klikke Tilbake og fullføre dagen i dag om du ønsker. Velkommen tilbake ved en senere anledning." BackButtonName="OK" />
+    <Message Name="PreferenceRequired" Title="Vi mangler informasjon." Message="Du må markere alternativ eller svare før du kan gå videre." BackButtonName="OK" />
+    <Message Name="HaveDoneAllClassed" Title="Du har fullført hele Balance!" Message="Takk for innsatsen" BackButtonName="Avslutt" />
+    <Message Name="PinCodeWrong" Title="Du har lagt inn feil pinkode" Message="Prøv igjen" BackButtonName="OK" />
+    <Message Name="EndingFailed" Title="Overføring mislykket." Message="Det har oppstått en feil og informasjon kan ha gått tapt. &#xD;&#xA;&#xD;&#xA;Forsøk å gå igjennom dagen i programmet en gang til.&#xD;&#xA;&#xD;&#xA;Hvis du får denne feilmeldingen en gang til, vennligst kontakt support." BackButtonName="Tilbake" />
+  </TipMessages>
+  <SettingMenu Title="Innstillinger og hjelp">
+    <MenuItem FunctionName="HelpFunction" Name="Spørsmål og svar" />
+    <MenuItem FunctionName="TipFriendFunction" Name="Tips en venn" />
+    <MenuItem FunctionName="PauseProgramFunction" Name="Ta pause i programmet" />
+    <MenuItem FunctionName="ProfileFunction" Name="Skift e-post adresse" />
+    <MenuItem FunctionName="ExitProgramFunction" Name="Meld meg av Balance" />
+  </SettingMenu>
+  <Help Title="FAQ" BackButtonName="Tilbake">
+    <HelpItem Title="Jeg har ikke mobiltelefon og kan derfor ikke motta pinkode på sms" Text="Registrer deg med tlf.nr 00000000. Ta deretter kontakt med oss på balance@akan.no eller ring oss på tlf 22 40 28 00 for å få din pinkode tilsendt. " />
+    <HelpItem Title="Har ikke fått e-post fra Balance." Text="Sjekk at du har internettforbindelse. Sjekk at ikke innboksen er full. Sjekk at e-posten ikke har havnet i innboksen for useriøs e-post eller Junk E-mail. Sjekk at e-posten din virker. Har du fått annen e-post i dag? Kontakt e-postleverandør eller systemadministrator. Er du ikke inne i programmet i en periode på mer enn 10 dager setter vi deg på &quot;pause&quot; slik at epost- utsendelsen stanser opp. Du kan da når som helst starte opp igjen ved å logge deg inn via linken i en e-post.  Ta evt kontakt med Balance (Se kontaktinfo).&#xD;&#xA;" />
+    <HelpItem Title="Får ikke opp dagens side." Text="Sjekk at du har internettforbindelse. Sjekk at du har Flash installert riktig (kontakt evt. din systemadministrator for hjelp). " />
+    <HelpItem Title="Fikk ikke SMS" Text="Ta kontakt ved å sende en e-post til balance@akan.no eller ring oss på tlf 22 40 28 00 og vi hjelper deg. &#xD;&#xA;&#xD;&#xA;" />
+    <HelpItem Title="Jeg har mistet pinkoden min" Text="Ta kontakt med oss ved å sende en e-post til balance@akan.no eller ring oss på tlf 22 40 28 00 og vi hjelper deg!" />
+    <HelpItem Title="Hva skjer om jeg ikke har vært inne i programmet enkelte dager? " Text="Du får muligheten til å ta igjen de tapte dagene neste gang du logger inn i programmet. Slik er du sikret å ikke gå glipp av noe. Er du ikke inne i programmet i en periode på mer enn 10 dager setter vi deg på &quot;pause&quot; slik at epost- utsendelsen stanser opp. Du kan da når som helst starte opp igjen ved å logge deg inn via linken i en e-post." />
+    <HelpItem Title="Hvordan navigerer jeg i Balance?" Text="Navigering foregår ved å klikke på den blå ”knappen” (”videre –knappen”) for å gå til neste side. Dersom du har glemt hva som står på forrige side kan du klikke på den venstre delen av knappen som er grå og har en pil som peker bakover. " />
+    <HelpItem Title="”Videre-knappen” er ikke synlig. " Text="Øk skjermstørrelsen ved å trykke F11 tasten, eller ved å bruke ikonet til høyre for Innstillinger og Hjelp. Eller bruke rullefunksjonen i høyre billedkant." />
+    <HelpItem Title="”Videre-knappen” virker ikke" Text="Sjekk at du har internettforbindelse. Kontakt Balance." />
+    <HelpItem Title="Kan jeg ta en ukes pause i programmet, f.eks ved ferie? " Text="Balance gir mulighet for å ta pause i programmet f.eks hvis du skal reise bort og ikke har tilgang til internett. Ettersom programmet er tilpasset ukedagene anbefaler vi å ta pause i hele uker. Dette gjøres ved å klikke på &quot;pause-knappen&quot; under Innstillinger og hjelp. Når du så vil starte opp igjen logger du deg på ved å klikke på innloggings- knappen i den siste e-posten du mottok fra programmet. Vi gjør oppmerksom på at programmet i utgangspunktet er lagd for å følges uten pauser. " />
+    <HelpItem Title="Kontakt Balance" Text="Ta kontakt ved å sende en e-post til balance@akan.no eller ring oss på  tlf 22 40 28 00. " />
+    <HelpItem Title="Datasikkerhet " Text="Balance driftes av Changetech AS uten innsyn fra andre parter. Personidentifiserbar innformasjon utleveres ikke til andre parter med mindre dette er lovpålagt. " />
+    <HelpItem Title="Balance støtter følgende nettlesere: " Text="Internet Explorer 6, 7 og 8. Firefox 2 og 3.5. Safari 3.0. " />
+    <HelpItem Title="Jeg ønsker å avslutte Balance." Text="Du kan melde deg av Balance ved å gå inn under innstillinger og trykke på Avslutte programmet. " />
+  </Help>
+  <TipFriend Title="Tips en venn" Text="Skriv inn din venns e-post adresse i feltet nedenfor og trykk &quot;Send invitasjon&quot;. Han eller hun vil motta en invitasjon til Balance om kort tid." BackButtonName="Tilbake" SubmitButtonName="Send invitasjon" />
+  <ProgramStatus Title="Ta pause i programmet" Text="Velg antall uker og klikk på Pause. Vi gjør oppmerksom på at vi anbefaler å ta så kort pause som mulig." BackButtonName="Tilbake" SubmitButtonName="Pause" />
+  <Profile Title="Skift e-post adresse" Text="Du kan bytte e-post ved å skrive inn din nye e-post adresse i feltet under og klikke &quot;Send inn&quot;." BackButtonName="Tilbake" SubmitButtonName="Send inn">
+    <Item Name="Email" OldValue="guangxinjiao@ethos.com.cn" Format="email" />
+  </Profile>
+  <ExitProgram Title="Meld meg av Balance" Text="Du er i ferd med å melde deg av Balance. Klikk &quot;Tilbake&quot; hvis du ikke er helt sikker." BackButtonName="Tilbake" SubmitButtonName="Meld meg av" />
+  <Relapse>
+    <PageSequence GUID="151CAC99-F09C-4B81-8C5A-D92F79DBA766" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="38CD0D22-A308-4DF8-B5DC-E76D486B228E" Order="1" Title="I trøbbel?" Text="Det overrasker oss ikke at du sier at du er i ferd med å sprekke igjen. Ikke fordi det er noe spesielt ved akkurat deg, men fordi det vil skje med de aller fleste. Og...bare så det er klart: Du er ikke i trøbbel.&#xD;&#xA;Tvert i mot. Du er i veldig gode hender. Du har det mest moderne hjelpemiddelet som er laget for å forandre alkoholvaner. Med massevis av hjelp og råd for å bringe deg gjennom dager som denne.&#xD;&#xA;Og viktigst av alt. Du er her fortsatt!&#xD;&#xA;Det er et godt tegn på at du kommer til å lykkes. Nå skal du få høre noe som er beregnet på den situasjonen du er i akkurat nå.&#xD;&#xA;Husk å skru på lyden på PC-en din, før du går videre." Type="Standard" ButtonPrimaryName="Det finnes gode og dårlige dager..." ButtonSecondaryName="Back" PresenterImage="f9088820-d368-4264-9f3f-e4f27f60ce8b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="630B668E-2C15-4822-931E-0009D8A41094" Order="2" Title="Dette er en liten &quot;pep-talk&quot;. Len deg tilbake og lukk øynene." Text="Sitter du uforstyrret. Kanskje du trenger å lukke en dør?&#xD;&#xA;Klikk på &quot;Play-knappen&quot;.&#xD;Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har.&#xD;Klikk Fortsett, når du er ferdig med å lytte." Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="2a8f2ad5-00af-46da-ac27-747c1cd70607.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="D1F76FE9-B5AF-40E6-BE13-309863D43EB7" Order="3" Title="Men du tror på deg selv!" Text="Bare kjenn etter. Vi i Balance tror på deg også.&#xD;&#xA;Og apropos tro. Det som er helt, helt sikkert, er at å tro at man klarer noe, øker sjansene radikalt for å klare det.&#xD;&#xA;Og hvorfor skulle du ikke tro? Du har alle ressursene som skal til for å lykkes. Du har vist at du klarer mye før. Og du har Balance som din støttespiller.&#xD;&#xA;Det eneste du trenger å gjøre nå, er å gå videre med planen din. Grunnene dine for å endre vaner har vel ikke endret seg, eller hva?" Type="Standard" ButtonPrimaryName="Tilbake til dagens Balance" ButtonSecondaryName="Back" PresenterImage="cf2d797d-15af-4971-891b-fcf093bdb818.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextRelapse} = 3" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="4E9068F6-97CF-43DC-8C05-FE9F49FCF5B6" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="C9164328-7980-4103-AF73-5C1ECF48C71F" Order="1" Title="Det er bra du sier fra!" Text="For det er på dager som dette du trenger et lite dytt i ryggen, fra noen som forstår deg. Og hvem forstår deg vel bedre enn deg selv?&#xD;&#xD;Du er en ressurssterk person. Du trenger bare å minne deg selv på det, særlig når det butter litt i mot." Type="Standard" ButtonPrimaryName="Du har jo klart både det ene og det andre før" ButtonSecondaryName="Back" PresenterImage="9323bc17-ec83-4796-9795-c30164cc548d.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 1" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="92A13172-2CE7-462F-B63C-85BB29356682" Order="2" Title="Du har klart det før!" Text="Tenk på en gang du klarte å holde målet ditt. Selv om du var fristet til å drikke mer. Hva var det som gjorde at du klarte det den gangen?" Type="Get information" ButtonPrimaryName="Vil du ha Balance med deg i kveld?" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="CC4D1B4A-D482-4B53-81DB-2F4DC92DA691" Type="Singleline" Caption="Skriv det gjerne ned:" IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="52862E37-7E59-4155-B0BE-B8A125BA0DE8" Order="3" Title="Noen ganger er det akkurat det som skal til." Text="Nemlig å få en liten hilsen, akkurat når du trenger det. Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Den vil hjelpe deg!" Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="556C1A70-3F7D-4C75-BDCB-3217F1D65F92" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Self 7" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C25041F4-0B8D-4E82-B459-7B6CFFD413FF" Order="4" Title="" Text="Hei! Du husker forhåndsprogrammering? Gjenta stille: Når jeg merker at jeg tviler, skal jeg overse det og bare fortsette å tenke på målet. Ha det fint!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 7">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="B49DE566-E783-42BA-81CA-E3C65A6D06D0" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="91EAE465-3560-4591-A726-756EEAF7D42E" Order="1" Title="Du skal få snakke med en som kan hjelpe deg!" Text="Motivasjon er noe som kommer og går. Akkurat nå synes du at du mangler litt, men den vil snart komme tilbake.&#xD;&#xA;I mellomtiden kan det være lurt å snakke med en som faktisk er ekspert på å motivere deg.&#xD;&#xA;Du kjenner vedkommende godt… Det er deg selv!&#xD;&#xA;Ingen vet bedre enn deg hva som skal til for at du skal gå løs på en oppgave eller en utfordring. Du er ekspert i å sette ting inn i en sammenheng som gjør at du går i gang, og fortsetter til du er ferdig.&#xD;&#xA;Du bruker det mange ganger om dagen, uten at du tenker over det." Type="Standard" ButtonPrimaryName="Klar for en prat?" ButtonSecondaryName="Back" PresenterImage="19a7fb9a-13f8-457b-bd5c-a157bc8a65c9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET  {V:NextMotivationLapse} = 4" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="18994761-9B58-4CF2-8EBE-8ABC86026327" Order="2" Title="Hvorfor, er et viktig ord." Text="Hvorfor skal du gjøre det du står foran? Hva vil du tjene på det? Hva får du igjen? På kort sikt? På lang sikt? Dette er spørsmål du automatisk stiller deg, uten at du tenker over det. Mange ganger om dagen.&#xD;&#xA;Men hvis du gjør det mer bevisst, sånn som du skal gjøre om et øyeblikk, vil det virke enda sterkere. Og hjelpe deg videre.&#xD;&#xA;Kanskje det er en gjenganger i det du tenker. Altså en hvorfor som kommer igjen og igjen. Og som passer på mye." Type="Standard" ButtonPrimaryName="Finn din ”hvorfor”" ButtonSecondaryName="Back" PresenterImage="cf2d797d-15af-4971-891b-fcf093bdb818.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="88DEB6EB-D3BA-41F8-ABE4-FAA8795C3972" Order="3" Title="Hva er det som driver deg?" Text="Hva er det som får deg til å gjøre de tingene du skal i det daglige? Og hva er det som gjør at du vil klare de målene du har satt deg for hvor mye du skal drikke?&#xD;&#xA;Er det noe felles her?&#xD;&#xA;Hvis du synes det hørtes litt abstrakt ut, kan du kikke litt på hva andre har skrevet først." Type="Standard" ButtonPrimaryName="Se her" ButtonSecondaryName="Back" PresenterImage="97e7d721-c7ef-42f1-a9f6-e660cd444540.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="DAB95BB2-3F61-4BB9-9237-1EC38483DB46" Order="4" Title="Dette har andre skrevet:" Text="Jeg gjør ting fordi det til syvende og sist er bra for meg. Jeg får det bedre, rett og slett.&#xD;&#xA;Det er fordi jeg liker å nå målene mine. Det gjør meg glad og jeg føler meg bra.&#xD;&#xA;Når jeg ikke får gjort det jeg skal blir jeg stressa. Det prøver jeg å unngå." Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="C6368597-3948-44B9-933E-33C34C44D50E" Type="Multiline" Caption="Din tur: " IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="BC740A98-307D-41CF-8A5C-B97EB777C4BC" Order="5" Title="Fyll ut klokkeslettet, så får du en sms." Text="Når passer det best? Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Den vil gi deg litt ekstra motivasjon." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="956247D0-78DA-4AA7-95C3-443B4DF58D8D" Type="TimePicker" Caption="Tidspunkt for utsendelse" ProgramVariable="Time sms Motivation 3" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="84314F87-E475-4F86-8107-324D7EFA30EF" Order="6" Title="" Text="Hei! Hva kom du fram til da du tenkte Hvorfor før i dag. Hvorfor er det viktig nå i kveld også? Fortsett å ha en fin kveld med målene dine!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 3">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="793B2F15-0DF7-4D8C-905F-4BEC17468B35" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="D49578FA-CA0C-4172-BB4F-CB7637FDF7B6" Order="1" Title="Vil du lære en smart teknikk?" Text="Som gjør deg i bedre humør, når du er litt sliten og lei?&#xD;&#xA;Du kommer sikkert til å være litt skeptisk, når du får høre hva det er. Men hvis du gjør det vi ber deg om, vil du bli desto mer overrasket over hvor bra det virker. Det handler om smil!&#xD;&#xA;Du smiler, hvis du blir glad for ett eller annet, ikke sant. Men det du antakelig ikke visste, er at det virker omvendt også.&#xD;&#xA;Du blir altså glad hvis du smiler!" Type="Standard" ButtonPrimaryName="Vil du vite hvorfor?" ButtonSecondaryName="Back" PresenterImage="2c2c5a8e-d2bb-40d2-a0aa-76fc0dcfbc31.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextEgoDepLapse} = 1" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B8359881-4E53-4309-B8BF-7587A5D6BA08" Order="2" Title="Fordi du lurer hjernen." Text="Når du blir glad, sender hjernen beskjeder til forskjellige muskler i ansiktet ditt. De store musklene i kinnene trekker seg oppover møt ørene. Musklene rundt munnen trekker leppene ut til siden. Og de små musklene rundt øynene trekker seg sammen.&#xD;&#xA;Det rare er at det også virker motsatt.&#xD;&#xA;Hvis du beveger musklene selv, altså smiler uten grunn, spør hjernen: Hvorfor skjer dette? Hvorfor er disse musklene i funksjon nå?&#xD;&#xA;Hjernen vet bare om en forklaring. Nemlig at du er glad. Derfor bestemmer den at du er i godt humør.&#xD;&#xA;Og når hjernen bestemmer det, blir du det!" Type="Standard" ButtonPrimaryName="Dette kan du bruke!" ButtonSecondaryName="Back" PresenterImage="7ae53369-2e18-4ec3-b442-1066145e9fc6.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0CFFE854-F5CE-4947-9453-D7CD71F341AB" Order="3" Title="Finn deg et speil, og smiiil!" Text="Still deg opp foran speilet, slik at du ser hele ansiktet ditt klart og tydelig. Sett opp et stort, bredt og falskt smil til deg selv. Bruk smilemusklene i ansiktet skikkelig! Hold smilet i ti sekunder. Ta godt i!&#xD;&#xA;Hjernen klarer ikke å skille mellom et ekte og et falskt smil, og bringer deg mer eller mindre automatisk i bedre humør. Prøv, du vil bli overrasket.&#xD;&#xA;Denne teknikken kan du bruke når som helst, hvis du er litt sliten og nedfor. Du trenger ikke nødvendigvis speilet heller, men det hjelper." Type="Standard" ButtonPrimaryName="Vil du ha en hilsen fra oss i tillegg?" ButtonSecondaryName="Back" PresenterImage="19a7fb9a-13f8-457b-bd5c-a157bc8a65c9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1DD7DF72-50D5-4C72-BD9A-3CA5878ECAA3" Order="4" Title="La oss sende deg en sms i kveld." Text="Skriv klokkeslettet i feltet under, så får du en sms fra Balance. Den kommer til å handle om noe av det du har vært innom i dag." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="B77093A0-2B71-4285-BABF-D186D5263A99" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Ego 4" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="85473827-F90D-4D32-84A2-12E82F6E5960" Order="5" Title="" Text="Hei! Hvordan er formen? Du vet hva du skal gjøre hvis du føler deg litt sliten? Finn deg et speil og smil! Så smiler verden tilbake til deg." Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Ego 4">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="99FC29E9-E536-4B26-B5FD-8623936BC10A" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="E5B0262C-86EB-408E-9F1A-C9092DA57191" Order="1" Title="Takk for svaret! Du har nettopp økt sjansene dine for å lykkes!" Text="Sjansene dine for å lykkes er høyere nå, enn da du startet. Ikke fordi du har drukket mer enn målet flere ganger. Men fordi du har gått videre etterpå, hver gang.&#xD;&#xA;Forskningen viser faktisk at den som går videre etter et &quot;feilskjær&quot; har større sjanser for å lykkes til slutt, enn en som aldri sier fra om problemer.&#xD;&#xA;Lytt til den lille oppmuntringen som kommer på neste side. Du har fortjent hvert eneste ord.&#xD;&#xA;Husk å sjekke at lyden på datamaskinen din ikke er slått av." Type="Standard" ButtonPrimaryName="Er du klar?" ButtonSecondaryName="Back" PresenterImage="922c5f4a-5b2a-406d-856a-8166aa8b9f18.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="5DA44905-ED19-4180-B99B-6A771EFD5B86" Order="2" Title="Her er den lille oppmuntringen!" Text="Sitter du uforstyrret? Kanskje du trenger å lukke en dør? &#xD;&#xD;Klikk på &quot;Play-knappen&quot;.&#xD;&#xD;Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har." Type="Standard" ButtonPrimaryName="Klikk her når du er ferdig med å lytte" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="5e0323f2-55ad-42c0-ade4-adcb6faf1e52.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="D079BB54-FE9E-482E-BCAA-13BCBF9C2933" Order="3" Title="Litt dårlig samvittighet, kanskje?" Text="Det er bra. For det betyr at du egentlig vet hva du bør gjøre. Men det som er enda bedre, er å bytte ut den dårlige samvittigheten, med en velfortjent god en.&#xD;&#xA;Du kan ikke gjøre noe med det som ligger bak deg, men du har full kontroll over det som skjer i kveld og i morgen.&#xD;&#xA;Men før det...&#xD;&#xA;...har du all grunn til å ha god samvittighet, bare fordi du fortsetter videre i Dagens Balance, etter at du har lest dette." Type="Standard" ButtonPrimaryName="Tilbake til dagens Balance" ButtonSecondaryName="Back" PresenterImage="ec72e093-8026-420f-b4dc-b78f7aa133fb.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextRelapse} = 4" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="80B7AC51-6E7C-4732-BF26-201B29563EF4" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="0FF54F54-C7FC-4888-9CFB-0923C852C04C" Order="1" Title="Det meste har både fordeler og ulemper." Text="Ikke minst det å skulle forandre på en vane. Når du er lite motivert, sånn som nå, er det lett å bare se ulempene.&#xD;&#xA;Det beste du kan gjøre da, er å prøve å se hele bildet. Ikke bare fordelene, men begge deler.&#xD;&#xA;Prøv å svare så godt du kan på disse spørsmålene. De krever nok at du bruker litt tid på å tenke." Type="Standard" ButtonPrimaryName="Her er spørsmålene" ButtonSecondaryName="Back" PresenterImage="0d39c0cb-dc78-45df-9969-df4dd01faca2.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET  {V:NextMotivationLapse} = 1" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B58DA356-FB95-4E7C-9702-88D20FA808D6" Order="2" Title="Fire viktige spørsmål" Text="Hva får deg til å føle at du bør gjøre noe med alkoholvanene dine?&#xD;&#xA;Hvis du kunne ”trylle” alkoholvanene dine til å bli slik du ønsker. På hvilken måte ville livet ditt vært bedre?&#xD;&#xA;Hvilke av dine personlige styrker vil kunne hjelpe deg med endringen?&#xD;&#xA;Hva er du villig til å forsake for å forandre vanene?&#xD;&#xA;Takk! Nå har du tenkt gjennom flere sider ved det du holder på med. Og sannsynligvis kjenner du deg mer klar for å gå videre enn du gjorde i sted." Type="Standard" ButtonPrimaryName="Du kan få en fortsettelse senere i dag" ButtonSecondaryName="Back" PresenterImage="aa77138b-2d37-4852-aa6f-f2581870ef89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="03AE4792-D793-4DCC-BCCA-09AE664CB528" Order="3" Title="La oss sende deg en sms denne gangen også!" Text="Skriv klokkeslettet i feltet under, så får du en sms fra Balance. Den tar utgangspunkt i de fire spørsmålene du fikk." Type="Get information" ButtonPrimaryName="Tilbake til dagens Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="CF045CE7-03DB-4C04-A345-016EF4D18BB5" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Motivation 7" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="62FBAA9C-A926-4C63-9A68-8E2EEB9402F5" Order="4" Title="" Text="Hei! Tenk på de fire spm. Og tenk en måned fram i tid. Du har nådd målene dine. Hvordan ser livet ut da? Hva er blitt bedre? Ha en flott kveld videre!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 7">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="6607DBB2-16FE-4EBB-A061-320B2197C512" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="5BB84F34-32D7-4CFB-B407-3A2CFC37825E" Order="1" Title="Du er opptatt av helsen din, er du ikke?" Text="Når man holder på å forandre vanene sine, kommer de fleste til et punkt der de begynner å lure på vitsen med det hele.&#xD;&#xA;Hvorfor skal jeg ikke unne meg det ekstra glasset nå, når jeg har lyst på det. I stedet for å tenke på hva som er bra for meg på lang sikt.&#xD;&#xA;Poenget er bare at det egentlig er omvendt. Du er faktisk opptatt av hva som er best for deg på lang sikt. Og prioriterer det. På veldig mange områder. Hvorfor skulle alkohol være et unntak?" Type="Standard" ButtonPrimaryName="Se bare her" ButtonSecondaryName="Back" PresenterImage="5a1c3e59-9eeb-4b91-a8a5-71c341eadb69.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 7" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="883E4823-811C-4D8E-9CEC-44A73CF003FC" Order="2" Title="Du bruker vel bilbelte," Text="Du tenker litt på hva du spiser.&#xD;&#xA;Særlig på fett og sukker.&#xD;&#xA;Du spiser som regel frokost.&#xD;&#xA;Du prøver å holde en fornuftig vekt.&#xD;&#xA;Du prøver å få nok søvn.&#xD;&#xA;Du går til lege når du er syk.&#xD;&#xA;Med andre ord. Du er opptatt av helsen din, og tenker langsiktig. Helt automatisk.&#xD;&#xA;Du er villig til å gjøre en liten innsats eller forsake litt på kort sikt, for å få et bedre liv på lang sikt." Type="Standard" ButtonPrimaryName="Vet du hvorfor?" ButtonSecondaryName="Back" PresenterImage="922c5f4a-5b2a-406d-856a-8166aa8b9f18.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="18DA3F16-6A8A-4E15-8F43-6E0F3511DB18" Order="3" Title="Du er ressurssterk!" Text="Derfor tar du ansvar for egen helse. Og derfor har du bestemt deg for å kutte ned på alkoholen. Fordi du vet at det er bra for deg.&#xD;&#xA;Det er altså verken innstillingen din eller ressursene dine det plutselig er noe i veien med. Hvis det er noe i det hele tatt, er det bare troen på at du kan klare det. Akkurat i dag.&#xD;&#xA;Og tro er noe du kan bestemme deg for å ha. Det har du gjort på mange andre områder.&#xD;&#xA;Si til deg selv at dette, i likhet med masse annet du allerede gjør, kan du klare hvis du vil!" Type="Standard" ButtonPrimaryName="Og legg gjerne inn litt ekstra hjelp" ButtonSecondaryName="Back" PresenterImage="7aa52283-7bd1-4a63-bb80-62d48be8ca75.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="366A5EC9-3554-45D2-90B5-E25CD723104C" Order="4" Title="En liten oppmuntring i kveld?" Text="Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Denne gangen blir den litt annerledes..." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="D02C1B73-56E4-4B4B-9B05-923D74E23226" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Self 6" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="064BA0B8-9EB6-47D9-982A-29048679C2CB" Order="5" Title="" Text="Hei! Du har vist at du er ressurssterk. Du gjør det som er bra på lang sikt. Du tenker på helsen. Det er derfor du klarer målene også. Ha en fin kveld videre." Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 6">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="56ACF8B7-07D5-40D7-8BEE-6CF9E8334C69" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="D07CEB14-FE7B-428F-B481-F7640D2C8C05" Order="1" Title="Alle trenger påfyll av motivasjon!" Text="Du husker sikkert at vi sammenlikner motivasjonen med en bensintank? Som går tom etter en stund.&#xD;&#xD;Her skal du få litt påfyll, så du kan kjøre støtt videre. For å gjøre det, tar vi utgangspunkt i de grunnene du oppga for å forandre alkoholvanene dine." Type="Standard" ButtonPrimaryName="Du husker kanskje dette?" ButtonSecondaryName="Back" PresenterImage="b600a1f8-0e2d-48c8-b279-ccf78cd50867.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextMotivationLapse} = 2" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="4BFAC8BD-5F69-4BEF-B9DD-E7DD65FFFD18" Order="2" Title="Dine egne grunner til å legge om..." Text="{V:Reason1}.Tenk nå litt gjennom hvorfor du oppga akkurat denne grunnen til å endre vane." Type="Get information" ButtonPrimaryName="Klikk her når du er ferdig" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="05E420D2-8122-43E2-8FC9-20074C4A20B9" Type="Multiline" Caption="Skriv litt om hvorfor her." IsRequired="1">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="6E7D350F-D5A0-4946-867A-484358FF0F1C" Order="3" Title="Her er den andre grunnen du oppga:" Text="{V:Reason2}&#xD;&#xD;Tenk litt på hvorfor du oppga denne også. Prøv å trenge helt inn til de dypere grunnene som lå bak." Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="6003BC2E-51BD-4B6E-AFC5-208449B26A88" Type="Multiline" Caption="Skriv tankene dine inn her." IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="6DB39BF4-9477-4F66-AE10-DA478857C59B" Order="4" Title="Her er den tredje grunnen du oppga:" Text="{V:Reason3}&#xD;&#xD;Hvorfor nevnte du denne, i tillegg til de andre? Hva er de bakenforliggende grunnene tror du?" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="315A85BD-B573-49BB-8A50-3FD8FBE3B117" Type="Multiline" Caption="Skriv tankene dine inn her." IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8AF6F81B-A6C6-4C7A-AE7E-797F4F48273C" Order="5" Title="Takk! Det var bra." Text="Nå har du tenkt gjennom hvorfor du ble med i Balance på nytt. Det vil gi deg ny motivasjon for å fortsette.&#xD;&#xA;For det er ingen av disse grunnene som er borte, er det vel?&#xD;&#xA;Og hva skiller deg fra den du var, da du skrev dem? Bare en ting.&#xD;&#xA;Du har kommet mye lenger på veien med å legge om vanene dine, akkurat som du ønsket da du begynte." Type="Standard" ButtonPrimaryName="Ta oss med i kveld!" ButtonSecondaryName="Back" PresenterImage="7aa52283-7bd1-4a63-bb80-62d48be8ca75.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3BFDB343-B06F-498A-97A0-73E6F7C206C3" Order="6" Title="Du har jo med deg mobilen, ikke sant?" Text="Da har du med Balance også.&#xD;&#xA;Du nevnte at du kanskje tror du vil få problemer i dag. Nå har du fått en god innsprøytning med motivasjon, men gi deg selv litt ekstra hjelp i tillegg.&#xD;&#xA;Skriv klokkeslettet i feltet under, så får du en sms fra Balance. Vi sier ikke hva som står i sms’en, men den vil hjelpe deg." Type="Get information" ButtonPrimaryName="Tilbake til programmet" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="F1B82652-4429-4650-81E2-358BF1B028C5" Type="TimePicker" Caption="Tidspunkt for sms utsendelse" ProgramVariable="Time sms Motivation 1" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="BFAB23DE-F3A4-40BB-9642-020C0206FD94" Order="7" Title="" Text="Hei! Lukk øynene og tenk tilbake på grunnene dine. Og hvorfor du har dem. Pust rolig og se dem for deg. Det vil hjelpe deg resten av kvelden. Kos deg!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 1">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="9E65C71F-BB8D-4A72-A115-8F1151D75850" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="83672456-2F3C-4D6D-A255-B099BE3E4403" Order="1" Title="Her er noe som kommer til å hjelpe!" Text="Les denne historien nøye. Og se hvordan du føler deg etterpå.&#xD;&#xA;Den handler om å holde ut, på tross av motgang. Og om hvordan iherdig innsats snudde motgang til suksess. Den viser at tålmodighet nytter.&#xD;&#xA;På 1990-tallet var Gerard van Velde (Nederland) en av verdens beste sprinterne. Men…Det ble ingen medalje i OL i 92 (1/100 fra bronse) og ingen i 94.&#xD;&#xA;Gerard var utrolig skuffet. Og som om ikke det var nok… På midten av 90-tallet kom klappskøytene. Det fikset rett og slett ikke Gerard. Han forsvant ut av skøytesporten." Type="Standard" ButtonPrimaryName="Men historien slutter ikke der" ButtonSecondaryName="Back" PresenterImage="922c5f4a-5b2a-406d-856a-8166aa8b9f18.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextEgoDepLapse} = 3" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B0DDA659-2ACE-4821-9C36-708F801214B7" Order="2" Title="Gerard tok nemlig en beslutning." Text="Mange år senere ble han spurt om å være treningspartner for verdensmester Rintje Ritsma.&#xD;&#xA;Gerard var fortsatt tent på skøytesporten, og hadde lurt på om han skulle gjøre en innsats til, for å beherske klappskøytene. Så han sa ja.&#xD;&#xA;Men ikke bare det. Han bestemte seg for å bli like god so Ritsma. Minst. Med hardt arbeid og målbevissthet kvalifiserte han seg til OL i Salt Lake City i 2002. 10 år etter at han var 1 hundredel fra bronse i Albertville.&#xD;&#xA;Dagen for 500 meteren kom. Gerard var mer enn klar! Og havnet på 4. plass. 2 hundredeler fra bronse." Type="Standard" ButtonPrimaryName="Men historien om Gerards seighet stopper ikke der heller" ButtonSecondaryName="Back" PresenterImage="cf2d797d-15af-4971-891b-fcf093bdb818.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="086D7B95-DA08-4D35-91D3-1EC6F8D17A3C" Order="3" Title="Dagen etter var det 1000 meter…" Text="Vi vet ikke hvordan Gerard sov den natten, men man kan jo gjette.&#xD;&#xA;Neste dag stilte han imidlertid besluttsomt på startstreken i et av de første parene. Lenge før de største favorittene.&#xD;&#xA;Etter to sterke runder holdt det på å gå veldig galt. I siste veksling kom parkameraten helt over i Gerards banehalvdel.Men Gerard suste inn i en perfekt siste indre, og klokken stoppet på 1.07,18. Ett halvt sekund bedre enn verdensrekorden og et helt sekund bedre enn sin egen pers.&#xD;&#xA;Ingen slo ham den dagen. Det ble gull og verdensrekord!" Type="Standard" ButtonPrimaryName="Dette sa han til pressen" ButtonSecondaryName="Back" PresenterImage="5d6f66f2-1e33-4eac-a023-7db53d3f44fe.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3CA4567F-432D-41C4-AEE6-161A6443309F" Order="4" Title="Dette sa Gerard på pressekonferansen." Text="”Jeg sa til meg selv: Ikke gi opp, ikke gi deg, bare fortsett! Og jeg ga virkelig alt jeg hadde. Man klarer mye mer enn man tror. Selv når kroppen er sliten, er det alltid mer å gå på.”" Type="Standard" ButtonPrimaryName="Skal vi sende deg en hilsen i kveld?" ButtonSecondaryName="Back" PresenterImage="f7c42027-b0c6-4eac-9b31-e0e90196a193.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="78328EE9-5F7B-4DCE-9669-DFBF41900527" Order="5" Title="Kunne det passe med en hyggelig hilsen, tror du?" Text="Skriv klokkeslettet i feltet under, så får du en oppkvikkende hilsen fra Balance." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="21DA5F85-B576-44A9-A470-5BCA8F097B22" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Timer sms Ego 2" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A937015E-0666-433C-979D-B116885E8328" Order="6" Title="" Text="Hei! Fortsatt litt sliten? Tenk litt på skøyteløperen som bommet på medalje igjen, men vant gull dagen etter. Hvordan klarte han det? Ha fortsatt fin kveld!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Timer sms Ego 2">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="8EFF7CC9-B42F-4072-8E26-6CB61A68AA84" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="72103E39-2E0B-4CB7-A836-D03066BFC79E" Order="1" Title="Det er selvfølgelig lov å være sliten!" Text="Særlig når du holder på å forandre vanene dine. Da blir gjerne ”viljestyrkemuskelen” din brukt litt ekstra.&#xD;&#xA;Det er mange forskjellige ting du kan gjøre for å piffe deg opp, når du føler deg sånn.&#xD;&#xA;Spise litt, gjerne noe sukkerholdig. Ta en ”power-nap” på 10-15 minutter. Gjøre noe du liker.&#xD;&#xA;Eller programmere deg selv til å motstå fristelser, hvis du er bekymret for at motstandskraften er litt lav." Type="Standard" ButtonPrimaryName="Du kan forhåndsprogrammere deg her" ButtonSecondaryName="Back" PresenterImage="f9088820-d368-4264-9f3f-e4f27f60ce8b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextEgoDepLapse} = 4" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3C1B429B-434F-4416-90B9-B9E045AE04F9" Order="2" Title="Tenk på resten av dagen og kvelden." Text="Har du planlagt noe som gjør at viljestyrken kan bli satt på prøve? En middag eller kanskje en fest?&#xD;&#xA;Da kan du forhåndsprogrammere deg til å holde målene dine likevel. Forhåndsprogrammering er å lage en ”mental lenke” mellom en situasjon og hva du skal gjøre når situasjonen inntreffer.&#xD;&#xA;Skriv i hvilken sammenheng du tror du kommer til å bli fristet, og skriv hva du skal gjøre.&#xD;&#xA;Eksempel: Når jeg sitter ved bordet skal jeg drikke minst like mye vann som vin. Eller: Når kelneren tar opp bestilling, skal jeg svare at jeg kjører og tar en cola." Type="Standard" ButtonPrimaryName="Skriv planen din her" ButtonSecondaryName="Back" PresenterImage="0df325b0-dbcb-45f7-8e00-b82ca79f339c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8872B504-90EC-4182-9268-B2C4AFE62A85" Order="3" Title="Forhåndsprogrammering." Text="Når du har skrevet inn teksten skal du lese den høyt for deg selv, minst tre ganger. Husk at du både skal skrive hva du skal gjøre, og når du skal gjøre det. Eller i hvilken sammenheng. Det høres litt rart ut, men det virker faktisk!" Type="Get information" ButtonPrimaryName="En smart ting til..." ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="66A74B76-7017-4364-B98E-FD621CE92BD1" Type="Multiline" Caption="Skriv i hvilken sammenheng du tror du kommer til å bli fristet, og skriv hva du skal gjøre." IsRequired="1">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F0E2C885-FF20-4309-98BF-1EF5D037D5CC" Order="4" Title="La oss sende deg en sms også!" Text="Skriv klokkeslettet i feltet under, så får du en sms fra Balance. Den kommer til å handle om forhåndsprogrammeringen din." Type="Get information" ButtonPrimaryName="Tilbake til dagens program" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="F3202999-F606-4FE7-B1D0-FB3CEE7E88DF" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Time sms Ego 3" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="ABE71809-FE6A-4C3A-A50F-96F924DF0ED8" Order="5" Title="" Text="Hei! Dette er egentlig ikke for å minne deg på forhåndsprogrammeringen din, for den vil fungere uansett. Vi ville bare ønske deg en fortsatt hyggelig kveld!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Ego 3">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="4802B798-F895-4B9A-B4ED-29BC1E6EADC8" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="8CFBD649-779F-4C8F-BE1A-5B3EF2B87FE5" Order="1" Title="Ikke så lett det der!" Text="Men du har akkurat gjort det stikk motsatte av det de fleste gjør, når de tviler på om de vil klare det. De gir nemlig opp.&#xD;&#xA;Det gjør ikke du. Du er her i stedet og ber om en ekstra dytt. Bare det i seg selv, er nok til å plassere deg i en særklasse. Navnet på den klassen kunne vært: ”De som har størst forutsetning for å klare det.”" Type="Standard" ButtonPrimaryName="Her er et par bevis" ButtonSecondaryName="Back" PresenterImage="06864030-3d06-4b51-aa28-0d03ef115450.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 4" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3D76408D-7458-4A4D-A212-97E349305EC1" Order="2" Title="Bevisene finnes i din egen historie." Text="Du har faktisk både evnene, kreftene og ressursene for å klare det du virkelig bestemmer deg for. Og går inn for.&#xD;&#xA;Opp gjennom årene har du bevist det flere ganger.&#xD;&#xA;Om et øyeblikk skal du tenke tilbake på noen av de målene du har oppnådd, og skrive ned et par. De kan være både store og små. Her er noen eksempel på hva andre har skrevet:&#xD;&#xA;Jeg tok lappen. Jeg klarte eksamen. Opptil flere faktisk!&#xD;&#xA;Jeg har pusset opp stuen selv. Jeg har trent slik jeg skulle denne uken.&#xD;&#xA;Jeg har begynt å gå trappen. Jeg fikk jobben jeg søkte på." Type="Standard" ButtonPrimaryName="Din tur" ButtonSecondaryName="Back" PresenterImage="501814b6-7745-4ac9-b1bc-a2f8b8f2ca0f.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C1A6DBEA-42F9-4F9C-8AD5-EC18C399B0D5" Order="3" Title="Tenk på noe du har klart!" Text="Det trenger ikke være så stort. Men gjerne noe du er litt stolt over. Fra tidligere år? Fra utdannelsen? Fra jobben? Fra familien?" Type="Get information" ButtonPrimaryName="Apropos i kveld" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="451DB93C-E0A4-4D9F-B367-D68528BDE3AA" Type="Singleline" Caption="Skriv det inn her" IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0685F805-228C-489A-9D1F-9480A4246AD0" Order="4" Title="Ta Balance med deg!" Text="Ja, ikke hele programmet, da. Det skal du få slippe, men en liten dytt i ryggen, akkurat når du trenger det. Gjør sånn som du gjorde forrige gang. Fyll ut det klokkeslettet du vil vi skal kontakte deg via sms.&#xD;&#xA;Denne gangen får du også noe som henger sammen med den terapien du nettopp fikk." Type="Get information" ButtonPrimaryName="Tilbake til dagens program" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="03262A71-2D94-47A9-B70B-3315C0766016" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Self 3" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="6F29F6E2-DFD6-4749-A55D-00C1E1D61671" Order="5" Title="" Text="Hei! Tenk på noe du har klart før. Hvilke krefter var det som hjalp deg. Tenk tilbake. Er de der fortsatt? Det var det vi tenkte. Ha en fin kveld, da!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 3">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="755239D0-D42D-4741-B86C-ADE4B5632002" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="05B62FEA-3DDD-40F9-B498-CC63DF305E72" Order="1" Title="Ok. En av de dagene!" Text="De har både kommet og gått før. Og du er med fremdeles. Med andre ord. Du har ikke så mye å frykte.&#xD;&#xA;I likhet med alle andre som holder på å forandre en vane, opplever du selvfølgelig motstand. Men i motsetning til de andre gir du ikke opp. Du biter tennene sammen i stedet. Og står på. Det har du vist ved at du er med fremdeles. Og det beundrer vi deg for.&#xD;&#xA;Hvorfor tror du at vi har tatt med alle disse terapiene i programmet? Fordi vi regnet med at de fleste kom til å trenge dem." Type="Standard" ButtonPrimaryName="Du trenger bare et lite dytt" ButtonSecondaryName="Back" PresenterImage="cb3b5a1c-3fe2-4126-93af-253262d263c7.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 5" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="38984898-6F72-4998-92D0-78CAD9DBE563" Order="2" Title="Eller nærmere bestemt, en pep-talk!" Text="Du husker den sikkert fra forrige gang. For at det ikke skal bli akkurat likt, har vi forandret litt på innholdet.&#xD;&#xA;Si dette høyt til deg selv:&#xD;&#xA;Jeg kommer til å klare å det endelige målet. Det er nå jeg beviser det. Ved å klare målet i kveld.&#xD;&#xA;Jeg har alle de kreftene jeg trenger. Det er bare å ta dem fram. Derfor klarer jeg målet i dag også.&#xD;&#xA;Gjenta det flere ganger. Eller finn noe annet du trenger å høre. Snakk til deg selv som til en god venn, eller som om du var din egen personlige trener." Type="Standard" ButtonPrimaryName="Klikk her når du er ferdig, men ikke før" ButtonSecondaryName="Back" PresenterImage="f19e6646-e16a-4004-816b-f0387acaf44b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="25B1BDB3-4705-48EB-988E-DE18F7465225" Order="3" Title="Til senere i kveld." Text="Du har fått mange teknikker og terapier i løpet av den tiden du har vært med i Balance. Det spiller selvfølgelig ingen rolle hva du bruker og når, så lenge du selv synes at det hjelper.                    &#xD;&#xA;Fyll ut klokkeslettet hvis du vil ha en hilsen fra oss i kveld også.&#xD;&#xA;Så kan du jo tenke litt på hva du tror hilsenen kommer til å være, sånn innimellom..." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="E16B92ED-7AF0-4DD6-B236-27A3D6DC6372" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Self 4" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="EDD6610B-4869-488C-BD7F-00B5F2723543" Order="4" Title="" Text="Hei! Gjenta stille. - Lysten kommer og går. Når den kommer står jeg mot. Har klart det før og klarer det igjen. Derfor klarer jeg målet mitt også. Ha det fint!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 4">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="73A171F9-441A-4B83-BD9C-953083D4B881" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="03FADBAA-AEEA-4B4D-AFF1-C735EF430342" Order="1" Title="Det kan være en ”teknisk” forklaring." Text="Nemlig at blodsukkernivået ditt er for lavt. Det gjør nemlig at det blir vanskeligere å motstå fristelser, og vanskeligere å klare noe du kanskje ikke har så veldig lyst til.&#xD;&#xA;Kuren er enkel. Spis noe som innholder sukker. For eksempel en banan eller to, litt sjokolade, eller annen frukt. Eller et par glass juice.&#xD;&#xA;Drikk gjerne vann også. Men vann hjelper ikke alene. Det er viktig at du får i deg sukker også." Type="Standard" ButtonPrimaryName="Ta deg en kort pause og hent noe som inneholder sukker!" ButtonSecondaryName="Back" PresenterImage="0df325b0-dbcb-45f7-8e00-b82ca79f339c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextEgoDepLapse} = 2" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="317A7A0E-4A5C-4CC4-BB10-DE664325295A" Order="2" Title="Ja, vi mente nå med én gang..." Text="Når du har gjort det, skal du få noen flere råd om hvordan du kan unngå å havne i ”Blodsukker-fella”! Ta en tur på kjøkkenet nå, eller i kantina hvis du er på jobben.&#xD;&#xA;Klikk når du har spist eller drukket noe som får opp blodsukkeret!" Type="Standard" ButtonPrimaryName="Jeg er klar igjen" ButtonSecondaryName="Back" PresenterImage="4577e38d-af58-451a-babf-a5b3ca42a98b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B8E7BF81-A118-4FC5-B980-486C89643B54" Order="3" Title="Håper det smakte!" Text="Her er noen flere tips for hvordan du kan unngå å bli utmattet av for lavt blodsukker.&#xD;&#xA;1. Spis ofte og heller litt mindre.&#xD;&#xA;2. Få litt mosjon hver dag. Et par småturer hjelper mye.&#xD;&#xA;3. Du kan godt spise litt frukt eller nøtter mellom måltidene.&#xD;&#xA;4. Drikk mellom 1 og 2 liter vann hver dag.&#xD;&#xA;5. Ha det kaldt på soveværelset.&#xD;&#xA;6. Ta en liten strekk (på 10-15) hvis du blir trøtt.&#xD;&#xA;7. Pass på at du får minst 6 timer god søvn hver natt. Helst mer." Type="Standard" ButtonPrimaryName="Vil du ha litt ekstra hjelp i kveld?" ButtonSecondaryName="Back" PresenterImage="69246fad-ad6c-4ac9-9a26-bf56268c9c32.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="7D499A7C-A048-4594-89F0-8A498E8009F4" Order="4" Title="Skal vi sende deg en sms?" Text="Kanskje du kommer til å trenge litt ekstra oppmuntring i kveld?&#xD;&#xA;Skriv et klokkeslettet i feltet under, så får du en sms fra Balance. Den vil både minne deg på noe, og gi deg en oppmuntring." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="FB5E6FC8-394D-489C-8D02-F620C4077725" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Time sms Ego 1" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F70AEC45-BAEF-4532-A1F2-DC545D9E2FCB" Order="5" Title="" Text="Står til? Mer enn 1 time siden du spiste. Da bør du få i deg noe som inneholder sukker. Hvis du gjør det nå, kommer du til å få en bedre kveld! Ha det fint!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Ego 1">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="CABD89EF-8846-44B3-8C99-3517F8D927BA" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="1426880C-CC97-4572-B6D7-D72F0C30313A" Order="1" Title="Takk for at du sa fra!" Text="Det du opplever er helt vanlig for alle som holder på å endre vanene sine.&#xD;&#xD;Når man har en litt dårlig dag, eller føler at det butter litt i mot, begynner man automatisk å lure på om man kommer til å klare det.&#xD;&#xD;Og det er nettopp det som er din største fiende, akkurat nå. Tanken på at du kanskje ikke kommer til å klare det.&#xD;&#xD;Den skal vi hjelpe deg å bli kvitt!" Type="Standard" ButtonPrimaryName="Men først er det to ting" ButtonSecondaryName="Back" PresenterImage="3226a704-eb8a-4b86-812f-840869adcb15.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 2" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C18BBBD8-6DA5-4E51-AC0E-2AFBCEA23FF3" Order="2" Title="Den går over, uansett!" Text="Den gjør faktisk det, helt av seg selv. Det er nemlig bare en tanke. Og tanker kommer og går, det vet du jo. Men den hjelpen du straks skal få, gjør at den forsvinner fortere.&#xD;&#xA;Det andre vi ville si, er at du må tro på den hjelpen du får. Det er viktig for å få full effekt. Selv om det vi ber deg om å gjøre kan virke både barnslig og naivt noen ganger.&#xD;&#xA;Alt innholdet i Balance bygger på anerkjente psykologiske prinsipper, som er bevist effektive. Det gjelder også den terapien du skal få nå." Type="Standard" ButtonPrimaryName="Her er det du skal gjøre" ButtonSecondaryName="Back" PresenterImage="ab4fb4c9-6b1c-4c4e-b7a0-0ad4eb86b12f.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="2BB5547C-8E15-4D7B-BD0B-063864D63A17" Order="3" Title="Du skal snakke til deg selv!" Text="Rett og slett en pep-talk. Du kjenner den kanskje fra før, men den blir ikke mindre effektiv av den grunn.&#xD;&#xA;Si dette høyt til deg selv:&#xD;&#xA;Jeg vil forandre vanene mine.&#xD;&#xA;Jeg vil det fordi jeg vil ha et godt liv.&#xD;&#xA;Det er jeg som bestemmer over meg selv.&#xD;&#xA;Og jeg har bestemt meg for å klare målene mine i dag.&#xD;&#xA;Gjenta det flere ganger. Du kan selvfølgelig også finne egne ting du har lyst til å si. Snakk til deg selv som til en god venn, eller som om du var din egen personlige trener." Type="Standard" ButtonPrimaryName="Klikk her når du er ferdig" ButtonSecondaryName="Back" PresenterImage="7ae53369-2e18-4ec3-b442-1066145e9fc6.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="19E09BD7-39F1-41C9-8923-50C8DF2D06F8" Order="4" Title="Her er en annen smart ting du kan gjøre." Text="Den teknikken du akkurat brukte er effektiv. Og det kan være lurt å gjenta den i løpet av dagen.&#xD;&#xA;Kanskje du trenger litt ekstra støtte senere idag?&#xD;&#xA;Skriv klokkeslettet i feltet under, så får du en sms fra Balance. Vi sier ikke hva som står i sms’en, men den vil hjelpe deg." Type="Get information" ButtonPrimaryName="Tilbake til dagens program" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="FA0D813B-2688-4751-814A-7972E6F08139" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Time sms self 1" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="DBEA5E07-EBBD-4811-A339-42C645D620A8" Order="5" Title="" Text="Gjenta stille: - Jeg har målet fordi det er bra for meg. Jeg har krefter nok til å klare det. Derfor skal jeg holde målet i kveld. Ha det hyggelig!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms self 1">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="566673D5-6C29-417C-9EF8-C710609662B7" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="6EB02069-0562-4B19-9452-83F4975FE155" Order="1" Title="Noen ganger kan det være smart å høre hva andre har gjort." Text="Her er en historie som vi tror du vil ha glede av. Kanskje kjenner du deg litt igjen, eller kanskje ikke.&#xD;&#xD;Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har.&#xD;&#xA;Klikk under når du er ferdig med å lytte." Type="Standard" ButtonPrimaryName="Vil du ha en hilsen i kveld?" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="SET  {V:NextMotivationLapse} = 5" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="db24eb5c-a798-4500-81ef-248c402ba532.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3E99A4D1-F8A2-4214-B067-41B9C5806D13" Order="2" Title="Fyll ut klokkeslettet, så får du en sms." Text="Når passer det best? Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Den vil gi deg litt ekstra motivasjon." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="7CCC012E-D678-4D43-A8D6-74D9E468E7F7" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Motivation 4" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="7DB428E8-041A-4F7D-9815-4FC6FB326817" Order="3" Title="" Text="Hei! Husker du Jons historie fra før i dag. Ser du noen Jon der du er nå? Det er lov å kikke i speilet også. Hva burde Jon gjøre? Ha en fin kveld!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 4">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="FB0889CE-396C-491C-83A2-42C0BA417547" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="D8EA8B87-6AD1-40EF-B02B-36B8C8043149" Order="1" Title="Du er ikke den eneste!" Text="Det er faktisk mer uvanlig å ikke tvile, en gang eller ti, mens du er underveis. Men tenk litt på dette: &#xD;&#xA;Det er du selv som har bestemt deg for å endre dem. &#xD;&#xA;Det er du selv som har satt målene. &#xD;&#xA;Og du kan selv forandre på dem. &#xD;&#xA;Det er med andre ord ingen, absolutt ingen, som krever dette av deg. Bortsett fra en. Nemlig du selv." Type="Standard" ButtonPrimaryName="Tenk litt på dette også" ButtonSecondaryName="Back" PresenterImage="bc223fac-8e99-443c-b5a9-4faee52ccbe3.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 3" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="19251CEB-C78C-4F58-B047-E6B0A3AF0CC1" Order="2" Title="Tok du feil da du satte målene?" Text="Med andre ord. Er det først nå du tenker helt klart? Temmelig sikkert ikke. Da du satte målene vurderte du nøye hva du mente du kunne klare. Og du trodde på det. &#xD;&#xA;Det er denne troen som glipper litt av og til. Men ikke din evne til å klare målene. Den er der hele tiden. Den er bare litt skjult noen ganger, så du må ha ekstra fokus for å hente den fram.&#xD;&#xA;Og det er litt av vitsen med å være med i Balance. Vi lar deg ikke miste fokus!" Type="Standard" ButtonPrimaryName="Gjør en liten ”vareopptelling”" ButtonSecondaryName="Back" PresenterImage="2832686e-6dd7-4325-857d-ba307ce758d7.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="42424779-9249-4F12-805B-B17C87B934DE" Order="3" Title="Tell det som taler for at du klarer det!" Text="Jo da, det er sant at mange synes det er vanskelig å forandre vaner. Men hva er det du har, som de aller fleste andre ikke har?&#xD;&#xA;For det første. Et program for akkurat den vanen du ønsker å endre.&#xD;&#xA;For det andre. Dette programmet er effektivt.&#xD;&#xA;For det tredje. Du er ikke overlatt til deg selv. Programmet fortsetter i morgen.&#xD;&#xA;For det fjerde. Du kan allerede mer om å forandre alkoholvaner enn de aller fleste." Type="Standard" ButtonPrimaryName="Og for det femte" ButtonSecondaryName="Back" PresenterImage="ac53ca3b-242d-4bfa-bc26-a85fbb78427d.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="67F176A0-EECE-40BE-88BE-043707FFE082" Order="4" Title="Vi er med deg i kveld også." Text="Akkurat når, bestemmer du selv. Gjør sånn som du gjorde forrige gang. Fyll ut det klokkeslettet du vil vi skal kontakte deg via sms. Det blir ikke det samme du får denne gangen." Type="Get information" ButtonPrimaryName="Tilbake til dagens program." ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="18F4756C-234D-4266-926B-1716732E5C36" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Time sms Self 2" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="6C9E380B-5FE6-4F29-9851-D6B1E700FB41" Order="5" Title="" Text="Hei! Finn et sted for deg selv. Toalettet? Lukk øynene, kjenn hvor sterk du er. Tenk på målet og hvor hardt du vil det. Snakk positivt til deg selv. Kos deg!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 2">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="043803A7-1818-41D5-B5A3-BE79874F65AC" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="4C2C0CC7-8D7A-4BB7-9BAE-DD26F0CC4A5C" Order="1" Title="Jo da, det går både opp og ned!" Text="Motivasjonen vil alltid forandre seg. Derfor er det viktig å vite hva du skal gjøre, når den begynner å minke.&#xD;&#xA;Nå skal du få høre en samtale mellom en som har begynt å tenke på alkoholvanene sine og en ekspert.&#xD;&#xA;Den viser nettopp at motivasjon er noe som kommer og går. Derfor er det ingen grunn til å gi opp, fordi om den er lav en periode.&#xD;&#xA;Klikk i det Blå feltet under når du er ferdig med å lytte." Type="Standard" ButtonPrimaryName="En hilsen i kveld?" ButtonSecondaryName="Back" PresenterImage="45943438-1714-4171-b822-c8200976883e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET  {V:NextMotivationLapse} = 7" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="39a10726-a0b6-4c5f-a0ea-0c45d61ae2f8.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1BBEF56C-9B07-4D0B-8897-2406A43A623D" Order="2" Title="Fyll ut klokkeslettet, så får du en sms." Text="Når passer det best? Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Den vil gi deg litt ekstra motivasjon." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="745079F3-5A1A-4AA5-ACCA-A18623753505" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Motivation 6" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="47DDE173-C30F-441A-967E-BCAB925FAE23" Order="3" Title="" Text="Hei! Husker du historien du hørte før i dag? Hva var moralen i den? At man egentlig vet det, kanskje? Så da er det bare å…Ha en fin kveld videre!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 6">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="98DF93EA-3C99-4719-AD96-722D4E6AE3B6" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="51381DCF-B4E9-4FE1-AC23-38234D84079F" Order="1" Title="Se litt nærmere på deg selv." Text="Hva ser du? Jo, du ser en som har gjort noe de fleste andre ikke kommer lenger enn til å tenke på. En som visste at det ikke ville bli enkelt, men startet likevel.&#xD;&#xA;Du tok testen, og var oppriktig mot deg selv da du fylte den ut. Du satte deg mål, og du går inn for å holde dem. Du er aktivt med i programmet, og synes du har lært ganske mye.&#xD;&#xA;Og ikke minst. Du sier fra når du trenger litt ekstra hjelp, sånn som nå." Type="Standard" ButtonPrimaryName="Vet du hva dette forteller oss?" ButtonSecondaryName="Back" PresenterImage="1eeee6bd-e507-488c-bbe9-9dc08176bcc4.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextMotivationLapse} = 3" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="16BF794E-6F48-4D39-8021-27E4459F1DC4" Order="2" Title="At du holder på å forandre deg!" Text="Og en ting til. At andre sannsynligvis også har lagt merke til det.&#xD;&#xA;Når man forandrer en så viktig vane som hvordan man bruker alkohol, forandrer man også litt av identiteten sin. Og sånt blir lagt merke til. Av venner, familie og andre du er sammen med.&#xD;&#xA;Det er ikke sikkert de har sagt så mye ennå. Men de har sikkert notert seg at du drikker mindre. Og beundrer deg litt for det." Type="Standard" ButtonPrimaryName="Ta sjansen på å snakke med dem" ButtonSecondaryName="Back" PresenterImage="06864030-3d06-4b51-aa28-0d03ef115450.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CE2BF9E5-3802-4949-A01F-A72A6E1AD048" Order="3" Title="Det trenger ikke være din lille hemmelighet." Text="Kanskje har du fortalt dine nærmeste hva du holder på med allerede?&#xD;&#xA;Hvis ikke er vel tiden inne til å gjøre det nå? Av to grunner. For det første fordi det bekrefter noe de allerede har lurt på.&#xD;&#xA;Og for det andre fordi du lager et mentalt hinder for deg selv, mot å falle tilbake til de gamle vanene.&#xD;&#xA;Er du bekymret for at de skal oppfatte forandringen negativ? Det har du ingen grunn til. Folk ser med respekt på en som klarer å forandre seg til det bedre. Ikke minst fordi de skulle ønske de klarte det selv." Type="Standard" ButtonPrimaryName="En liten reminder?" ButtonSecondaryName="Back" PresenterImage="968df619-2642-4292-be2e-455015012d91.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="5EEDD75D-C22D-4E22-8988-C14F17246C49" Order="4" Title="Skal vi sende deg en sms i kveld?" Text="I kveld har du kanskje en mulighet til å teste din nye ”identitet”, hvis du skal være sammen med andre? Skal vi sende deg en motiverende hilsen i løpet av kvelden? Skriv klokkeslettet i feltet under, så får du en sms fra Balance." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="E4583A3B-64DF-4E93-B902-821203100E00" Type="TimePicker" Caption="Tid for utsending" ProgramVariable="Time sms motivation 2" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0C87774B-E952-4419-AD6C-4358A690EE6F" Order="5" Title="" Text="Hei! Fått noen respons på Ditt nye jeg? Se hvor mange som sier de burde gjort det samme. Hvis du er alene kan du jo ta en telefon til noen. Ha en fin kveld!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms motivation 2">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="AF1249C2-D7B0-4738-AF91-757DBC1D3F32" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="F1D487CC-825F-4136-B966-FAF4ECC30134" Order="1" Title="Hvis det kan være noen trøst: Det du opplever akkurat nå er helt vanlig." Text="Noen dager går alt etter planen mens andre dager er tyngre. Det som er viktig er å ikke gi seg, selv om en støter på noen motbakker underveis.&#xD;&#xA;Derfor vil vi at du skal høre på en samtale, som kanskje kan få deg til å tenke litt annerledes på det du opplever akkurat nå.&#xD;Husk å skru på lyden på datamaskinen din før du går videre." Type="Standard" ButtonPrimaryName="&quot;Situasjonen er over&quot;" ButtonSecondaryName="Back" PresenterImage="45943438-1714-4171-b822-c8200976883e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="72581554-241E-44E6-B766-0404C2CBB132" Order="2" Title="Hør på denne samtalen." Text="Du vil nå få høre en samtale mellom en som holder på å endre alkoholvaner og en ekspert på området.&#xD;&#xD;Samtalen er ekte, men er gjengitt av skuespillere.&#xD;&#xD;Klikk på &quot;Play-knappen&quot;. Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har." Type="Standard" ButtonPrimaryName="Klikk her når du er ferdig med å lytte." ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="8cfe46c0-f18c-4718-ae57-639049b05295.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E830CCD8-5CDA-4E0A-B13F-C3F92E5E18A6" Order="3" Title="Små tilbakeslag. En del av det å gå framover." Text="Det du nettopp hørte er veldig typisk. Man opplever et lite tilbakeslag, og tenker: &quot;Jaja, nå er det kjørt&quot; &quot;Nå kan jeg like godt begynne å røyke igjen som før&quot;. Eller: &quot;Nå kan jeg like godt drikke som før.&quot; &quot;Jeg har jo sprukket&quot;.&#xD;&#xA;Nei! Du har ikke det.&#xD;&#xA;Du skal se på dette som en glipp, og ikke noe annet enn det. Og grunnen er jo borte for lengst.&#xD;&#xA;Det eneste du trenger å gjøre nå, er å arkivere det som skjedde som en nyttig erfaring, riste litt på skuldrene og gå videre i dagens program. Som om ingen ting har skjedd.&#xD;&#xA;OK?" Type="Standard" ButtonPrimaryName="Tilbake til dagens Balance" ButtonSecondaryName="Back" PresenterImage="078bdfa6-3996-4f90-a6f9-82d611232596.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextRelapse} = 2" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="18E26838-2896-4938-B590-56C75D9AC9A1" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="6CA61D80-643E-4E0A-B00A-2E75562DD3EF" Order="1" Title="Du har klart det før!" Text="Du er litt i tvil akkurat nå. Eller mye? Det spiller ikke så stor rolle. Som du har hørt mange ganger før, er det ikke din evne til å klare målene som er problemet.&#xD;&#xA;Det har du jo vist mange ganger. Det er enten det at du er engstelig for noe spesielt i dag, eller at begynner å bli litt lei.&#xD;&#xA;Uansett er det viktig at du sier til deg selv at dette kommer du til å klare. Du kan jo begynne med å minne deg selv på noe." Type="Standard" ButtonPrimaryName="Klikk her og tenk etter" ButtonSecondaryName="Back" PresenterImage="272abbf3-6ea7-4df5-851a-54b2bbfc7b24.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextSelfEfficacyLapse} = 6" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="29F852A9-325C-40D4-9911-2C958D03A7B3" Order="2" Title="Tenk på en gang du klarte målet." Text="Selv om du var fristet til å drikke mer. Hva var det som gjorde at du klarte det den gangen? Selv om du var fristet til å drikke mer. Hva var det som gjorde at du klarte det den gangen?&#xD;&#xA;Her er noen eksempler på hva andre har svart:&#xD;&#xA;Jeg minnet meg om at det bare er nå det er så fristende, det går over hvis jeg venter litt. Jeg var aktiv hele kvelden så jeg ikke tenkte så mye på å drikke. Jeg lovte meg selv noe ekstra hvis jeg klarte det. Og det gjorde jeg. Jeg tenkte på treningen neste dag. Det motiverte meg" Type="Standard" ButtonPrimaryName="Din tur" ButtonSecondaryName="Back" PresenterImage="5ba889fd-0d79-4184-aa81-c32ef794fad9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="7D713BE8-A98D-4420-BD49-63E19FAB43D5" Order="3" Title="Hvorfor klarte du det?" Text="" Type="Get information" ButtonPrimaryName="Si fra hvis du vil ha litt ekstra hjelp..." ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="AF1CFFB1-9DA4-439A-865E-E697D778F25A" Type="Singleline" Caption="Skriv grunnen inn her:" IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B5AA1E76-F17F-4617-9C22-63ABE036D444" Order="4" Title="En liten hilsen i kveld?" Text="Fyll ut klokkeslettet, så får du en sms som kan hjelpe deg litt. Hva tror du den kommer til å handle om?&#xD;&#xA;Finn det ut! Det er jo ikke sikkert du vet det…" Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="B9DEDD1C-1202-4CF9-A7E9-C0FAD759D8C2" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Self 5" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="30996503-F4F1-4BAA-9170-7730BDAAF3DD" Order="5" Title="" Text="Hei! Tenk på en kveld som minner om denne. Hvorfor klarte du målet likevel? Eller reis deg opp og ta et glass vann. Alt er tillatt. Eller nesten da…Ha det!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Self 5">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="F6C02D33-5764-4F36-ACAF-48CC51787F53" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="ED4ABDA2-0B82-4FAD-91DF-81A5695AA002" Order="1" Title="Skuffet?" Text="Ikke så rart, siden du har sagt fra om at du kanskje er i ferd med å sprekke, flere ganger før.&#xD;&#xA;Nå venter du sikkert at vi skal si: Det gjør ingen ting. Bare bit tennene sammen og gå videre. Men vi sier ikke bare det. For vi vet at det ikke er så enkelt. Det er mange tanker som melder seg.&#xD;&#xA;Kanskje jeg heller skulle gjøre noe med drikkingen etter ferien, eller etter...? Men nei, det skal du ikke. Du er alt for godt i gang til det.&#xD;&#xA;Hør på dette først. Det er en samtale mellom en lege og en pasient. Den er ekte, men er gjenskapt av to skuespillere." Type="Standard" ButtonPrimaryName="Vi har kalt samtalen..." ButtonSecondaryName="Back" PresenterImage="2832686e-6dd7-4325-857d-ba307ce758d7.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="73673891-1256-47FF-B522-F9EB3841206A" Order="2" Title="&quot;Det beste som kan skje&quot;" Text="Sitter du uforstyrret? Kanskje du trenger å lukke en dør?&#xD;&#xA;Klikk på &quot;Play-knappen&quot;.&#xD;&#xA;Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har." Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="97cb4ae8-6bf7-4132-ae40-dd48040df224.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="46D9807F-DD30-4CAB-AB0C-B322469FAB68" Order="3" Title="Kanskje litt dramatisk?" Text="Men kanskje også litt modig? Eller i hvert fall ærlig. Det er du også, både overfor deg selv og oss.&#xD;&#xA;Du sier fra at du har drukket mer enn målet og ber, i hvertfall indirekte, om ekstra støtte. Tenk på alle dem som ikke gjør det. Som prøver å lure både seg selv og andre. Du er ikke en av dem.&#xD;&#xA;Blant annet fordi du, på tross av alt som har skjedd, tror at du kommer til å klare det. Og nekter å gi opp.&#xD;&#xA;Vet du hva som kjennetegner dem som klarer å legge om alkoholvanene sine, i følge forskningen?&#xD;&#xA;Akkurat det som står over her. Som altså var en beskrivelse av deg." Type="Standard" ButtonPrimaryName="Tilbake til dagens Balance" ButtonSecondaryName="Back" PresenterImage="71fbf018-ba55-4b77-881c-fd72b8e36324.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:NextRelapse} = 1" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="DEE43F91-1ABE-420B-AC39-CA23956CBEE6" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="" TopBarColor="0x5e89b7" CoverShadowVisible="0">
+      <Page GUID="FC72CA8A-A168-4747-BCB4-A51455E96EFD" Order="1" Title="Her er en historie som Cathrine fortalte." Text="Det er ikke sikkert du kjenner deg helt igjen, men det vil sikkert få deg til å tenke litt på hva som er viktig.&#xD;&#xA;Klikk på &quot;Play-knappen&quot;.&#xD;&#xA;Det kan hende du må vente litt før lyden kommer, avhengig av hvor rask internettforbindelse du har.&#xD;&#xA;Klikk under, når du er ferdig med å lytte." Type="Standard" ButtonPrimaryName="Vil du ha en hilsen i kveld?" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="SET  {V:NextMotivationLapse} = 6" AfterExpression="">
+        <Questions />
+        <Media Type="Audio" Media="9ea80c77-8a33-4a12-9fca-485407a9c075.mp3" />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="64BD81DD-BCBE-470A-9B20-1E571407BF58" Order="2" Title="Fyll ut klokkeslettet, så får du en sms." Text="Når passer det best? Fyll ut klokkeslettet, så får du en sms på det tidspunktet du ønsker. Den vil gi deg litt ekstra motivasjon." Type="Get information" ButtonPrimaryName="Tilbake til Balance" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="16748247-4557-4E45-8EED-992670FCD475" Type="TimePicker" Caption="Tidspunkt for utsending" ProgramVariable="Time sms Motivation 5" IsRequired="0">
+            <Items>
+              <Item Item="Timer     " Range="0-23      " />
+              <Item Item="Minutter  " Range="0-59      " />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="FF932C01-1CFD-4540-AD0A-6DE146CC8D84" Order="3" Title="" Text="Hei! Husker du Cathrines historie? Hva er det viktigste i ditt eget liv akkurat nå? Er det noe du ikke burde gjøre? Ha en fin kveld, da!" Type="SMS" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="Time sms Motivation 5">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Relapse>
+  <SpecialString>
+    <StringItem Name="all_rights_reserved" Value="All rights reserved" />
+    <StringItem Name="Back" Value="" />
+    <StringItem Name="Buy" Value="Bestill" />
+    <StringItem Name="Buy_subtext" Value="Buy subtext" />
+    <StringItem Name="Click_a_day" Value="Klikk på en dag" />
+    <StringItem Name="Completed" Value="Fullfort" />
+    <StringItem Name="Day" Value="Dag" />
+    <StringItem Name="DAY_RANGE" Value="0-30" />
+    <StringItem Name="DAY_STRING" Value="Dager" />
+    <StringItem Name="Days_in_program" Value="Dager i programmer" />
+    <StringItem Name="HOUR_RANGE" Value="0-23" />
+    <StringItem Name="HOUR_STRING" Value="Timer" />
+    <StringItem Name="Login" Value="LOGG INN" />
+    <StringItem Name="Logout" Value="LOGGUT" />
+    <StringItem Name="MINUTE_RANGE" Value="0-59" />
+    <StringItem Name="MINUTE_STRING" Value="Minutter" />
+    <StringItem Name="NewSpecialS" Value="" />
+    <StringItem Name="Other_programs_from" Value="Programmer for if ... kunder" />
+    <StringItem Name="Price" Value="Gratis" />
+    <StringItem Name="Price_subtext" Value="Price subtext" />
+    <StringItem Name="provided_by" Value="is a service provided by" />
+    <StringItem Name="SettingMenu" Value="Innstillinger og hjelp" />
+    <StringItem Name="Start_day" Value="Start dag" />
+    <StringItem Name="Startpunkt" Value="Startpunkt" />
+    <StringItem Name="unavailable" Value="Not yet available" />
+    <StringItem Name="untaken" Value="Not yet taken" />
+    <StringItem Name="use_from" Value="using EasyChange Technology from" />
+    <StringItem Name="Week" Value="Uke" />
+  </SpecialString>
+</XMLModel>

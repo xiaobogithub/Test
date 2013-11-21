@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+<h3>Format:</h3>
+<P>
+Format1: GOTO pageOrder <br />
+
+Format2: IF condition GOTO pageOrder1 [ELSE GOTO pageOrder2] <br />
+
+Format3: IF condition1 GOTO pageOrder1 IF condition2 GOTO pageOrder2 IF... [ELSE GOTO pageOrderN] <br />
+
+<b>Explaination: </b><br />
+The italic words are the parts that the user to fill in. <br />
+condition: The condition is to indicate which GOTO should be used. The condition is a comparation expression which can be valued true or false. If true, the GOTO after IF should be used, and the GOTO after ELSE should be used when condition is valued false.<br />
+
+pageOrder: The pageOrder is a number format as "n1.n2". The n1 is the order of page sequence and n2 is page order in the sequence. The pageOrder can be used as a number directly after GOTO, or an expression can be valued a number in the format as mentioned above. <br />
+
+<b>Statement: IF, ELSE </b><br />
+
+The IF statement can be followed by 0 or 1 ELSE statement. When the IF condition is true, the GOTO after IF will be used, otherwise the GOTO after ELSE will be used. <br />
+When there is no ELSE statement, and the IF condition is false, by default, in a before expression, it will go to the current page, and in an after expression, it will go to the next page. <br />
+There can be  more than one IF statement in the expression. When the condition of the first IF is false, the second IF condition will be checked, and use its GOTO if the condition is trun. The third IF condition will only be check when the second condition is false, and so on until one of the conditions is true or to the ELSE (or no ELSE, follows rule 2). <br />
+<b>condition and pageOrder</b>
+condition must a comparing expression which can be valued true or false. It should be composed in format "valueA operator valueB". 
+The operator in condition should be one of the followings:
+</P>
+> bigger than <br />
+>= bigger than or equal to <br />
+< smaller than <br />
+<= smaller than or equal to <br />
+== equal to (notice, please don't mix it with "=") <br />
+!= not equal to <br />
+valueA and valueB will be compared by the operator. They can be a value, or expressions can be calculated as a value each.<br />
+
+In the expression of valueA or valueB, "+", "-", "*", "/", and "(" and ")" can be used, number and string type of operated items can be calculated in the expression. Number can be used with all the 4 operators and string can be used only with "+". These operated items can be some value, such as number 3 or string male, or page variables. Function which is coming below can be used as a calculated item, too.<br />
+
+the pageOrder can be a number x.x, and an expression can be calculated to x.x, too. When it's an expression, it is composed like the valueA and valueB in operator. <br />
+
+<b>Function:</b><br />
+GetIndex(value1, value2, value3, value4, value5..., sortedIndex, option) <br />
+
+Parameters: <br />
+1. value1, value2, value3...: An array with different values(expressions), the sequence of the value is related to the result. <br />
+2. sortedIndex: to indicate which value is needed. (value from 1 to amount of values) <br />
+3. option: value of "max" or "min" (no quote mark when used), to indicate how to sort the values. <br />
+
+Return: <br />
+a pageSequence order. <br />
+
+<b>How to work: </b><br />
+It will sort the values according the option. The values will be sorted from smallest to biggest if the option is valued "min", and vice versa. And it will get a value in the sorted value list by the sortedIndex, and return the value's original index. <br />
+So if there are 5 values, and the sortedIndex is valued 5, and option is "min", that means the value with the biggest value should be found, if the value is value3, the original index of value3 will be return, that is 3. In another way, if the sortedIndex is valued 1, and the option is "max", the result will be the same. <br />
+
+
+We solve the example in http://www.ethos.com.cn/confluence/display/DTD/02.18+Formulas+and+Expressions by this function. <br />
+
+1. In dayX(screening), the user will input 21 values in the 21 questions, and those values will be stored as page variables. And dayX will be sorted as a page variable, too. <br />
+2. In dayX+1/+2/+3, the page1 in sequence1 will have before expression as: <br />
+    GOTO GetIndex(q1+q8+q15, q2+q9+q16, q3+q10+q17, q4+q11+q18, q5+q12+q19, q6+q13+q20, q7+q14+q21, currentDay-dayX, max)+0.1 <br />
+So at dayX+1, the GetIndex will get the biggest value and return it's index, that's the order of the sequence should be shown today. The sequence order+0.1 is showing the first page of the sequence. <br />
+3. In the end of each sequence's last page, the after expression should navigate the session to the ending page.<br />
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿<Session SessionGUID="76A742C5-956C-4A0C-B90C-CCFEF1F398C2" Name="Balance Day 4" Description="The pages for day 4" Day="4">
+  <SessionContent PageSequenceOrderNo="1">
+    <PageSequence Name="Balance Day 4 - Welcome ">
+      <PAGE PageGUID="D472E061-E8E5-492E-87DE-19D2F9D52398" PageOrderNo="1" Name="Hello again" BodyTitle="Hallo igjen" BodyText="i går var det ganske mye, defor blir det en litt kortere dag i dag" ButtonPrimaryCaption="Hva hvis du drikker mer enn målet en dag ?" ButtonPrimaryAction="0" ButtonSecondaryAction="-1"/>
+    </PageSequence>
+  </SessionContent>
+  <SessionContent PageSequenceOrderNo="2">
+    <PageSequence Name="Balance Day 4 - Planning">
+      <PAGE PageGUID="54121661-C5CA-4B24-8C9B-74B49A00C876" PageOrderNo="1" Name="En glipp eller tre er helt normalt." BodyTitle="En glipp eller tre er helt normalt." BodyText="Hvis du tar noen glass mer enn planlagt, er det lett å tenke: Jeg har for svak viljestyrke og kommer ikke til å klare det.  Å tenke sånn er ikke bare dumt. Forskningen viser at det faktisk er helt feil! Hvis du får en glipp, men fortsetter som om ingen ting har hendt, har du enda større sjanser for å lykkes. Å glippe er altså en naturlig del av det å forandre seg!  Derfor skal du i stedet si til deg selv: Jeg vil fremdeles legge om vanene mine. Jeg er like motivert som før. Jeg fortsetter som om ingen ting har skjedd. " ButtonPrimaryCaption="Legg skylden på situasjonen, ikke på deg selv." ButtonPrimaryAction="1" ButtonSecondaryAction="-1"/>
+      <PAGE PageGUID="B65CE911-F6E0-432D-878B-7B1D053B31C6" PageOrderNo="2" Name="Situasjonen er jo borte for lengst!" BodyTitle="Situasjonen er jo borte for lengst!" BodyText="Det er lett å tenke: &quot;Det var fordi jeg har så svak viljestyrke.&quot;  Eller: &quot;Jeg er ikke flink nok&quot;.  Men det du burde tenke er: &quot;Det var fordi jeg var ekstra stresset på jobben den dagen&quot;. Eller: ”Den drinken var ekstra fristende, det var jo fest!&quot;.  Fordelen ved å tenke sånn er at alle slike situasjoner går over. Og når situasjonen er borte, er det bare å fortsette med å forandre vanene. En viktig erfaring rikere." ButtonPrimaryCaption="Hvordan gikk det forresten i går?" ButtonPrimaryAction="1" ButtonSecondaryAction="-1" />
+      <PAGE PageGUID="85A715D3-0535-4A3F-83CE-834E0EC6BAEE" PageOrderNo="3" Name="Legg inn det riktige tallet og klikk Send inn." BodyTitle="Legg inn det riktige tallet og klikk Send inn." BodyText="Takk for at du svarer ærlig!" ButtonPrimaryCaption="Send inn" ButtonPrimaryAction="1" ButtonSecondaryAction="-1"/>
+      <PAGE PageGUID="0943826C-A088-4A61-8EDE-F09015DD2ED3" PageOrderNo="4" Name="Flott!" BodyTitle="Flott!" BodyText="Et bra resultat." ButtonPrimaryCaption="Hva med dagen i dag?" ButtonPrimaryAction="1" ButtonSecondaryAction="-1"/>
+      <PAGE PageGUID="72709148-344C-4789-AAA2-7816C4870F83" PageOrderNo="4" Name="Hva tror du om dagen i dag?" BodyTitle="Hva tror du om dagen i dag?" BodyText="Føler du deg ganske sikker på at du kommer til å klare målene? Eller tviler du sterkt på at du kommer til å klare dem?   {Q411}" ButtonPrimaryCaption="Fortsett" ButtonPrimaryAction="1" ButtonSecondaryAction="-1"/>
+    </PageSequence>
+  </SessionContent>
+</Session>

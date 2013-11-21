@@ -1,0 +1,168 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="ChangeTech.Silverlight.DesignPage.App"
+             >
+    <Application.Resources>
+        <Style x:Key="CloseButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd1" Width="44" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" TextAlignment="center" Text="r" FontSize="11" VerticalAlignment="center" FontFamily="Webdings"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>       
+        <Style x:Key="DeleteButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd2" Width="88" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" Text="Delete" TextAlignment="center" FontSize="11" VerticalAlignment="center"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SelectButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd2" Width="88" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" Text="Select" TextAlignment="center" FontSize="11" VerticalAlignment="center"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="PrevButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd2" Width="88" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" Text="Prev" TextAlignment="center" FontSize="11" VerticalAlignment="center"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="NextButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd2" Width="88" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" Text="Next" TextAlignment="center" FontSize="11" VerticalAlignment="center"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CropButton" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border x:Name="brd2" Width="88" Height="22" CornerRadius="10">
+                            <TextBlock x:Name="txt1" Foreground="#222" Text="Crop" TextAlignment="center" FontSize="11" VerticalAlignment="center"/>
+                            <Border.Background>
+                                <RadialGradientBrush GradientOrigin=".5, .5">
+                                    <GradientStop Color="#FFF" Offset=".15"/>
+                                    <GradientStop Color="#777" Offset="1"/>
+                                </RadialGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Name="ButtonStyle" TargetType="HyperlinkButton">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Margin" Value="30,0,0,0"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+        <Style x:Name="ImageViewStyle" TargetType="Border">
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="BorderThickness" Value="1,1,1,1"></Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="CornerRadius" Value="5,5,5,5"></Setter>
+            <Setter Property="Margin" Value="2,2,2,2"></Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF000000"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Name="ImageViewSelectedStyle" TargetType="Border">
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="BorderThickness" Value="1,1,1,1"></Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="CornerRadius" Value="5,5,5,5"></Setter>
+            <Setter Property="Margin" Value="2,2,2,2"></Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Blue"/>
+                        <GradientStop Color="Red" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>

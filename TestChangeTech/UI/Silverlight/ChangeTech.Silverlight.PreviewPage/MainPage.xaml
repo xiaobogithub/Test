@@ -1,0 +1,10 @@
+﻿<UserControl xmlns:dataInput="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input"  x:Class="ChangeTech.Silverlight.PreviewPage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="auto" Height="800">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Canvas x:Name="PageContainer">
+            
+        </Canvas>
+    </Grid>
+</UserControl>

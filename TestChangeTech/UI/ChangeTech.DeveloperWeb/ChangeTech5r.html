@@ -1,0 +1,227 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+    <meta charset="UTF-8" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />-->
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,600,800' rel='stylesheet' type='text/css' />
+    <!-- Viewport meta to reset iPhone inital scale -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="Scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.js"></script>
+    <link type="text/css" href="Themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Scripts/json2.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.program.js"></script>
+    <link rel="stylesheet" href="Themes/html5Css/reset.css" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="Themes/styles.css" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="Themes/addition.css" media="screen"/>
+    <link type="text/css" rel="Stylesheet" href="Themes/graph.css" media="screen" />
+    <link type="text/css" rel="Stylesheet" href="Themes/html5Css/default.css" media="screen"/>
+    <link rel="stylesheet" href="Themes/html5Css/fluid.css" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="Themes/html5Css/tooltipster.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.ghindaVideoPlayer.js"></script>
+    <script type="text/javascript" src="Scripts/PageTransition.js"></script>
+    <!--<script type="text/javascript" src="Scripts/context_blender.js"></script>-->
+    <!--<script type="text/javascript" src="Scripts/libraries/RGraph.common.core.js"></script>
+    <script type="text/javascript" src="Scripts/libraries/RGraph.common.dynamic.js"></script>
+    <script type="text/javascript" src="Scripts/libraries/RGraph.common.effects.js"></script>
+    <script type="text/javascript" src="Scripts/libraries/RGraph.common.tooltips.js"></script>
+    <script type="text/javascript" src="Scripts/libraries/RGraph.line.js"></script>-->
+    <script type="text/javascript" src="Scripts/libraries/highcharts.js"></script>
+    <script type="text/javascript" src="Scripts/html5global.js"></script>
+    <script type="text/javascript" src="Scripts/layout-details.js"></script>
+    <script type="text/javascript" src="Scripts/intro.js"></script>
+    <script type="text/javascript" src="Scripts/getServerUrl.js"></script>
+    <script type="text/javascript" src="Scripts/standardTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/getInformationTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/choosePreferenceTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/login-AccountCreationTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/resultTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/html5SupportDetection.js"></script>
+    <script type="text/javascript" src="Scripts/timerTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/graphTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.stopwatch.js"></script>
+    <!--<script type="text/javascript" src="Scripts/blenderMultiply.js"></script>-->
+    <script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+    <script type="text/javascript" src="jwplayer/jwplayer.html5.js"></script>
+    <script type="text/javascript" src="https://jwpsrv.com/library/TfXdOBRnEeOvtCIACusDuQ.js"></script>
+    <script type="text/javascript" src="Scripts/Html5Scripts/rotateLoader.js"></script>
+    <script type="text/javascript" src="Scripts/Html5Scripts/showHide.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.tooltipster.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            resizeImg();
+            var angle = 0;
+            setInterval(function () {
+                angle += 3;
+                $(".loaderanim").rotate(angle);
+            }, 12);
+            var isFirstTimeLoadingPage = true;
+            loadingAnimation(isFirstTimeLoadingPage);
+            //loadXmlAjax();
+            windowResize();
+
+        });
+    </script>
+    <!-- Several IE fixes -->
+    <!-- css3-mediaqueries.js for IE8 or older -->
+    <!--[if lt IE 9]>
+	   <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <!-- This check is to make sure the bottom gradient looks ok in IE9 -->
+    <!--[if gte IE 9]>
+       <style type="text/css">
+         .gradient {
+          filter: none;
+         }
+       </style>
+      <![endif]-->
+</head>
+<body>
+<!-- The cover that hides everything when a dialoguebox appears -->
+<div class="fadecover hidden"></div>
+
+<!-- The settings; opens up in an iframe -->
+<!--<iframe id="settings" src="" class="hidden"></iframe>-->
+ <div id="iframe-settings">
+      <div class="wrapper-settings">
+          <h1>  </h1>
+          <ul class="settingsmenu">
+          </ul>
+      </div>
+   </div>
+    <div class="setting-menu" style="display:none;">
+        <em><a href="" onfocus="this.blur();"></a></em>
+    </div>
+    <div class="settings-detail">
+     <div class="wrapper-settings">
+       <div class="settings-button-back"><a href="" onfocus="this.blur();" class="button-back"><span class="buttontext">Back</span></a></div>
+       <div class="settings">
+
+       </div>
+       <div class="settings-message"></div>
+      </div>
+    </div>
+<!-- The button that closes the iframe -->
+<div class="settings-button-close hidden"><a href="" onfocus="this.blur();" class="button-close hideSettingsmenu"><span class="buttontext">Close</span> <span class="icon-close"></span></a></div>
+
+<!-- The dialoguebox -->
+<div class="wrapper-dialoguebox hidden">
+  <div class="dialoguebox"><a href="" onfocus="this.blur();" class="button-close hideDialoguebox"><span class="buttontext">Close</span> <span class="icon-close"></span></a>
+    <div class="upper">
+      
+    </div>
+    <div class="lower">
+      <p><!-- The grey version of a button that may be used for cancelling actions <a href="#" class="actionlink grey">Cancel</a> --><a href="#" onfocus="this.blur();" class="actionlink blue hideDialoguebox" id="popupBtn">Progress</a></p>
+    </div>
+  </div>
+</div>
+
+    <div class="wrapper-image" style="display:none;">
+    </div>
+    <div id="page_wrapper">
+        <div id="programRoomBar" class="hiddenProgramRoomBar"></div>
+         <!-- controlbar -->
+         <div id="controlBar">
+       <div class="controlbar-mini"><a href="" onfocus="this.blur();" id="show" class="button-expand"></a><a href="#" onfocus="this.blur();" id="hide" class="button-contract"></a></div>
+       <div class="controlbar">
+       <a href="" onfocus="this.blur();" class="button-back">
+       <span class="buttontext">Back</span>
+       </a>
+       <a href="" onfocus="this.blur();" id="hide" class="button-settings showSettingsmenu">
+       <span class="buttontext">Innstillinger</span>
+       <span class="icon-settings"></span>
+       </a>
+       <div class="programtitle"></div>
+       </div>
+    </div>
+        <!-- end of controlbar-->
+        <div class="bottomgradient"></div>
+        <div id="mainarea">
+            <!-- startup -->
+         <div id="bubble-orange" style="display: none;">
+           <div class="bubcontent"></div>
+         </div>
+          
+         <!-- end of startup-->
+            <div id="bubbles">
+              <div id="graphcontainer"></div>   
+               <div class="wrapper-bubbles">
+                
+                <div id="bubble-white" style="display: none;">
+                    <div class="tip"></div>
+                    <div class="bubcontent">
+                    </div>
+                </div>
+                <div id="bubble-yellow" style="display: none;">
+                <div class="tip">
+                    </div>
+                    <div class="bubcontent">
+                    </div>
+                    
+                </div>
+                <div id="bubble-black" style="display: none;">
+                 <div class="tip">
+                    </div>
+                    <div class="bubcontent">
+                    </div>
+                </div>
+                <!--<div id="bubble-graph">-->
+                <!-- START OF GRAPH -->
+                 <!-- <div class="graphcontainer">
+                      <div class="graphlegend"> 
+                       </div>
+                      <canvas id="cvs" width="800" height="300"></canvas>
+                  </div> -->
+                  <!-- The graph is placed inside this div -->
+               <!-- </div>-->
+              
+                <a href="" onfocus="this.blur();">
+                   <div id="bubble-blue" style="display: none;">
+                       <div class="tip"></div>
+                       <div class="bubcontent">
+                       </div>
+                   
+                    </div>
+                </a>
+                </div><!-- end of wrapper-bubbles-->
+                </div><!-- end of bubbles -->   
+                 
+        </div>
+
+        <div id="pic" style="display:none">
+            <img src='' id="over"  alt=""/>
+            <img src="" id='under' alt="" />
+            <canvas id="backgroundpic"></canvas>
+            <img src="" class="fullbg" id="fullbgImg" alt="" />
+        </div>
+    </div>
+    <!--<div class="body-loading" style="display: none">
+        <p>
+            <img src="Images/wait-anim.gif" alt="" /></p>
+    </div>-->
+    <!-- popup  -->
+    <div id="main-wrapper">
+    </div>
+    <div id="popupDialog">
+        <div class="popupButWrapper">
+        </div>
+    </div>
+    <!--settings menu-->
+    <div class="setting-menu-wrapper">
+    </div>
+    <div class="mask">
+    <p><img src="Images/wait-anim.gif" alt="" /></p>
+    </div>
+  
+    <div id="hiddenElements"></div>
+    <div id="hiddenImage" style="display: none;"></div>
+    <div id="hiddenBg" style="display: none;"></div>
+    <div id="hiddenActualImage" style="position: absolute; top: 46px; right: 0; display: none;"></div>
+    <div id="hiddenLoadingInfo"></div>
+</body>
+</html>

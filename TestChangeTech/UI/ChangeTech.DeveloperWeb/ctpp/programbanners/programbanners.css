@@ -1,0 +1,172 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+
+/* The program labels */
+
+.programbanners li {
+	float: left;
+	width: 30.5%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-left: 2%;
+	border: 1px solid;
+}
+.program-motive {
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+}
+.icon-easychange {
+	position: absolute;
+	z-index: 10;
+	top: 6%;
+	right: 5%;
+	width: 12%;
+	height: 30%;
+	opacity: 0.8;
+	background: url(img/icon-easychange.png) right no-repeat;
+	background-size: contain;
+}
+.programlabel {
+	padding: 5px 5px 6px 80px;
+}
+.programlabel h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: -1.5px;
+}
+.program-host {
+	position: absolute;
+	z-index: 50;
+	width: 52px;
+	height: 52px;
+	margin-left: -65px;
+	margin-top: -33px;
+	border: 2px solid #FFF;
+	background-size: cover;
+}
+/* Program :: Less stress */
+.programbanners li.program-lessstress {
+	border-color: #8f9ab6;
+	background-color: #8f9ab6;
+}
+.program-lessstress .program-motive {
+	background-image: url(img/app-lessstress.jpg);
+}
+.program-lessstress .program-host {
+	background-image: url(img/thmb-host-kjetil-coolblue.jpg);
+}
+/* [END] */
+
+
+/* Program :: Better days */
+.programbanners li.program-betterdays {
+	border-color: #abb18a;
+	background-color: #abb18a;
+}
+.program-betterdays .program-motive {
+	background-image: url(img/app-betterdays.jpg);
+}
+.program-betterdays .program-host {
+	background-image: url(img/thmb-host-alessandro-militarygreen.jpg);
+}
+/* [END] */
+
+/* Program :: Smoke free */
+.programbanners .program-smokefree {
+	border-color: #70a4a5;
+	background-color: #70a4a5;
+}
+.program-smokefree .program-motive {
+	background-image: url(img/app-smokefree.jpg);
+}
+.program-smokefree .program-host {
+	background-image: url(img/thmb-host-anette-seagreen.jpg);
+}
+/* [END] */
+
+/* Program :: Get healthier */
+.programbanners li.program-gethealthier {
+	border-color: #64b2d1;
+	background-color: #64b2d1;
+}
+.program-gethealthier .program-motive {
+	background-image: url(img/app-gethealthier.jpg);
+}
+.program-gethealthier .program-host {
+	background-image: url(img/thmb-host-olejorgen-oceanblue.jpg);
+}
+/* [END] */
+
+/* Program :: Feel better */
+.programbanners li.program-feelbetter {
+	border-color: #bd6437;
+	background-color: #bd6437;
+}
+.program-feelbetter .program-motive {
+	background-image: url(img/app-feelbetter.jpg);
+}
+.program-feelbetter .program-host {
+	background-image: url(img/thmb-host-karin-maroon.jpg);
+}
+/* [END] */
+
+/* Program :: Balance */
+.programbanners li.program-balance {
+	border-color: #bd8f67;
+	background-color: #bd8f67;
+}
+.program-balance .program-motive {
+	background-image: url(img/app-balance.jpg);
+}
+.program-balance .program-host {
+	background-image: url(img/thmb-host-balance-brown.jpg);
+}
+/* [END] */
+
+/* Program :: Less worries */
+.programbanners li.program-lessworries {
+	border-color: #c45a99;
+	background-color: #c45a99;
+}
+.program-lessworries .program-motive {
+	background-image: url(img/app-lessworries.jpg);
+}
+.program-lessworries .program-host {
+	background-image: url(img/thmb-host-karine-magenta.jpg);
+}
+/* [END] */
+
+/* Program :: Less conflict */
+.programbanners li.program-lessconflict {
+	border-color: #93934c;
+	background-color: #93934c;
+}
+.program-lessconflict .program-motive {
+	background-image: url(img/app-lessconflict.jpg);
+}
+.program-lessconflict .program-host {
+	background-image: url(img/thmb-host-kjersti-limegreen.jpg);
+}
+/* [END] */
+
+/* Program :: Loose weight */
+.programbanners li.program-looseweight {
+	border-color: #64b2d1;
+	background-color: #64b2d1;
+}
+.program-looseweight .program-motive {
+	background-image: url(img/app-looseweight.jpg);
+}
+.program-looseweight .program-host {
+	background-image: url(img/thmb-host-maren-oceanblue.jpg);
+}
+/* [END] */
+
+
+/* [END] program labels */

@@ -1,0 +1,1201 @@
+﻿1;<XMLModel Mode="Live" UserGUID="02EE9090-29C7-47AF-9819-BE7BEF09E086" ProgramGUID="A3066754-2109-4D4A-A2AB-AE6C0BA8DD9D" ProgramName="Copy of SOS Litt sunnere finnish on 10/8/2012 3:49:56 PM" CTPPName="" IsNeedSerialNumber="0" MissedDay="false" Platform="NormalBrowser" ShouldDoDay="0" IsRetake="False" IsCTPPEnable="0">
+    <Session GUID="C805741C-2339-4530-AAC4-3E94AA507792" Name="Copy of Ruokailutottumustesti&#xA; on 10/8/2012 3:53:53 PM" Day="1" Description="Testi &#xA;Palaute testistä &#xA;Syitä muutosten tekemiseen" Logo="b77805cf-8f05-407d-bff6-d860695e6c99.png">
+        <PageSequence GUID="FA190954-45C4-4F10-8E1E-560882944978" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="1" TopBarColor="0x6a99cb" CoverShadowVisible="0" ProgramRoomName="Ruokailutottumukset" ProgramRoomDescription="">
+            <Page GUID="11F9B32C-9837-492F-AAC5-35130A315449" Order="1" Title="Hei! Hauska tavata!&#xA;" Text="Tervetuloa ensimmäisen päivän ohjelmaan! &#xA;&#xA;Elämän muuttaminen terveellisemmäksi tarkoittaa ennen kaikkea sitä, mitä ja miten syöt ja miten paljon liikut. &#xA;&#xA;Siksi me autamme sinua tekemään pieniä muutoksia, niin että tilanteesi paranee näillä kummallakin osa-alueella. &#xA;&#xA;Mutta... yksi tärkeimmistä säännöistä tottumusten muuttamisessa on, että ei kannata yrittää muuttaa enempää kuin yksi asia kerrallaan." Type="Standard" ButtonPrimaryName="Siksi keskitymme ensin syömiseen ja ruokailutottumuksiin&#xA;" ButtonSecondaryName="Back" PresenterImage="f1538f45-e4db-4d12-8a31-2c7ae807510f.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2434608A-5EEE-45B6-8680-27F732B656D8" Order="2" Title="Palaamme liikuntaan, kun olet noin puolivälissä ohjelmaa.&#xA;" Text="Sinun ei siis tarvitse potea huonoa omaatuntoa siitä, että koet liikkuvasi liian vähän. &#xA;&#xA;Senkin suhteen onnistut jatkossa ilman, että sinun tarvitsee silti muuttua fanaattiseksi urheilijaksi. &#xA;&#xA;Tänään aloitamme ruokailutottumustesi testaamisella. Testin jälkeen tunnet paremmin omat tottumuksesi ja ajatuksesi ruoasta. &#xA;&#xA;Huomaat selvemmin, mitä tottumuksiasi pitäisi muuttaa." Type="Standard" ButtonPrimaryName="Ensin kuitenkin joitakin käytännön tietoja&#xA;" ButtonSecondaryName="Back" PresenterImage="eb85a52c-9d6b-4294-9540-2701b889cf9c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="AE848A54-62A8-4E1C-8AAD-3C021C421983" Order="3" Title="Oikeassa yläkulmassa.&#xA;" Text="Asetukset ja ohje -kohdassa on paljon hyödyllisiä tietoja. &#xA;&#xA;Saat sieltä vastauksia moniin yleisiin kysymyksiin. Siksi sinun kannattaa klikata Asetukset ja ohje -kohtaa nyt, ennen kuin jatkat. &#xA;&#xA;Muista myös, että voit aina palata ohjelmassa taaksepäin klikkaamalla alla olevan painikkeen taaksepäin osoittavaa nuolta." Type="Standard" ButtonPrimaryName="Oletko vilkaissut asetukset ja ohjeen läpi? Sitten aloitetaan päivän ohjelma&#xA;" ButtonSecondaryName="Back" PresenterImage="6a3b288f-e62c-473c-b646-2abfbe61d910.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="1FBECCBB-A1C8-49E6-AC84-60EBDB1199C8" Order="4" Title="Ensin sinulle esitetään joitakin helppoja kysymyksiä ruokailutottumuksistasi.&#xA;" Text="Sen jälkeen ohjelma analysoi vastauksesi ja antaa niistä palautetta. Vastaa rehellisesti. Et huijaa ketään muuta kuin itseäsi. Sinähän olet täällä täysin nimettömänä. &#xA;&#xA;Saat ohjelmalta palautetta sen jälkeen, kun olet vastannut kysymyksiin. Mieti vastauksia rauhassa. Yritä vastata kysymyksiin niin hyvin kuin pystyt. &#xA;&#xA;Tulosten mukana saat myös lisätietoja siitä, miten ohjelma voi auttaa sinua ja miten se vaikuttaa." Type="Standard" ButtonPrimaryName="Tässä ensimmäinen kysymys...&#xA;" ButtonSecondaryName="Back" PresenterImage="9edc07bd-8d84-4fcc-bd96-4314ace1c73a.png" PresenterImagePosition="Left" PresenterMode="Normal" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+        </PageSequence>
+        <PageSequence GUID="0247426B-3425-4AB6-A69A-857CD9530C4A" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="2" TopBarColor="0x6a99cb" CoverShadowVisible="0" ProgramRoomName="" ProgramRoomDescription="">
+            <Page GUID="323C1C87-DA13-4B62-B9F4-09024A47A7D3" Order="1" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="20033281-4726-4523-A153-E3E9804598EC" Type="RadioButton" Caption="Kuinka paljon hedelmiä ja kasviksia syöt yleensä? (150 grammaa on yksi ”annos”. Se vastaa esimerkiksi yhtä banaania, omenaa tai appelsiinia.)&#xA;" IsRequired="1">
+                        <Items>
+                            <Item GUID="493AFC5D-6F70-480D-BF64-CAEFBFC4D975" Item="5 tai enemmän päivässä&#xA;" Score="5" />
+                            <Item GUID="A0E4E7C7-8626-4297-BA1B-11F5D7C326BC" Item="4 päivässä&#xA;" Score="4" />
+                            <Item GUID="71A00520-CCBC-49B2-9B82-7093A30FB288" Item="3 päiv¤ssÃ¤&#xA;" Score="3" />
+                            <Item GUID="1E14F630-58AA-47F2-8368-7358483B1815" Item="2 pÃ¤ivÃ¤ssÃ¤&#xA;" Feedback="" Score="2" />
+                            <Item GUID="E8AAB3C0-5D5E-4A12-A2A3-BF2F61037187" Item="Tuskin lainkaan&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="80EF6D5D-4C36-4D2A-A9D7-11F4BD781D3E" Order="2" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="76BBABB2-4BE4-4256-A987-D18B9E2D46D2" Type="RadioButton" Caption="Kuinka paljon syÃ¶t kalaa? (Yksi kala-ateria vastaa 200-300 grammaa. LeipÃ¤pala, jolla on savulohiviipale, vastaa noin 20-30:tÃ¤ grammaa.)&#xA;" ProgramVariable="Nutrition Q2 Baseline" IsRequired="1">
+                        <Items>
+                            <Item GUID="B7CA6D74-E369-4834-892B-71C90A0A959A" Item="Yli 300 g viikossa&#xA;" Feedback="" Score="5" />
+                            <Item GUID="035B0A88-8C9E-436C-B735-EF2FF48D9995" Item="Noin 200-300 g viikossa&#xA;" Feedback="" Score="4" />
+                            <Item GUID="D971A611-4482-4D4D-9CBE-C4EDF80E6B75" Item="Noin 200 g viikossa&#xA;" Feedback="" Score="3" />
+                            <Item GUID="D83D0180-B0C0-4FD8-908E-96CD37B345A4" Item="Noin 100 g viikossa&#xA;" Feedback="" Score="2" />
+                            <Item GUID="ED2F1299-4F3F-4DC0-AA8B-2D1E80B23675" Item="En yhtÃ¤Ã¤n&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="7ED6F133-0F1D-4D80-A70B-B182C87F1107" Order="3" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="F462A2B5-E94D-4351-8574-B22EA03DCEED" Type="RadioButton" Caption="Miten usein syÃ¶t tÃ¤ysjyvÃ¤tuotteita? Esimerkiksi tÃ¤ysjyvÃ¤leipÃ¤Ã¤, tÃ¤ysjyvÃ¤pastaa, tÃ¤ysjyvÃ¤riisiÃ¤ jne.?&#xA;" ProgramVariable="Nutrition Q3 Baseline" IsRequired="1">
+                        <Items>
+                            <Item GUID="E489577F-4C3F-438C-B8D2-7C92D6EB1F95" Item="SyÃ¶n aina tÃ¤ysjyvÃ¤tuotteita&#xA;" Feedback="" Score="5" />
+                            <Item GUID="94A266AE-EEFF-4459-8BE8-8B3E764ADF81" Item="SyÃ¶n enimmÃ¤kseen tÃ¤ysjyvÃ¤tuotteita&#xA;" Feedback="" Score="4" />
+                            <Item GUID="F9DA1675-F990-4595-B266-67D88D976D09" Item="Silloin tÃ¤llÃ¶in&#xA;" Feedback="" Score="3" />
+                            <Item GUID="8B239043-2537-4691-9B08-40EE9D704E84" Item="Harvoin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="E87031B6-FFE4-4074-A2C2-BDE58752C244" Item="En lainkaan, syÃ¶n vain valkoista leipÃ¤Ã¤ enkÃ¤ koskaan osta tÃ¤ysjyvÃ¤tuotteita&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="ADDA5909-B7EE-4182-8D5C-0C32DCE638E9" Order="4" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="E4AB2220-5D36-4194-A314-B438E03612BA" Type="RadioButton" Caption="Kuinka paljon syöt leivonnaisia, keksejä ja makeisia?&#xA;" ProgramVariable="Nutrition Q4 Baseline" IsRequired="1">
+                        <Items>
+                            <Item GUID="B0FB38A3-A2FE-47BD-888D-0F5CCFA56308" Item="En yhtään&#xA;" Feedback="" Score="5" />
+                            <Item GUID="04630E04-C25B-4888-B00B-AAA1CD51D99A" Item="Vain tietyissä erityistilanteissa&#xA;" Feedback="" Score="4" />
+                            <Item GUID="1F451743-E562-42A9-BBD6-E0784274DC87" Item="Vähemmän kuin kourallisen päivässä&#xA;" Feedback="" Score="3" />
+                            <Item GUID="F11846C6-15E5-4227-9F5D-B9174AD63F20" Item="Noin kourallisen päivässä&#xA;" Feedback="" Score="2" />
+                            <Item GUID="DA39EA8D-0DDB-4505-B876-372A33B9F5C7" Item="Yli kourallisen päivässä&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="F65BE2C8-ECA4-44A1-8260-FB0A41D0C9A6" Order="5" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="E40E9F28-B9CC-478F-A03A-BC9626007AB8" Type="RadioButton" Caption="Terveellistä rasvaa on muun muassa kasviöljyissä, pehmeässä margariinissa, kasviöljyä sisältävissä levitteissä, majoneesipohjaisissa salaateissa ja kalassa. Miten usein syöt tällaista ruokaa?&#xA;" ProgramVariable="Nutrition Q5 Baseline" IsRequired="1">
+                        <Items>
+                            <Item GUID="3DFAE103-35A2-4EB1-B13B-2056C9B616CE" Item="Aina&#xA;" Feedback="" Score="5" />
+                            <Item GUID="AAC56DDA-8782-49F2-B96B-0F9736A82C35" Item="Usein&#xA;" Feedback="" Score="4" />
+                            <Item GUID="9E74C52F-0E6A-4EB9-A945-02671761F8A3" Item="Silloin tällöin&#xA;" Feedback="" Score="3" />
+                            <Item GUID="F5AC7155-50EB-47BE-9716-3D03947A5B1D" Item="Harvoin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="27411DC8-4A91-401E-BA38-6F3E3EE92172" Item="En ikinä&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="467CDF49-F998-4DE6-AAB8-E9FAAF2ED39A" Order="6" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Nutrition Mean} = (({V:Nutrition Q1 Baseline} + {V:Nutrition Q2 Baseline} + {V:Nutrition Q3 Baseline} + {V:Nutrition Q4 Baseline} + {V:Nutrition Q5 Baseline} + {V:Nutrition Q6 Baseline}) / 6)">
+                <Questions>
+                    <Question GUID="EF516CD8-4F56-4569-9FF7-A03F14D708D1" Type="RadioButton" Caption="Miten usein juot vettä?&#xA;" ProgramVariable="Nutrition Q6 Baseline" IsRequired="1">
+                        <Items>
+                            <Item GUID="8FECE293-AB68-4EF0-8B33-2796A01380F3" Item="Aina, juon melkein pelkästään vettä&#xA;" Feedback="" Score="5" />
+                            <Item GUID="4968A2EF-15BF-48AC-B8CF-D307F58A2775" Item="Usein&#xA;" Feedback="" Score="4" />
+                            <Item GUID="5A6A9843-946D-44F2-9BD4-62265752E225" Item="Silloin tällöin&#xA;" Feedback="" Score="3" />
+                            <Item GUID="F920CA6D-6724-4955-A39B-BD611C112A1F" Item="Harvoin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="3B184F73-25B5-493C-9C63-CC7D8911B1BB" Item="En ikinä&#xA;" Feedback="" Score="1" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="EDD24073-C4BB-4BD7-ADC1-75DBDF946FFA" Order="7" Title="Calculation&#xA;" Text="Calculation&#xA;" Type="Standard" ButtonPrimaryName="Calculation&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Nutrition Mean} &gt;= 4 GOTO 2.8 IF {V:Nutrition Mean} &lt; 3 GOTO 2.10 ELSE GOTO 2.9" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="B6B6C0DB-5A86-4285-87A7-8963887D8B0A" Order="8" Title="Onnittelut!&#xA;" Text="Syöt jo nyt terveellisesti. Ohjelma auttaa sinua säilyttämään hyvät ruokailutottumuksesi. &#xA;&#xA;Ja kuten myöhemmin huomaat, ohjelma auttaa sinua monissa muissakin syömiseen ja ruokailutottumuksiin liittyvissä asioissa. &#xA;&#xA;Tulet huomaamaan, että ruokailutottumuksissa ei ole kyse vain siitä, mitä syöt. Seuraavien kysymysten jälkeen ymmärrät varmasti paremmin, mitä tarkoitamme. &#xA;&#xA;Uskomme sinun tietävän, mikä on sinulle terveellistä. Siksi emme puutu ruokavalioosi. Annamme sinulle mieluummin henkistä tukea näiden muutosten toteuttamiseen käytännössä." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="7bb2d76e-82e5-42e7-8dea-232ecb5658b7.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.1">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="C8781F31-B7EB-4CBE-B34A-E0C38D0563F1" Order="9" Title="Aika hyvin, mutta voisi olla paremminkin.&#xA;" Text="Syöt jo nyt monia asioita, jotka ovat sinulle hyväksi, mutta sinulla on kuitenkin vielä vähän parannettavaa. Se on enää pienestä kiinni, ja me autamme siinä. &#xA;&#xA;Ja kuten myöhemmin huomaat, ohjelmasta on sinulla apua monissa muissa syömiseen ja ruokailutottumuksiin liittyvissä asioissa. &#xA;&#xA;Tulet huomaamaan, että ruokailutottumuksissa ei ole kyse vain siitä, mitä syöt. Seuraavien kysymysten jälkeen ymmärrät varmasti paremmin, mitä tarkoitamme. &#xA;&#xA;Uskomme sinun tietävän, mikä on sinulle terveellistä. Siksi emme puutu ruokavalioosi. Annamme sinulle mieluummin henkistä tukea näiden muutosten toteuttamiseen käytännössä." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="e509df53-1a6a-4001-a5d4-d880c3a14c40.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.1">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="F32E3096-6727-4979-8923-5C650FA0997D" Order="10" Title="Sinun kannattaisi tehdä joitakin muutoksia.&#xA;" Text="Testi osoittaa, että sinun kannattaisi syödä terveellisempiä ruokia. &#xA;&#xA;Täältä saat apua pienten muutosten tekemiseen, jotka eivät vaadi suuria mullistuksia ruokailutottumuksiisi mutta ovat hieman terveellisempiä sinulle. &#xA;&#xA;Ja kuten myöhemmin näet, ohjelma auttaa sinua monissa muissakin syömiseen ja ruokailutottumuksiin liittyvissä asioissa. &#xA;&#xA;Tulet huomaamaan, että ruokailutottumuksissa ei ole kyse vain siitä, mitä syöt. Seuraavien kysymysten jälkeen ymmärrät varmasti paremmin, mitä tarkoitamme. &#xA;&#xA;Uskomme sinun tietävän, mikä on sinulle terveellistä. Siksi emme puutu ruokavalioosi. Annamme sinulle mieluummin henkistä tukea näiden muutosten toteuttamiseen käytännössä." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="9074ddf0-a92e-4c94-a060-fe54a42c573a.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+        </PageSequence>
+        <PageSequence GUID="E5C31485-8279-4BCB-AE4E-59AB4250ED8D" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="3" TopBarColor="0x6a99cb" CoverShadowVisible="0" ProgramRoomName="" ProgramRoomDescription="">
+            <Page GUID="B8D06AAD-8C75-4F76-BAD8-7732570A6357" Order="1" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="9F701400-9C3D-4A92-9B1E-A47AF41F2C16" Type="RadioButton" Caption="Syötkö tavallista enemmän, jos ruoka maistuu hyvältä?&#xA;" ProgramVariable="External T1 Q1" IsRequired="1">
+                        <Items>
+                            <Item GUID="3F1CB687-DEB4-4843-8182-53841812AD68" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="C3FD4DD3-D875-4E52-AD3C-51D2D2EB7B0B" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="940DB2D3-064C-4585-A49D-39A8AB7DB895" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="009B832F-6FEE-404C-B944-FEBCB03A9223" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="0C0BF9D2-C151-43C2-89F2-783B41E9FA8D" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="FC4540FB-45A7-4874-AD0E-C066667D6288" Order="2" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="97C6FF3F-8B9A-438F-81C2-9E95B8116159" Type="RadioButton" Caption="Syötkö tavallista enemmän, jos ruoka tuoksuu tai näyttää hyvältä?&#xA;" ProgramVariable="External T1 Q2" IsRequired="1">
+                        <Items>
+                            <Item GUID="6FEACCC4-D17D-469A-8892-FADB853A97DF" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="0F02ABF3-2843-4F11-B9B5-EA2C068FF136" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="AB6F0462-F87E-4FAE-A978-3F5F3A5B4BD9" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="93180E7D-8DB5-4908-B417-F23F9FEA5534" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="E73CC5C2-9876-4141-B812-92EC3CBFC9FB" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="5DBD831C-FF9A-4A00-9E1F-2A8B827D9E99" Order="3" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="F151A0E2-78A1-4C31-BE93-80FB86DC2B02" Type="RadioButton" Caption="Tekeekö mielesi syödä jotain, kun näet kioskin tai kahvilan?&#xA;" ProgramVariable="External T1 Q3" IsRequired="1">
+                        <Items>
+                            <Item GUID="1953CD8C-21B7-4670-A73C-32CC1C5B1EEE" Item="Ei ikinä&#xA;" Score="0" />
+                            <Item GUID="B753A73C-9893-4C5A-BC84-FEE95F0D7EF9" Item="Harvoin&#xA;" Score="1" />
+                            <Item GUID="96356957-BB39-46D9-82F2-F4C3C6243268" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="F486226D-6463-4EFD-9817-2DD9B28492CC" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="4FFF2D73-65D8-4BEB-BD28-2F6D63CE8183" Item="Hyvin usein&#xA;" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="4F2D0363-E47A-4563-A8B0-024F310685FD" Order="4" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="89DC8A68-1676-41C3-8313-AF1A0F3EF35C" Type="RadioButton" Caption="Pystytkö vastustamaan kiusauksia?&#xA;" ProgramVariable="External T1 Q4" IsRequired="1">
+                        <Items>
+                            <Item GUID="A0FEAB13-6A31-45A0-BF6E-C23DCD338B44" Item="En ikinä&#xA;" Feedback="" Score="4" />
+                            <Item GUID="56CABF36-D215-477F-B699-3CAE389FCD8B" Item="Harvoin&#xA;" Feedback="" Score="3" />
+                            <Item GUID="A290363C-7630-4FA4-BD15-92C1DFE8A2C7" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="EB927DA8-D2CB-4AA3-AB12-629899822EEC" Item="Usein&#xA;" Feedback="" Score="1" />
+                            <Item GUID="29235774-2030-40C6-9B76-CF5A3B88E513" Item="Hyvin usein&#xA;" Score="0" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="9E667018-A312-4991-B421-64A4D3C08163" Order="5" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Total External T1} = ({V:External T1 Q1} + {V:External T1 Q2} + {V:External T1 Q3} + {V:External T1 Q4} + {V:External T1 Q5})">
+                <Questions>
+                    <Question GUID="E23EA78E-7E55-4525-B24F-7743124902CC" Type="RadioButton" Caption="Tekeekö mielesi myös syödä, kun näet muiden syövän?&#xA;" ProgramVariable="External T1 Q5" IsRequired="1">
+                        <Items>
+                            <Item GUID="6D5503C4-CBF7-4C53-9C1E-2111731D7772" Item="Ei ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="E3A97A02-A33E-444D-8FC9-EC5AF262374A" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="4529E10E-0826-47D0-80D5-7BA5CB6502CE" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="1352E0D3-D58A-4404-8268-869437E2D53C" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="947A44F9-9C9A-4CCC-B8CA-18EF9D73C303" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="ACD3E100-0969-46C4-8C03-BF41E2DD9C28" Order="6" Title="Calculation&#xA;" Text="" Type="Standard" ButtonPrimaryName="X&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Total External T1} &lt;= 7 GOTO 3.9 IF {V:Total External T1} &lt;= 14 GOTO 3.8 ELSE GOTO 3.7" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="6AD6ECAC-7183-4857-B0FC-2EAB05EA87D1" Order="7" Title="Lankeatko helposti kiusauksiin?&#xA;" Text="Testi osoittaa, että sinulla on selvästi taipumus syödä enemmän kuin oikeastaan haluaisit, kun edessäsi on houkuttelevaa ja hyvänmakuista ruokaa. &#xA;&#xA;Tässä ohjelmassa kerrotaan ajattelutavoista ja tekniikoista, joiden avulla opit uuden suhtautumistavan kiusauksiin. &#xA;&#xA;Niiden avulla sinun on helpompi elää vähän terveellisemmin." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="64a15937-5c6a-4697-b598-d5c5dc3c09ec.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.10">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="54D9E809-DBBA-4643-B80C-77EE8AF50723" Order="8" Title="Lankeatko helposti kiusauksiin?&#xA;" Text="Testi osoittaa, että sinulla on hieman taipumusta syödä enemmän kuin oikeastaan haluaisit, kun edessäsi on houkuttelevaa ja hyvänmakuista ruokaa. &#xA;&#xA;Tässä ohjelmassa kerrotaan ajattelutavoista ja tekniikoista, joiden avulla opit uuden suhtautumistavan kiusauksiin. &#xA;&#xA;Niiden avulla sinun on helpompi elää vähän terveellisemmin." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="64a15937-5c6a-4697-b598-d5c5dc3c09ec.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.10">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="460B6122-EE24-4CD0-9D6F-5116887AFB73" Order="9" Title="Sinä et lankea kovin helposti kiusauksiin!&#xA;" Text="Testi osoittaa, että syöt harvoin enemmän kuin haluat, vaikka edessäsi olisi houkuttelevaa ja herkullista ruokaa. &#xA;&#xA;Kiusaukset eivät ole sinulle ehkä suurin haaste terveellisemmän elämän tavoittelussa." Type="Standard" ButtonPrimaryName="Tässä lisää kysymyksiä&#xA;" ButtonSecondaryName="Back" PresenterImage="e23b722d-8c98-4b72-81d7-9ef7072c327b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2D8466A6-1FB6-4105-83EA-520C93E64E63" Order="10" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="8A8492DC-205C-4A08-86D0-209499884F62" Type="RadioButton" Caption="Syötkö enemmän, kun asiasi ovat huonosti?&#xA;" ProgramVariable="Emotional T1Q1" IsRequired="1">
+                        <Items>
+                            <Item GUID="6273E756-2F10-45B6-87BB-9D478C398D9B" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="38CE31BD-0A81-4189-973C-DCEAAF4EDE6F" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="C3E04029-CB0B-44D1-9A55-1E0D1518EE38" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="29C5724E-E3FC-4995-BD62-05705C7EBAE5" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="325B1191-121E-4A86-B7AB-1608D2289C33" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="D6AC83DA-1DE0-41E6-A6A6-A84FADBBCEBB" Order="11" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="D08BCF2E-0DB3-401A-9D0C-2FE055275403" Type="RadioButton" Caption="Syötkö enemmän, kun olet pettynyt johonkin?&#xA;" ProgramVariable="EmotionalT1Q2" IsRequired="1">
+                        <Items>
+                            <Item GUID="7DC67238-031D-4DD3-8B9E-C7B1A70D8FD0" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="F4C778BF-687A-4B16-BF8F-07D9E1A1C2AA" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="13090F93-7FBB-4C73-9601-713580971E2E" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="1529779C-D810-45ED-BC83-6663AD8E20AA" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="F0507B3E-20E2-4E24-A045-146EF8DEB364" Item="Hyvin usein&#xA;" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="A949AE6B-DFA1-4CBB-92B5-0B6AB44E0267" Order="12" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="A6AC85FB-0B96-4B0F-8670-3712168457F8" Type="RadioButton" Caption="Syötkö enemmän silloin, kun sinulla ei ole mitään tekemistä?&#xA;" ProgramVariable="EmotionalT1Q3" IsRequired="1">
+                        <Items>
+                            <Item GUID="00E56C09-EE8B-4878-8044-3200A282FB85" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="B9DD0307-8E37-42A1-B9BC-9CE363CF5B0A" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="C4A1980E-B630-4F4A-B3B6-D0C03292C311" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="097DE3DA-5524-4F7A-932F-AFFA44218713" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="49629B8E-5677-4F91-A92C-150347E0CF85" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2CAB723E-C36B-496B-B7C5-13164F78E686" Order="13" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="02062246-3765-4FEE-9AD2-6540FEFF5AE5" Type="RadioButton" Caption="Syötkö enemmän, kun tunnet olevasi yksinäinen?&#xA;" ProgramVariable="EmotionalT1Q4" IsRequired="1">
+                        <Items>
+                            <Item GUID="30DC25AA-664A-4C47-8127-A9A9D6241587" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="240C9EC1-483D-4011-B241-1BC0AF6CBD94" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="FBE4BCBC-75D6-434E-B7A9-89574CF19C2C" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="504372D5-9CE8-419A-BA54-6B36C801A4D2" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="EE745A2F-EC09-41E2-AC54-4A7F17DB8600" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="BB47383A-D131-463B-940F-560A1F214052" Order="14" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Total EmotionalT1} = {V:Emotional T1Q1} + {V:Emotional T1Q2} + {V:EmotionalT1Q3} + {V:EmotionalT1Q4} + {V:EmotionalT1Q5}">
+                <Questions>
+                    <Question GUID="ACB8C425-A3BF-4DCF-A76B-978F777E231F" Type="RadioButton" Caption="Syötkö enemmän, kun olet ikävystynyt tai rauhaton?&#xA;" ProgramVariable="EmotionalT1Q5" IsRequired="1">
+                        <Items>
+                            <Item GUID="B985C30F-8DAE-420A-ABD0-B8DD70D77D38" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="B89C2FBA-1333-4FFC-AC50-D1F5A347DA7A" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="1B29E0BB-C70B-445B-B919-F595C34A22DC" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="F367297C-1A66-49E5-BB9B-AC2237416801" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="EFEAFA17-E8EC-4657-86AA-06049824468E" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="6B612AAA-5B81-4E8F-8714-06E4300EF254" Order="15" Title="Calculation&#xA;" Text="" Type="Standard" ButtonPrimaryName="X&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Total EmotionalT1} &lt;= 7 GOTO 3.18 IF {V:Total EmotionalT1} &lt;= 14 GOTO 3.17 ELSE GOTO 3.16" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="4F6271EC-A835-4252-862E-CFBEEE452C5F" Order="16" Title="Et ole ainoa ihminen, joka syö kohentaakseen mielialaansa!&#xA;" Text="Testi osoittaa, että sinulla on selvästi taipumusta syödä peittääksesi epämiellyttäviä tuntemuksia, kuten yksinäisyyttä, ikävystymistä tai rauhattomuutta. &#xA;&#xA;Tässä ohjelmassa opit muita fiksumpia keinoja vaikuttaa mielialoihisi. Niiden avulla voit parantaa mielialaasi ilman, että painosi nousee." Type="Standard" ButtonPrimaryName="Viimeiset kysymykset&#xA;" ButtonSecondaryName="Back" PresenterImage="7e984d10-ca58-45ad-ac06-1ac4fd7fe906.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.19">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="CE4CE883-E9CD-4B0D-AC2E-AACD4B6A5A30" Order="17" Title="Et ole ainoa ihminen, joka syö kohentaakseen mielialaansa!&#xA;" Text="Testi osoittaa, että sinulla on ehkä taipumuksena syödä peittääksesi epämiellyttäviä tuntemuksia, kuten yksinäisyyttä, ikävystymistä tai rauhattomuutta. &#xA;&#xA;Tässä ohjelmassa opit muita fiksumpia keinoja vaikuttaa mielialoihisi. Niiden avulla voit parantaa mielialaasi ilman, että painosi nousee." Type="Standard" ButtonPrimaryName="Viimeiset kysymykset&#xA;" ButtonSecondaryName="Back" PresenterImage="7e984d10-ca58-45ad-ac06-1ac4fd7fe906.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.19">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="8C0FE644-6A07-49E7-8AC8-7DA175A08B6E" Order="18" Title="Sinulla on yksi hyvä puoli!&#xA;" Text="Testi osoittaa, että syöt harvoin siksi, että tuntisit itsesi yksinäiseksi, ikävystyneeksi tai rauhattomaksi. &#xA;&#xA;Se on sinun hyvä puolesi! Monet nimittäin tuntevat erityistä houkutusta syömiseen ollessaan vähän allapäin tai ikävystyneitä!" Type="Standard" ButtonPrimaryName="Viimeiset kysymykset&#xA;" ButtonSecondaryName="Back" PresenterImage="d9d79dc1-353f-4b80-987f-b882c7dba429.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="E65F6B83-28DF-42CC-8937-613980288716" Order="19" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="805DE6FC-4BDE-4AAF-B124-AFFCBFB08A88" Type="RadioButton" Caption="Miten usein kieltäydyt ruoasta tai juomasta, koska vahdit painoasi?&#xA;" ProgramVariable="Restrained T1 Q1" IsRequired="1">
+                        <Items>
+                            <Item GUID="7C6DEC9B-45A3-43F1-9B15-658AF24309A8" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="6FC731E7-5B1F-4005-8AC5-2D860F848E60" Item="Harvoin&#xA;" Score="1" />
+                            <Item GUID="0FDBEDE2-4AF6-4C51-9910-B6927BA1A7B8" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="4454C7D2-17EC-47DA-BFA1-E5DB29DA4231" Item="Usein&#xA;" Feedback="" Score="3" />
+                            <Item GUID="71C9C45B-CE9D-48FD-9A4D-B04616EB890A" Item="Hyvin usein&#xA;" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="DD6FF5DC-8A35-48D1-8F65-76AB8AC48356" Order="20" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="764F5D14-DB0B-40DE-BBCC-E48DA22DEDEA" Type="RadioButton" Caption="Miten usein yrität olla syömättä iltaisin, koska tarkkailet painoasi?&#xA;" ProgramVariable="Restrained T1 Q2" IsRequired="1">
+                        <Items>
+                            <Item GUID="1BCEB269-B620-48D2-B9D0-7C8C2CB65585" Item="En ikinä&#xA;" Feedback="" Score="0" />
+                            <Item GUID="8656B57A-4AEA-45CA-AA5E-089DA5061559" Item="Harvoin&#xA;" Feedback="" Score="1" />
+                            <Item GUID="79929829-BC25-47CE-AF97-B73FEDDDFBF1" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="880E6687-EE9C-4F01-8D15-8642CA6271EC" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="6F8384FE-B456-4B4F-90C2-466C02C892C8" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="18114847-B5C4-46D7-8298-311B3C16D8D6" Order="21" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="D7628B70-AF6B-4300-AF6B-369F51D6A7D3" Type="RadioButton" Caption="Miten usein yrität olla syömättä aterioiden välissä, koska tarkkailet painoasi?&#xA;" ProgramVariable="Restrained T1 Q3" IsRequired="1">
+                        <Items>
+                            <Item GUID="4EBA6EC8-228E-4E42-A816-C23951C0D369" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="18123FDF-C2F0-4A21-98D0-8EABAE46B092" Item="Harvoin&#xA;" Score="0" />
+                            <Item GUID="C5569C52-2B96-4DD1-8E42-3227DE438FDB" Item="Silloin tällöin&#xA;" Score="0" />
+                            <Item GUID="57095543-6A47-4685-9483-6014B6ABBAE8" Item="Usein&#xA;" Feedback="" Score="0" />
+                            <Item GUID="04A8C9CA-B9FA-4168-9FE0-8D2510C5A143" Item="Hyvin usein&#xA;" Score="0" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="23CA5905-F178-4EB1-B67F-85850C7CC462" Order="22" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="F6A7EB13-622E-45FD-B7F8-13FBEBF7005E" Type="RadioButton" Caption="Syötkö tarkoituksella vähemmän, jotta et lihoisi?&#xA;" ProgramVariable="Restrained T1 Q4" IsRequired="1">
+                        <Items>
+                            <Item GUID="028B3607-5BD3-46B5-A30A-8BC6D54B7C28" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="9FB916FE-0E2E-4F71-AAC1-4F6CF0BC89E7" Item="Harvoin&#xA;" Score="1" />
+                            <Item GUID="114C7836-3EF1-48FF-9F73-EE116C8DAA52" Item="Silloin tällöin&#xA;" Feedback="" Score="2" />
+                            <Item GUID="D04FBCCE-298F-4B3D-9972-B5B06D805E56" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="8C691F30-763B-4E0D-9DD4-930775C89495" Item="Hyvin usein&#xA;" Feedback="" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="F8B7EC9C-7303-4CF9-B77F-72F8EFB8926E" Order="23" Title="Ruokailutottumukset.&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Total Restrained T1} = {V:Restrained T1 Q1} + {V:Restrained T1 Q2} + {V:Restrained T1 Q3} + {V:Restrained T1 Q4} + {V:Restrained T1 Q5}">
+                <Questions>
+                    <Question GUID="217B8366-119D-41DA-8212-3009AB174D25" Type="RadioButton" Caption="Syötkö tarkoituksella pienempiä annoksia kuin mielesi tekisi?&#xA;" ProgramVariable="Restrained T1 Q5" IsRequired="1">
+                        <Items>
+                            <Item GUID="D742BEA3-3F41-4881-9387-86847F7F917D" Item="En ikinä&#xA;" Score="0" />
+                            <Item GUID="07641DC8-9CA8-4962-9815-83BF209AAF4A" Item="Harvoin&#xA;" Score="1" />
+                            <Item GUID="9BE12E19-F37B-4387-9FCD-F4AB6C03FDAE" Item="Silloin tällöin&#xA;" Score="2" />
+                            <Item GUID="C23F12A4-BF04-4FB7-8DED-B81269DC0277" Item="Usein&#xA;" Score="3" />
+                            <Item GUID="DE180DD8-DF9C-456A-A15A-4127E49B9D1C" Item="Hyvin usein&#xA;" Score="4" />
+                        </Items>
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="EE85D7B9-D34A-48E8-A324-ACCC5D2D43B0" Order="24" Title="Calculation&#xA;" Text="" Type="Standard" ButtonPrimaryName="X&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF  {V:Total Restrained T1} &lt;= 7 GOTO 3.27 IF  {V:Total Restrained T1} &lt;= 14 GOTO 3.26 ELSE GOTO 3.25" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2BE94ACD-2825-4375-81C8-B8664984430F" Order="25" Title="Käytät paljon energiaa itsekurin säilyttämiseen.&#xA;" Text="Testi osoittaa, että käytät paljon ajatusenergiaa ja tahdonvoimaa siihen, että yrität olla syömättä enempää kuin haluaisit. &#xA;&#xA;Itsensä jatkuva tarkkaileminen voi olla kuluttavaa. Tuntuuko tutulta? &#xA;&#xA;Tässä ohjelmassa opit tekniikoita, jotka auttavat siinä. Niin että voit syödä oikein ilman rautaista tahdonvoimaa ja valtavaa itsekuria." Type="Standard" ButtonPrimaryName="Jatka&#xA;" ButtonSecondaryName="Back" PresenterImage="f5beebc5-467c-42f8-b6c8-6c9a01aca057.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.28">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2A7DBF96-3AA0-4ED8-9F8B-BCEBCF96C77D" Order="26" Title="Käytät jonkin verran energiaa itsekurin säilyttämiseen.&#xA;" Text="Testi osoittaa, että käytät jonkin verran ajatusenergiaa ja tahdonvoimaa siihen, että yrität olla syömättä enempää kuin haluaisit. &#xA;&#xA;Itsensä jatkuva tarkkaileminen voi olla kuluttavaa. Tuntuuko tutulta? &#xA;&#xA;Tässä ohjelmassa opit tekniikoita, jotka auttavat siinä. Niin että voit syödä oikein ilman rautaista tahdonvoimaa ja valtavaa itsekuria." Type="Standard" ButtonPrimaryName="Jatka&#xA;" ButtonSecondaryName="Back" PresenterImage="f5beebc5-467c-42f8-b6c8-6c9a01aca057.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 3.28">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="73A5EA1D-68B2-48B1-B0CE-2A40D4E21934" Order="27" Title="Hyvä lähtökohta!&#xA;" Text="Testi osoittaa, että sinun ei tarvitse käyttää kovin paljoa itsekuria tai tahdonvoimaa välttääksesi syömästä enemmän kuin oikeasti haluaisit. &#xA;&#xA;Se tarkoittaa, että lähtökohtasi on hyvä. On uuvuttavaa, jos pitää aina vahtia sitä, että syö terveellisesti. &#xA;&#xA;Tässä ohjelmassa opit tekniikoita ja harjoituksia, joiden avulla opit syömään terveellisesti ilman, että joudut koko ajan tarkkailemaan itseäsi." Type="Standard" ButtonPrimaryName="Jatka&#xA;" ButtonSecondaryName="Back" PresenterImage="f7e396a0-465e-4d70-8a20-3c6a4237cc16.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="C7387440-B04F-41D6-93AE-5424F7690EFD" Order="28" Title="Kiitos vastauksista!&#xA;" Text="Nyt olet saanut hieman tietoa siitä, millaisia ruokailutottumuksiisi liittyviä haasteita sinulla on ja miten ohjelma voi auttaa sinua. &#xA;&#xA;Kun olet käynyt ohjelman läpi, saat tehdä testin uudelleen nähdäksesi, onko tilanteesi muuttunut. &#xA;&#xA;Ennen sitä saat paljon tietoa, jonka toivomme olevan sinun kannaltasi mielenkiintoisia ja hyödyllisiä." Type="Standard" ButtonPrimaryName="Tässä on...&#xA;" ButtonSecondaryName="Back" PresenterImage="3463b954-85a6-4a3f-ba62-3258f12b680e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="SET {V:Total Score test av spisevaner T1} =  {V:Test av spisevaner Q1 T1} + {V:Test av spisevaner Q2 T1} + {V:Test av spisevaner Q3 T1} + {V:Test av spisevaner Q4 T1} + {V:Test av spisevaner Q5 T1} + {V:Test av spisevaner Q6 T1} + {V:Test av spisevaner Q7 T1} + {V:Test av spisevaner Q8 T1} + {V:Test av spisevaner Q9 T1}" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="E78D2ED3-98E2-4728-937C-0BA3B0293D19" Order="29" Title="Kolme tärkeistä asiaa, joissa autamme sinua." Text="Miten välttyä kiusauksilta ja ylensyönniltä. Tässä esitellään tehokkaita tekniikoita tahdonvoiman lisäämiseen. &#xA;&#xA;Miten vältät tunnesyömisen. Eli syömisen, jolla palkitset tai lohdutat itseäsi tai vähennät stressiä. &#xA;&#xA;Miten vältät jatkuvan ruoan ajattelemisen. Tässä esitellään tekniikoita, joiden avulla onnistut syömään oikein ilman, että joudut tarkkailemaan itseäsi koko ajan. &#xA;&#xA;Kaikki sisältö on tieteellisesti todistettua tietoa. Lue lisää: &#xA;&#xA;&lt;A href='http://program.changetech.no/RequestResource.aspx?target=Document&amp;media=687d7483-1298-4107-884c-e72c60fcb956.pdf&amp;name=FagligbakgrunnLittsunnere fi.pdf' target='_blank'&gt;Tavoitteena terveellisempi elämä -ohjelman tieteellinen perusta&lt;/A&gt;" Type="Standard" ButtonPrimaryName="Nyt haluaisimme tietää" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+        </PageSequence>
+        <PageSequence GUID="44187C60-4DE9-4BF6-847E-8F0335B67E36" CategoryName="Gottman Method Couple Therapy" CategoryDescription="Enhancing marital and couple relationship based on the reinforcement of positive behaviours and aspects of healthy and long-lasting relationships (Gottman &amp; Gottman, 2008; Gottman &amp; Silver, 1999; Gottman, Gottman &amp; DeClaire, 2006). " Order="4" TopBarColor="0x6a99cb" CoverShadowVisible="0" ProgramRoomName="Ruokailutottumukset" ProgramRoomDescription="">
+            <Page GUID="46B7B67A-A594-45D0-8148-E688482A3B77" Order="1" Title="Nyt sinun on motivoitava itse itseäsi vähän.&#xA;" Text="Mieti, mitkä ovat kolme tärkeintä syytä siihen, että haluat elää terveellisemmin. &#xA;&#xA;Pohdi hetki rauhassa, mikä on sinulle tärkeintä. Tässä on joitakin esimerkkejä muiden vastauksista: &#xA;&#xA;”Syön liikaa, kun olen stressaantunut tai masentunut. Haluan löytää muita keinoja käsitellä näitä tunteita, niin että painoni pysyy terveellisellä tasolla myös stressaavina aikoina.” &#xA;&#xA;”Aluksi pysyn aina lujana, mutta sitten tahdonvoimani pettää ja lankean suklaan ja karkkien kaltaisiin houkutuksiin. Haluaisin vahvistaa tahdonvoimaani. ”" Type="Standard" ButtonPrimaryName="Lisää esimerkkejä&#xA;" ButtonSecondaryName="Back" PresenterImage="cbcb7470-d1ff-4d9f-b633-6bed709fb1b6.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="A6F12748-3F84-40B2-98B4-95179A8C180A" Order="2" Title="Esimerkkejä...&#xA;" Text="”En haluaisi olla koko elämääni dieetillä, ja olen kyllästynyt laihdutuskuureihin. Haluan kokeilla jotain uutta ja toivon, että ohjelma auttaa minua suhtautumaan ruokaan eri tavalla. &#xA;&#xA;”Pelkään sairastuvani diabetekseen mutta haluan silti nauttia elämästä syömällä ja juomalla hyvin. Sen vastapainoksi harrastan ajoittaisia kuntokuureja ja jojo-laihdutusta. Tiedän, että se ei ole hyväksi terveydelle, joten toivon saavani apua tapojeni muuttamiseen pysyviksi.”" Type="Standard" ButtonPrimaryName="Nyt on sinun vuorosi kirjoittaa kolme syytäsi&#xA;" ButtonSecondaryName="Back" PresenterImage="a6fa6d8d-f653-4ef6-971d-29a66cb75e68.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="F94F4BA0-102D-40AF-8DC7-F24ECD2B54CE" Order="3" Title="Ensimmäinen syy on…&#xA;" Text="Vastaa parhaasi mukaan ja rehellisesti.&#xA;" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="E890822C-791D-4075-B625-033FE56F9263" Type="Singleline" Caption="Syy 1&#xA;" ProgramVariable="Reason1" IsRequired="1">
+                        <Items />
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="2B0917EA-2166-49E8-8C5C-26E7EB710C97" Order="4" Title="Toinen syy on…&#xA;" Text="" Type="Get information" ButtonPrimaryName="Seuraava&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="191FDDED-FCE1-4511-A0F9-00778E9BCD8C" Type="Singleline" Caption="Syy 2&#xA;" ProgramVariable="Reason2" IsRequired="1">
+                        <Items />
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="84E6C7A0-1DCA-4331-AC20-A3620EBB882E" Order="5" Title="Kolmas syy on…&#xA;" Text="" Type="Get information" ButtonPrimaryName="Sitten ei enää muuta kuin&#xA;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+                <Questions>
+                    <Question GUID="2A08AA4B-E94A-4D09-A679-27B5B812B734" Type="Singleline" Caption="Syy 3&#xA;" ProgramVariable="Reason3" IsRequired="1">
+                        <Items />
+                    </Question>
+                </Questions>
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+            <Page GUID="614DCC78-5CF1-4A86-ACE0-D89DFB1A482D" Order="6" Title="Kiitos osallistumisesta!&#xA;" Text="Ohjelman ensimmäinen päivä on nyt päättynyt ja olet toivottavasti saanut selvän kuvan siitä, miten ohjelma voi auttaa sinua. &#xA;&#xA;Olet myös tehnyt jotain erittäin tärkeää. Olet selvittänyt itsellesi, mitkä ovat tärkeimmät syysi osallistua ohjelmaan. &#xA;&#xA;Seuraavalla kerralla käsitellään tahdonvoimaa. Tulet huomaamaan, että tahdonvoima on kuin lihas. Sitä voi harjoittaa! &#xA;&#xA;Tulet myös huomaamaan, että tapojaan on helpompi muuttaa hyväntuulisena. Lisää tästä ensi kerralla. &#xA;&#xA;Voi hyvin seuraavaan kertaan!" Type="Standard" ButtonPrimaryName="Lopeta&#xA;" ButtonSecondaryName="Back" PresenterImage="433c70f0-e4d3-4bda-baec-b8f7c0c7d570.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="EndPage">
+                <Questions />
+                <Preferences />
+                <Graphs />
+                <ResultGraphs />
+                <ResultLines />
+            </Page>
+        </PageSequence>
+    </Session>
+    <GeneralVariables>
+        <Variable Name="FirstName" Type="String" />
+        <Variable Name="LastName" Type="String" />
+        <Variable Name="Email" Value="ChangeTechTemp02ee9090-29c7-47af-9819-be7bef09e086" Type="String" />
+        <Variable Name="MobilePhone" Value="temp                                                                                                                                                                                                                                                           " Type="String" />
+        <Variable Name="Gender" Value="0" Type="Numeric" />
+    </GeneralVariables>
+    <ProgramVariables>
+        <Variable Name="External Eating Mean" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Mean Five" Type="Unknown" Value="" />
+        <Variable Name="P1a Lasagna" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q2 T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 Week 2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q2 Week 4" Type="Unknown" Value="" />
+        <Variable Name="List week 1" Type="Unknown" Value="" />
+        <Variable Name="P8 Beer" Type="Unknown" Value="" />
+        <Variable Name="Reason2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Tuesday Week 2" Type="Unknown" Value="" />
+        <Variable Name="PA Q4b Vigorous Week 3" Type="Unknown" Value="" />
+        <Variable Name="PA Q4a Vigorous Week 2" Type="Unknown" Value="" />
+        <Variable Name="Week 4" Type="Unknown" Value="" />
+        <Variable Name="NutritionQ2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q4 Week 4" Type="Unknown" Value="" />
+        <Variable Name="PA Q2a Walking Week 4" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 Week 3" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 2" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 8" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q1 T1" Type="Unknown" Value="" />
+        <Variable Name="PAFD Flow Q3" Type="Unknown" Value="" />
+        <Variable Name="NextRelapse" Type="Unknown" Value="" />
+        <Variable Name="P4 Potato Chips D10" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q2" Type="Unknown" Value="" />
+        <Variable Name="P6 Ice Cream" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q7" Type="Unknown" Value="" />
+        <Variable Name="Goal S5 Plan" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT1Q4" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q5" Type="Unknown" Value="" />
+        <Variable Name="P3 Pizza D10" Type="Unknown" Value="" />
+        <Variable Name="GoLapse" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q4" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT1Q5" Type="Unknown" Value="" />
+        <Variable Name="Temtation T2 D10" Type="Unknown" Value="" />
+        <Variable Name="NE Q7" Type="Unknown" Value="" />
+        <Variable Name="External Eating Q3" Type="Unknown" Value="" />
+        <Variable Name="PA Q2a Walking Week 3" Type="Unknown" Value="" />
+        <Variable Name="Counting Kindnesses 1b" Type="Unknown" Value="" />
+        <Variable Name="Unhealthy Food 2" Type="Unknown" Value="" />
+        <Variable Name="Week 2" Type="Unknown" Value="" />
+        <Variable Name="Counting Kindnesses 1c" Type="Unknown" Value="" />
+        <Variable Name="EPDSFollowup" Type="Unknown" Value="" />
+        <Variable Name="SHS Q4 Week 2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q8" Type="Unknown" Value="" />
+        <Variable Name="PAFD Flow Q4" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 Week 2" Type="Unknown" Value="" />
+        <Variable Name="PAFD Optimism Q2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 Week 2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q3 Week 4" Type="Unknown" Value="" />
+        <Variable Name="P4 Pizza" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q6" Type="Unknown" Value="" />
+        <Variable Name="Emotional Eating Mean" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 Week 4" Type="Unknown" Value="" />
+        <Variable Name="MET0" Type="Unknown" Value="" />
+        <Variable Name="Friday week 2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 Week 2" Type="Unknown" Value="" />
+        <Variable Name="Restrained T2 Q5" Type="Unknown" Value="" />
+        <Variable Name="Wednesday Week 3" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q5" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 3" Type="Unknown" Value="" />
+        <Variable Name="Unhealthy Food 3" Type="Unknown" Value="" />
+        <Variable Name="PA Q3a Moderate Week 5" Type="Unknown" Value="" />
+        <Variable Name="Restrained Eating Q3" Type="Unknown" Value="" />
+        <Variable Name="NE Q5" Type="Unknown" Value="" />
+        <Variable Name="Restrained Eating Q2" Type="Unknown" Value="" />
+        <Variable Name="PA Q2 c Walking T1" Type="Unknown" Value="" />
+        <Variable Name="Monday Week 4" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT2Q5" Type="Unknown" Value="" />
+        <Variable Name="P2 Potato Chips" Type="Unknown" Value="" />
+        <Variable Name="Temptation T2" Type="Unknown" Value="" />
+        <Variable Name="PA Q2b Walking Week 5" Type="Unknown" Value="" />
+        <Variable Name="Total EmotionalT2" Type="Unknown" Value="" />
+        <Variable Name="Breathe or Gong 2" Type="Unknown" Value="" />
+        <Variable Name="P5 Lasagna D10" Type="Unknown" Value="" />
+        <Variable Name="External Eating Q1" Type="Unknown" Value="" />
+        <Variable Name="Tuesday Week 1 A" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q17" Type="Unknown" Value="" />
+        <Variable Name="Healthy Food 2" Type="Unknown" Value="" />
+        <Variable Name="Restrained T2 Q4" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 Week 4" Type="Unknown" Value="" />
+        <Variable Name="PAFD Acts of Kindness Q5" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 T2" Type="Unknown" Value="" />
+        <Variable Name="Thursday Week 3" Type="Unknown" Value="" />
+        <Variable Name="External T1 Q3" Type="Unknown" Value="" />
+        <Variable Name="PA Q4c Vigorous Week 5" Type="Unknown" Value="" />
+        <Variable Name="Vegetable List" Type="Unknown" Value="" />
+        <Variable Name="Completion of  Week focus 5" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 Baseline" Type="Unknown" Value="" />
+        <Variable Name="NE Q6" Type="Unknown" Value="" />
+        <Variable Name="PA Q4a Vigorous Week 5" Type="Unknown" Value="" />
+        <Variable Name="PA Bar3" Type="Unknown" Value="" />
+        <Variable Name="PA Q3b Moderate Week 3" Type="Unknown" Value="" />
+        <Variable Name="PA Q4c Vigorous Week 4" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S12" Type="Unknown" Value="" />
+        <Variable Name="PA Q2b Walking Week 4" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S7" Type="Unknown" Value="" />
+        <Variable Name="Plan day 2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 Week 3" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean Four" Type="Unknown" Value="" />
+        <Variable Name="P1 Lasagna" Type="Unknown" Value="" />
+        <Variable Name="PA Bar1" Type="Unknown" Value="" />
+        <Variable Name="Energy Level T2" Type="Unknown" Value="" />
+        <Variable Name="NE Q3" Type="Unknown" Value="" />
+        <Variable Name="Mindfulness Exercise" Type="Unknown" Value="" />
+        <Variable Name="Tuesday Week 4" Type="Unknown" Value="" />
+        <Variable Name="Completion of  Week focus 4" Type="Unknown" Value="" />
+        <Variable Name="Breakfast" Type="Unknown" Value="" />
+        <Variable Name="Nutrition HSP" Type="Unknown" Value="" />
+        <Variable Name="SHS Q4 Baseline" Type="Unknown" Value="" />
+        <Variable Name="Actionplan Day 1" Type="Unknown" Value="" />
+        <Variable Name="PA Q4 b Vigorous T1" Type="Unknown" Value="" />
+        <Variable Name="Friday week 1" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q1" Type="Unknown" Value="" />
+        <Variable Name="User Inquiry Friday Week 1" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q6 T1" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q4" Type="Unknown" Value="" />
+        <Variable Name="External T2 Q2" Type="Unknown" Value="" />
+        <Variable Name="PA Bar2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q2 Week 2" Type="Unknown" Value="" />
+        <Variable Name="Action plan3" Type="Unknown" Value="" />
+        <Variable Name="NextEgoDepLapse" Type="Unknown" Value="" />
+        <Variable Name="NE Q4" Type="Unknown" Value="" />
+        <Variable Name="Imp Intention I" Type="Unknown" Value="" />
+        <Variable Name="Why FA1" Type="Unknown" Value="" />
+        <Variable Name="SHS Q1 Week 3" Type="Unknown" Value="" />
+        <Variable Name="NutritionQ5" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 Week 4" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT2Q1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 Week 5" Type="Unknown" Value="" />
+        <Variable Name="PA0" Type="Unknown" Value="" />
+        <Variable Name="PA Q3c Moderate Week 5" Type="Unknown" Value="" />
+        <Variable Name="SHS Q2 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Completion of  Week focus 1" Type="Unknown" Value="" />
+        <Variable Name="Relapse phyact1" Type="Unknown" Value="" />
+        <Variable Name="Breakfast Proposal" Type="Unknown" Value="" />
+        <Variable Name="Imp Friday Week 1" Type="Unknown" Value="" />
+        <Variable Name="PA Q3a Moderate Week 3" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q8" Type="Unknown" Value="" />
+        <Variable Name="PA Q4c Vigorous Week 3" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 2b" Type="Unknown" Value="" />
+        <Variable Name="Willingness" Type="Unknown" Value="" />
+        <Variable Name="Action plan1" Type="Unknown" Value="" />
+        <Variable Name="PA Q2a Walking Baseline" Type="Unknown" Value="" />
+        <Variable Name="PAFD Social Support Q5" Type="Unknown" Value="" />
+        <Variable Name="Restrained T1 Q4" Type="Unknown" Value="" />
+        <Variable Name="Total Score test av spisevaner T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Restrained T1 Q5" Type="Unknown" Value="" />
+        <Variable Name="PAFD Acts of Kindness Q3" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q10" Type="Unknown" Value="" />
+        <Variable Name="Healthy Food 3" Type="Unknown" Value="" />
+        <Variable Name="PAFD Social Support Q4" Type="Unknown" Value="" />
+        <Variable Name="Breathe or Gong" Type="Unknown" Value="" />
+        <Variable Name="PSE Q3" Type="Unknown" Value="" />
+        <Variable Name="Healthy Food 1" Type="Unknown" Value="" />
+        <Variable Name="PSE Q2" Type="Unknown" Value="" />
+        <Variable Name="External T1 Q5" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean Screening" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 Week 2" Type="Unknown" Value="" />
+        <Variable Name="EPDS" Type="Unknown" Value="" />
+        <Variable Name="Energy Level Day 5" Type="Unknown" Value="" />
+        <Variable Name="DEBQ Total Score" Type="Unknown" Value="" />
+        <Variable Name="TuesdayW1Goal" Type="Unknown" Value="" />
+        <Variable Name="NextMotivationLapse" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S6" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q6" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 Baseline" Type="Unknown" Value="" />
+        <Variable Name="Why FA2" Type="Unknown" Value="" />
+        <Variable Name="PAFD" Type="Unknown" Value="" />
+        <Variable Name="PA Q2c Walking Week 2" Type="Unknown" Value="" />
+        <Variable Name="NutritionQ3" Type="Unknown" Value="" />
+        <Variable Name="Pleasant Activities" Type="Unknown" Value="" />
+        <Variable Name="SHS Q4 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Choose exercise 2" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q5" Type="Unknown" Value="" />
+        <Variable Name="Monday Week 3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Mean Three" Type="Unknown" Value="" />
+        <Variable Name="Restrained Eating Q1" Type="Unknown" Value="" />
+        <Variable Name="Action plan27" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 2a" Type="Unknown" Value="" />
+        <Variable Name="Week 1" Type="Unknown" Value="" />
+        <Variable Name="Self-Affirmation I" Type="Unknown" Value="" />
+        <Variable Name="Wednesday Week 4" Type="Unknown" Value="" />
+        <Variable Name="PA Q3a Moderate Week 4" Type="Unknown" Value="" />
+        <Variable Name="P3 Buffalo Wings" Type="Unknown" Value="" />
+        <Variable Name="User Inquiry Thursday Week 3a" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 T2" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT1Q2" Type="Unknown" Value="" />
+        <Variable Name="PA Q4a Vigorous Week 4" Type="Unknown" Value="" />
+        <Variable Name="Monday Week 1 B" Type="Unknown" Value="" />
+        <Variable Name="Pic1 Lasagne" Type="Unknown" Value="" />
+        <Variable Name="Diagnosis" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q7" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 Week 2" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT2Q4" Type="Unknown" Value="" />
+        <Variable Name="PA Q2c Walking Week 5" Type="Unknown" Value="" />
+        <Variable Name="PAFD Social Support Q1" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q3 T1" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q7" Type="Unknown" Value="" />
+        <Variable Name="SHS Q3 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Tiger Task Q1" Type="Unknown" Value="" />
+        <Variable Name="P6 Ice Cream D10" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q4" Type="Unknown" Value="" />
+        <Variable Name="P1 Chocolate Cake D10" Type="Unknown" Value="" />
+        <Variable Name="PA Q3 c Moderate T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Exercise" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 5" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT2Q3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 Baseline" Type="Unknown" Value="" />
+        <Variable Name="External T2 Q1" Type="Unknown" Value="" />
+        <Variable Name="PA Importance" Type="Unknown" Value="" />
+        <Variable Name="PA Q2c Walking Baseline" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q9" Type="Unknown" Value="" />
+        <Variable Name="Choose spine gong or bscan" Type="Unknown" Value="" />
+        <Variable Name="PA Q3c Moderate Baseline" Type="Unknown" Value="" />
+        <Variable Name="Thursday Week 4" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q16" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q3" Type="Unknown" Value="" />
+        <Variable Name="NE Q8" Type="Unknown" Value="" />
+        <Variable Name="PAFD Social Support Q2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q3 Baseline" Type="Unknown" Value="" />
+        <Variable Name="Ironic Mental Processing" Type="Unknown" Value="" />
+        <Variable Name="PA Q3 a Moderate T1" Type="Unknown" Value="" />
+        <Variable Name="PA Q3c Moderate Week 3" Type="Unknown" Value="" />
+        <Variable Name="PA Q3a Moderate Baseline" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q4" Type="Unknown" Value="" />
+        <Variable Name="Mindfulness Exercise Sat Week 4" Type="Unknown" Value="" />
+        <Variable Name="Emotional Eating Q3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 Week 3" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean Three" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q7 T1" Type="Unknown" Value="" />
+        <Variable Name="Test1" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 7" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q3" Type="Unknown" Value="" />
+        <Variable Name="Training Division" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q2" Type="Unknown" Value="" />
+        <Variable Name="Action plan2" Type="Unknown" Value="" />
+        <Variable Name="External T1 Q1" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q18" Type="Unknown" Value="" />
+        <Variable Name="Monday Week 2" Type="Unknown" Value="" />
+        <Variable Name="PA Q2b Walking Baseline" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S17" Type="Unknown" Value="" />
+        <Variable Name="PA Q4a Vigorous Week 3" Type="Unknown" Value="" />
+        <Variable Name="METW0" Type="Unknown" Value="" />
+        <Variable Name="Evaluering av program" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q8" Type="Unknown" Value="" />
+        <Variable Name="Restrained T2 Q3 " Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q9" Type="Unknown" Value="" />
+        <Variable Name="Why Q3" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q5" Type="Unknown" Value="" />
+        <Variable Name="Self-Affirmation II" Type="Unknown" Value="" />
+        <Variable Name="ChooseLapse" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q2" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q6" Type="Unknown" Value="" />
+        <Variable Name="Vita Recipes" Type="Unknown" Value="" />
+        <Variable Name="MET FIVE" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q12" Type="Unknown" Value="" />
+        <Variable Name="NutritionQ6" Type="Unknown" Value="" />
+        <Variable Name="Personal Strenght II" Type="Unknown" Value="" />
+        <Variable Name="PAFD Optimism Q4" Type="Unknown" Value="" />
+        <Variable Name="Imp Thursday Week 1" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q15" Type="Unknown" Value="" />
+        <Variable Name="Types Of Procrastination" Type="Unknown" Value="" />
+        <Variable Name="Feeling" Type="Unknown" Value="" />
+        <Variable Name="Energy Level Day 7" Type="Unknown" Value="" />
+        <Variable Name="Miracle Question" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q1" Type="Unknown" Value="" />
+        <Variable Name="PAFD Optimism Q3" Type="Unknown" Value="" />
+        <Variable Name="Choose spine or gong gong" Type="Unknown" Value="" />
+        <Variable Name="Total External T1" Type="Unknown" Value="" />
+        <Variable Name="PA THREE" Type="Unknown" Value="" />
+        <Variable Name="Reason3" Type="Unknown" Value="" />
+        <Variable Name="NutritionMean2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 T2" Type="Unknown" Value="" />
+        <Variable Name="PA Q4 a Vigorous T1" Type="Unknown" Value="" />
+        <Variable Name="Restrained T1 Q2" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT2Q2" Type="Unknown" Value="" />
+        <Variable Name="Plan day 4" Type="Unknown" Value="" />
+        <Variable Name="P7 Soda" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean" Type="Unknown" Value="" />
+        <Variable Name="PA Q4 c Vigorous T1" Type="Unknown" Value="" />
+        <Variable Name="Training barriers " Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 6" Type="Unknown" Value="" />
+        <Variable Name="Restrained T1 Q1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 Baseline" Type="Unknown" Value="" />
+        <Variable Name="Restrained T1 Q3" Type="Unknown" Value="" />
+        <Variable Name="Forhåndsprogrammering" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q4 Week 3" Type="Unknown" Value="" />
+        <Variable Name="SHS Q4 Week 3" Type="Unknown" Value="" />
+        <Variable Name="BG" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q2" Type="Unknown" Value="" />
+        <Variable Name="Ironic Mental Prosessing RV" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S13" Type="Unknown" Value="" />
+        <Variable Name="PA Q2a Walking Week 5" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q4" Type="Unknown" Value="" />
+        <Variable Name="Monday Week 1 A " Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q11" Type="Unknown" Value="" />
+        <Variable Name="Total Restrained T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Restrained T2 Q2" Type="Unknown" Value="" />
+        <Variable Name="MET TWO" Type="Unknown" Value="" />
+        <Variable Name="Total Restrained T2" Type="Unknown" Value="" />
+        <Variable Name="PA Q4b Vigorous Week 5" Type="Unknown" Value="" />
+        <Variable Name="NextSelfEfficacyLapse" Type="Unknown" Value="" />
+        <Variable Name="PAFD Acts of Kindness Q1" Type="Unknown" Value="" />
+        <Variable Name="SHS Q1 Baseline" Type="Unknown" Value="" />
+        <Variable Name="List of actions" Type="Unknown" Value="" />
+        <Variable Name="Emotional T1Q1" Type="Unknown" Value="" />
+        <Variable Name="External T2 Q4" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q14" Type="Unknown" Value="" />
+        <Variable Name="PA Q3b Moderate Week 4" Type="Unknown" Value="" />
+        <Variable Name="SHS Q3 Week 3" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S11" Type="Unknown" Value="" />
+        <Variable Name="PAFD Acts of Kindness Q4" Type="Unknown" Value="" />
+        <Variable Name="MondayW1Goal" Type="Unknown" Value="" />
+        <Variable Name="Goal S5" Type="Unknown" Value="" />
+        <Variable Name="External T2 Q5" Type="Unknown" Value="" />
+        <Variable Name="Action plan4" Type="Unknown" Value="" />
+        <Variable Name="Wednesday Week 2" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q5 T1" Type="Unknown" Value="" />
+        <Variable Name="PAFD Flow Q1" Type="Unknown" Value="" />
+        <Variable Name="PAFD Acts of Kindness Q2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q6 T2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q3" Type="Unknown" Value="" />
+        <Variable Name="DrinksMondayW1" Type="Unknown" Value="" />
+        <Variable Name="PA Q2 a Walking T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 T2" Type="Unknown" Value="" />
+        <Variable Name="Friday week 3" Type="Unknown" Value="" />
+        <Variable Name="Why Q1" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q5" Type="Unknown" Value="" />
+        <Variable Name="SHS Q2 Baseline" Type="Unknown" Value="" />
+        <Variable Name="SHS Q3 Week 2" Type="Unknown" Value="" />
+        <Variable Name="Energy Level T1" Type="Unknown" Value="" />
+        <Variable Name="PA Q2c Walking Week 4" Type="Unknown" Value="" />
+        <Variable Name="Total EmotionalT1" Type="Unknown" Value="" />
+        <Variable Name="gotoRelapse" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S9" Type="Unknown" Value="" />
+        <Variable Name="Test2" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q1" Type="Unknown" Value="" />
+        <Variable Name="Worry Postponement T2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q1 Week 4" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q5a" Type="Unknown" Value="" />
+        <Variable Name="User Inquiry Thursday Week 3" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S5" Type="Unknown" Value="" />
+        <Variable Name="EmotionalT1Q3" Type="Unknown" Value="" />
+        <Variable Name="External Eating Q2" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q19" Type="Unknown" Value="" />
+        <Variable Name="Completion of  Week focus 3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 Baseline" Type="Unknown" Value="" />
+        <Variable Name="PA Q2b Walking Week 3" Type="Unknown" Value="" />
+        <Variable Name="Imp Tuesday Week 1" Type="Unknown" Value="" />
+        <Variable Name="MET THREE T1" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 1" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean Two" Type="Unknown" Value="" />
+        <Variable Name="PSE Q1 " Type="Unknown" Value="" />
+        <Variable Name="Best Possible Life Week 1" Type="Unknown" Value="" />
+        <Variable Name="PA Q4c Vigorous Baseline" Type="Unknown" Value="" />
+        <Variable Name="Personal Strengths " Type="Unknown" Value="" />
+        <Variable Name="NutritionQ1" Type="Unknown" Value="" />
+        <Variable Name="PA Barriers Q1" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q2" Type="Unknown" Value="" />
+        <Variable Name="PA Q2c Walking Week 3" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q1" Type="Unknown" Value="" />
+        <Variable Name="PA Q3c Moderate Week 4" Type="Unknown" Value="" />
+        <Variable Name="Emotional Eating Q2" Type="Unknown" Value="" />
+        <Variable Name="Week 5" Type="Unknown" Value="" />
+        <Variable Name="Action Plan5" Type="Unknown" Value="" />
+        <Variable Name="Total External T2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q4" Type="Unknown" Value="" />
+        <Variable Name="Wednesday Week 1 A" Type="Unknown" Value="" />
+        <Variable Name="Restrained Eating Mean" Type="Unknown" Value="" />
+        <Variable Name="PAO T1" Type="Unknown" Value="" />
+        <Variable Name="PA Q2a Walking Week 2" Type="Unknown" Value="" />
+        <Variable Name="Temptation T1" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q7" Type="Unknown" Value="" />
+        <Variable Name="Imp Intention I Rep" Type="Unknown" Value="" />
+        <Variable Name="PA Q3b Moderate Week 2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 10" Type="Unknown" Value="" />
+        <Variable Name="PA TWO" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q3" Type="Unknown" Value="" />
+        <Variable Name="PAFD Optimism Q1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Mean Four" Type="Unknown" Value="" />
+        <Variable Name="PA Q3b Moderate Week 5" Type="Unknown" Value="" />
+        <Variable Name="Unhealthy Food 1" Type="Unknown" Value="" />
+        <Variable Name="PA Q3a Moderate Week 2" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S17" Type="Unknown" Value="" />
+        <Variable Name="External T1 Q4" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 Week 3" Type="Unknown" Value="" />
+        <Variable Name="Restrained T2 Q1" Type="Unknown" Value="" />
+        <Variable Name="Mindfulness Breathe" Type="Unknown" Value="" />
+        <Variable Name="PAFD Social Support Q3" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q9 T1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 Baseline" Type="Unknown" Value="" />
+        <Variable Name="Why FA3" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 2c" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 4a" Type="Unknown" Value="" />
+        <Variable Name="SHS Mean Five" Type="Unknown" Value="" />
+        <Variable Name="PA Q3b Moderate Baseline" Type="Unknown" Value="" />
+        <Variable Name="SHS Q1 Week 4" Type="Unknown" Value="" />
+        <Variable Name="PA Q3c Moderate Week 2" Type="Unknown" Value="" />
+        <Variable Name="Emotional T1Q2" Type="Unknown" Value="" />
+        <Variable Name="METM0" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S6" Type="Unknown" Value="" />
+        <Variable Name="MET THREE" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 2 Q3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q5 Week 4" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S12" Type="Unknown" Value="" />
+        <Variable Name="PA FOUR" Type="Unknown" Value="" />
+        <Variable Name="Reason1" Type="Unknown" Value="" />
+        <Variable Name="PA Q4c Vigorous Week 2" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q20" Type="Unknown" Value="" />
+        <Variable Name="Action Plan9" Type="Unknown" Value="" />
+        <Variable Name="Imp Wednesday Week 1" Type="Unknown" Value="" />
+        <Variable Name="P2 Buffalo Wings D10" Type="Unknown" Value="" />
+        <Variable Name="PA Q2b Walking Week 2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 Week 3" Type="Unknown" Value="" />
+        <Variable Name="Why Q2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q6" Type="Unknown" Value="" />
+        <Variable Name="Participation" Type="Unknown" Value="" />
+        <Variable Name="PleasanACT1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Mean Two" Type="Unknown" Value="" />
+        <Variable Name="External T1 Q2" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q5" Type="Unknown" Value="" />
+        <Variable Name="Krafts Stress Scale Q3" Type="Unknown" Value="" />
+        <Variable Name="Emotional Eating Q1" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q3 Week 4" Type="Unknown" Value="" />
+        <Variable Name="PAFD Optimism Q5" Type="Unknown" Value="" />
+        <Variable Name="PAFD Flow Q2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 3 Q6" Type="Unknown" Value="" />
+        <Variable Name="MET FOUR" Type="Unknown" Value="" />
+        <Variable Name="PA Q2 b Walking T1" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 9" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q4 T1" Type="Unknown" Value="" />
+        <Variable Name="Completion of  Week focus 2" Type="Unknown" Value="" />
+        <Variable Name="Krafte Stress Scale Q13" Type="Unknown" Value="" />
+        <Variable Name="External T2 Q3" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Mean" Type="Unknown" Value="" />
+        <Variable Name="SHS Q2 Week 3" Type="Unknown" Value="" />
+        <Variable Name="Account Created Harmoni" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 1" Type="Unknown" Value="" />
+        <Variable Name="Choose exercise" Type="Unknown" Value="" />
+        <Variable Name="AccountCreated" Type="Unknown" Value="" />
+        <Variable Name="Gratitude Monday Week 4b" Type="Unknown" Value="" />
+        <Variable Name="PA Q4a Vigorous Baseline" Type="Unknown" Value="" />
+        <Variable Name="Weekly focus 4" Type="Unknown" Value="" />
+        <Variable Name="Thursday Week 2" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 4 Q1" Type="Unknown" Value="" />
+        <Variable Name="Week 3" Type="Unknown" Value="" />
+        <Variable Name="SHS Q1 Week 5" Type="Unknown" Value="" />
+        <Variable Name="Cue Reactivity Choice" Type="Unknown" Value="" />
+        <Variable Name="PA Q3 b Moderate T1" Type="Unknown" Value="" />
+        <Variable Name="Counting Kindnesses 1a" Type="Unknown" Value="" />
+        <Variable Name="PA Q4b Vigorous Week 2" Type="Unknown" Value="" />
+        <Variable Name="SHS Q1 Week 2" Type="Unknown" Value="" />
+        <Variable Name="PSE Q4" Type="Unknown" Value="" />
+        <Variable Name="Test av spisevaner Q8 T1" Type="Unknown" Value="" />
+        <Variable Name="gong gong eller ryggsøylen" Type="Unknown" Value="" />
+        <Variable Name="P5 Chocolate Cake" Type="Unknown" Value="" />
+        <Variable Name="Temtation T1 D10" Type="Unknown" Value="" />
+        <Variable Name="NE Q2" Type="Unknown" Value="" />
+        <Variable Name="Nutrition Q2 T2" Type="Unknown" Value="" />
+        <Variable Name="Action Plan7" Type="Unknown" Value="" />
+        <Variable Name="Personal Strenght III" Type="Unknown" Value="" />
+        <Variable Name="Personal Strenght I" Type="Unknown" Value="" />
+        <Variable Name="PA Confidence" Type="Unknown" Value="" />
+        <Variable Name="NutritionQ4" Type="Unknown" Value="" />
+        <Variable Name="Quiz Week 1 Q6" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S9" Type="Unknown" Value="" />
+        <Variable Name="PA Q4b Vigorous Week 4" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S5" Type="Unknown" Value="" />
+        <Variable Name="Action plan25" Type="Unknown" Value="" />
+        <Variable Name="PA Q4b Vigorous Baseline" Type="Unknown" Value="" />
+        <Variable Name="NE Q1" Type="Unknown" Value="" />
+        <Variable Name="Monitor Goal S13" Type="Unknown" Value="" />
+        <Variable Name="Monitor Plan S7" Type="Unknown" Value="" />
+        <Variable Name="Worry Postponement T1" Type="Unknown" Value="" />
+        <Variable Name="PAFD Flow Q5" Type="Unknown" Value="" />
+    </ProgramVariables>
+    <TipMessages>
+        <Message Name="LoginFailed" Title="Kirjautumisessa tapahtui virhe." Message="Tarkista, että käyttäjätunnus ja salasana on kirjoitettu oikein, ja ettei &quot;Caps Lock&quot; ole valittuna näppäimistössäsi." BackButtonName="OK" />
+        <Message Name="OrderHasCancelled" Title="OrderHasCancelled" Message="Order Has Cancelled" BackButtonName="OK" />
+        <Message Name="NoClassYet" Title="Päivän ohjelmaa ei ole saatavilla." Message="Päivän ohjelmaa ei vielä ole saatavilla. Yritä myöhemmin uudelleen." BackButtonName="Lopeta" />
+        <Message Name="TipFriendSuccessful" Title="Rekisteröitymistiedot on lähetetty." Message="Rekisteröitymistiedot on lähetetty antamaasi sähköpostiosoitteeseen.&#xD;&#xA;&#xD;&#xA;Kiitos, että kerroit ystävällesi!" BackButtonName="OK" />
+        <Message Name="WaitUntilNextModay" Title="Ohjelma alkaa aina maanantaina." Message="Jos olet rekisteröitynyt, saat sähköpostitse linkin päivän ohjelmaan tulevana maanantaina. &#xD;&#xA;&#xD;&#xA;Tervetuloa uudelleen!" BackButtonName="Lopeta" />
+        <Message Name="NavigationError" Title="Siirtymisvirhe." Message="Ota yhteys tukeen sähköpostiosoitteessa support@changetech.no ja toista saamasi virheilmoitus kokonaan.&#xD;&#xA;&#xD;&#xA;Liitä mukaan virheilmoituksesta kaappaamasi näyttökuva.&#xD;&#xA;Kuva kaapataan painamalla &quot;Print Screen&quot; -näppäintä.&#xD;&#xA;Liitä näyttökuva sen jälkeen viestiin painamalla CTRL + V." BackButtonName="OK" />
+        <Message Name="LoginInfoRequired" Title="Tervetuloa kirjautumissivulle." Message="Kirjoita sähköpostiosoite ja salasana.&#xD;&#xA;&#xD;&#xA;Kiitos!" BackButtonName="OK" />
+        <Message Name="ProgramRoomDescription" Title="Tilojen kuvaus." Message="Tilojen kuvaus." BackButtonName="Takaisin" />
+        <Message Name="EndingFailed" Title="Tietojen lähetys epäonnistui." Message="On tapahtunut virhe ja tietoja on saattanut kadota. &#xD;&#xA;Yritä käydä ohjelman päivä kerran vielä läpi.&#xD;&#xA;Jos saat virheilmoituksen uudelleen, ota yhteys tukeen." BackButtonName="Takaisin" />
+        <Message Name="QuestionRequired" Title="Voit jatkaa vasta sitten, kun olet vastannut." Message="Vastaa tämän sivun kysymykseen/kysymyksiin mahdollisimman täsmällisesti, ennen kuin jatkat." BackButtonName="OK" />
+        <Message Name="RegisteredButPasswordWrong" Title="Virhe kirjautumisessa." Message="Virheellinen käyttäjätunnus tai salasana. Yritä uudelleen!" BackButtonName="Takaisin" />
+        <Message Name="InvalidEmail" Title="Virheellinen sähköpostiosoite." Message="Antamasi sähköpostiosoite ei ole käytössä." BackButtonName="Yritä uudelleen!" />
+        <Message Name="OrderHasExpired" Title="OrderHasExpired" Message="Order Has Expired" BackButtonName="OK" />
+        <Message Name="PreferenceRequired" Title="Tietoja puuttuu." Message="Sinun on valittava vaihtoehto tai vastattava, ennen kuin voit jatkaa." BackButtonName="OK" />
+        <Message Name="TimerRequired" Title="Ilmoita aika." Message="Ilmoita ajat tai valitse &quot;En tiedä&quot;, jotta voit jatkaa." BackButtonName="OK" />
+        <Message Name="InvalidEmailAddress" Title="Sähköpostiosoite on virheellinen." Message="Tarkista oikeinkirjoitus ja yritä uudelleen!" BackButtonName="" />
+        <Message Name="ProfileChangeFailed" Title="Tietojen päivitys epäonnistui." Message="Profiilisi päivitys epäonnistui. Yritä uudelleen. Jos päivitys ei vieläkään onnistu, ota ota yhteys tukeen." BackButtonName="Takaisin" />
+        <Message Name="PreferenceInfo" Title="Vaikuttaako houkuttelevalta?" Message="Vaikuttaako houkuttelevalta?" BackButtonName="Takaisin" />
+        <Message Name="HaveDoneAllClassed" Title="Olet suorittanut koko ohjelma!" Message="Voit halutessasi suorittaa ohjelman uudelleen." BackButtonName="OK" />
+        <Message Name="PauseProgramFailed" Title="Ohjelman keskeyttäminen epäonnistui." Message="Yritä uudelleen." BackButtonName="OK" />
+        <Message Name="PasswordWrong" Title="Virheellinen salasana." Message="Tarkista salasana ja kirjoita se uudelleen." BackButtonName="OK" />
+        <Message Name="CatchingUpEarlyDay" Title="Olet jättänyt väliin päiviä ohjelmasta." Message="Nyt saat ensin käydä läpi väliin jääneet päivät, jotta pääset ajan tasalle." BackButtonName="OK" />
+        <Message Name="ExitProgramSuccessful" Title="Rekisteröitymisen peruminen onnistui." Message="Olet irtisanoutunut ohjelmasta etkä halua enää vastaanottaa sähköpostiviestejä. &#xD;&#xA;Voit halutessasi klikata &quot;Edellinen&quot; ja viimeistellä päivän tänään. &#xD;&#xA;&#xD;&#xA;Tervetuloa mukaan uudelleen!" BackButtonName="Takaisin" />
+        <Message Name="RegisterPasswordConfirm" Title="Salasanat eivät täsmää." Message="Tarkista oikeinkirjoitus ja vahvista salasana uudelleen." BackButtonName="OK" />
+        <Message Name="NeedToJoinProgram" Title="Et ole rekisteröitynyt." Message="Et ole ilmoittautunut ohjelmaan. Voit ilmoittautua  &lt;a href=&quot;http://program.changetech.no/sos_fi/tavoitteenaterveellisempielama&quot;_blank&quot;&gt; tässä&lt;/a&gt;" BackButtonName="OK" />
+        <Message Name="RegisterInfoRequired" Title="Sinun on ilmoitettava sähköpostiosoite ja salasana." Message="Rekisteröitymistä varten tarvitaan sähköpostiosoite ja salasana.&#xD;&#xA;&#xD;&#xA;Kirjoita ne kenttiin." BackButtonName="OK" />
+        <Message Name="UserNotExisted" Title="Tuntematon käyttäjä." Message="Käyttäjä ei ole rekisteröitynyt ohjelmaan." BackButtonName="Lopeta" />
+        <Message Name="RegisterFailed" Title="Virhe rekisteröitymisessä." Message="Rekisteröitymisen yhteydessä ilmeni virhe.   &#xD;&#xA;&#xD;&#xA;Yritä uudelleen tai ota yhteyttä tukipalveluun support.&#xD;&#xA;" BackButtonName="Takaisin" />
+        <Message Name="NoOrderLicence" Title="NoOrderLicence" Message="No order licences" BackButtonName="OK" />
+        <Message Name="HaveFinishedTodaysClass" Title="Hei taas!" Message="Olet jo suorittanut päivän ohjelman. &#xD;&#xA;Tervetuloa takaisin seuraavana ohjelmapäivänä!" BackButtonName="Lopeta" />
+        <Message Name="RegisterSuccessfully" Title="Olet rekisteröitynyt ohjelmaan!" Message="Ohjelma alkaa tulevana maanantaina. Saat silloin sähköpostia ilmoittamaasi osoitteeseen. Viesti sisältää linkin, jota napsauttamalla pääset aloittamaan ohjelman.   &#xD;&#xA;&#xD;&#xA;Jos tänään on maanantai, saat sähköpostitse linkin päivän ohjelmaan aivan tuota pikaa. &#xD;&#xA;&#xD;&#xA;Kiitos rekisteröitymisestä ja tervetuloa!" BackButtonName="OK" />
+        <Message Name="NetworkError" Title="Ongelmia verkkoyhteydessä." Message="Tarkista, että Internet-yhteys on käytössä.&#xD;&#xA;&#xD;&#xA;Jos Internet-yhteys on käytössä, tarkista, ettei palomuuri tai virustorjuntaohjelma estä yhteyttä.gram." BackButtonName="OK" />
+        <Message Name="ExitProgramFailed" Title="Rekisteröitymisen peruminen epäonnistui." Message="Yritä uudelleen." BackButtonName="OK" />
+        <Message Name="PasswordRemiderInfoRequired" Title="Oletko unohtanut salasanasi?" Message="Kirjoita sähköpostiosoitteesi, niin sinulle lähetetään uusi salasana.&#xD;&#xA;" BackButtonName="OK" />
+        <Message Name="ProfileChangeSuccessful" Title="Tietojen päivitys onnistui." Message="Profiilin päivitys onnistui, ja kaikki tiedot on lähetetty." BackButtonName="OK" />
+        <Message Name="TipFriendFailed" Title="Rekisteröitymistietoja ei lähetetty." Message="Rekisteröitymistietoja ei voitu lähettää. Tarkista, että sähköpostiosoite on oikein." BackButtonName="OK" />
+        <Message Name="PauseProgramSuccessful" Title="Ohjelma on keskeytetty." Message="Käynnistä ohjelma uudelleen kirjautumalla viimeisimmän sähköpostiviestin avulla." BackButtonName="OK" />
+        <Message Name="RegisteredInProgram" Title="Olet rekisteröitynyt." Message="Olet jo rekisteröitynyt käyttäjäksi. Jos haluat rekisteröityä monta kertaa, sinun on annettava uusi sähköpostiosoite." BackButtonName="Lopeta" />
+    </TipMessages>
+    <SettingMenu Title=" Asetukset ja ohje">
+        <MenuItem FunctionName="HelpFunction" Name="Kysymyksiä ja vastauksia" />
+        <MenuItem FunctionName="TipFriendFunction" Name="Kerro ystävälle" />
+        <MenuItem FunctionName="PauseProgramFunction" Name="Taukoa ohjelmasta" />
+        <MenuItem FunctionName="ProfileFunction" Name="" />
+        <MenuItem FunctionName="ExitProgramFunction" Name="Haluan irtisanoutua ohjelmasta." />
+        <MenuItem FunctionName="TimeZoneFunction" />
+        <MenuItem FunctionName="SMSToEmailFunction" />
+    </SettingMenu>
+    <Help Title="Usein kysyttyä" BackButtonName="Takaisin">
+        <HelpItem Title="En ole saanut sähköpostia." Text="Tarkista, että koneessasi on internet-yhteys.&#xD;&#xA;Tarkista, että sähköpostiohjelmasi toimii. Oletko saanut tänään muuta sähköpostia? Ota tarvittaessa yhteys sähköpostin toimittajaan tai järjestelmävastaavaan.&#xD;&#xA;Tarkista, ettei postilaatikkosi ole täynnä.&#xD;&#xA;Tarkista, ettei viesti ole joutunut roskapostikoriin tai -suodattimeen.&#xD;&#xA;Jos et kirjaudu ohjelmaan 10 päivän aikana, asetamme sinut &quot;tauolle&quot;, jolloin sähköpostiviestejä ei lähetetä. Voit milloin tahansa aktivoida ohjelman uudelleen kirjautumalla viimeksi saamasi sähköpostiviestin kautta tai ohjelman verkkosivustossa.&#xD;&#xA;Ota tarvittaessa yhteys tukeen (ks. Yhteystiedot)." />
+        <HelpItem Title="" Text="" />
+        <HelpItem Title="Joudun oleman jonkin aikaa ilman sähköpostiohjelmaani." Text="Jos käytössäsi on internet mutta ei sähköpostiohjelmaa, voit kirjautua ohjelmaan verkkosivustomme kautta." />
+        <HelpItem Title="Mitä tapahtuu, jos minulta jää ohjelmassa päiviä väliin?" Text="Voit tehdä menettämäsi päivät kirjautuessasi ohjelmaan seuraavan kerran. Siten tiedät pysyväsi ohjelmassa mukana. &#xD;&#xA;Jos et kirjaudu ohjelmaan 10 päivän aikana asetamme sinut &quot;tauolle&quot;, jolloin sähköpostiviestejä ei lähetetä. Voit milloin tahansa aktivoida ohjelman uudelleen kirjautumalla viimeksi saamasi sähköpostiviestin kautta.&#xD;&#xA;Voit kirjautua ohjelmaan myös verkkosivustossa." />
+        <HelpItem Title="Miten liikun ohjelmassa?" Text="Voit siirtyä seuraavalle sivulle napsauttamalla vihreää painiketta (Seuraava-painiketta). &#xD;&#xA;Jos haluat kerrata edellisen sivun sisältöä, voit palata takaisin napsauttamalla taaksepäin osoittavan harmaan nuolipainikkeen vasemmanpuoleista osaa. " />
+        <HelpItem Title="" Text="" />
+        <HelpItem Title="Seuraava-painike ei toimi." Text="Tarkista, että verkkoyhteys on käytössä.&#xD;&#xA;Ota yhteyttä tukeen (katso &quot;Yhteystiedot&quot;)." />
+        <HelpItem Title="Voinko pitää viikon tauon ohjelmasta esimerkiksi lomamatkan takia?" Text="Voit pitää ohjelmassa taukoa esimerkiksi lomien ajan tai kun tiedät olevasi ilman internet-yhteyttä. Koska ohjelma perustuu viikonpäiviin suosittelemme koko viikon mittaisia taukoja. Aloita tauko klikkaamalla  &quot;Pidä taukoa ohjelmassa&quot; kohdassaAsetukset ja ohjeet. Kun haluat aloittaa ohjelman uudelleen, kirjaudu sisään klikkaamalla viimeksi saamassasi sähköpostiviestissä olevaa sisäänkirjautumispainiketta tai ohjelman verkkosivuston kautta. Haluamme kuitenkin huomauttaa, että ohjelma on lähtökohtaisesti laadittu seurattavaksi ilman taukoja." />
+        <HelpItem Title="Ohjelma tukee seuraavia selaimia:" Text="Internet Explorer version 6 and higher, Firefox version 2 and higher, Safari version 3.0 and higher, Chrome, all versions." />
+        <HelpItem Title="Tietosuoja." Text="Ohjelmien toiminnasta vastaa Changetech AS ilman muiden osapuolten valvontaa.&#xD;&#xA;Voimassa olevan lainsäädännön mukaisesti henkilöihin johdettavia tietoja ei toimiteta muille osapuolille.&#xD;&#xA;" />
+        <HelpItem Title="Haluan lopettaa ohjelman." Text="Voit irtisanoutua ohjelmasta kohdassa &quot;Asetukset ja ohjeet&quot; klikkaamalla &quot;Irtisanoudun ohjelmasta&quot;. Noudata sen jälkeen näyttöön ilmestyviä ohjeita." />
+        <HelpItem Title="Yhteystiedot." Text="Ota yhteyttä lähettämällä sähköpostia osoitteeseen: &lt;a href=&quot;mailto:changetechsupport@ethostech.no&quot;&gt;support@changetech.no&lt;/a&gt;. Vastaamme sähköpostiin vuorokauden kuluessa arkipäivisin. &#xD;&#xA;&#xD;&#xA;Muista, että voit kirjautua sisään saamasi sähköpostiviestin avulla tai ohjelman verkkosivustossa &lt;a href=&quot;http://program.changetech.no/sos_fi/tavoitteenaterveellisempielama&quot;_blank&quot;&gt; Tavoitteena terveellisempi elämä &lt;/a&gt;(näyttöön avautuu uusi välilehti tai ikkuna).&#xD;&#xA;" />
+    </Help>
+    <TipFriend Title="Kerro ystävälle" Text="Kirjoita ystäväsi sähköpostiosoite alla olevaan kenttään ja klikkaa &quot;Lähetä kutsu&quot;. Ystäväsi saa kutsun ohjelmaan hetken kuluttua." BackButtonName="Takaisin" SubmitButtonName="Lähetä kutsu" />
+    <ProgramStatus Title="" Text="" BackButtonName="" SubmitButtonName="Tauko" />
+    <Profile Title="" Text="" BackButtonName="Takaisin" SubmitButtonName="Lähetä">
+        <Item Name="Email" OldValue="ChangeTechTemp02ee9090-29c7-47af-9819-be7bef09e086" Format="email" />
+    </Profile>
+    <TimeZone Title="TimeZoneFunction" />
+    <SmsToEmail Title="SMSToEmailFunction" />
+    <ExitProgram Title="Haluan irtisanoutua ohjelmasta." Text="Haluatko varmasti irtisanoutua ohjelmasta? Klikkaa &quot;Edellinen&quot;, jos et ole aivan varma." BackButtonName="Takaisin" SubmitButtonName="Peru rekisteröityminen" />
+    <Relapse />
+    <SpecialString>
+        <StringItem Name="all_rights_reserved" Value="all rights reserved" />
+        <StringItem Name="Back" Value="Edellinen" />
+        <StringItem Name="Bubble_titile_From_Payment_in_CTPP" Value="Maksu" />
+        <StringItem Name="Buy" Value="Lue lisää" />
+        <StringItem Name="Buy_subtext" Value="Tekstitys" />
+        <StringItem Name="Click_a_day" Value="Lue ohjelmasta lisää klikkaamalla haluamaasi päivää" />
+        <StringItem Name="Completed" Value="Tehty" />
+        <StringItem Name="CTPPSmartPhoneBelowHelpButtonText" Value="" />
+        <StringItem Name="CTPPSmartPhoneHomescreenHeading" Value="" />
+        <StringItem Name="CTPPSmartPhoneHomescreenText" Value="" />
+        <StringItem Name="Day" Value="Päivä" />
+        <StringItem Name="DAY_RANGE" Value="0-30" />
+        <StringItem Name="DAY_STRING" Value="Päivää" />
+        <StringItem Name="Days_in_program" Value="Ohjelman päivät" />
+        <StringItem Name="Forgotten_password?" Value="" />
+        <StringItem Name="Free" Value="Aloita" />
+        <StringItem Name="HaveDoneAllClassed" Value="" />
+        <StringItem Name="HelpButton_Actual" Value="" />
+        <StringItem Name="HelpButton_Heading" Value="" />
+        <StringItem Name="HOUR_RANGE" Value="0-23" />
+        <StringItem Name="HOUR_STRING" Value="Tuntia" />
+        <StringItem Name="Login" Value="Kirjaudu sisään" />
+        <StringItem Name="Logout" Value="Kirjaudu ulos" />
+        <StringItem Name="MINUTE_RANGE" Value="0-59" />
+        <StringItem Name="MINUTE_STRING" Value="Minuuttia" />
+        <StringItem Name="Mobile" Value="" />
+        <StringItem Name="More_about_us_at_FB" Value="Käy myös sivustossamme" />
+        <StringItem Name="NeedToJoinProgram" Value="" />
+        <StringItem Name="New_email_address" Value="Uusi sähköpostiosoite" />
+        <StringItem Name="NoClassYet" Value="" />
+        <StringItem Name="NoOrderLicence" Value="" />
+        <StringItem Name="Not_Support_HTML5" Value="Selain ei tue HTML5:ttä" />
+        <StringItem Name="Other_programs_from" Value="Muut ohjelmat yritykseltä" />
+        <StringItem Name="Password" Value="Salasana" />
+        <StringItem Name="PasswordHasSent" Value="" />
+        <StringItem Name="PasswordWrong" Value="" />
+        <StringItem Name="Price" Value="Hinta" />
+        <StringItem Name="Price_subtext" Value="Ks. ilmainen esittely tässä" />
+        <StringItem Name="ProgramIsPaused" Value="" />
+        <StringItem Name="provided_by" Value="on palvelu, jonka tarjoaa" />
+        <StringItem Name="Ready_To_Go" Value="Aloitus" />
+        <StringItem Name="ReportButton_Actual" Value="" />
+        <StringItem Name="ReportButton_Complete" Value="" />
+        <StringItem Name="ReportButton_Heading" Value="" />
+        <StringItem Name="ReportButton_Untaken" Value="" />
+        <StringItem Name="Retake" Value="Tee päivän ohjelma uudelleen" />
+        <StringItem Name="Retrieve_password" Value="" />
+        <StringItem Name="SettingMenu" Value="Asetukset ja ohje" />
+        <StringItem Name="SMS_To_Email" Value="Set Sms To Email" />
+        <StringItem Name="Start_day" Value="Aloita päivä" />
+        <StringItem Name="Startpunkt" Value="Alkamisaika" />
+        <StringItem Name="TimeZone" Value="" />
+        <StringItem Name="unavailable" Value="Ei saatavilla" />
+        <StringItem Name="untaken" Value="Tekemättä" />
+        <StringItem Name="use_from" Value="ja toteuttaa" />
+        <StringItem Name="UserName" Value="Sähköpostiosoite" />
+        <StringItem Name="UserNotExisted" Value="" />
+        <StringItem Name="Video_Subtext_1" Value="Psykologiaa NewMen taustalla" />
+        <StringItem Name="Video_Subtext_2" Value="Professori Pål Kraft" />
+        <StringItem Name="Week" Value="Viikko" />
+    </SpecialString>
+</XMLModel>

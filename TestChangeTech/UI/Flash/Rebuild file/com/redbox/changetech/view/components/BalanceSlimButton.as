@@ -1,0 +1,285 @@
+﻿//Created by Action Script Viewer - http://www.buraks.com/asv
+package com.redbox.changetech.view.components {
+    import flash.display.*;
+    import flash.geom.*;
+    import flash.media.*;
+    import flash.text.*;
+    import mx.core.*;
+    import flash.events.*;
+    import mx.events.*;
+    import mx.styles.*;
+    import mx.controls.*;
+    import mx.binding.*;
+    import mx.containers.*;
+    import com.redbox.changetech.model.*;
+    import mx.binding.utils.*;
+    import com.redbox.changetech.vo.*;
+    import flash.utils.*;
+    import flash.system.*;
+    import com.degrafa.*;
+    import com.degrafa.geometry.*;
+    import com.degrafa.paint.*;
+    import flash.accessibility.*;
+    import flash.xml.*;
+    import flash.net.*;
+    import flash.filters.*;
+    import flash.ui.*;
+    import com.redbox.changetech.util.*;
+    import flexlib.controls.*;
+    import flash.external.*;
+    import flash.debugger.*;
+    import flash.errors.*;
+    import flash.printing.*;
+    import flash.profiler.*;
+
+    public class BalanceSlimButton extends CanvasButton implements IBindingClient {
+
+        private var _925318956roomVO:RoomVO
+        mx_internal var _watchers:Array
+        private var _358005027buttonBase:HBox
+        public var isToDisableBinding:Boolean = true
+        private var _1782826776buttonField:Label
+        private var _358169760buttonGrad:GradientCanvas
+        public var _BalanceSlimButton_SolidFill1:SolidFill
+        private var timer:Timer
+        mx_internal var _bindingsByDestination:Object
+        private var _115115tri:Surface
+        mx_internal var _bindingsBeginWithWord:Object
+        mx_internal var _bindings:Array
+        private var _documentDescriptor_:UIComponentDescriptor
+        private var changeWatcher:ChangeWatcher
+
+        private static var _watcherSetupUtil:IWatcherSetupUtil;
+
+        public function BalanceSlimButton(){
+            _documentDescriptor_ = new UIComponentDescriptor({type:CanvasButton, propertiesFactory:function ():Object{
+                return ({childDescriptors:[new UIComponentDescriptor({type:HBox, id:"buttonBase", stylesFactory:function ():void{
+                    this.verticalAlign = "middle";
+                    this.horizontalAlign = "center";
+                    this.horizontalGap = 0;
+                }, propertiesFactory:function ():Object{
+                    return ({percentWidth:100, childDescriptors:[new UIComponentDescriptor({type:GradientCanvas, id:"buttonGrad", stylesFactory:function ():void{
+                        this.fillAlphas = [1, 1];
+                        this.gradientRatio = [0, 0xFF];
+                        this.angle = [90];
+                        this.borderAlphas = [0];
+                        this.cornerRadius = 10;
+                    }, propertiesFactory:function ():Object{
+                        return ({percentWidth:100, height:25, colorsConfiguration:[2], childDescriptors:[new UIComponentDescriptor({type:HBox, stylesFactory:function ():void{
+                            this.verticalAlign = "middle";
+                            this.horizontalAlign = "center";
+                            this.horizontalGap = 0;
+                            this.paddingLeft = 7;
+                            this.verticalGap = 0;
+                        }, propertiesFactory:function ():Object{
+                            return ({childDescriptors:[new UIComponentDescriptor({type:Spacer, propertiesFactory:function ():Object{
+                                return ({width:5});
+                            }}), new UIComponentDescriptor({type:Surface, id:"tri", propertiesFactory:function ():Object{
+                                return ({width:8, height:8, graphicsData:[_BalanceSlimButton_GeometryGroup1_c()]});
+                            }}), new UIComponentDescriptor({type:Spacer, propertiesFactory:function ():Object{
+                                return ({width:5});
+                            }}), new UIComponentDescriptor({type:VRule, stylesFactory:function ():void{
+                                this.strokeWidth = 1;
+                                this.strokeColor = 0xE9E9E9;
+                            }, propertiesFactory:function ():Object{
+                                return ({height:23});
+                            }}), new UIComponentDescriptor({type:Spacer, propertiesFactory:function ():Object{
+                                return ({width:5});
+                            }}), new UIComponentDescriptor({type:Label, id:"buttonField", stylesFactory:function ():void{
+                                this.paddingTop = 0;
+                                this.textAlign = "left";
+                                this.fontFamily = "Helvetica Neue";
+                                this.fontWeight = "normal";
+                                this.fontSize = 11;
+                            }})]});
+                        }})]});
+                    }})]});
+                }})]});
+            }});
+            _925318956roomVO = RoomVO(Config.ROOM_CONFIGS.getItemAt(BalanceModelLocator.getInstance().room));
+            _bindings = [];
+            _watchers = [];
+            _bindingsByDestination = {};
+            _bindingsBeginWithWord = {};
+            super();
+            mx_internal::_document = this;
+            this.percentWidth = 100;
+            this.useHandCursor = true;
+            this.buttonMode = true;
+            this.styleName = "balanceButton";
+            this.addEventListener("creationComplete", ___BalanceSlimButton_CanvasButton1_creationComplete);
+        }
+        override public function initialize():void{
+            var target:* = null;
+            var watcherSetupUtilClass:* = null;
+            mx_internal::setDocumentDescriptor(_documentDescriptor_);
+            var bindings:* = _BalanceSlimButton_bindingsSetup();
+            var watchers:* = [];
+            target = this;
+            if (_watcherSetupUtil == null){
+                watcherSetupUtilClass = getDefinitionByName("_com_redbox_changetech_view_components_BalanceSlimButtonWatcherSetupUtil");
+                var _local2 = watcherSetupUtilClass;
+                _local2["init"](null);
+            };
+            _watcherSetupUtil.setup(this, function (_arg1:String){
+                return (target[_arg1]);
+            }, bindings, watchers);
+            var i:* = 0;
+            while (i < bindings.length) {
+                Binding(bindings[i]).execute();
+                i = (i + 1);
+            };
+            mx_internal::_bindings = mx_internal::_bindings.concat(bindings);
+            mx_internal::_watchers = mx_internal::_watchers.concat(watchers);
+            super.initialize();
+        }
+        private function init(_arg1:FlexEvent):void{
+            changeWatcher = BindingUtils.bindSetter(changeRoom, BalanceModelLocator.getInstance(), "room");
+            timer = new Timer(1000, 1);
+            timer.addEventListener(TimerEvent.TIMER_COMPLETE, removeBinding);
+            if (isToDisableBinding){
+                timer.start();
+            };
+        }
+        private function _BalanceSlimButton_GraphicPoint3_c():GraphicPoint{
+            var _local1:GraphicPoint = new GraphicPoint();
+            _local1.x = 0;
+            _local1.y = 8;
+            return (_local1);
+        }
+        private function _BalanceSlimButton_SolidFill1_i():SolidFill{
+            var _local1:SolidFill = new SolidFill();
+            _BalanceSlimButton_SolidFill1 = _local1;
+            BindingManager.executeBindings(this, "_BalanceSlimButton_SolidFill1", _BalanceSlimButton_SolidFill1);
+            _local1.initialized(this, "_BalanceSlimButton_SolidFill1");
+            return (_local1);
+        }
+        private function _BalanceSlimButton_GraphicPoint1_c():GraphicPoint{
+            var _local1:GraphicPoint = new GraphicPoint();
+            _local1.x = 0;
+            _local1.y = 0;
+            return (_local1);
+        }
+        public function get buttonBase():HBox{
+            return (this._358005027buttonBase);
+        }
+        private function set roomVO(_arg1:RoomVO):void{
+            var _local2:Object = this._925318956roomVO;
+            if (_local2 !== _arg1){
+                this._925318956roomVO = _arg1;
+                this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "roomVO", _local2, _arg1));
+            };
+        }
+        private function changeRoom(_arg1:Number):void{
+            roomVO = RoomVO(Config.ROOM_CONFIGS.getItemAt(BalanceModelLocator.getInstance().room));
+        }
+        public function get tri():Surface{
+            return (this._115115tri);
+        }
+        public function get buttonGrad():GradientCanvas{
+            return (this._358169760buttonGrad);
+        }
+        private function _BalanceSlimButton_bindingsSetup():Array{
+            var binding:* = null;
+            var result:* = [];
+            binding = new Binding(this, function ():Array{
+                return ([0xFFFFFF, 0xE9E9E9]);
+            }, function (_arg1:Array):void{
+                buttonGrad.setStyle("fillColors", _arg1);
+            }, "buttonGrad.fillColors");
+            result[0] = binding;
+            binding = new Binding(this, function ():Object{
+                return (roomVO.textColour1);
+            }, function (_arg1:Object):void{
+                _BalanceSlimButton_SolidFill1.color = _arg1;
+            }, "_BalanceSlimButton_SolidFill1.color");
+            result[1] = binding;
+            binding = new Binding(this, function ():uint{
+                return (roomVO.textColour1);
+            }, function (_arg1:uint):void{
+                buttonField.setStyle("color", _arg1);
+            }, "buttonField.color");
+            result[2] = binding;
+            binding = new Binding(this, function ():String{
+                var _local1:* = label;
+                var _local2:* = ((_local1 == undefined)) ? null : String(_local1);
+                return (_local2);
+            }, function (_arg1:String):void{
+                buttonField.text = _arg1;
+            }, "buttonField.text");
+            result[3] = binding;
+            return (result);
+        }
+        public function set buttonGrad(_arg1:GradientCanvas):void{
+            var _local2:Object = this._358169760buttonGrad;
+            if (_local2 !== _arg1){
+                this._358169760buttonGrad = _arg1;
+                this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "buttonGrad", _local2, _arg1));
+            };
+        }
+        public function set buttonBase(_arg1:HBox):void{
+            var _local2:Object = this._358005027buttonBase;
+            if (_local2 !== _arg1){
+                this._358005027buttonBase = _arg1;
+                this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "buttonBase", _local2, _arg1));
+            };
+        }
+        public function set buttonField(_arg1:Label):void{
+            var _local2:Object = this._1782826776buttonField;
+            if (_local2 !== _arg1){
+                this._1782826776buttonField = _arg1;
+                this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "buttonField", _local2, _arg1));
+            };
+        }
+        private function _BalanceSlimButton_bindingExprs():void{
+            var _local1:*;
+            _local1 = [0xFFFFFF, 0xE9E9E9];
+            _local1 = roomVO.textColour1;
+            _local1 = roomVO.textColour1;
+            _local1 = label;
+        }
+        private function get roomVO():RoomVO{
+            return (this._925318956roomVO);
+        }
+        public function set tri(_arg1:Surface):void{
+            var _local2:Object = this._115115tri;
+            if (_local2 !== _arg1){
+                this._115115tri = _arg1;
+                this.dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "tri", _local2, _arg1));
+            };
+        }
+        private function _BalanceSlimButton_GeometryGroup1_c():GeometryGroup{
+            var _local1:GeometryGroup = new GeometryGroup();
+            _local1.geometry = [_BalanceSlimButton_Polygon1_c()];
+            _local1.initialized(this, null);
+            return (_local1);
+        }
+        private function removeBinding(_arg1:TimerEvent):void{
+            changeWatcher.unwatch();
+        }
+        private function _BalanceSlimButton_GraphicPoint2_c():GraphicPoint{
+            var _local1:GraphicPoint = new GraphicPoint();
+            _local1.x = 8;
+            _local1.y = 4;
+            return (_local1);
+        }
+        public function ___BalanceSlimButton_CanvasButton1_creationComplete(_arg1:FlexEvent):void{
+            init(_arg1);
+        }
+        public function get buttonField():Label{
+            return (this._1782826776buttonField);
+        }
+        private function _BalanceSlimButton_Polygon1_c():Polygon{
+            var _local1:Polygon = new Polygon();
+            _local1.fill = _BalanceSlimButton_SolidFill1_i();
+            _local1.points = [_BalanceSlimButton_GraphicPoint1_c(), _BalanceSlimButton_GraphicPoint2_c(), _BalanceSlimButton_GraphicPoint3_c()];
+            _local1.initialized(this, null);
+            return (_local1);
+        }
+
+        public static function set watcherSetupUtil(_arg1:IWatcherSetupUtil):void{
+            BalanceSlimButton._watcherSetupUtil = _arg1;
+        }
+
+    }
+}//package com.redbox.changetech.view.components 

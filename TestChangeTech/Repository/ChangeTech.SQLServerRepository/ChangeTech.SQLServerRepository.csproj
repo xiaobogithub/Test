@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B752A3A4-8DB1-453F-A537-2D7A42F9006E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.SQLServerRepository</RootNamespace>
+    <AssemblyName>ChangeTech.SQLServerRepository</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityCTDLogRepository.cs" />
+    <Compile Include="ActivityLogPriorityRepository.cs" />
+    <Compile Include="ActivityLogRepository.cs" />
+    <Compile Include="ActivityLogSettingRepository.cs" />
+    <Compile Include="ActivityLogTypeRepository.cs" />
+    <Compile Include="ActivityMonitorEmailLogRepository.cs" />
+    <Compile Include="BrandRepository.cs" />
+    <Compile Include="CompanyRepository.cs" />
+    <Compile Include="CompanyRightRepository.cs" />
+    <Compile Include="CTPPRepository.cs" />
+    <Compile Include="DeleteApplicationRepository.cs" />
+    <Compile Include="EmailTemplateRepository.cs" />
+    <Compile Include="EmailTemplateTypeRepository.cs" />
+    <Compile Include="ExpressionGroupRepository.cs" />
+    <Compile Include="ExpressionRepository.cs" />
+    <Compile Include="FailEmailRepository.cs" />
+    <Compile Include="GraphContentRepository.cs" />
+    <Compile Include="GraphItemContentRepository.cs" />
+    <Compile Include="GraphItemRepository.cs" />
+    <Compile Include="GraphRepository.cs" />
+    <Compile Include="HelpItemRepository.cs" />
+    <Compile Include="HPOrderEmailRepository.cs" />
+    <Compile Include="HPOrderLicenceRepository.cs" />
+    <Compile Include="HPOrderRepository.cs" />
+    <Compile Include="InterventCategoryRepository.cs" />
+    <Compile Include="LanguageRepository.cs" />
+    <Compile Include="LFAuthenticationLogRepository.cs" />
+    <Compile Include="OrderContentRepository.cs" />
+    <Compile Include="OrderEmailTemplateRepository.cs" />
+    <Compile Include="OrderLicenceRepository.cs" />
+    <Compile Include="OrderRepository.cs" />
+    <Compile Include="PageContentRepository.cs" />
+    <Compile Include="PageMediaRepository.cs" />
+    <Compile Include="PageQuestionContentRepository.cs" />
+    <Compile Include="PageQuestionItemContentRepository.cs" />
+    <Compile Include="PageQuestionItemRepository.cs" />
+    <Compile Include="PageQuestionRepository.cs" />
+    <Compile Include="PageRepository.cs" />
+    <Compile Include="PageResourceRepository.cs" />
+    <Compile Include="PageSequenceRepository.cs" />
+    <Compile Include="PageThemplateRepository.cs" />
+    <Compile Include="PageVariableGroupRepository.cs" />
+    <Compile Include="PageVaribleRepository.cs" />
+    <Compile Include="PaymentRepository.cs" />
+    <Compile Include="PredictorCategoryRepository.cs" />
+    <Compile Include="PredictorRepository.cs" />
+    <Compile Include="PreferencesRepository.cs" />
+    <Compile Include="ProgramAccessoryRepository.cs" />
+    <Compile Include="ProgramCategoryRepository.cs" />
+    <Compile Include="ProgramLanguageRepository.cs" />
+    <Compile Include="ProgramRoomRepository.cs" />
+    <Compile Include="ProgramScheduleRepository.cs" />
+    <Compile Include="ProgramUserRepository.cs" />
+    <Compile Include="ProgramRepository.cs" />
+    <Compile Include="ProgramStatusRepository.cs" />
+    <Compile Include="ProgramUserSessionRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionAnswerRepository.cs" />
+    <Compile Include="QuestionAnswerValueRepository.cs" />
+    <Compile Include="QuestionRepository.cs" />
+    <Compile Include="RelapseRepository.cs" />
+    <Compile Include="ResourceCategoryRepository.cs" />
+    <Compile Include="ResourceRepository.cs" />
+    <Compile Include="ScreenResultTemplatePageLineRepository.cs" />
+    <Compile Include="SessionContentRepository.cs" />
+    <Compile Include="SessionRepository.cs" />
+    <Compile Include="InterventRepository.cs" />
+    <Compile Include="ShortMessageRepository.cs" />
+    <Compile Include="SpecialStringRepository.cs" />
+    <Compile Include="StoreProcedure.cs" />
+    <Compile Include="StudyContentRepository.cs" />
+    <Compile Include="StudyRepository.cs" />
+    <Compile Include="StudyUserRepository.cs" />
+    <Compile Include="SystemSettingRepository.cs" />
+    <Compile Include="TipMessageRepository.cs" />
+    <Compile Include="TranslationJobContentRepository.cs" />
+    <Compile Include="TranslationJobElementRepository.cs" />
+    <Compile Include="TranslationJobRepository.cs" />
+    <Compile Include="TranslationJobTranslatorRepository.cs" />
+    <Compile Include="UserMenuRepository.cs" />
+    <Compile Include="UserPageVariablePerDayRepository.cs" />
+    <Compile Include="UserPageVariableRepository.cs" />
+    <Compile Include="UserRepository.cs" />
+    <Compile Include="UserTypeRepository.cs" />
+    <Compile Include="Win8ProgramUserRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ChangeTech.IDataRepository\ChangeTech.IDataRepository.csproj">
+      <Project>{4878FA0E-57DA-4FF1-B06D-B1397A97B7E4}</Project>
+      <Name>ChangeTech.IDataRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)"  "$(SolutionDir)\UI\ChangeTech.DeveloperWeb\Bin" /y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

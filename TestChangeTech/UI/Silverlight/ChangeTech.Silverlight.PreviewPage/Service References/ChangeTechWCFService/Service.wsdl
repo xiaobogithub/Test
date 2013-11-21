@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://pc-chenpu.ethos.com.cn/ChangeTechWCFService/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://pc-chenpu.ethos.com.cn/ChangeTechWCFService/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_GetPageDesignModelXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageDesignModelXML" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPageDesignModelXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPageDesignModelXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPagePreviewModelXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPagePreviewModelXML" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetPagePreviewModelXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPagePreviewModelXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePageDesignModelXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageDesignModelXML" />
+  </wsdl:message>
+  <wsdl:message name="IService_SavePageDesignModelXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SavePageDesignModelXMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="GetPageDesignModelXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPageDesignModelXML" message="tns:IService_GetPageDesignModelXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPageDesignModelXMLResponse" message="tns:IService_GetPageDesignModelXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPagePreviewModelXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetPagePreviewModelXML" message="tns:IService_GetPagePreviewModelXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetPagePreviewModelXMLResponse" message="tns:IService_GetPagePreviewModelXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SavePageDesignModelXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SavePageDesignModelXML" message="tns:IService_SavePageDesignModelXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SavePageDesignModelXMLResponse" message="tns:IService_SavePageDesignModelXML_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPageDesignModelXML">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPageDesignModelXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPagePreviewModelXML">
+      <soap:operation soapAction="http://tempuri.org/IService/GetPagePreviewModelXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SavePageDesignModelXML">
+      <soap:operation soapAction="http://tempuri.org/IService/SavePageDesignModelXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://pc-chenpu.ethos.com.cn/ChangeTechWCFService/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

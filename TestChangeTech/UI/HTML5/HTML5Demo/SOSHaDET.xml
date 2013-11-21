@@ -1,0 +1,509 @@
+﻿1;<XMLModel Mode="Preview" UserGUID="1B5071D3-7FD4-489D-A068-874FBD907B00" ProgramGUID="5D7F8183-13C2-4DAC-BECA-DD438876788B" ProgramName="SOS Ha det bedre" CTPPName="Ha det bedre" IsNeedPinCode="0" IsContainTwoParts="0" IsNeedSerialNumber="0" MissedDay="false" IsRetake="False" IsCTPPEnable="1">
+  <Session GUID="046CF811-8A50-4BD5-905B-FC4C26F6433F" Name="Tren opp signaturstyrkene dine" Day="5" Description="Selvtillit og selvfølelse&#xD;&#xA;Hvilke signaturstyrker har du?&#xD;&#xA;Øvelse: &quot;Tren opp signaturstyrkene dine&quot;" Logo="9c7dfca9-3bdf-43a2-862c-2facbf8da7e3.png">
+    <PageSequence GUID="D20C9D7E-4DCC-48F3-8128-9980F71DA5AF" CategoryName="Emotion" CategoryDescription="Subjective experiences associated with mood, temperament, personality, and disposition. " Order="1" TopBarColor="0x6a99cb" PrimaryButtonColorNormal="0x5e89b7,0x2f4c6c" PrimaryButtonColorOver="0x6ba2dd,0x2f4c6c" PrimaryButtonColorDown="0x6ba2dd,0x213852" PrimaryButtonColorDisable="" CoverShadowVisible="1" ProgramRoomName="Ha det bedre" ProgramRoomDescription="">
+      <Page GUID="88E8B377-0F2A-40DF-9259-AF337CCBE9C1" Order="1" Title="Hei! Fikk du opprettet et bekymringskvarter?" Text="Og fikk du til å utsette bekymringer som dukket opp på andre tider av døgnet til dette kvarteret?&#xA;&#xA;Det er slike øvelser som vil gi deg effekt etterhvert, så vi håper du fortsetter med dem.&#xA;&#xA;Å bli mer fornøyd og få høyere livskvalitet, handler for det meste om å forandre litt på vaner og tenkemåte.&#xA;&#xA;Det betyr at du må gjøre det vi ber deg om en god del ganger. Men etter hvert vil det bli en vane.&#xA;&#xA;I dag skal du finne dine signaturstyrker og bruke dem!" Type="Standard" ButtonPrimaryName="Det øker selvfølelsen" ButtonSecondaryName="Back" PresenterImage="afbcc1c6-f6be-4e35-ad7d-98360328da48.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F0C41ACD-F453-4DC4-BA77-E06469D2EF95" Order="2" Title="Selvtillit og selvfølelse." Text="Når du tenker på deg selv er det ofte to elementer som er fremtredende.&#xA;&#xA;Det ene er det som kalles selvtillit. Selvtillit er å ha tro på seg selv. På egne ferdigheter. På at man kan få til ting. &#xA;&#xA;Du kan se på det som jeg-kan-gjøre-tanker. At du er flink. Dyktig.&#xA;&#xA;Selvfølelse er noe annet. Selvfølelse er å ha en positiv og vennlig holdning til seg selv.&#xA;&#xA;Å føle seg verdig og verdt noe. " Type="Standard" ButtonPrimaryName="God og dårlig selvfølelse" ButtonSecondaryName="Back" PresenterImage="2216854d-6e04-47a8-870b-dd8a62cfa494.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="AC90BEB1-86D0-4AB7-A51C-A07DDFC0E876" Order="3" Title="God selvfølelse er bra i seg selv." Text="Det gjør godt å føle at man er verdt noe. At man er et godt menneske.&#xD;&#xD;God selvfølelse gjør at man står bedre imot utfordringer. Det gir deg et slags psykologisk immunforsvar. &#xD;&#xD;Hvis du har god selvfølelse blir du også snillere mot deg selv. Du blir flinkere på det som kalles selvstøtte. &#xD;&#xD;Du blir mer motivert for å gi deg selv omsorg. Og til å passe på deg selv. På samme måte som du ville ha passet på andre du er glad i." Type="Standard" ButtonPrimaryName="Finn dine sterke sider" ButtonSecondaryName="Back" PresenterImage="d00f9166-8930-48c0-b8c6-82f3e1fcf97d.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B6151D88-8D80-428D-A26B-483F562B6BDB" Order="4" Title="Vi kaller det signaturstyrker." Text="Det er de kvalitetene som virkelig kjennetegner deg som menneske og person.&#xD;&#xD;Signaturstyrkene er en del av personligheten din. Som i stor grad ble fastlagt ved fødselen, og i tidlig barndom og oppvekst. &#xD;&#xD;Som voksen er personligheten din ganske stabil, men du kan lære deg til å bruke dine sterke sider mer." Type="Standard" ButtonPrimaryName="La oss se litt mer på disse styrkene" ButtonSecondaryName="Back" PresenterImage="2b5fb95b-d5b5-4952-b29f-cba05a1712d1.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A7A25668-9324-4959-949E-31C3B4508F87" Order="5" Title="Signaturstyrkene dine kan nemlig trenes." Text="Til en viss grad er styrkene medfødte, eller noe man utvikler i barndommen. Men de er mer påvirkelige enn personligheten din.&#xD;&#xD;Du kan jobbe med signaturstyrkene dine, og utvikle dem. Nesten på samme måte som når det gjelder fysisk styrketrening.&#xD;&#xD;Noen er født litt sterkere enn andre, men alle kan bli sterkere!" Type="Standard" ButtonPrimaryName="Kan dette ha praktisk nytte?" ButtonSecondaryName="Back" PresenterImage="e6383d2a-5831-4a85-aeb1-510a83fcd5ea.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C549B3E5-7B87-4495-9EC4-85875B47966C" Order="6" Title="Ja, signaturstyrkene dine er nyttige for deg!" Text="Forskerne har funnet ut at personer som utnytter disse styrkene er mer fornøyde og har høyere livskvalitet. &#xD;&#xD;Det er altså bra å ha dem.&#xD;&#xD;Derfor skal vi bruke litt tid på å finne ut hvilke akkurat du har." Type="Standard" ButtonPrimaryName="Nå er det din tur" ButtonSecondaryName="Back" PresenterImage="cca93355-28d4-41d8-b3f2-bc0382ce2c67.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="F038E83D-7FE0-443E-A19C-0E35AE3D451B" CategoryName="Emotion" CategoryDescription="Subjective experiences associated with mood, temperament, personality, and disposition. " Order="2" TopBarColor="0x6a99cb" PrimaryButtonColorNormal="0x5e89b7,0x2f4c6c" PrimaryButtonColorOver="0x6ba2dd,0x2f4c6c" PrimaryButtonColorDown="0x6ba2dd,0x213852" PrimaryButtonColorDisable="0xdadee1,0x92999d" CoverShadowVisible="1" ProgramRoomName="Teknikker &amp; Øvelser" ProgramRoomDescription="">
+      <Page GUID="3259161E-25DF-4B62-8410-565273BD4AD8" Order="1" Title="Finn styrkene dine." Text="Nå skal du tenke gjennom hvilke styrker som kjennetegner deg, og som du kan tenke deg å ha ekstra fokus på i uken som kommer.&#xA;&#xA;Nå skal du straks velge tre styrker, der du uten tvil kan si:&#xA;&#xA;Ja, dette er virkelig meg.&#xA;Ja, dette beskriver hvordan jeg tenker og handler.&#xA;Ja, dette gjør meg entusiastisk.&#xA;Ja, denne styrken har jeg lyst til å bruke mer." Type="Standard" ButtonPrimaryName="Slik gjør du det" ButtonSecondaryName="Back" PresenterImage="ef57a8ee-7c20-4277-9124-fb65102e05bc.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E1345E9A-A307-42DB-8501-8801ED60623B" Order="2" Title="Les dette nøye først!" Text="På neste side ser du 6 styrker. Klikk på det runde i-symbolet for mer info om hver styrke. &#xA;&#xA;Deretter velger du den av de 6 styrkene som passer best. &#xA;&#xA;Det kan godt hende at flere enn en av styrkene passer. Det er nemlig slik at alle har disse styrkene i større eller mindre grad.&#xA;&#xA;Hvis det er vanskelig å si hvilken som passer aller best, velger du den du har mest lyst til å utvikle videre. &#xA;&#xA;Du velger ved å markere styrken med musen og deretter klikke på fortsett." Type="Standard" ButtonPrimaryName="Velg her" ButtonSecondaryName="Back" PresenterImage="e0c7cc82-75f6-4a18-9105-149aede0a41e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="58F73C8E-2639-491E-85DA-DD84946F9207" Order="3" Title="" Text="null" Type="Choose preferences" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="1" AfterExpression="">
+        <Questions />
+        <Preferences>
+          <Preference Image="08c9f389-0e3b-4869-8499-06849a200388.png" Name="Signaturstyrke" Description="Se det morsomme i ting. Like å le. Få andre til å le" Answer="Takk" ButtonName="Fortsett" GUID="F4A00865-84BB-4AF8-8CC2-3BFC09EE7404" ProgramVariable="Humor" />
+          <Preference Image="47d17cba-983c-4a35-8f5d-f8f01a082d9b.png" Name="Signaturstyrke" Description="Tåle smerte og motstand. Kjempe for de som har det vondt." Answer="Takk" ButtonName="Fortsett" GUID="B5E88BC6-C4E7-4209-B5F5-6A597C902FA8" ProgramVariable="Modig" />
+          <Preference Image="8f515995-c0e8-485c-83f8-a1f1140dabab.png" Name="Signaturstyrke" Description="Evne til å tenke nytt og finne på nye ting og løsninger." Answer="Takk" ButtonName="Videre" GUID="A0EEC242-5258-45C6-8699-7D2E8CFFE1A9" ProgramVariable="Kreativitet" />
+          <Preference Image="7c951e25-c75d-4e73-b180-cdebca421e58.png" Name="Signaturstyrke" Description="Evne til å finne ut av ting, skaffe seg nye erfaringer" Answer="Takk" ButtonName="Fortsett" GUID="2A90940F-99C7-40DF-B255-8727762D103D" ProgramVariable="Nysgjerrighet" />
+          <Preference Image="29171803-c538-40b3-bce9-dcdb5e239091.png" Name="Signaturstyrke" Description="Fortelle sannheten. Ikke opptre falskt." Answer="Takk" ButtonName="Fortsett" GUID="C1C11E79-C3C5-4D4B-87EE-92A1C82231E0" ProgramVariable="Ekte" />
+          <Preference Image="19620951-7979-4873-8445-998bd43167d3.png" Name="Signaturstyrke" Description="Liker å utvikle nye ferdigheter" Answer="Takk" ButtonName="Fortsett" GUID="D7439851-D106-479B-9B13-CA2D9C7C2259" ProgramVariable="Laere" />
+        </Preferences>
+        <Graphs />
+      </Page>
+      <Page GUID="3EEAF56C-53FC-4BEA-BDAC-B4F19AA4DFD0" Order="4" Title="Du valgte styrken Nysgjerrighet" Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Du kan f.eks gå på et foredrag om et tema som du vet lite om fra før, besøke en ny restaurant med retter du ikke har prøvd før. &#xA;&#xA;Du kan gå på oppdagelsesreise på hjemstedet ditt. Finn ut noe om stedet som du ikke visste fra før.&#xA;&#xA;Eller kanskje du kommer på en annen måte å bruke din nysgjerrighet på?" Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="1e8c6676-eee3-4b68-a193-d6b102ff904c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Nysgjerrighet} == 0 GOTO 2.5" AfterExpression="SET {V:Styrke1} = Nysgjerrighet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="FB6909FA-4EE0-4164-8590-0729AC65A33D" Order="5" Title="Du valgte styrken Humoristisk sans" Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Du kan f.eks invitere en venn til å se en morsom film. Ha som mål å få minst en person til å le hver dag i uken som kommer. &#xA;&#xA;Du kan lære deg et morsomt triks som du kan vise til vennene dine.&#xA;&#xA;Eller kanskje du kommer på en annen måte å bruke din sans for humor på?" Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="77c0f426-f740-4b62-b919-b83827fe2b9c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Humor} == 0 GOTO 2.6" AfterExpression="SET {V:Styrke1} = humoristisk sans">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C7A16CD1-3925-4DCE-9FB7-16FD3416092A" Order="6" Title="Du valgte styrken Være ekte." Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Du kan f.eks avstå fra å fortelle vennene dine hvite løgner. &#xA;&#xA;Når du forklarer dine grunner for det du gjør, legg vekt på å være ærlig og oppriktig. &#xA;&#xA;Eller kanskje du kommer på en annen måte å bruke denne styrken på?" Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="1e8c6676-eee3-4b68-a193-d6b102ff904c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Ekte} == 0 GOTO 2.7" AfterExpression="SET {V:Styrke1} = være ekte">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3104D161-918D-4385-A665-92B78972F076" Order="7" Title="Du valgte styrken Kreativitet" Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Meld deg på et kurs i maling, fotografi, tegning, design e.l. &#xA;&#xA;Finn kreative løsninger på oppgaver i hverdagen. &#xA;F.eks prøv en ny rett til middag hver dag i en uke.&#xA;&#xA;Eller kanskje du kommer på en annen måte å bruke din kreativitet på?" Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="1e8c6676-eee3-4b68-a193-d6b102ff904c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF  {V:Kreativitet} == 0 GOTO 2.8" AfterExpression="SET {V:Styrke1} = kreativitet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F32AD494-4E99-43CD-A7C2-8BCC3A87FA8C" Order="8" Title="Du valgte styrken &quot;liker å lære&quot;!" Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Du kan f.eks lese en fagbok om et tema som interesserer deg. Du kan se et TV-program eller en film der du lærer noe nytt. &#xA;&#xA;Du kan gå et kurs der du lærer en ny ferdighet.&#xA;&#xA;Eller kanskje du kommer på en annen måte å bruke din evne til å lære på?" Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="1e8c6676-eee3-4b68-a193-d6b102ff904c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Laere} == 0 GOTO 2.9" AfterExpression="SET {V:Styrke1} = liker å lære">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E1615D08-477A-4247-9497-F3B118A2E11D" Order="9" Title="Du valgte styrken Modig" Text="I uken som kommer skal du bruke denne styrken aktivt i hverdagen din.&#xA;&#xA;Du kan f.eks tørre å fremme et forslag som kanskje ikke er så populært, men som du har tro på. &#xA;&#xA;Du kan utfordre deg selv ved å gjøre noe du til vanlig vil være litt redd for. &#xA;&#xA;Eller kanskje kommer du andre måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="1e8c6676-eee3-4b68-a193-d6b102ff904c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF  {V:Modig} == 0 GOTO 2.10" AfterExpression="SET {V:Styrke1} = modig">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="2259C27D-2353-44E3-977D-4D899F0242B9" Order="10" Title="" Type="Choose preferences" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="1" AfterExpression="">
+        <Questions />
+        <Preferences>
+          <Preference Image="fd3e1243-8d6d-4ed9-9056-04cc2ea7085e.png" Name="Signaturstyrke" Description="Optimistisk. Spre fremtidshåp. Jobbe for en bedre fremtid." Answer="Takk" ButtonName="Fortsett" GUID="65DF6D42-B6E9-4037-84F3-21315E594D7C" ProgramVariable="Haap" />
+          <Preference Image="51d4fb58-65cd-4bd1-b924-58088736aa68.png" Name="Signaturstyrke" Description="Gi alle en sjanse. Behandle alle slik de fortjener." Answer="Takk" ButtonName="Fortsett" GUID="113BD1BB-CA7C-47BD-BBB4-38E18C2529E0" ProgramVariable="Rettferdighet" />
+          <Preference Image="4ff926cb-c6d4-4f27-98a9-4bfa72ac77a5.png" Name="Signaturstyrke" Description="Ikke gi opp når noe er vanskelig eller ubehagelig." Answer="Takk" ButtonName="Fortsett" GUID="CB6A1CFA-9BD1-49C9-9D47-46DBF6BC216F" ProgramVariable="Utholdenhet" />
+          <Preference Image="862f18f0-30be-4414-aa10-9597f46d4475.png" Name="Signaturstyrke" Description="Hjelpe andre. Gjøre andre tjenester." Answer="Takk" ButtonName="Fortsett" GUID="41CCCE80-D17D-4FF7-9C30-8855638A2795" ProgramVariable="Snill" />
+          <Preference Image="f0a46737-0b03-411b-ab58-6ba1554ed407.png" Name="Signaturstyrke" Description="Vise interesse, være helhjertet opptatt av noe." Answer="Takk" ButtonName="Fortsett" GUID="66DBB25C-2E0A-4BEA-A4E3-A16154A4F0C4" ProgramVariable="Entusiasme" />
+          <Preference Image="e41eddac-6218-467f-93ea-6cbbefb57083.png" Name="Signaturstyrke" Description="Kunne ha nære, personlige relasjoner med noen." Answer="Takk" ButtonName="Videre" GUID="7C1C14B2-FE13-457E-9B1F-EBA609BC350F" ProgramVariable="Kjaerlighet" />
+        </Preferences>
+        <Graphs />
+      </Page>
+      <Page GUID="401A9C0E-844C-4BE9-9569-2AB62E7E33E4" Order="11" Title="Du valgte styrken Utholdenhet" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks lage en liste over ting du skal gjøre, og gjør en av de hver dag. Gjør ferdig en viktig oppgave før tiden. &#xA;&#xA;Eller kanskje kommer du på andre og bedre måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Utholdenhet} == 0 GOTO 2.12" AfterExpression="SET {V:Styrke2} = utholdenhet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A269C364-97C4-4327-A72E-31F319A4DB17" Order="12" Title="Du valgte styrken Entusiasme" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Skriv en liste over det du liker aller best å gjøre. &#xA;&#xA;Gjør noe hver dag som du velger fordi det gir deg glede. Noe du gjør for gøy i stedet for av plikt. &#xA;&#xA;Finn flere måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Entusiasme} == 0 GOTO 2.13" AfterExpression="SET {V:Styrke2} = entusiasme">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3A66B061-8002-4C05-9531-C379480F79A2" Order="13" Title="Du valgte styrken Være snill" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Kanskje kan du jobbe for en frivillig organisasjon eller bli besøksvenn på et sykehjem? &#xA;&#xA;Eller overrask en venn med en hyggelig invitasjon, blomster eller et besøk!&#xA;&#xA;Du finner sikkert flere måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Snill} == 0 GOTO 2.14" AfterExpression="SET {V:Styrke2} = være snill">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F6D4C1F5-B3FF-487D-BB5D-FA53DAFFCD9A" Order="14" Title="Du valgte styrken Kjærlighet" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks skrive en hyggelig melding eller e-post til en du er glad i. Gjør noe sammen med din beste venn som du vet vil bli satt pris på.&#xA;&#xA;Du finner sikkert flere måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Kjaerlighet} == 0 GOTO 2.15" AfterExpression="SET {V:Styrke2} = kjærlighet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="7ED7348B-357F-4234-B3C9-DB1DE9BE73E7" Order="15" Title="Du valgte styrken Håp" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan tenke tilbake på en hendelse som i utgangspunktet skuffet deg, men som det likevel kom noe godt ut av. &#xA;&#xA;Skriv ned et mål for noe du vil gjøre eller oppnå den neste uken, den neste måneden og det neste året. Lag så en konkret plan for hva du skal gjøre for å nå målene dine.&#xA;&#xA;Du finner sikkert flere måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Haap} == 0 GOTO 2.16" AfterExpression="SET {V:Styrke2} = håp">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="901DEED8-3551-4854-A366-75C9FA75F05D" Order="16" Title="Du valgte styrken Rettferdighet" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks legge vekt på å høre på hva andre har å si uten at du avbryter de. &#xA;&#xA;Eller du kan gjøre deg ekstra flid med å rose de rundt deg som du synes fortjener det. &#xA;&#xA;Du finner sikkert flere måter du kan bruke denne styrken på selv." Type="Standard" ButtonPrimaryName="Velg en styrke til" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Rettferdighet} ==0 GOTO 2.17" AfterExpression="SET {V:Styrke2} = rettferdighet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0C606003-81A4-49EB-811F-9249A4BFDE0D" Order="17" Title="" Type="Choose preferences" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="1" AfterExpression="">
+        <Questions />
+        <Preferences>
+          <Preference Image="b753229e-3589-4192-98fa-73623ac7c748.png" Name="Signaturstyrke" Description="Ikke bære nag. Ha evne til å tilgi. Ikke være hevngjerrig." Answer="Takk" ButtonName="Fortsett" GUID="EB886BD4-471C-43D1-817B-259AC1B67D63" ProgramVariable="Tilgivelse" />
+          <Preference Image="37631072-9a66-4a1d-be1b-c4cfdd7f31c0.png" Name="Signaturstyrke" Description="Være realistisk. Ikke være overmodig." Answer="Takk" ButtonName="Fortsett" GUID="63E86314-C2D4-467C-9D81-4417E5571991" ProgramVariable="Jordnaerhet" />
+          <Preference Image="4b48a448-a089-46d1-be82-93f1013b33f0.png" Name="Signaturstyrke" Description="Forstå sosiale situasjoner og andres følelser." Answer="Takk" ButtonName="Fortsett" GUID="B511D030-F360-4634-B9A8-65825EEA0ABD" ProgramVariable="Sosialintelligens" />
+          <Preference Image="48ab9b99-b91e-49b8-966a-a3ce33b11f1d.png" Name="Signaturstyrke" Description="Være klar over det gode du opplever. Uttrykke takknemlighet." Answer="Takk" ButtonName="Fortsett" GUID="4B1101B6-0D1F-41C6-94EA-6D8EACFA122C" ProgramVariable="Takknemlighet" />
+          <Preference Image="c5270fe2-0a40-4c98-aa1c-4ea4807ce796.png" Name="Signaturstyrke" Description="Kunne stå i mot fristelser og styre sine impulser." Answer="Takk" ButtonName="Videre" GUID="18CB54F8-AEEC-4D71-95CC-BA8D331D2B94" ProgramVariable="Viljestyrke" />
+          <Preference Image="a117b476-0108-4882-a677-b1aa786f77ad.png" Name="Signaturstyrke" Description="Legge merke til og verdsette det vakre. Vise beundring." Answer="Takk" ButtonName="Fortsett" GUID="B797ADBE-0AA7-43A0-9E58-D930E0E497A0" ProgramVariable="Estetisksans" />
+        </Preferences>
+        <Graphs />
+      </Page>
+      <Page GUID="77646148-20BF-44E0-8CA7-D3FE79EC90EA" Order="18" Title="Du valgte styrken Tilgivelse" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks skrive et tilgivelsesbrev til noen som har såret deg. Ikke send det, men les det for deg selv hver dag i en uke.&#xA;&#xA;Eller du kan ha som regel for deg selv denne uken at når du føler deg irritert, skal du la det fare uten å la det gå ut over andre. &#xA;&#xA;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Tilgivelse} == 0 GOTO 2.19" AfterExpression="SET {V:Styrke3} = tilgivelse">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="6C9295E2-EEA5-47F6-BB7C-BD881EAB2645" Order="19" Title="Du valgte styrken Estetisk sans" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks besøke et galleri eller et museum du ikke har vært i før. &#xA;&#xA;Eller du kan skrive en dagbok hvor du hver dag skriver ned de vakreste tingene du så eller opplevde den dagen. &#xA;&#xA;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Estetisksans} == 0 GOTO 2.20" AfterExpression="SET {V:Styrke3} = estetisk sans">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="9F106B07-5B40-4865-8DC8-01E71A7D3DA5" Order="20" Title="Du valgte styrken Jordnærhet" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Sett opp et budsjett for deg selv eller familiens forbruk. Kan du klare å spare til noe du virkelig ønsker deg? &#xA;&#xA;Når du står overfor en fristelse som gir nytelse på kort sikt, men som strider mot ditt langsiktige mål, vær realistisk og tenk gjennom hvilket mål som er viktigst for deg. Er den kortsiktige nytelsen verdt det?&#xA;&#xA;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Jordnaerhet} == 0 GOTO 2.21" AfterExpression="SET {V:Styrke3} = jordnærhet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="EF509851-39F8-4E44-8E7F-AC7E6A8B48A7" Order="21" Title="Du valgte styrken Viljestyrke" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xD;&#xD;Du kan f.eks bestemme deg for at når du blir sint, skal du telle til ti (gjerne flere ganger) slik at du kan roe deg ned før du reagerer. &#xD;&#xD;Eller du kan ha fokus på et langsiktig mål og jobbe aktivt mot det i uken som kommer. &#xD;&#xD;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Viljestyrke} == 0 GOTO 2.22" AfterExpression="SET {V:Styrke3} = viljestyrke">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="45DC4C0A-5FC4-4E60-B83C-8BAF57F632DE" Order="22" Title="Du valgte styrken Sosial intelligens" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xA;&#xA;Du kan f.eks legge merke til når en venn gjør noe som er uvant og nytt, og gi han støtte og ros for innsatsen.&#xA;&#xA;Du kan prøve å se saken fra den andres side når du er uenig med noen. Finn ut hvorfor dere tenker forskjellig. Hvilke følelser og motiver ligger bak uenigheten? &#xA;&#xA;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Sosialintelligens} == 0 GOTO 2.23" AfterExpression="SET {V:Styrke3} = sosial intelligens">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1BF12D48-6914-4561-91C2-878C92C22EF6" Order="23" Title="Du valgte styrken Takknemlighet" Text="Denne styrken skal du også bruke mer i hverdagen din.&#xD;&#xD;Du kan f.eks legge merke til hvor mange ganger i løpet av en dag du sier &quot;Takk&quot;. Prøv å øke antallet for hver dag i uken som kommer.&#xD;&#xD;Eller du kan skrive et takkebrev til noen. Du kan sende det, eller beholde det for deg selv. &#xD;&#xD;Kanskje finner du andre måter å bruke denne styrken på selv?" Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="e0c8a2d4-c011-4e93-89cc-85f7c8144229.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Takknemlighet} == 0 GOTO 2.24" AfterExpression="SET {V:Styrke3} = takknemlighet">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CC1014FE-CC8D-494E-99DB-9265E9F1D0B5" Order="24" Title="Nå har du funnet dine signaturstyrker." Text="De 3 styrkene du mener er typisk deg er; &#xA;&#xA;1. {V:Styrke1}&#xA;2. {V:Styrke2} &#xA;3. {V:Styrke3}&#xA;&#xA;Dette er noe du allerede er god på, det som karakteriserer deg.&#xA;&#xA;Nå skal du høre noe smart. Hvis du bruker dine 3 signaturstyrker enda mer, vil det gi deg mer glede i hverdagen.&#xA;&#xA;Du trenger altså ikke trene på alt du ikke er så god på. Det som gir deg mer glede er å fokusere på de 3 tingene du gjør best." Type="Standard" ButtonPrimaryName="Finn din egen måte" ButtonSecondaryName="Back" PresenterImage="a79512fd-f4c4-48bc-ac10-22bc0c8614ca.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8916FBAE-20C0-4847-8490-E994324C43B0" Order="25" Title="Hva kan du gjøre på nye måter?" Text="Tenk igjennom hvordan du kan bruke de styrkene du har valgt, som du allerede er god på, mer i hverdagen.&#xA;&#xA;Du kan gjøre noe av det vi har foreslått, eller du kan finne dine egne måter å bruke styrkene dine på. &#xA;&#xA;Her er en oppsummering av oppgaven som du gjerne kan skrive ut! Det vil gjøre det lettere for deg:&#xA;&#xA;&lt;A href='http://program.changetech.no/RequestResource.aspx?target=Document&amp;media=431fae83-6f8a-4bbd-94f8-d7b377719295.PDF&amp;name=signaturstyrker.PDF' target='_blank'&gt;Signaturstyrker&lt;/A&gt;" Type="Standard" ButtonPrimaryName="Nå har du gjort noe viktig" ButtonSecondaryName="Back" PresenterImage="0b5facaf-ef72-4e18-aca2-be4c0bfe8e3c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="BF91BE0C-FBD7-459C-8A07-508CFF642095" Order="26" Title="Du kan være fornøyd med deg selv!" Text="Du er blitt klar over noe du egentlig visste, men kanskje ikke har tenkt så mye over. &#xA;&#xA;Nemlig hva du bør gjøre mer av for å få oppleve mer glede i hverdagen.&#xA;&#xA;Neste gang skal vi snakke mer om typiske hverdagsplager som de fleste opplever, og hvordan du kan håndtere disse på en god måte.&#xA;&#xA;Ha det fint til vi sees igjen!" Type="Standard" ButtonPrimaryName="Avslutt" ButtonSecondaryName="Back" PresenterImage="8641d52d-347b-4ac6-b9cb-6f7d93843ba9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="EndPage">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Session>
+  <GeneralVariables>
+    <Variable Name="FirstName" Value="Chen" Type="String" />
+    <Variable Name="LastName" Value="Pu" Type="String" />
+    <Variable Name="Email" Value="pchen@ethos.com.cn" Type="String" />
+    <Variable Name="MobilePhone" Value="13126656325                                                                                                                                                                                                                                                    " Type="String" />
+    <Variable Name="Gender" Value="0" Type="Numeric" />
+  </GeneralVariables>
+  <ProgramVariables>
+    <Variable Name="ACT Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="Attention Mean" Type="Numeric" Value="1" />
+    <Variable Name="Attention Mean" Type="Numeric" Value="1" />
+    <Variable Name="AttentionQ4" Type="Numeric" Value="1.22" />
+    <Variable Name="AuditScoreMale" Type="Numeric" Value="13" />
+    <Variable Name="BG" Type="Numeric" Value="1" />
+    <Variable Name="BG" Type="Numeric" Value="0" />
+    <Variable Name="CategoryTypWeek" Type="Numeric" Value="0" />
+    <Variable Name="Ekte" Type="Numeric" Value="0" />
+    <Variable Name="Ekte" Type="Numeric" Value="1" />
+    <Variable Name="Entusiasme" Type="Numeric" Value="0" />
+    <Variable Name="Entusiasme" Type="Numeric" Value="1" />
+    <Variable Name="Estetisksans" Type="Numeric" Value="0" />
+    <Variable Name="Estetisksans" Type="Numeric" Value="0" />
+    <Variable Name="FastScoreMale" Type="Numeric" Value="7" />
+    <Variable Name="GraphDrinks" Type="Numeric" Value="21" />
+    <Variable Name="GraphGoal" Type="Numeric" Value="15" />
+    <Variable Name="Haap" Type="Numeric" Value="0" />
+    <Variable Name="Haap" Type="Numeric" Value="0" />
+    <Variable Name="Humor" Type="Numeric" Value="0" />
+    <Variable Name="Humor" Type="Numeric" Value="0" />
+    <Variable Name="Hyperactivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Impulsivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Impulsivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Jordnaerhet" Type="Numeric" Value="0" />
+    <Variable Name="Jordnaerhet" Type="Numeric" Value="0" />
+    <Variable Name="Kjaerlighet" Type="Numeric" Value="0" />
+    <Variable Name="Kjaerlighet" Type="Numeric" Value="0" />
+    <Variable Name="Kreativitet" Type="Numeric" Value="0" />
+    <Variable Name="Kreativitet" Type="Numeric" Value="0" />
+    <Variable Name="Laere" Type="Numeric" Value="0" />
+    <Variable Name="Laere" Type="Numeric" Value="0" />
+    <Variable Name="MET TWO" Type="Numeric" Value="0" />
+    <Variable Name="MET0" Type="Numeric" Value="0" />
+    <Variable Name="Modig" Type="Numeric" Value="0" />
+    <Variable Name="Modig" Type="Numeric" Value="0" />
+    <Variable Name="Myth Buster Total Score" Type="Numeric" Value="5" />
+    <Variable Name="NAC Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="2" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextRelapse" Type="Numeric" Value="1" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="5" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="1" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="6" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="1" />
+    <Variable Name="Nutrition Mean" Type="Numeric" Value="5" />
+    <Variable Name="Nysgjerrighet" Type="Numeric" Value="0" />
+    <Variable Name="Nysgjerrighet" Type="Numeric" Value="0" />
+    <Variable Name="P1 Chocolate Cake D10" Type="Numeric" Value="0" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="P2 Buffalo Wings D10" Type="Numeric" Value="0" />
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="P3 Pizza D10" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="P4 Potato Chips D10" Type="Numeric" Value="0" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="P5 Lasagna D10" Type="Numeric" Value="1" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream D10" Type="Numeric" Value="0" />
+    <Variable Name="PA0" Type="Numeric" Value="1" />
+    <Variable Name="PAFD Act of Kidness Total" Type="Numeric" Value="5" />
+    <Variable Name="PAFD Flow Total" Type="Numeric" Value="5" />
+    <Variable Name="PAFD Optimism Total" Type="Numeric" Value="5" />
+    <Variable Name="Rettferdighet" Type="Numeric" Value="0" />
+    <Variable Name="Rettferdighet" Type="Numeric" Value="0" />
+    <Variable Name="SHS Mean" Type="Numeric" Value="1" />
+    <Variable Name="SHS Median" Type="Numeric" Value="1" />
+    <Variable Name="Snill" Type="Numeric" Value="0" />
+    <Variable Name="Snill" Type="Numeric" Value="0" />
+    <Variable Name="Sosialintelligens" Type="Numeric" Value="0" />
+    <Variable Name="Sosialintelligens" Type="Numeric" Value="0" />
+    <Variable Name="Stryrke1" Type="Numeric" Value="modig" />
+    <Variable Name="Styrke1" Type="Numeric" Value="1" />
+    <Variable Name="Styrke2" Type="Numeric" Value="utholdenhet" />
+    <Variable Name="Styrke2" Type="Numeric" Value="entusiasme" />
+    <Variable Name="Styrke3" Type="Numeric" Value="tilgiv" />
+    <Variable Name="Styrke3" Type="Numeric" Value="viljestyrke" />
+    <Variable Name="Takknemlighet" Type="Numeric" Value="0" />
+    <Variable Name="Takknemlighet" Type="Numeric" Value="0" />
+    <Variable Name="Tilgivelse" Type="Numeric" Value="1" />
+    <Variable Name="Tilgivelse" Type="Numeric" Value="0" />
+    <Variable Name="TotalDrinksW1" Type="Numeric" Value="6" />
+    <Variable Name="TotalDrinksW2" Type="Numeric" Value="21" />
+    <Variable Name="TotalGoalW2" Type="Numeric" Value="15" />
+    <Variable Name="TotalWeeklyDrinks68" Type="Numeric" Value="0" />
+    <Variable Name="TxtBingeMale" Type="Numeric" Value="Daglig eller nesten daglig" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Numeric" Value="6 til 7 dager i uken" />
+    <Variable Name="TypicalWEEK" Type="Numeric" Value="0" />
+    <Variable Name="Utholdenhet" Type="Numeric" Value="1" />
+    <Variable Name="Utholdenhet" Type="Numeric" Value="0" />
+    <Variable Name="Viljestyrke" Type="Numeric" Value="0" />
+    <Variable Name="Viljestyrke" Type="Numeric" Value="1" />
+    <Variable Name="Week 1" Type="Numeric" Value="0" />
+    <Variable Name="Week1Goal" Type="Numeric" Value="0" />
+    <Variable Name="Jobb engasjement Q3" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q2" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q2" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q6" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q3" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q20" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q4" Type="Unknown" Value="" />
+    <Variable Name="Mindfulness Breathe" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q9" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q12" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q1" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q5" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q1" Type="Unknown" Value="" />
+    <Variable Name="FlourTotal2" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q7" Type="Unknown" Value="" />
+    <Variable Name="SHS Q4T2" Type="Unknown" Value="" />
+    <Variable Name=" Flourishing Total T1" Type="Unknown" Value="" />
+    <Variable Name="flourishing T2 Q4" Type="Unknown" Value="" />
+    <Variable Name="SHS Q1 T2" Type="Unknown" Value="" />
+    <Variable Name="Breathe og Gong 2 Harmoni" Type="Unknown" Value="" />
+    <Variable Name="RuminationPostponementD6" Type="Unknown" Value="" />
+    <Variable Name="EPDS T2" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Total T1" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q6" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q6" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q9" Type="Unknown" Value="" />
+    <Variable Name="SHS Q4 Baseline" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q1" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q6" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q8" Type="Unknown" Value="" />
+    <Variable Name="Gratitude Monday Week 2a" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q1" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q2" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Total T2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q16" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q5" Type="Unknown" Value="" />
+    <Variable Name="Worry" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q6" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q18" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q9" Type="Unknown" Value="" />
+    <Variable Name="Worry Postponement T1" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q15" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q7" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q8" Type="Unknown" Value="" />
+    <Variable Name="AccountCreated" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q2" Type="Unknown" Value="" />
+    <Variable Name="Tiger Task Q1" Type="Unknown" Value="" />
+    <Variable Name="WorryPostponementD5" Type="Unknown" Value="" />
+    <Variable Name="Stress test Total T1" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q1" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q9" Type="Unknown" Value="" />
+    <Variable Name="WorryPostponementD6" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q5" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q5" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q8" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q1" Type="Unknown" Value="" />
+    <Variable Name="Breath or Gong Harmoni" Type="Unknown" Value="" />
+    <Variable Name="SHS Mean T2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q14" Type="Unknown" Value="" />
+    <Variable Name="FlourTotal" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q10" Type="Unknown" Value="" />
+    <Variable Name="RuminationPostponementD3" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q7" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q8" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q8" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q11" Type="Unknown" Value="" />
+    <Variable Name="SHS Q3 T2" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q4" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q4" Type="Unknown" Value="" />
+    <Variable Name="SHS Q2 Baseline" Type="Unknown" Value="" />
+    <Variable Name="Total Stress Level T1" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q5" Type="Unknown" Value="" />
+    <Variable Name="SHS Mean Baseline" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q6" Type="Unknown" Value="" />
+    <Variable Name="Fantasy Baby 2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q3" Type="Unknown" Value="" />
+    <Variable Name="SHS Q2 T2" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q3" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q5" Type="Unknown" Value="" />
+    <Variable Name="SHS Q3 Baseline" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q7" Type="Unknown" Value="" />
+    <Variable Name="BG Harmoni" Type="Unknown" Value="" />
+    <Variable Name="SHS Q1 Baseline " Type="Unknown" Value="" />
+    <Variable Name="Stress test Q10" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q17" Type="Unknown" Value="" />
+    <Variable Name="Types of Procrastination H" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q7" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q7" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q4" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q10" Type="Unknown" Value="" />
+    <Variable Name="Krafte Stress Scale Q13" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q19" Type="Unknown" Value="" />
+    <Variable Name="Rumination" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Total T1" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q8" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q4" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q3" Type="Unknown" Value="" />
+    <Variable Name="Fantasy Baby Post birth" Type="Unknown" Value="" />
+    <Variable Name="Account Created Harmoni" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q3" Type="Unknown" Value="" />
+    <Variable Name="Gratitude Monday Week 1" Type="Unknown" Value="" />
+    <Variable Name="Utbrenhet Q10" Type="Unknown" Value="" />
+  </ProgramVariables>
+  <TipMessages>
+    <Message Name="QuestionRequired" Title="Vi trenger ditt svar før du kan gå videre." Message="Vennligst svar så godt du kan på spørsmålet (eller spørsmålene) på siden før du går videre." BackButtonName="OK" />
+    <Message Name="TipFriendSuccessful" Title="Meldingen er sendt." Message="Vi har sendt meldingen til den epostadressen du oppga.&#xD;&#xA;&#xD;&#xA;Takk for at du tipset en venn!" BackButtonName="OK" />
+    <Message Name="WaitUntilNextModay" Title="Programmet starter alltid på en mandag." Message="Hvis du er påmeldt vil du få en e-post med link til dagens program førstkommende mandag. &#xD;&#xA;&#xD;&#xA;Velkommen tilbake!" BackButtonName="Avslutt" />
+    <Message Name="PauseProgramSuccessful" Title="Programmet er nå satt på pause." Message="For å starte igjen, vennligst logg deg inn gjennom siste mottatte e-post." BackButtonName="OK" />
+    <Message Name="RegisteredButPasswordWrong" Title="Feil ved innlogging." Message="Brukernavn eller passord er feil. Prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="PreferenceRequired" Title="Vi mangler informasjon." Message="Du må markere alternativ eller svare før du kan gå videre." BackButtonName="OK" />
+    <Message Name="ProgramRoomDescription" Title="Beskrivelse av rommene." Message="Beskrivelse av rommene." BackButtonName="Tilbake" />
+    <Message Name="RegisterPasswordConfirm" Title="Passordene dine stemmer ikke overens." Message="Kontroller stavingen og gjenta passordet på nytt." BackButtonName="OK" />
+    <Message Name="NetworkError" Title="Problemer med tilkobling til nettverk." Message="Vennligst sjekk at du har tilgang til internett.&#xD;&#xA;&#xD;&#xA;Hvis du har tilgang til internett, sjekk at ikke tilgangen blokkeres av brannmur eller antivirusprogram.&#xD;&#xA;" BackButtonName="OK" />
+    <Message Name="NoClassYet" Title="Dagens program er ikke tilgjengelig." Message="Dagens program er ikke tilgjengelig ennå. Prøv igjen senere." BackButtonName="Avslutt" />
+    <Message Name="PauseProgramFailed" Title="Å pause programmet mislyktes." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="InvalidEmailAddress" Title="E-post adressen er ikke korrekt." Message="Kontroller stavingen og prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="PasswordWrong" Title="Feil passord" Message="Vennligst kontroller passord og skriv inn på nytt." BackButtonName="OK" />
+    <Message Name="HaveFinishedTodaysClass" Title="Hei igjen!" Message="Du har allerede gjennomgått dagens program. &#xD;&#xA;Velkommen tilbake en annen dag. " BackButtonName="Avslutt" />
+    <Message Name="TipFriendFailed" Title="Meldingen ble ikke sent." Message="Vi kunne ikke sende meldingen. Vennligst sjekk at e-post adressen er korrekt." BackButtonName="OK" />
+    <Message Name="RegisteredInProgram" Title="Du er påmeldt." Message="Du er allerede registrert som bruker. Dersom du ønsker å registrere deg flere ganger må du oppgi ny e-post adresse." BackButtonName="Avslutt" />
+    <Message Name="EndingFailed" Title="Overføring mislykket." Message="Det har oppstått en feil og informasjon kan ha gått tapt. &#xD;&#xA;&#xD;&#xA;Forsøk å gå igjennom dagen i programmet en gang til.&#xD;&#xA;&#xD;&#xA;Hvis du får denne feilmeldingen en gang til, vennligst kontakt support." BackButtonName="Internal error" />
+    <Message Name="LoginInfoRequired" Title="Velkommen til innlogging." Message="Vennligst skriv inn e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Takk!" BackButtonName="OK" />
+    <Message Name="ProfileChangeSuccessful" Title="Oppdateringen var vellykket." Message="Oppdatering av profilen din var vellykket, og all informasjon er overført." BackButtonName="OK" />
+    <Message Name="RegisterInfoRequired" Title="Vi trenger e-post adresse og passord." Message="For å registrere deg trenger vi e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Vennligst fyll inn." BackButtonName="OK" />
+    <Message Name="ExitProgramSuccessful" Title="Avmelding var vellykket." Message="Du har nå meldt deg av programmet og vil ikke motta flere e-poster. Du kan klikke &quot;Tilbake&quot; og fullføre dagen i dag om du ønsker. Velkommen tilbake ved en senere anledning." BackButtonName="OK" />
+    <Message Name="HaveDoneAllClassed" Title="Du har fullført hele Ha det bedre" Message="Du kan gjerne ta programmet en gang til. " BackButtonName="Avslutt" />
+    <Message Name="ProfileChangeFailed" Title="Oppdateringen var mislykket." Message="Oppdatering av profilen din var mislykket. Vennligst prøv igjen, og ta kontakt med Support dersom oppdateringen fremdeles ikke lykkes." BackButtonName="Tilbake" />
+    <Message Name="UserNotExisted" Title="Ukjent bruker." Message="Denne brukeren er ikke registrert i programmet. " BackButtonName="Avslutt" />
+    <Message Name="InvalidEmail" Title="Feil i epostadresse" Message="Dette er ikke en gyldig e-post adresse." BackButtonName="OK" />
+    <Message Name="PreferenceInfo" Title="Virker dette litt fristende?" Message="Virker dette litt fristende?" BackButtonName="Tilbake" />
+    <Message Name="NeedToJoinProgram" Title="Du er ikke påmeldt." Message="Du har ikke meldt deg på programmet. Gå til &lt;a href=&quot;http://program.changetech.no/sos/hadetbedre&quot;_blank&quot;&gt;Ha det bedre &lt;/a&gt; og meld deg på. " BackButtonName="OK" />
+    <Message Name="TimerRequired" Title="Oppgi tid" Message="Venligst oppgi tider, eller kryss av ''Vet ikke'', for å gå videre." BackButtonName="OK" />
+    <Message Name="RegisterSuccessfully" Title="Du er påmeldt programmet!!" Message="Programmet starter førstkommende mandag. Da får du en e-post på den oppgitte e-postadressen. Den inneholder en link du skal klikke på for å starte programmet. &#xD;&#xA;&#xD;&#xA;Hvis det er mandag i dag, vil du allerede om kort tid motta en e-post med link til dagens program.&#xD;&#xA;&#xD;&#xA;Hjertelig takk for påmeldingen og velkommen!" BackButtonName="OK" />
+    <Message Name="PasswordRemiderInfoRequired" Title="Glemt passord?" Message="Skriv inn din epostadresse, så sender vi deg passord på nytt." BackButtonName="OK" />
+    <Message Name="LoginFailed" Title="Det oppsto en feil ved innlogging." Message="Sjekk at du tastet riktig brukernavn og passord, og at ikke &quot;Caps Lock&quot; på tastaturet ditt er på." BackButtonName="OK" />
+    <Message Name="ExitProgramFailed" Title="Avmelding var mislykket." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="RegisterFailed" Title="Feil ved registrering." Message="Det har oppstått en feil ved registrering. &#xD;&#xA;&#xD;&#xA;Vennligst prøv igjen eller kontakt Support.&#xD;&#xA;" BackButtonName="Tilbake" />
+    <Message Name="CatchingUpEarlyDay" Title="Du har gått glipp av noen dager i programmet." Message="Derfor vil du nå først gå igjennom de dagene du har gått glipp av, slik at du kommer ajour. " BackButtonName="ok" />
+    <Message Name="NavigationError" Title="Navigeringsfeil" Message="Vennligst ta kontakt med support på support@changetech.no og oppgi hele feilmeldingen du har mottatt.&#xD;&#xA;&#xD;&#xA;Legg gjerne ved et skjermbildet av feilmeldingen.&#xD;&#xA;Trykk &quot;Print Screen&quot; på tastaturet for skjermbilde.&#xD;&#xA;Tast CTRL+V i e-posten for å lime inn skjermbildet." BackButtonName="OK" />
+  </TipMessages>
+  <SettingMenu Title="Innstillinger og hjelp">
+    <MenuItem FunctionName="HelpFunction" Name="Spørsmål og svar" />
+    <MenuItem FunctionName="TipFriendFunction" Name="Tips en venn" />
+    <MenuItem FunctionName="PauseProgramFunction" Name="Ta pause i programmet" />
+    <MenuItem FunctionName="ProfileFunction" Name="Skift e-post adresse" />
+    <MenuItem FunctionName="ExitProgramFunction" Name="Meld meg av programmet." />
+  </SettingMenu>
+  <Help Title="FAQ" BackButtonName="Tilbake">
+    <HelpItem Title="Jeg har ikke fått e-post." Text="Sjekk at du har internettforbindelse.&#xD;&#xA;Sjekk at e-posten din virker. Har du fått annen e-post i dag? Kontakt evt. din e-postleverandør eller systemadministrator.&#xD;&#xA;Sjekk at innboksen din ikke er full.&#xD;&#xA;Sjekk at e-posten ikke har havnet i innboksen for useriøs e-post eller spamfilteret.&#xD;&#xA;Er du ikke inne i programmet i en periode på mer enn 10 dager setter programmet deg på &quot;pause&quot; slik at utsendelse av e-post stopper opp. Du kan når som helst starte opp igjen, ved å logge deg inn via linken i en tidligere e-post eller gå til programhjemmesidene.&#xD;&#xA;Ta evt. kontakt med support (se &quot;Kontaktinformasjon&quot;). " />
+    <HelpItem Title="Jeg får ikke opp dagens sider. " Text="Sjekk at du har internettforbindelse. &#xD;&#xA;Sjekk at du har Flash installert riktig (kontakt evt. din systemadministrator for hjelp). " />
+    <HelpItem Title="Jeg blir uten e-post en periode. " Text="Hvis du har tilgang til internett, men ikke tilgang til e-post, kan du gå inn via programhjemmesidene.&#xD;&#xA;Hvis du ikke har tilgang til internett, anbefaler vi deg å sette programmet på pause (se &quot;Sett programmet på pause&quot;). " />
+    <HelpItem Title="Hva skjer om jeg ikke har vært inne i programmet enkelte dager? " Text="Du får muligheten til å ta igjen de tapte dagene neste gang du logger inn i programmet. Slik er du sikret å ikke gå glipp av noe. &#xD;&#xA;Er du ikke inne i programmet i en periode på mer enn 10 dager setter vi deg på &quot;pause&quot; slik at utsendelse av e-post stopper opp. Du kan når som helst starte opp igjen, ved å logge deg inn via linken i en tidligere e-post.&#xD;&#xA;Du kan også logge inn via programhjemmesidene." />
+    <HelpItem Title="Hvordan navigerer jeg i programmet? " Text="Navigering foregår ved å klikke på den blå knappen (”videreknappen”) for å gå til neste side. &#xD;&#xA;Dersom du har glemt hva som står på forrige side kan du klikke på den venstre delen av knappen som er grå og har en pil som peker bakover. " />
+    <HelpItem Title="”Videreknappen” er ikke synlig. " Text="Øk skjermstørrelsen ved å trykke F11-tasten eller ved å maksimere skjermstørrelsen oppe i høyre hjørne i nettleseren. &#xD;&#xA;Du kan også bruke scrollfunksjonen i høyre billedkant. " />
+    <HelpItem Title="”Videreknappen” virker ikke. " Text="Sjekk at du har internettforbindelse. &#xD;&#xA;Ta kontakt med support (se &quot;Kontaktinformasjon&quot;)." />
+    <HelpItem Title="Kan jeg ta en ukes pause i programmet, f.eks ved ferie?" Text="Programmet gir mulighet for å ta pause f.eks. hvis du skal reise bort og ikke har tilgang til internett. Ettersom programmet er tilpasset ukedagene anbefaler vi å ta pause i hele uker. Dette gjøres ved å klikke på &quot;Ta pause i programmet&quot; under Innstillinger og hjelp. Når du så vil starte opp igjen logger du deg på ved å klikke på innloggingsknappen i den siste e-posten du mottok fra programmet eller via programhjemmesidene. Vi gjør oppmerksom på at programmet i utgangspunktet er laget for å følges uten pauser." />
+    <HelpItem Title="Jeg ønsker å avslutte programmet." Text="Du kan melde deg av ved å gå inn under &quot;Innstillinger og hjelp&quot; og trykke på &quot;Meld meg av&quot;. Følg deretter de instruksjonene som dukker opp på skjermen din." />
+    <HelpItem Title="Programmet støtter følgende nettlesere:" Text="Internet Explorer version 6 and higher, Firefox version 2 and higher, Safari version 3.0 and higher, Chrome, all versions." />
+    <HelpItem Title="Datasikkerhet. " Text="Programmet driftes av Changetech AS uten innsyn fra andre parter. &#xD;&#xA;Personidentifiserbar innformasjon utleveres ikke til andre parter med mindre dette er lovpålagt. " />
+    <HelpItem Title="Kontaktinformasjon." Text="Ta kontakt ved å sende en e-post til: &lt;a href=&quot;mailto:changetechsupport@ethostech.no&quot;&gt;support@changetech.no&lt;/a&gt;. Vi svarer på e-post innen 24 timer på vanlige virkedager. &#xD;&#xA;&#xD;&#xA;Husk at du kan logge deg inn via linken i en tidligere e-post eller gå til &lt;a href=&quot;	http://program.changetech.no/sos/hadetbedre&quot;_blank&quot;&gt;Ha det bedre sin logg inn side&lt;/a&gt;  (åpner en ny fane eller et nytt vindu)." />
+  </Help>
+  <TipFriend Title="Tips en venn" Text="Skriv inn din venns e-postadresse i feltet under og klikk &quot;Send invitasjon&quot;. Han eller hun vil motta en invitasjon til programmet om kort tid." BackButtonName="Tilbake" SubmitButtonName="Send invitasjon" />
+  <ProgramStatus Title="Ta pause i programmet" Text="Klikk på knappen for å sette programmet på pause i en uke." BackButtonName="Tilbake" SubmitButtonName="Pause" />
+  <Profile Title="Skift e-post adresse" Text="Du kan bytte e-post ved å skrive inn din nye e-post adresse i feltet under og klikke &quot;Send inn&quot;." BackButtonName="Tilbake" SubmitButtonName="Send inn">
+    <Item Name="Email" OldValue="pchen@ethos.com.cn" Format="email" />
+  </Profile>
+  <ExitProgram Title="Meld meg av programmet." Text="Du er i ferd med å melde deg av programmet. Klikk &quot;Tilbake&quot; hvis du ikke er helt sikker." BackButtonName="Tilbake" SubmitButtonName="Meld meg av" />
+  <Relapse />
+  <SpecialString>
+    <StringItem Name="all_rights_reserved" Value="All rights reserved" />
+    <StringItem Name="Back" Value="Tilbake" />
+    <StringItem Name="Bubble_titile_From_Payment_in_CTPP" Value="Betaling" />
+    <StringItem Name="Buy" Value="Meld deg på" />
+    <StringItem Name="Buy_subtext" Value="Undertekst" />
+    <StringItem Name="Click_a_day" Value="Klikk på en dag for å se mer av programmet" />
+    <StringItem Name="Completed" Value="Fullført" />
+    <StringItem Name="Day" Value="Dag" />
+    <StringItem Name="DAY_RANGE" Value="0-30" />
+    <StringItem Name="DAY_STRING" Value="Dager" />
+    <StringItem Name="Days_in_program" Value="Dager i programmet" />
+    <StringItem Name="Free" Value="Gratis" />
+    <StringItem Name="HOUR_RANGE" Value="0-23" />
+    <StringItem Name="HOUR_STRING" Value="Timer" />
+    <StringItem Name="Login" Value="Logg inn" />
+    <StringItem Name="Logout" Value="Logg ut" />
+    <StringItem Name="MINUTE_RANGE" Value="0-59" />
+    <StringItem Name="MINUTE_STRING" Value="Minutter" />
+    <StringItem Name="More_about_us_at_FB" Value="Besøk også våre" />
+    <StringItem Name="Not_Support_HTML5" Value="Nettleser støtter ikke HTML5" />
+    <StringItem Name="Other_programs_from" Value="Andre programmer fra" />
+    <StringItem Name="Price" Value="Pris" />
+    <StringItem Name="Price_subtext" Value="Se gratis demo her" />
+    <StringItem Name="provided_by" Value="er en tjeneste levert av" />
+    <StringItem Name="Ready_To_Go" Value="Start" />
+    <StringItem Name="Retake" Value="Ta dagen på nytt" />
+    <StringItem Name="SettingMenu" Value="Innstillinger og hjelp" />
+    <StringItem Name="Start_day" Value="Start dag" />
+    <StringItem Name="Startpunkt" Value="Startpunkt" />
+    <StringItem Name="unavailable" Value="Ikke tilgjengelig" />
+    <StringItem Name="untaken" Value="Ikke gjennomført" />
+    <StringItem Name="use_from" Value="som bruker teknologi levert av" />
+    <StringItem Name="Video_Subtext_1" Value="Psykologien bak NewMe" />
+    <StringItem Name="Video_Subtext_2" Value="Professor Pål Kraft" />
+    <StringItem Name="Week" Value="Uke" />
+  </SpecialString>
+</XMLModel>

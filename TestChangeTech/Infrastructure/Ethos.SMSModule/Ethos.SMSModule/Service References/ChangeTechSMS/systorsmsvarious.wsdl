@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.systorvest.no/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.systorvest.no/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.systorvest.no/">
+      <s:element name="GetUnreadFromMobile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="bMarkRead" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUnreadFromMobileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUnreadFromMobileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MarkIncomingAsRead">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPKList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MarkIncomingAsReadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MarkIncomingAsReadResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGSM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sGSM" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="bFixed" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReserveGSMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReserveGSMResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileEx">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="bURLDecode" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileExResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileExResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileDelay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sHoldUntil" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileDelayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileDelayResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileDelayNotify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sHoldUntil" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sForeignID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileDelayNotifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileDelayNotifyResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyBulk">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumbers" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sForeignID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyBulkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileNotifyBulkResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sForeignID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileNotifyResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMessageStatusLast">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="ForeignID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMessageStatusLastResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMessageStatusLastResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMSISDN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSM" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nForeignID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendSMResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyMVP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nForeignID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nValidity" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyMVPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileNotifyMVPResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyMVPRPID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nForeignID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nValidity" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nRPID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileNotifyMVPRPIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileNotifyMVPRPIDResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileFlashReplace">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMessageToMobileFlashReplaceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMessageToMobileFlashReplaceResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestAnswerTicket">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestAnswerTicketResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RequestAnswerTicketResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestOneTimePassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrig" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RequestOneTimePasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RequestOneTimePasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyOneTimePassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOneTimePW" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyOneTimePasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VerifyOneTimePasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostMobileOriginated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRecipient" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SCTS" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostMobileOriginatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PostMobileOriginatedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostMobileOriginatedOp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRecipient" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SCTS" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="nOperator" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostMobileOriginatedOpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PostMobileOriginatedOpResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Log">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMessage" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LogResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMMSToMobile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sData" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMMSToMobileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMMSToMobileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMMSToMobileBasic">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sMobileNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSubject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sContent" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPictureFileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPictureData" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOriginator" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMMSToMobileBasicResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMMSToMobileBasicResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="long" type="s:long" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUnreadFromMobileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUnreadFromMobile" />
+  </wsdl:message>
+  <wsdl:message name="GetUnreadFromMobileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUnreadFromMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadSoapIn">
+    <wsdl:part name="parameters" element="tns:MarkIncomingAsRead" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadSoapOut">
+    <wsdl:part name="parameters" element="tns:MarkIncomingAsReadResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMSoapIn">
+    <wsdl:part name="parameters" element="tns:ReserveGSM" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMSoapOut">
+    <wsdl:part name="parameters" element="tns:ReserveGSMResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobile" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileEx" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileExResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelaySoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileDelay" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelaySoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileDelayResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifySoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileDelayNotify" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifySoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileDelayNotifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyBulk" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyBulkResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifySoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotify" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifySoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMessageStatusLast" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMessageStatusLastResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSM" />
+  </wsdl:message>
+  <wsdl:message name="SendSMSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyMVP" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyMVPResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyMVPRPID" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileNotifyMVPRPIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileFlashReplace" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMessageToMobileFlashReplaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestAnswerTicket" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestAnswerTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:RequestOneTimePassword" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:RequestOneTimePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:VerifyOneTimePassword" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:VerifyOneTimePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedSoapIn">
+    <wsdl:part name="parameters" element="tns:PostMobileOriginated" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedSoapOut">
+    <wsdl:part name="parameters" element="tns:PostMobileOriginatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpSoapIn">
+    <wsdl:part name="parameters" element="tns:PostMobileOriginatedOp" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpSoapOut">
+    <wsdl:part name="parameters" element="tns:PostMobileOriginatedOpResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogSoapIn">
+    <wsdl:part name="parameters" element="tns:Log" />
+  </wsdl:message>
+  <wsdl:message name="LogSoapOut">
+    <wsdl:part name="parameters" element="tns:LogResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMMSToMobile" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMMSToMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMMSToMobileBasic" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMMSToMobileBasicResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUnreadFromMobileHttpGetIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="bMarkRead" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUnreadFromMobileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadHttpGetIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="sPKList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMHttpGetIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="sGSM" type="s:string" />
+    <wsdl:part name="bFixed" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="bURLDecode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sHoldUntil" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifyHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sHoldUntil" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifyHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkHttpGetIn">
+    <wsdl:part name="sMobileNumbers" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastHttpGetIn">
+    <wsdl:part name="ID" type="s:string" />
+    <wsdl:part name="ForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMHttpGetIn">
+    <wsdl:part name="sMSISDN" type="s:string" />
+    <wsdl:part name="sSM" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMHttpGetOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="nValidity" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="nValidity" type="s:string" />
+    <wsdl:part name="nRPID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketHttpGetIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOrig" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sOneTimePW" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedHttpGetIn">
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sRecipient" type="s:string" />
+    <wsdl:part name="SCTS" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpHttpGetIn">
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sRecipient" type="s:string" />
+    <wsdl:part name="SCTS" type="s:string" />
+    <wsdl:part name="nOperator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="LogHttpGetIn">
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sSubject" type="s:string" />
+    <wsdl:part name="sData" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicHttpGetIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sSubject" type="s:string" />
+    <wsdl:part name="sContent" type="s:string" />
+    <wsdl:part name="sPictureFileName" type="s:string" />
+    <wsdl:part name="sPictureData" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetUnreadFromMobileHttpPostIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="bMarkRead" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUnreadFromMobileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadHttpPostIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="sPKList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MarkIncomingAsReadHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMHttpPostIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="sGSM" type="s:string" />
+    <wsdl:part name="bFixed" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReserveGSMHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+    <wsdl:part name="bURLDecode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileExHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sHoldUntil" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifyHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sHoldUntil" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileDelayNotifyHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkHttpPostIn">
+    <wsdl:part name="sMobileNumbers" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyBulkHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastHttpPostIn">
+    <wsdl:part name="ID" type="s:string" />
+    <wsdl:part name="ForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMessageStatusLastHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMHttpPostIn">
+    <wsdl:part name="sMSISDN" type="s:string" />
+    <wsdl:part name="sSM" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMHttpPostOut">
+    <wsdl:part name="Body" element="tns:long" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="nValidity" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="nForeignID" type="s:string" />
+    <wsdl:part name="nValidity" type="s:string" />
+    <wsdl:part name="nRPID" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileNotifyMVPRPIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMessageToMobileFlashReplaceHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketHttpPostIn">
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestAnswerTicketHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sOrig" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="RequestOneTimePasswordHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sOneTimePW" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyOneTimePasswordHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedHttpPostIn">
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sRecipient" type="s:string" />
+    <wsdl:part name="SCTS" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpHttpPostIn">
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sRecipient" type="s:string" />
+    <wsdl:part name="SCTS" type="s:string" />
+    <wsdl:part name="nOperator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PostMobileOriginatedOpHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="LogHttpPostIn">
+    <wsdl:part name="sMessage" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LogHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sSubject" type="s:string" />
+    <wsdl:part name="sData" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicHttpPostIn">
+    <wsdl:part name="sMobileNumber" type="s:string" />
+    <wsdl:part name="sSubject" type="s:string" />
+    <wsdl:part name="sContent" type="s:string" />
+    <wsdl:part name="sPictureFileName" type="s:string" />
+    <wsdl:part name="sPictureData" type="s:string" />
+    <wsdl:part name="sOriginator" type="s:string" />
+    <wsdl:part name="sUser" type="s:string" />
+    <wsdl:part name="sPass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendMMSToMobileBasicHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="SystorSMSSoap">
+    <wsdl:operation name="GetUnreadFromMobile">
+      <wsdl:input message="tns:GetUnreadFromMobileSoapIn" />
+      <wsdl:output message="tns:GetUnreadFromMobileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <wsdl:input message="tns:MarkIncomingAsReadSoapIn" />
+      <wsdl:output message="tns:MarkIncomingAsReadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <wsdl:input message="tns:ReserveGSMSoapIn" />
+      <wsdl:output message="tns:ReserveGSMSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <wsdl:input message="tns:SendMessageToMobileSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <wsdl:input message="tns:SendMessageToMobileExSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileExSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <wsdl:input message="tns:SendMessageToMobileDelaySoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <wsdl:input message="tns:SendMessageToMobileDelayNotifySoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelayNotifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <wsdl:input message="tns:SendMessageToMobileNotifyBulkSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyBulkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <wsdl:input message="tns:SendMessageToMobileNotifySoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <wsdl:input message="tns:GetMessageStatusLastSoapIn" />
+      <wsdl:output message="tns:GetMessageStatusLastSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <wsdl:input message="tns:SendSMSoapIn" />
+      <wsdl:output message="tns:SendSMSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPRPIDSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPRPIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <wsdl:input message="tns:SendMessageToMobileFlashReplaceSoapIn" />
+      <wsdl:output message="tns:SendMessageToMobileFlashReplaceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <wsdl:input message="tns:RequestAnswerTicketSoapIn" />
+      <wsdl:output message="tns:RequestAnswerTicketSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <wsdl:input message="tns:RequestOneTimePasswordSoapIn" />
+      <wsdl:output message="tns:RequestOneTimePasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <wsdl:input message="tns:VerifyOneTimePasswordSoapIn" />
+      <wsdl:output message="tns:VerifyOneTimePasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <wsdl:input message="tns:PostMobileOriginatedSoapIn" />
+      <wsdl:output message="tns:PostMobileOriginatedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <wsdl:input message="tns:PostMobileOriginatedOpSoapIn" />
+      <wsdl:output message="tns:PostMobileOriginatedOpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <wsdl:input message="tns:LogSoapIn" />
+      <wsdl:output message="tns:LogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <wsdl:input message="tns:SendMMSToMobileSoapIn" />
+      <wsdl:output message="tns:SendMMSToMobileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <wsdl:input message="tns:SendMMSToMobileBasicSoapIn" />
+      <wsdl:output message="tns:SendMMSToMobileBasicSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SystorSMSHttpGet">
+    <wsdl:operation name="GetUnreadFromMobile">
+      <wsdl:input message="tns:GetUnreadFromMobileHttpGetIn" />
+      <wsdl:output message="tns:GetUnreadFromMobileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <wsdl:input message="tns:MarkIncomingAsReadHttpGetIn" />
+      <wsdl:output message="tns:MarkIncomingAsReadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <wsdl:input message="tns:ReserveGSMHttpGetIn" />
+      <wsdl:output message="tns:ReserveGSMHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <wsdl:input message="tns:SendMessageToMobileHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <wsdl:input message="tns:SendMessageToMobileExHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileExHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <wsdl:input message="tns:SendMessageToMobileDelayHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelayHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <wsdl:input message="tns:SendMessageToMobileDelayNotifyHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelayNotifyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <wsdl:input message="tns:SendMessageToMobileNotifyBulkHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyBulkHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <wsdl:input message="tns:SendMessageToMobileNotifyHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <wsdl:input message="tns:GetMessageStatusLastHttpGetIn" />
+      <wsdl:output message="tns:GetMessageStatusLastHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <wsdl:input message="tns:SendSMHttpGetIn" />
+      <wsdl:output message="tns:SendSMHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPRPIDHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPRPIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <wsdl:input message="tns:SendMessageToMobileFlashReplaceHttpGetIn" />
+      <wsdl:output message="tns:SendMessageToMobileFlashReplaceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <wsdl:input message="tns:RequestAnswerTicketHttpGetIn" />
+      <wsdl:output message="tns:RequestAnswerTicketHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <wsdl:input message="tns:RequestOneTimePasswordHttpGetIn" />
+      <wsdl:output message="tns:RequestOneTimePasswordHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <wsdl:input message="tns:VerifyOneTimePasswordHttpGetIn" />
+      <wsdl:output message="tns:VerifyOneTimePasswordHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <wsdl:input message="tns:PostMobileOriginatedHttpGetIn" />
+      <wsdl:output message="tns:PostMobileOriginatedHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <wsdl:input message="tns:PostMobileOriginatedOpHttpGetIn" />
+      <wsdl:output message="tns:PostMobileOriginatedOpHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <wsdl:input message="tns:LogHttpGetIn" />
+      <wsdl:output message="tns:LogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <wsdl:input message="tns:SendMMSToMobileHttpGetIn" />
+      <wsdl:output message="tns:SendMMSToMobileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <wsdl:input message="tns:SendMMSToMobileBasicHttpGetIn" />
+      <wsdl:output message="tns:SendMMSToMobileBasicHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SystorSMSHttpPost">
+    <wsdl:operation name="GetUnreadFromMobile">
+      <wsdl:input message="tns:GetUnreadFromMobileHttpPostIn" />
+      <wsdl:output message="tns:GetUnreadFromMobileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <wsdl:input message="tns:MarkIncomingAsReadHttpPostIn" />
+      <wsdl:output message="tns:MarkIncomingAsReadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <wsdl:input message="tns:ReserveGSMHttpPostIn" />
+      <wsdl:output message="tns:ReserveGSMHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <wsdl:input message="tns:SendMessageToMobileHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <wsdl:input message="tns:SendMessageToMobileExHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileExHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <wsdl:input message="tns:SendMessageToMobileDelayHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelayHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <wsdl:input message="tns:SendMessageToMobileDelayNotifyHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileDelayNotifyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <wsdl:input message="tns:SendMessageToMobileNotifyBulkHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyBulkHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <wsdl:input message="tns:SendMessageToMobileNotifyHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <wsdl:input message="tns:GetMessageStatusLastHttpPostIn" />
+      <wsdl:output message="tns:GetMessageStatusLastHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <wsdl:input message="tns:SendSMHttpPostIn" />
+      <wsdl:output message="tns:SendSMHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <wsdl:input message="tns:SendMessageToMobileNotifyMVPRPIDHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileNotifyMVPRPIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <wsdl:input message="tns:SendMessageToMobileFlashReplaceHttpPostIn" />
+      <wsdl:output message="tns:SendMessageToMobileFlashReplaceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <wsdl:input message="tns:RequestAnswerTicketHttpPostIn" />
+      <wsdl:output message="tns:RequestAnswerTicketHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <wsdl:input message="tns:RequestOneTimePasswordHttpPostIn" />
+      <wsdl:output message="tns:RequestOneTimePasswordHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <wsdl:input message="tns:VerifyOneTimePasswordHttpPostIn" />
+      <wsdl:output message="tns:VerifyOneTimePasswordHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <wsdl:input message="tns:PostMobileOriginatedHttpPostIn" />
+      <wsdl:output message="tns:PostMobileOriginatedHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <wsdl:input message="tns:PostMobileOriginatedOpHttpPostIn" />
+      <wsdl:output message="tns:PostMobileOriginatedOpHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <wsdl:input message="tns:LogHttpPostIn" />
+      <wsdl:output message="tns:LogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <wsdl:input message="tns:SendMMSToMobileHttpPostIn" />
+      <wsdl:output message="tns:SendMMSToMobileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <wsdl:input message="tns:SendMMSToMobileBasicHttpPostIn" />
+      <wsdl:output message="tns:SendMMSToMobileBasicHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SystorSMSSoap" type="tns:SystorSMSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUnreadFromMobile">
+      <soap:operation soapAction="http://www.systorvest.no/GetUnreadFromMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <soap:operation soapAction="http://www.systorvest.no/MarkIncomingAsRead" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <soap:operation soapAction="http://www.systorvest.no/ReserveGSM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileEx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileDelay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileDelayNotify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyBulk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <soap:operation soapAction="http://www.systorvest.no/GetMessageStatusLast" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <soap:operation soapAction="http://www.systorvest.no/SendSM" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyMVP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyMVPRPID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <soap:operation soapAction="http://www.systorvest.no/SendMessageToMobileFlashReplace" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <soap:operation soapAction="http://www.systorvest.no/RequestAnswerTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <soap:operation soapAction="http://www.systorvest.no/RequestOneTimePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <soap:operation soapAction="http://www.systorvest.no/VerifyOneTimePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <soap:operation soapAction="http://www.systorvest.no/PostMobileOriginated" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <soap:operation soapAction="http://www.systorvest.no/PostMobileOriginatedOp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <soap:operation soapAction="http://www.systorvest.no/Log" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <soap:operation soapAction="http://www.systorvest.no/SendMMSToMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <soap:operation soapAction="http://www.systorvest.no/SendMMSToMobileBasic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SystorSMSSoap12" type="tns:SystorSMSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUnreadFromMobile">
+      <soap12:operation soapAction="http://www.systorvest.no/GetUnreadFromMobile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <soap12:operation soapAction="http://www.systorvest.no/MarkIncomingAsRead" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <soap12:operation soapAction="http://www.systorvest.no/ReserveGSM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileEx" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileDelay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileDelayNotify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyBulk" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <soap12:operation soapAction="http://www.systorvest.no/GetMessageStatusLast" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <soap12:operation soapAction="http://www.systorvest.no/SendSM" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyMVP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileNotifyMVPRPID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMessageToMobileFlashReplace" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <soap12:operation soapAction="http://www.systorvest.no/RequestAnswerTicket" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <soap12:operation soapAction="http://www.systorvest.no/RequestOneTimePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <soap12:operation soapAction="http://www.systorvest.no/VerifyOneTimePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <soap12:operation soapAction="http://www.systorvest.no/PostMobileOriginated" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <soap12:operation soapAction="http://www.systorvest.no/PostMobileOriginatedOp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <soap12:operation soapAction="http://www.systorvest.no/Log" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMMSToMobile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <soap12:operation soapAction="http://www.systorvest.no/SendMMSToMobileBasic" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SystorSMSHttpGet" type="tns:SystorSMSHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetUnreadFromMobile">
+      <http:operation location="/GetUnreadFromMobile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <http:operation location="/MarkIncomingAsRead" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <http:operation location="/ReserveGSM" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <http:operation location="/SendMessageToMobile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <http:operation location="/SendMessageToMobileEx" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <http:operation location="/SendMessageToMobileDelay" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <http:operation location="/SendMessageToMobileDelayNotify" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <http:operation location="/SendMessageToMobileNotifyBulk" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <http:operation location="/SendMessageToMobileNotify" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <http:operation location="/GetMessageStatusLast" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <http:operation location="/SendSM" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <http:operation location="/SendMessageToMobileNotifyMVP" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <http:operation location="/SendMessageToMobileNotifyMVPRPID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <http:operation location="/SendMessageToMobileFlashReplace" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <http:operation location="/RequestAnswerTicket" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <http:operation location="/RequestOneTimePassword" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <http:operation location="/VerifyOneTimePassword" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <http:operation location="/PostMobileOriginated" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <http:operation location="/PostMobileOriginatedOp" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <http:operation location="/Log" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <http:operation location="/SendMMSToMobile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <http:operation location="/SendMMSToMobileBasic" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SystorSMSHttpPost" type="tns:SystorSMSHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetUnreadFromMobile">
+      <http:operation location="/GetUnreadFromMobile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MarkIncomingAsRead">
+      <http:operation location="/MarkIncomingAsRead" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveGSM">
+      <http:operation location="/ReserveGSM" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobile">
+      <http:operation location="/SendMessageToMobile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileEx">
+      <http:operation location="/SendMessageToMobileEx" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelay">
+      <http:operation location="/SendMessageToMobileDelay" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileDelayNotify">
+      <http:operation location="/SendMessageToMobileDelayNotify" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyBulk">
+      <http:operation location="/SendMessageToMobileNotifyBulk" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotify">
+      <http:operation location="/SendMessageToMobileNotify" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMessageStatusLast">
+      <http:operation location="/GetMessageStatusLast" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSM">
+      <http:operation location="/SendSM" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVP">
+      <http:operation location="/SendMessageToMobileNotifyMVP" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileNotifyMVPRPID">
+      <http:operation location="/SendMessageToMobileNotifyMVPRPID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMessageToMobileFlashReplace">
+      <http:operation location="/SendMessageToMobileFlashReplace" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestAnswerTicket">
+      <http:operation location="/RequestAnswerTicket" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RequestOneTimePassword">
+      <http:operation location="/RequestOneTimePassword" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyOneTimePassword">
+      <http:operation location="/VerifyOneTimePassword" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginated">
+      <http:operation location="/PostMobileOriginated" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostMobileOriginatedOp">
+      <http:operation location="/PostMobileOriginatedOp" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Log">
+      <http:operation location="/Log" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobile">
+      <http:operation location="/SendMMSToMobile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMMSToMobileBasic">
+      <http:operation location="/SendMMSToMobileBasic" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SystorSMS">
+    <wsdl:port name="SystorSMSSoap" binding="tns:SystorSMSSoap">
+      <soap:address location="http://217.68.101.250/systorwebservices/systorsmsvarious/systorsmsvarious.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SystorSMSSoap12" binding="tns:SystorSMSSoap12">
+      <soap12:address location="http://217.68.101.250/systorwebservices/systorsmsvarious/systorsmsvarious.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SystorSMSHttpGet" binding="tns:SystorSMSHttpGet">
+      <http:address location="http://217.68.101.250/systorwebservices/systorsmsvarious/systorsmsvarious.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SystorSMSHttpPost" binding="tns:SystorSMSHttpPost">
+      <http:address location="http://217.68.101.250/systorwebservices/systorsmsvarious/systorsmsvarious.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/HealthProfileSystem/MainPage.aspx" title="Health Profile Orders"  description="">
+        <siteMapNode url="~/HealthProfileSystem/AddNewOrder.aspx" title="Add HP Order"  description="" />
+        <siteMapNode url="~/HealthProfileSystem/EditOrder.aspx" title="Edit HP Order"  description="" />
+    </siteMapNode>
+</siteMap>

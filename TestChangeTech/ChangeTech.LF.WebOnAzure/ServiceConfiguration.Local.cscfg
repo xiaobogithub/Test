@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ChangeTech.LF.WebOnAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="ChangeTech.LF.Web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="changetech" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFEzpVMn2NKKQKop15m/M88wDQYJKoZIhvcNAQEBBQAEggEAJiF4Wj34/T+9Se8o21cuXVMhDvnnQI6bIVbuhS7AK+9ktq8jogEi+/sb2sC8ruC7+awaZ1JAhv4380uaGaGahdJXhs14gMBFQk9hmCItrRUauBJVh1Vr6APTBgk6AEaWd5oBDq4LaD3sW9DPFXcQ8OzS922SeoIQANlt51c5nHv9P7VMXF/xsotsniaebi+/bnXCL7UKlysaHPkzwXY8zmakWJ4nOYeh0FdunKTJGku1RlOpVh1CnyJ5NM0Xrqtf9aWuu2yTApX/aak/71K2rKmpXTkjm0PiVF6EW4Eq+bGjCIKx0IpLW5UWBHWHCK5v5Bg4aK3n6dAcWy8T6Qa2CjAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECLG9atQ3FLb9gBAuh/e4gHAtx72WFgGKaadu" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2013-12-03T23:59:59.0000000+08:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="soshalsa" thumbprint="C81FC11B7BC18C03FF15679C305277C60361352D" thumbprintAlgorithm="sha1" />
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="AFB06F4B2CC7875B4554BD84D020AD90C74B65D2" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

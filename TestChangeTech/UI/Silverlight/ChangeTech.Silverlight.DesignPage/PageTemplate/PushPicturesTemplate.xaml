@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.PushPicturesTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls"
+    Loaded="UserControl_Loaded" >
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="160"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <!--Wait-->
+        <TextBlock Text="Wait(seconds):" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Grid.Row="1" Grid.Column="1"></TextBlock>
+        <TextBox x:Name="waitTextBox" Width="60" Height="25" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left"></TextBox>
+        
+        <!--Text-->
+        <TextBlock Text="Text:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Grid.Row="2" Grid.Column="1"></TextBlock>
+        <HyperlinkButton x:Name="insertPageVariable" Width="100" Click="insertPageVariable_Click" Content="Insert variable" VerticalContentAlignment="Center" Grid.Row="2" Grid.Column="2"></HyperlinkButton>
+        <TextBox x:Name="textTextBox" HorizontalAlignment="Left" Width="500" Height="60" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4" AcceptsReturn="True" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Visible"></TextBox>
+        
+        <!--Noise-->
+        <TextBlock Text="Please select a noise:" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Grid.Row="4" Grid.Column="1"></TextBlock>
+        <HyperlinkButton x:Name="setVoiceHyperlinkButton" Content="Set a voice" VerticalContentAlignment="Center" Click="HyperlinkButton_Click" Grid.Row="4" Grid.Column="2"></HyperlinkButton>
+        <HyperlinkButton x:Name="resetVoiceHyperlinkButton" Content="Reset" VerticalContentAlignment="Center" HorizontalAlignment="Right" Grid.Row="4" Grid.Column="2" Click="resetVoiceHyperlinkButton_Click"></HyperlinkButton>
+        <TextBlock x:Name="resourceNameTextBlock" Text="" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" Grid.Row="4" Grid.Column="4"></TextBlock>
+        <!--Before property-->
+        <!--<TextBlock Text="Before Property:" Grid.Row="2" Grid.Column="1" FontWeight="Bold" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+        <HyperlinkButton x:Name="BeforeShowExpressionLink" Grid.Row="2" Grid.Column="2" Click="BeforeShowExpressionLink_Click" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Expression Builder"></HyperlinkButton>-->
+
+        <!--After property-->
+        <!--<TextBlock Text="After property:" Grid.Row="3" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center"></TextBlock>
+        <ComboBox x:Name="AfterPropertyComboBox" Grid.Row="3" Grid.Column="2" SelectionChanged="AfterPropertyComboBox_SelectionChanged" Height="25">
+            <ComboBoxItem Content="Go to next page"></ComboBoxItem>
+            <ComboBoxItem Content="Expression"></ComboBoxItem>
+        </ComboBox>
+        <HyperlinkButton x:Name="AfterExpressionLink" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" Click="AfterExpressionLink_Click" Content="Expression Builder" Visibility="Collapsed"></HyperlinkButton>-->
+
+        <!--Presenter image-->
+        <Border Grid.Row="5" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="3" BorderThickness="1" BorderBrush="Black" Height="280" VerticalAlignment="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="220"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition> 
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition Width="220"></ColumnDefinition>
+                    <ColumnDefinition Width="90"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <HyperlinkButton x:Name="SetPresenterImageLinkButton" Click="SetPresenterImageLinkButton_Click" Grid.Row="0" Grid.Column="1" Content="Set image" VerticalAlignment="Center" HorizontalAlignment="Left"></HyperlinkButton>
+                <HyperlinkButton x:Name="presenterImageReset" Content="Reset" Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="presenterImageReset_Click"></HyperlinkButton>
+
+                <Border Style="{StaticResource ImageViewStyle}" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="180">
+                    <Grid>
+                        <Image x:Name="PresenterImage" Margin="5,5,5,5" Stretch="Uniform" MouseLeftButtonDown="PresenterImage_MouseLeftButtonDown"></Image>
+                    </Grid>
+                </Border>
+
+                <TextBlock x:Name="PresenterImageNameTextBlock" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Grid>
+        </Border>
+        
+        <!--Image list-->
+        <ChangeTechControl:SelectPicture x:Name="ImageList" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="6" 
+              Visibility="Collapsed">
+        </ChangeTechControl:SelectPicture>
+        <!--<ChangeTechControl:ImageReferenceInfo x:Name="ImageInfo" Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Grid.ColumnSpan="6" Visibility="Collapsed">
+        </ChangeTechControl:ImageReferenceInfo>-->
+        
+        <!--Expresion Builder-->
+        <ChangeTechControl:ExpressionBuilder x:Name="ExpressionBuilder" Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Grid.ColumnSpan="6" Visibility="Collapsed" Canvas.ZIndex="1"></ChangeTechControl:ExpressionBuilder>
+
+        <!--Resource Manager-->
+        <ChangeTechControl:ResourceManager x:Name="ResourceManager" Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Grid.ColumnSpan="6" Visibility="Collapsed"></ChangeTechControl:ResourceManager>
+
+        <!-- Page Variable -->
+        <ChangeTechControl:PageVariableManager x:Name="pageVarible" Grid.Row="0" Grid.Column="0" Grid.RowSpan="6" Grid.ColumnSpan="6" Visibility="Collapsed"></ChangeTechControl:PageVariableManager>
+    </Grid>
+</UserControl>

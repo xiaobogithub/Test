@@ -1,0 +1,331 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+
+@media only screen and (min-width: 960px) {
+.tablet-mode {
+	display: none;
+}
+.desktop-mode {
+	display: inline-block;
+}
+}
+ @media only screen and (min-width: 768px) {
+.footer .username, .footer .button-login {
+	display: none;
+}
+}
+@media only screen and (max-width: 959px) {
+.wrapper-bubbles {
+	width: 47%;
+	margin: 5% 2% 5% 5%;
+}
+}
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+/* Initial settings - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.tablet-mode {
+	display: inline-block;
+}
+.desktop-mode {
+	display: none;
+}
+.programtitle {
+	width: 52%;
+}
+.host .actionbox-session {
+	width: 47%;
+	margin: -3% 2% 5% 0%;
+}
+/* [END] Initial settings - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+}
+@media only screen and (max-width: 767px) {
+.tablet-mode {
+	display: inline-block;
+}
+.desktop-mode {
+	display: none;
+}
+.heightadjustment1 {
+	display: none;
+}
+.wrapper-advertising {
+	display: none;
+}
+.programribbon .username, .programribbon .button-login {
+	display: none;
+}
+.username {
+	float: left;
+	width: 40%;
+	margin: 20px 0 20px 5%;
+	color: #698599;
+}
+.nav-left, .nav-right {
+	width: 100%;
+}
+.actionbox-checkin .righthandside, .actionbox-help .righthandside {
+	margin: 5px 5% 1% 0;
+}
+.programtitle {
+	width: 81%;
+	margin-right: 0%;
+}
+.wrapper-sessionslist {
+	position: fixed;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	overflow: auto;
+	padding: 0;
+}
+.wrapper-sessionslist h1 {
+	display: none;
+}
+.session-category h3 {
+	display: none;
+}
+.session-category h2 {
+	margin-left: 2%;
+}
+.session-container .status {
+	width: 35px;
+	background-position: -15px -80px;
+}
+.session-content-left {
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.session-content-right {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.button-collapse {
+	display: block;
+}
+ul.sessionslist {
+	width: 92%;
+	padding: 0 0 0 8%;
+}
+.sessiondetails {
+	width: 94%;
+	margin: 0 3%;
+}
+.session-container h2 {
+	padding: 5px 0px 10px 5px;
+	min-width: 35px;
+	font-size: 24px;
+}
+.session-container h3 {
+	font-size: 18px;
+}
+.sessiondescription {
+	float: left;
+	width: 100%;
+	margin: 0%;
+	margin-bottom: 20px;
+}
+.sessionbutton {
+	float: right;
+	width: 94%;
+	margin: 0 3%;
+	margin-bottom: 10px;
+}
+.wrapper-nav {
+	padding: 0;
+}
+.host .actionbox-session {
+	display: none;
+}
+.nav .actionbox-session {
+	display: block;
+	padding: 0 0 20px 0;
+	border: none;
+	background-color: transparent;
+}
+.actionbox-session .righthandside {
+	float: right;
+	width: 70%;
+	margin: 0 5% 0 0;
+}
+.button-expand {
+	display: block;
+}
+.sessionnumberposter {
+	width: 15%;
+	margin: 0 5% 0 5%;
+}
+.sessionnumberposter h3 {
+	font-size: 14px;
+}
+.sessionnumberposter h2 {
+	font-size: 78px;
+}
+.host .actionbox-session {
+	display: none;
+}
+.wrapper-footer {
+	border: none;
+}
+.footer {
+	width: 96%;
+	margin: 0 2%;
+}
+.easychangelogo {
+	float: left;
+	width: 96%;
+	height: 75px;
+	margin: 0 2%;
+	background: url(../design/symbol-easychange-grey.png) center no-repeat;
+	background-size: constrain;
+	border-right: none;
+}
+.footernotes {
+	float: left;
+	width: 96%;
+	margin: 10px 2% 0 2%;
+	padding-top: 0px;
+	text-align: center;
+}
+.backgroundposter {
+	display: none;
+}
+.loginbox-left {
+	display: none;
+}
+.loginbox-right {
+	margin: 0 auto;
+	float: none;
+	width: 75%;
+	padding: 0;
+	border: none;
+}
+.credits-left {
+	display: none;
+}
+.credits-right {
+	margin: 0 auto;
+	float: none;
+	width: 75%;
+	padding: 0;
+	border: none;
+}
+}
+@media only screen and (max-width: 479px) {
+.actionbox-session .righthandside, .actionbox-checkin .righthandside, .actionbox-help .righthandside {
+	width: 90%;
+	margin: 0 5%;
+}
+.sessionnumberposter {
+	display: none;
+}
+.actionbox-help {
+	position: fixed;
+	z-index: 100;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 10px 0 20px 0;
+	background-color: #e4f0fb;
+	border: none;
+	border-top: 1px solid #96b6d1;
+	-webkit-box-shadow: 0px -5px 10px rgba(105, 133, 153, 0.75);
+	-moz-box-shadow: 0px -5px 10px rgba(105, 133, 153, 0.75);
+	box-shadow: 0px -5px 10px rgba(105, 133, 153, 0.75);
+}
+.lefthandside {
+	width: 90%;
+	margin: 0 5% 10px 5%;
+}
+.righthandside {
+	width: 90%;
+	margin: 0 5%;
+}
+.footer .button-login {
+	padding: 8px 4%;
+	width: 82%;
+	margin: 0 5% 10px 5%;
+}
+.username {
+	width: 92%;
+	margin-left: 8%;
+}
+.wrapper-programribbon {
+	min-height: 30px;
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+.programribbon {
+	padding: 5px 0;
+}
+.programlogo {
+	display: none;
+}
+.programtitle {
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+	text-align: center;
+}
+.programtitle h1 {
+	text-align: center;
+}
+.programtitle h2 {
+	display: none;
+}
+.host {
+	min-height: inherit;
+	background-position: center -20px;
+	background-size: 70%;
+}
+.wrapper-bubbles {
+	width: 90%;
+	margin: 50% 5% 2% 5%;
+}
+.textbubble {
+	width: 96%;
+	margin: 10px 2%;
+}
+.button-collapse {
+	width: 15%;
+}
+ul.sessionslist {
+	width: 85%;
+	padding: 0 0 0 15%;
+}
+.sessiontitle {
+	width: 78%;
+	float: left;
+	padding: 5px 0 0 0;
+	font-size: 16px;
+}
+.sessionstatus {
+	float: right;
+	width: 8%;
+	height: 25px;
+}
+.session-container .status {
+	width: 25px;
+	background-position: -100px -75px;
+}
+.session-container.active .status, .session-container.unavailable .status {
+	background: none;
+}
+.session-container h2 {
+	padding: 7px 0px 10px 0px;
+	min-width: 30px;
+	font-size: 21px;
+}
+.session-container h3 {
+	display: none;
+}
+.session-content-left h3 {
+	display: block;
+}
+.wrapper-footer {
+	padding-bottom: 120px;
+}

@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.PopUpOriginalImage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             Width="640" Height="480">
+    <UserControl.Resources>
+        <Storyboard x:Name="ImageLoadStoryboard" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse0" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse1" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse2" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value=".66"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse3" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value=".33"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+          <Grid x:Name="PopUp">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Border Style="{StaticResource ImageViewStyle}" Grid.Row="1">
+                <Grid>
+                    <StackPanel x:Name="ImageLoadPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse0"/>
+                        <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse1"/>
+                        <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse2"/>
+                        <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse3"/>
+                    </StackPanel>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                            <!--<Rectangle RadiusX="15" RadiusY="15">
+                                <Rectangle.Fill>
+                                    <ImageBrush x:Name="ImageView" Stretch="None"></ImageBrush>-->
+                                <Image x:Name="ImageView" Margin="5,5,5,5" Stretch="None"></Image>
+                                <!--</Rectangle.Fill>
+                            </Rectangle>-->
+                                
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="Close" Style="{StaticResource CloseButton}" Cursor="Hand" Click="Close_Click"></Button>
+            </StackPanel>
+        </Grid>
+</UserControl>

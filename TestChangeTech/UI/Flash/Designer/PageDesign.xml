@@ -1,0 +1,80 @@
+<PageDesignModel>
+  <SystemControls>
+    <Control Name="RadioButton" Description="RadioButton">
+      <Properties>
+        <Property Name="Label" ValueType="System.String" />
+        <Property Name="PositionX" ValueType="System.Int32" />
+        <Property Name="PositionY" ValueType="System.Int32" />
+        <Property Name="Height" ValueType="System.Int32" />
+        <Property Name="Width" ValueType="System.Int32" />
+        <Property Name="ForegroundColor" ValueType="System.Color" />
+        <Property Name="BackgroundColor" ValueType="System.Color" />
+        <Property Name="Background" ValueType="System.Boolean" />
+        <Property Name="FontFamily" ValueType="System.String" />
+        <Property Name="FontSize" ValueType="System.Int32" />
+      </Properties>
+      <Events>
+        <Event Name="Checked" />
+      </Events>
+    </Control>
+    <Control Name="TextBlock" Description="TextBlock">
+      <Properties>        
+        <Property Name="PositionX" ValueType="System.Int32" />
+        <Property Name="PositionY" ValueType="System.Int32" />
+        <Property Name="Width" ValueType="System.Int32" />
+        <Property Name="Height" ValueType="System.Int32" />
+        <Property Name="ForegroundColor" ValueType="System.Color" />
+        <Property Name="BackgroundColor" ValueType="System.Color" />
+        <Property Name="Background" ValueType="System.Boolean" />
+        <Property Name="FontFamily" ValueType="System.Color" />
+        <Property Name="FontSize" ValueType="System.Color" />      
+        <Property Name="Text" ValueType="System.String" />       
+      </Properties>
+      <Events />
+    </Control>
+    <Control Name="CheckBox" Description="CheckBox">
+      <Properties>
+        <Property Name="Label" ValueType="System.String" />
+        <Property Name="PositionX" ValueType="System.Int32" />
+        <Property Name="PositionY" ValueType="System.Int32" />
+        <Property Name="Width" ValueType="System.Int32" />
+        <Property Name="Height" ValueType="System.Int32" />
+        <Property Name="ForegroundColor" ValueType="System.Color" />
+        <Property Name="BackgroundColor" ValueType="System.Color" />
+        <Property Name="Background" ValueType="System.Boolean" />
+        <Property Name="FontFamily" ValueType="System.String" />
+        <Property Name="FontSize" ValueType="System.Int32" />
+      </Properties>
+      <Events>
+        <Event Name="Checked" />
+      </Events>
+    </Control>
+    <Control Name="Button" Description="Button">
+      <Properties>
+        <Property Name="Label" ValueType="System.String" />
+        <Property Name="PositionX" ValueType="System.Int32" />
+        <Property Name="PositionY" ValueType="System.Int32" />
+        <Property Name="Width" ValueType="System.Int32" />
+        <Property Name="Height" ValueType="System.Int32" />
+        <Property Name="ForegroundColor" ValueType="System.Color" />
+        <Property Name="BackgroundColor" ValueType="System.Color" />
+        <Property Name="Background" ValueType="System.Boolean" />
+        <Property Name="FontFamily" ValueType="System.String" />
+        <Property Name="FontSize" ValueType="System.Int32" />        
+      </Properties>
+      <Events>
+        <Event Name="OnClick" />
+      </Events>
+    </Control>
+  </SystemControls>
+  <Page Name="Legg inn det riktige tallet og klikk Send inn." PageGUID="B2CA7A9F-417C-499D-A492-BFF1D053CA40">
+    <PageControls>
+      <Control Name="MyTextBlock" PageControlGUID="B2CA7A9F-417C-499D-A492-BFF1D053CA40">
+        <Properties>
+          <Property Name="Name" Value="myTextBloc" />
+        </Properties>
+        <Events />
+      </Control>
+    </PageControls>
+  </Page>
+</PageDesignModel>

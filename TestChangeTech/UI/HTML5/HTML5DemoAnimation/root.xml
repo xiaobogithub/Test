@@ -1,0 +1,550 @@
+﻿1;<XMLModel Mode="Preview" UserGUID="1B5071D3-7FD4-489D-A068-874FBD907B00" ProgramGUID="11238B41-14F6-4155-A49E-A375C4540A60" IsNeedPinCode="1" IsNeedSerialNumber="1">
+  <Session GUID="135F3D16-BD94-4CA0-A733-781519CEEE1D" Name="500" Day="0" Description="" Logo="bb34be82-6a12-4ca7-96c7-ce4cead10738.png">
+    <PageSequence GUID="88AD45A8-AC62-4DFA-B340-6751B0056363" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="1" TopBarColor="0x5cab3c" PrimaryButtonColorNormal="0x5CAB3C,0x0A8342" PrimaryButtonColorOver="0x66C141,0x096F31" PrimaryButtonColorDown="0x5CAB3C,0x0A8342" PrimaryButtonColorDisable="0x5CAB3C,0x0A8342" CoverShadowVisible="1">
+      <Page GUID="AD5E01A9-2A7F-4A0E-8F62-F320A2D42D5C" Order="1" Title="Hei, og Velkommen til Focus!" Text="&lt;b&gt;Focus&lt;/b&gt; er laget for deg som har ADHD, og er over 15 år. &#xD;&#xD;På de neste sidene kan du se hvordan Focus gjør det lettere å ha ADHD, på mange forskjellige måter.&#xD;&#xD;Vi som står bak Focus er et team av psykologer og eksperter på ADHD, og vi har tatt i bruke nyeste forskning for å gjøre programmet så bra som mulig.&#xD;&#xD;Klikk på den store knappen under her, så får du vite mer.&#xD;&#xD;LLL&amp;#160;TTT RoundWW({V:P2 Potato Chips},0) XXX {V:P2 Potato Chips} PPP  Round({V:P2 Potato Chips},5)" Type="Standard" ButtonPrimaryName="Litt mer om Focus" ButtonSecondaryName="Back" PresenterImage="e0fa8ffc-fa5c-412b-aa8e-d469bac1a7c5.png" PresenterImagePosition="Right" PresenterMode="Normal" BeforeExpression="" AfterExpression="SET {V:P4 Pizza} = 15 SET {V:Haap} = 10SET {V:P4 Pizza} = (({V:Attention Mean} + 1 * 1 + {V:Attention Mean})/3) SET {V:Haap} = 30 GOTO 4.3">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="EA65EC7B-6506-4680-850D-5A30102C772C" Order="2" Title="Focus kan for eksempel hjelpe deg med:" Text="Å holde bedre orden, styre impulser og roe ned tempoet litt. Blant annet.&#xD;&#xD;Du får også hjelp til å forandre vaner, hvis du trenger å gjøre det. &#xD;&#xD;Se om Focus passer for deg ved å svare på spørsmålene på de neste sidene. Det er fort gjort! &#xD;&#xD;(Tips: Du kan gå bakover ved å klikke på den lille pilen på knappen under.) TTT {V:P2 Potato Chips}" Type="Standard" ButtonPrimaryName="Sjekk ut om Focus passer for deg" ButtonSecondaryName="Back" PresenterImage="c108466b-c2e9-4a80-9478-0a13b70e5ae6.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="" BeforeExpression="SET {V:P2 Potato Chips}=Round(1.3332, 3) ">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="081D864E-D82A-4964-A50E-C50BB4BB07BB" Order="3" Title="&lt;large&gt;Her er noen få spørsmål...&lt;/large&gt;" Text="" Type="Standard" ButtonPrimaryName="&lt;b&gt;Start&lt;/b&gt;" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Attention Mean} = (({V:AttentionQ1} + {V:AttentionQ2}  + {V:AttentionQ3}  + {V:AttentionQ4}) / 4) SET {V:Mobile} = ({V:AttentionQ1} + {V:AttentionQ2} + 40)">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E5CC30ED-DF39-4A5C-AE56-0502BD6AA3D3" Order="4" Title="Hvor godt passer dette på deg?" Text="Klikk på et tall eller beveg måleren med musa." Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="6FA373BD-FA18-45F5-BA17-DFB1B40D0AEC" Type="Slider" Caption="Jeg har ofte flere prosjekter samtidig, men fullfører få av dem.;Stemmer ikke;Stemmer helt" ProgramVariable="AttentionQ1" IsRequired="1">
+            <Items>
+              <Item GUID="ED1F3AB8-D429-4BB1-99BE-4E701ACC4B4C" Item="1" Score="1" />
+              <Item GUID="15C5AD71-0720-4C70-B661-9BCF2058ABC1" Item="2" Score="2" />
+              <Item GUID="CC1C7E77-B27D-467D-ACC5-474C5F26974E" Item="3" Score="3" />
+              <Item GUID="338AADAE-7690-4630-8F1D-B94BD8B63327" Item="4" Score="4" />
+              <Item GUID="7AE8F6A7-9E1B-4DE1-87DF-FAB6447805D1" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="56B4B655-506A-4E00-92FF-2411C2E2A0E6" Type="Slider" Caption="Når jeg gjør noe som er vanskelig eller kjedelig har tankene lett for å vandre.;Stemmer ikke;Stemmer helt" ProgramVariable="AttentionQ2" IsRequired="1">
+            <Items>
+              <Item GUID="BAE32B51-2E41-4FC3-8174-F5C3896F0C6B" Item="1" Score="1" />
+              <Item GUID="88EEDFF2-0E43-4FCF-80E9-16D8BF0A643D" Item="2" Score="2" />
+              <Item GUID="F655C09C-7428-4A29-9577-52F02812D633" Item="3" Score="3" />
+              <Item GUID="EF8F53D7-0EFD-488C-8BA7-2622C3D6B3EF" Item="4" Score="4" />
+              <Item GUID="87100E08-EF25-4461-A20F-E18870DE0CF6" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="DDA9534C-B893-4728-9A29-008AC07936A7" Order="5" Title="Hvor godt passer dette på deg?" Text="" Type="Get information" ButtonPrimaryName="Her er noen kommentarer til svarene" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Attention Mean} = (({V:AttentionQ1} + {V:AttentionQ2}  + {V:AttentionQ3}  + {V:AttentionQ4}) / 4)">
+        <Questions>
+          <Question GUID="39060F52-3DEA-472B-80BD-99CC86378613" Type="Slider" Caption="Det er vanskelig å lese noe som ikke er interessant eller ganske lett.;Stemmer ikke;Stemmer helt" ProgramVariable="AttentionQ3" IsRequired="1">
+            <Items>
+              <Item GUID="C799517C-E62B-4ECF-93D7-C8BCD9D5ED4E" Item="1" Score="1" />
+              <Item GUID="8732345F-C4CC-41C0-AAFD-EA64120423CD" Item="2" Score="2" />
+              <Item GUID="6CDF7A10-1FA4-4107-A965-285F0B41A3E6" Item="3" Score="3" />
+              <Item GUID="C339993B-1B4B-48E8-96C3-D90D952B0C78" Item="4" Score="4" />
+              <Item GUID="F3C4C3DE-A62C-4AF3-B6DC-DEBE7537F9B2" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="5C67CE43-2073-4ADA-B123-23B70CE6779E" Type="Slider" Caption="Det er vanskelig å holde fokus i en samtale, særlig når det er flere til stede.;Stemmer ikke ;Stemmer helt" ProgramVariable="AttentionQ4" IsRequired="1">
+            <Items>
+              <Item GUID="E359DB78-5476-4805-AAB4-F2015F21DDB2" Item="1" Score="1" />
+              <Item GUID="3223C15E-C82B-4A03-B7B1-A7BDF378EE58" Item="2" Score="2" />
+              <Item GUID="16E84A0C-3133-49C1-AFEA-03ED22EEDE60" Item="3" Score="3" />
+              <Item GUID="739FC401-D836-407F-A5E6-8644F6E6B124" Item="4" Score="4" />
+              <Item GUID="CD49B961-E1A4-4867-ACEA-F78ADD15BE1E" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0D2EE4C4-1F6A-4E18-8F41-F13A64D6C909" Order="6" Title="Calculation" Text="Calculation" Type="Standard" ButtonPrimaryName="x" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Attention Mean} &gt;= 2.5 GOTO 1.7 ELSE GOTO 1.8" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CE74BEDE-5AE0-4646-BFCE-E281C9C349C3" Order="7" Title="Du er ikke alene om å slite litt med konsentrasjon" Text="De aller fleste gjør det. Også de som ikke har ADHD.&#xD;&#xD;I Focus lærer du hvordan du kan øve opp konstentrasjonsevnen, så det blir lettere å holde fokus på det du driver med.&#xD;&#xD;Programmet er lett å bruke, og tar hensyn til at det kan være vanskelig å konsentrere seg.&#xD;&#xD;Så akkurat det er ingen unnskyldning :-)" Type="Standard" ButtonPrimaryName="Et par spørsmål til" ButtonSecondaryName="Back" PresenterImage="3090ed02-e2af-4862-a840-17928b89268e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="GOTO 1.9">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="2663B47A-96B1-4629-A5BB-EFC711E85CFC" Order="8" Title="Du har et veldig godt utgangspunkt!" Text="Du har jo ikke noe stort problem med oppmerksomhet og konsentrasjon!&#xD;&#xD;I Focus lærer du hvordan du kan utnytte konsentrasjonsevnen din, så det blir lettere å holde orden på saker og ting i livet ditt.&#xD;&#xD;Og ja... Focus tar hensyn til at det kan være vanskelig å konsentrere seg av og til, selv for deg.&#xD;&#xD;Så akkurat det er ingen unnskyldning :-)" Type="Standard" ButtonPrimaryName="Et par spørsmål til" ButtonSecondaryName="Back" PresenterImage="3090ed02-e2af-4862-a840-17928b89268e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 1.9">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="38BCA820-E260-4AFA-82D6-E5CB2CD5B22B" Order="9" Title="Hvor godt passer dette på deg?" Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="9AEEC910-5471-477B-808A-8856F0C0B539" Type="Slider" Caption="Av og til snakker jeg uten å tenke meg om, og angrer på det jeg sa etterpå.;Stemmer ikke;Stemmer helt" ProgramVariable="ImpulsivityQ1" IsRequired="1">
+            <Items>
+              <Item GUID="0C2568DD-F137-47DC-80F0-5AF3E4EF39E5" Item="1" Score="1" />
+              <Item GUID="93240E46-1BC1-4222-B279-E0A6C7839401" Item="2" Score="2" />
+              <Item GUID="2E384D63-C35B-4F08-818A-C989845F2C48" Item="3" Score="3" />
+              <Item GUID="7CE1D8C7-89FB-4787-A048-120095C86E6E" Item="4" Score="4" />
+              <Item GUID="30F106F0-1382-4B0E-8BC5-0AA588C126D5" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="A4A9759C-32EE-46DD-B597-093A5B1FAC00" Type="Slider" Caption="Humøret mitt svinger fra høyt til lavt;Stemmer ikke;Stemmer helt" ProgramVariable="ImpulsivityQ2" IsRequired="1">
+            <Items>
+              <Item GUID="94DA2C22-6E8B-4FED-923E-BFC0FF62B882" Item="1" Score="1" />
+              <Item GUID="A82F0605-D914-4037-8187-8B8969546099" Item="2" Score="2" />
+              <Item GUID="488E31EC-5C3C-4C9E-B1FB-C545F1AC577D" Item="3" Score="3" />
+              <Item GUID="70375030-075E-4B68-A8FE-BF1604498167" Item="4" Score="4" />
+              <Item GUID="F38EE252-0ACE-48C2-9FDA-0B25FF89E090" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="CA1AB558-B695-4777-80F7-C3C3588C6443" Order="10" Title="Hvor godt passer dette på deg?" Text="" Type="Get information" ButtonPrimaryName="Her er noen kommentarer til svarene" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Impulsivity Mean} = (({V:ImpulsivityQ1} + {V:ImpulsivityQ2} + {V:ImpulsivityQ3} + {V:ImpulsivityQ4}) / 4)">
+        <Questions>
+          <Question GUID="03D77EFC-1BD7-40C1-8C62-FEA8C8F354FF" Type="Slider" Caption="Jeg har problemer med å vente på at det skal bli min tur.;Stemmer ikke;Stemmer helt" ProgramVariable="ImpulsivityQ3" IsRequired="1">
+            <Items>
+              <Item GUID="1DEACB78-0BBD-47D5-8103-5311EA692309" Item="1" Score="1" />
+              <Item GUID="34AD0740-0196-4477-9DF8-1F96954E0599" Item="2" Score="2" />
+              <Item GUID="A946D749-2552-4B32-AB92-6CF6E49B2066" Item="3" Score="3" />
+              <Item GUID="A881BDE6-576E-4B35-B3D7-D0D35A96778C" Item="4" Score="4" />
+              <Item GUID="458535F2-5F17-4BDD-B54F-13347ED7F2D9" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="3FEC855B-A43C-48D4-A83D-417413CFA712" Type="Slider" Caption="Jeg tar raske avgjørelser uten å tenke nok på hva de kan føre til.;Stemmer ikke;Stemmer helt" ProgramVariable="ImpulsivityQ4" IsRequired="1">
+            <Items>
+              <Item GUID="31E2CD89-4919-4517-B997-16E5F1CCCD99" Item="1" Score="1" />
+              <Item GUID="30AACB1C-BC34-4328-896C-713550DC1C6F" Item="2" Score="2" />
+              <Item GUID="5461F0F8-812A-4E1D-B8E3-71842CABA48E" Item="3" Score="3" />
+              <Item GUID="4DCCCAFD-9574-4C96-B24A-CA0424A20962" Item="4" Score="4" />
+              <Item GUID="BA0311B5-7ECB-4DE0-80A3-54BA21BA1210" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="29C10BEC-9378-4986-BADC-6B2CFCC6A6D1" Order="11" Title="Calculation" Text="Calculation" Type="Standard" ButtonPrimaryName="X" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:Impulsivity Mean} &gt;= 2.5  GOTO 1.12  ELSE GOTO 1.13" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C2C98A05-6F3E-4BCF-AA2B-39B28B20771D" Order="12" Title="Det er både fordeler og ulemper med impulsivitet!" Text="Resultatene viser at du kan være ganske impulsiv av deg.&#xD;&#xD;I Focus vil du lære hvordan du kan håndtere impulser på forskjellige smarte måter. &#xD;&#xD;Og hvordan du kan passe på humøret ditt også!" Type="Standard" ButtonPrimaryName="Her er de siste spørsmålene" ButtonSecondaryName="Back" PresenterImage="b8b0f81c-f241-4537-ad64-fcadd192dd07.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="GOTO 1.14">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E4093EF4-01B2-416D-A18D-11F3EF638A8D" Order="13" Title="Du er ikke spesielt impulsiv." Text="Det er bra, for høy impulsivitet kan fort skape problemer. Særlig etterpå...&#xD;&#xD;Men du som ikke har problemer med dette vil i stedet lære hvordan du kan passe på humøret, så det holder seg på topp. &#xD;&#xD;Og hva du kan gjøre for å slappe bedre av." Type="Standard" ButtonPrimaryName="Her er de siste spørsmålene" ButtonSecondaryName="Back" PresenterImage="b8b0f81c-f241-4537-ad64-fcadd192dd07.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B9524522-02BF-4ACE-B27D-247E34422BD8" Order="14" Title="Hvor godt passer dette på deg?" Text="" Type="Get information" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions>
+          <Question GUID="8B0CC305-9130-40D4-BB9C-BE2044A4D6A0" Type="Slider" Caption="Jeg er nesten alltid på farten.;Stemmer ikke;Stemmer helt" ProgramVariable="HyperactivityQ1" IsRequired="1">
+            <Items>
+              <Item GUID="D516E242-8AB9-4E9D-A5A4-F78A8A3E367E" Item="1" Score="1" />
+              <Item GUID="8E14B059-8BE4-4340-8BCE-A0CCB12DC6B0" Item="2" Score="2" />
+              <Item GUID="A22B8DC3-936F-4822-9A51-F940F7B68004" Item="3" Score="3" />
+              <Item GUID="8908CD40-C59B-4EFA-974A-121E26D26F1B" Item="4" Score="4" />
+              <Item GUID="33E3F7B8-135B-4915-88E5-962EB854965A" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="43F7D44A-10CC-480B-811C-24F3C7BD29AE" Type="Slider" Caption="Jeg har det bedre når jeg er i bevegelse enn når jeg sitter stille.;Stemmer ikke;Stemmer helt" ProgramVariable="HyperactivityQ2" IsRequired="1">
+            <Items>
+              <Item GUID="6D83BDEF-46BD-4DE6-ACD8-95F6656A6BC5" Item="1" Score="1" />
+              <Item GUID="B18CF7E7-644F-4F04-999E-C5BF5AF681B5" Item="2" Score="2" />
+              <Item GUID="2CA4FCD1-752E-45D3-8E71-765FF7ABB43C" Item="3" Score="3" />
+              <Item GUID="55389CDF-038E-4BD4-A2F6-FFB1383C097A" Item="4" Score="4" />
+              <Item GUID="8D7FBC82-4062-40E1-A6A9-DB632234B37C" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="305AD153-8E81-48B5-B3DD-1AB210B3490C" Order="15" Title="Hvor godt passer dette på deg?" Text="" Type="Get information" ButtonPrimaryName="Her er noen kommentarer til svarene" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="SET {V:Hyperactivity Mean} = (({V:HyperactivityQ1}+ {V:HyperactivityQ2} + {V:HyperactivityQ3}  + {V:HyperactivityQ4}) / 4)">
+        <Questions>
+          <Question GUID="FA72743F-1A03-4D59-A31A-2B1CD02EA0E9" Type="Slider" Caption="Når jeg sitter pleier jeg å bevege hender og føtter.;Stemmer ikke;Stemmer helt" ProgramVariable="HyperactivityQ3" IsRequired="1">
+            <Items>
+              <Item GUID="DC1B2F40-163C-4BE6-A9CA-55C03A3955E6" Item="1" Score="1" />
+              <Item GUID="D18FAC70-708A-4BC6-AB41-EFE0269050A8" Item="2" Score="2" />
+              <Item GUID="126AC30D-02D7-4458-A93D-9F4F1F298118" Item="3" Score="3" />
+              <Item GUID="FA629C75-4245-473C-8CD0-AFE0084A12C1" Item="4" Score="4" />
+              <Item GUID="5CFC264B-A96E-4B3E-BAA2-7826E0CFE679" Item="5" Score="5" />
+            </Items>
+          </Question>
+          <Question GUID="4A6FB66A-0AE1-4667-A685-BAD3D872938F" Type="Slider" Caption="Det skal ikke mye til for å gjøre meg urolig.;Stemmer ikke;Stemmer helt" ProgramVariable="HyperactivityQ4" IsRequired="1">
+            <Items>
+              <Item GUID="25C4D316-FFC5-4BA6-8CFE-51C334E95661" Item="1" Score="1" />
+              <Item GUID="E5D5201D-8087-4831-B1E9-B01EEEFAB797" Item="2" Score="2" />
+              <Item GUID="E2BDC11D-A924-4BC8-9B04-602165A87987" Item="3" Score="3" />
+              <Item GUID="6D7C4CE9-F7BA-4544-803E-BDEFC2E9729F" Item="4" Score="4" />
+              <Item GUID="27CCB941-44C1-4297-A19A-7DC40F6A0AB4" Item="5" Score="5" />
+            </Items>
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="91AEF510-BD86-47C9-92AF-7C8D1897FE8F" Order="16" Title="Calculation" Text="Calculation" Type="Standard" ButtonPrimaryName="X" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" BeforeExpression="IF  {V:Hyperactivity Mean} &gt;= 2.5 GOTO 1.17 ELSE GOTO 1.18" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="08F24D8D-A265-43D2-836F-A0B9D9810CB0" Order="17" Title="Det er vanlig å være litt urolig." Text="Mange som har ADHD opplever at de er mer urolige enn andre. &#xD;&#xD;I Focus lærer du hvordan du kan passe på det som kalles spenningsnivået ditt. Det er nemlig det som gjør deg urolig.&#xD;&#xD;Dessuten får du vite hvordan kan bruke all energien din, sånn at uroen ikke plager deg så mye." Type="Standard" ButtonPrimaryName="Også får du tre gode hjelpere!" ButtonSecondaryName="Back" PresenterImage="19db19d1-5b49-4ff5-ace7-acd2b34323d9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="GOTO 1.19">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3AF50C9E-BD27-4677-85A8-9F880334FE00" Order="18" Title="Du er ikke spesielt urolig av deg." Text="Mange som har ADHD opplever at de er mer urolige enn andre. Dette gjelder kanksje ikke for deg?&#xD;&#xD;I Focus lærer du både teknikker for å gire deg opp og bli skjerpet, og teknikker som kan roe deg ned!" Type="Standard" ButtonPrimaryName="Og så får du tre gode hjelpere!" ButtonSecondaryName="Back" PresenterImage="19db19d1-5b49-4ff5-ace7-acd2b34323d9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8B0FE9B3-C747-4E82-BA5D-F8B00DA4036F" Order="19" Title="Jeg er den ene hjelperen." Text="Og jeg holder til her, i det vi kaller Ro &amp; Orden. &#xD;&#xD;Ikke det mest populære navnet, kanskje. Men her får du altså hjelp til å holde bedre orden på ting, sånn som avtaler for eksempel. &#xD;&#xD;I tillegg vil jeg hjelpe deg med med motivasjon og viljestyrke, sånn at du klarer å gjøre det du bestemmer deg for. &#xD;&#xD;Ikke så verst likevel?" Type="Standard" ButtonPrimaryName="Hils på den neste hjelperen!" ButtonSecondaryName="Back" PresenterImage="5d4f45f0-22fc-4b45-9cb3-df53143c98d7.png" PresenterImagePosition="Left" PresenterMode="Normal" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="D8DE263F-BBE4-4D20-8A9D-A7DE7AA575DB" Order="20" Title="Det er meg!" Text="Velkommen til det vi kaller Tanker &amp; Følelser! &#xD;&#xD;Her lærer du hvordan du får bedre oppmerksomhet og bedre konsentrasjonsevne. Og hvordan tanker og følelser virker på hverandre. &#xD;&#xD;De teknikkene du får av meg, vil også gi deg bedre selvfølelse og bedre humnør.&#xD;&#xD;Alt sammen ved bare å tenke litt smartere!" Type="Standard" ButtonPrimaryName="Her er den tredje hjelperen" ButtonSecondaryName="Back" PresenterImage="1a1a1845-5124-4b91-82d6-3b364adf1d04.png" PresenterImagePosition="Left" PresenterMode="Normal" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="DBA044DC-A788-4A32-8FEE-2194A699FEA0" Order="21" Title="Velkommen til Stemning og Humør!" Text="Den viktigste avdelingen, spør du meg...&#xD;Godt humør gjør det nemlig lettere å bruke det du lærer i de andre avdelingene.&#xD;&#xD;Men hvordan kan et program inne i en datamaskin holde deg i godt humør? &#xD;Jo, ved hjelp av noe relativt nytt, som heter positiv psykologi. &#xD;&#xD;Og positiv psykologi handler om hvordan du kan gjøre deg selv glad. Så det er altså ikke programmet som gjør det, det er du selv." Type="Standard" ButtonPrimaryName="Nå lurer vi på..." ButtonSecondaryName="Back" PresenterImage="3812525b-7833-4e03-951e-652780ed25f1.png" PresenterImagePosition="Left" PresenterMode="Normal" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="A8513C4F-5AB9-4FEB-95A6-D4B578D52E05" Order="22" Title="&lt;large&gt;Hva synes du så langt?&lt;/large&gt;" Text="" Type="Standard" ButtonPrimaryName="Vi kan faktisk love deg at Focus kommer til å virke!" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="E87DE8B3-434F-4E69-A8F8-B74C245F4F6C" Order="23" Title="Ved at vi hjelper deg..." Text="...med å gjennomføre små forandringer, skritt for skritt. Det er nemlig det som gir den store effekten til slutt! Som varer.&#xD;&#xD;Selve programmet er egentlig ganske avansert. Men det trenger du ikke tenke på. Det er enkelt og til og med morsomt å være med i. &#xD;&#xD;Og resultatet er faktisk at hverdagen din blir bedre!" Type="Standard" ButtonPrimaryName="Du slipper å snakke med noen" ButtonSecondaryName="Back" PresenterImage="b6369c52-55e0-4a46-8dee-a22bc09002a5.png" PresenterImagePosition="Left" PresenterMode="Normal" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="EC474FCE-EF60-4E52-8263-C466964549F9" Order="24" Title="Alt foregår på nettet." Text="3 ganger i uka får du en epost fra oss i Focus. &#xD;Med en link som du klikker på, for å komme til dagens program. &#xD;&#xD;Hver dag er forskjellig.&#xD;Etter 9 uker kommer epostene bare 1 gang i uka.&#xD;&#xD;Focus varer i inntil ett år, men du velger selv hvor lenge du vil være med.&#xD;&#xD;Noen ting du lurer på? Under &quot;Innstillinger og hjelp&quot; øverst til høyre finner du mange svar." Type="Standard" ButtonPrimaryName="Focus er gratis. Lyst til bli med?" ButtonSecondaryName="Back" PresenterImage="8c4b4abd-5b64-42f1-ae9c-b4bfd6629e5c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="532630FC-F0F4-4365-8891-1A200A852048" CategoryName="Metacommunication" CategoryDescription="Welcome, goodbye etc" Order="2" TopBarColor="0x5cab3c" PrimaryButtonColorNormal="0x5CAB3C,0x0A8342" PrimaryButtonColorOver="0x66C141,0x096F31" PrimaryButtonColorDown="0x5CAB3C,0x0A8342" PrimaryButtonColorDisable="0x5CAB3C,0x0A8342" CoverShadowVisible="1">
+      <Page GUID="2761BD18-6E5B-4F1E-B82A-70EC5F164FC1" Order="1" Title="Datasikkerhet." Text="Før du melder deg på har vi bare lyst å opplyse deg om at Focus kjøres på en frittstående server uten tilgang for andre.  &#xD;&#xA;De data du har oppgitt hittil og de du oppgir videre i Focus behandles strengt konfidensielt. Dataene benyttes utelukkende for å kunne tilby deg ditt helt personlige program. &#xD;&#xA;Når programmet avsluttes slettes alle personlige data." Type="Standard" ButtonPrimaryName="Da går vi vel bare i gang?" ButtonSecondaryName="Back" PresenterImage="a46ef06d-38a4-4a82-ae0e-59bdbc2d001e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="AEFE5C81-A0CB-4986-9B13-0B7E09C4F1C0" Order="2" Title="aaaaaaDet eneste vi trenger er epostadressen din." Text="Den vil ikke bli brukt til annet enn utsendelse av eposter med linker til programmet og den blir slettet når programmet avsluttes.&#xD;&#xD;Focus eies og distribueres av Changetech AS. &#xD;Janssen-Cilag har bidratt til utviklingen og har eksklusiv lisens. &#xD;&#xD;Alt innhold er basert på dokumentert forskning.&#xD;Focus er gratis og inneholder ikke reklame." Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="6e35560c-1296-4a24-bfef-a52970cb1765.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C67B6838-5D28-4CE5-ADAE-B6A90C619975" Order="3" Title="Skriv inn epostadresse, velg passord og klikk Fortsett." Text="Focus er gratis og inneholder ikke reklame. &#xD;Du kan melde deg av programmet når som helst.;E-post:;Passord:;Gjenta Passord:;Mobile Phone:;Nei takk. Jeg ønsker ikke å melde meg på nå. (Huk av og klikk Fortsett)" Type="Account creation" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="AccountCreated">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3C842E2B-19F6-44E6-9110-1CFC07DB7C26" Order="4" Title="Takk for at du meldte deg på Focus!" Text="Vi gleder oss til å hjelpe deg med å leve bedre med ADHD, og har sendt en bekreftelse til den epostadressen du oppga.&#xD;&#xD;Hver mandag, onsdag og fredag i de neste ni ukene vil du få en epost med en link du skal klikke på, for å komme til dagens program.&#xD;&#xD;&lt;b&gt;Focus starter altså førstkommende mandag!&lt;/b&gt; &#xD;&#xD;(Hvis det er mandag i dag, starter Dag 1 når du klikker Avslutt.)&#xD;&#xD;Vi gleder oss til å ha deg med! Ha det bra så lenge!" Type="Standard" ButtonPrimaryName="Klikk her for å avslutte" ButtonSecondaryName="Back" PresenterImage="ab40527c-5cec-4d04-a498-6374eb9b8201.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:AccountCreated} == 0 GOTO 2.5" AfterExpression="GOTO END">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3824EB69-A88D-4F89-A039-E2BD51F89BE4" Order="5" Title="Velkommen tilbake en annen gang!" Text="Vi forstår at du ikke ønsker å melde deg på Focus i denne omgang. &#xD;&#xD;Du er uansett velkommen til å bli med i programmet senere, hvis du skulle ha lyst. &#xD;&#xD;Ha det fint, og lykke til videre!" Type="Standard" ButtonPrimaryName="Klikk her for å avslutte" ButtonSecondaryName="Back" PresenterImage="d706c52c-73ce-4848-861b-c6e89e0d83c5.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="GOTO END">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="3A6B932C-EB29-4AA2-961C-7987BAAF6C2E" CategoryName="Metacommunication" CategoryDescription="Welcome, goodbye etc" Order="3" TopBarColor="0x5cab3c" PrimaryButtonColorNormal="0x5CAB3C,0x0A8342" PrimaryButtonColorOver="0x66C141,0x096F31" PrimaryButtonColorDown="0x5CAB3C,0x0A8342" PrimaryButtonColorDisable="0x5CAB3C,0x0A8342" CoverShadowVisible="1">
+      <Page GUID="329D7D09-F80F-41CC-8316-C625892A36CF" Order="1" Title="Datasikkerhet." Text="Før du melder deg på har vi bare lyst å opplyse deg om at Focus kjøres på en frittstående server uten tilgang for andre.  &#xD;&#xA;De data du har oppgitt hittil og de du oppgir videre i Focus behandles strengt konfidensielt. Dataene benyttes utelukkende for å kunne tilby deg ditt helt personlige program. &#xD;&#xA;Når programmet avsluttes slettes alle personlige data." Type="Standard" ButtonPrimaryName="Da går vi vel bare i gang?" ButtonSecondaryName="Back" PresenterImage="a46ef06d-38a4-4a82-ae0e-59bdbc2d001e.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="F96F22F3-30A9-4042-B5B0-6166ABC34B1E" Order="2" Title="Det eneste vi trenger er epostadressen din." Text="Den vil ikke bli brukt til annet enn utsendelse av eposter med linker til programmet og den blir slettet når programmet avsluttes.&#xD;&#xD;Focus eies og distribueres av Changetech AS. &#xD;Janssen-Cilag har bidratt til utviklingen og har eksklusiv lisens. &#xD;&#xD;Alt innhold er basert på dokumentert forskning.&#xD;Focus er gratis og inneholder ikke reklame." Type="Standard" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" PresenterImage="6e35560c-1296-4a24-bfef-a52970cb1765.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="9FBB67C8-DB34-4110-A285-A1E5E033FCE8" Order="3" Title="Skriv inn epostadresse, velg passord og klikk Fortsett." Text="Focus er gratis og inneholder ikke reklame. &#xD;Du kan melde deg av programmet når som helst.;E-post:;Passord:;Gjenta Passord:;Mobile Phone:;Nei takk. Jeg ønsker ikke å melde meg på nå. (Huk av og klikk Fortsett)" Type="Account creation" ButtonPrimaryName="Fortsett" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" ProgramVariable="AccountCreated">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="17463DEB-8771-425B-ABA7-268B0F0A67E0" Order="4" Title="Takk for at du meldte deg på Focus!" Text="Vi gleder oss til å hjelpe deg med å leve bedre med ADHD, og har sendt en bekreftelse til den epostadressen du oppga.&#xD;&#xD;Hver mandag, onsdag og fredag i de neste ni ukene vil du få en epost med en link du skal klikke på, for å komme til dagens program.&#xD;&#xD;&lt;b&gt;Focus starter altså førstkommende mandag!&lt;/b&gt; &#xD;&#xD;(Hvis det er mandag i dag, starter Dag 1 når du klikker Avslutt.)&#xD;&#xD;Vi gleder oss til å ha deg med! Ha det bra så lenge!" Type="Standard" ButtonPrimaryName="Klikk her for å avslutte" ButtonSecondaryName="Back" PresenterImage="ab40527c-5cec-4d04-a498-6374eb9b8201.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="IF {V:AccountCreated} == 0 GOTO 2.5" AfterExpression="GOTO END">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="FB349AA8-5A19-4050-90C1-C09E7FBC2C45" Order="5" Title="Velkommen tilbake en annen gang!" Text="Vi forstår at du ikke ønsker å melde deg på Focus i denne omgang. &#xD;&#xD;Du er uansett velkommen til å bli med i programmet senere, hvis du skulle ha lyst. &#xD;&#xD;Ha det fint, og lykke til videre!" Type="Standard" ButtonPrimaryName="Klikk her for å avslutte" ButtonSecondaryName="Back" PresenterImage="d706c52c-73ce-4848-861b-c6e89e0d83c5.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" BeforeExpression="" AfterExpression="GOTO END">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Session>
+  <GeneralVariables>
+    <Variable Name="FirstName" Value="Chen" Type="String" />
+    <Variable Name="LastName" Value="Pu" Type="String" />
+    <Variable Name="Email" Value="pchen@ethos.com.cn" Type="String" />
+    <Variable Name="MobilePhone" Value="13126656325                                                                                                                                                                                                                                                    " Type="String" />
+    <Variable Gender="Gender" Value="1" Type="Numeric" />
+  </GeneralVariables>
+  <ProgramVariables>
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="Takknemlighet" Type="Numeric" Value="0" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="GraphGoal" Type="Numeric" Value="15" />
+    <Variable Name="TotalDrinksW2" Type="Numeric" Value="21" />
+    <Variable Name="Haap" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="2" />
+    <Variable Name="Attention Mean" Type="Numeric" Value="1" />
+    <Variable Name="Kreativitet" Type="Numeric" Value="0" />
+    <Variable Name="GraphDrinks" Type="Numeric" Value="21" />
+    <Variable Name="Estetisksans" Type="Numeric" Value="0" />
+    <Variable Name="PA0" Type="Numeric" Value="1" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="AuditScoreMale" Type="Numeric" Value="12" />
+    <Variable Name="Laere" Type="Numeric" Value="0" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="Modig" Type="Numeric" Value="1" />
+    <Variable Name="MET TWO" Type="Numeric" Value="0" />
+    <Variable Name="ACT Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="FastScoreMale" Type="Numeric" Value="4" />
+    <Variable Name="Kjaerlighet" Type="Numeric" Value="0" />
+    <Variable Name="Nutrition Mean" Type="Numeric" Value="2.5" />
+    <Variable Name="TypicalWEEK" Type="Numeric" Value="0" />
+    <Variable Name="Impulsivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Snill" Type="Numeric" Value="0" />
+    <Variable Name="Rettferdighet" Type="Numeric" Value="0" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="2" />
+    <Variable Name="MET0" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream D10" Type="Numeric" Value="0" />
+    <Variable Name="Week1Goal" Type="Numeric" Value="0" />
+    <Variable Name="Stryrke1" Type="Numeric" Value="modig" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Numeric" Value="0 til 3 dager i uken" />
+    <Variable Name="TotalGoalW2" Type="Numeric" Value="15" />
+    <Variable Name="SHS Mean" Type="Numeric" Value="1" />
+    <Variable Name="Sosialintelligens" Type="Numeric" Value="0" />
+    <Variable Name="Ekte" Type="Numeric" Value="0" />
+    <Variable Name="SHS Median" Type="Numeric" Value="1" />
+    <Variable Name="P5 Lasagna D10" Type="Numeric" Value="0" />
+    <Variable Name="CategoryTypWeek" Type="Numeric" Value="0" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="PAFD Optimism Total" Type="Numeric" Value="5" />
+    <Variable Name="Week 1" Type="Numeric" Value="0" />
+    <Variable Name="PAFD Flow Total" Type="Numeric" Value="5" />
+    <Variable Name="P1 Chocolate Cake D10" Type="Numeric" Value="1" />
+    <Variable Name="Styrke2" Type="Numeric" Value="utholdenhet" />
+    <Variable Name="BG" Type="Numeric" Value="1" />
+    <Variable Name="BG" Type="Numeric" Value="0" />
+    <Variable Name="NAC Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="1" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="TotalWeeklyDrinks68" Type="Numeric" Value="0" />
+    <Variable Name="Jordnaerhet" Type="Numeric" Value="0" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="P2 Buffalo Wings D10" Type="Numeric" Value="0" />
+    <Variable Name="Tilgivelse" Type="Numeric" Value="1" />
+    <Variable Name="P4 Potato Chips D10" Type="Numeric" Value="0" />
+    <Variable Name="NextRelapse" Type="Numeric" Value="1" />
+    <Variable Name="Styrke3" Type="Numeric" Value="tilgiv" />
+    <Variable Name="Nysgjerrighet" Type="Numeric" Value="0" />
+    <Variable Name="TxtBingeMale" Type="Numeric" Value="Daglig eller nesten daglig" />
+    <Variable Name="Utholdenhet" Type="Numeric" Value="1" />
+    <Variable Name="PAFD Act of Kidness Total" Type="Numeric" Value="5" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="Humor" Type="Numeric" Value="0" />
+    <Variable Name="Viljestyrke" Type="Numeric" Value="0" />
+    <Variable Name="P3 Pizza D10" Type="Numeric" Value="0" />
+    <Variable Name="Entusiasme" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="TotalDrinksW1" Type="Numeric" Value="6" />
+    <Variable Name="Tid sms 1" Type="Numeric" Value="375" />
+    <Variable Name="Account Created" Type="Unknown" Value="" />
+    <Variable Name="AccountCreated" Type="Unknown" Value="0" />
+    <Variable Name="Age" Type="Unknown" Value="" />
+    <Variable Name="Åpen" Type="Unknown" Value="" />
+    <Variable Name="Attention Mean1" Type="Unknown" Value="" />
+    <Variable Name="AttentionQ1" Type="Unknown" Value="" />
+    <Variable Name="AttentionQ2" Type="Unknown" Value="" />
+    <Variable Name="AttentionQ3" Type="Unknown" Value="" />
+    <Variable Name="AttentionQ4" Type="Unknown" Value="" />
+    <Variable Name="AuditFemale" Type="Unknown" Value="" />
+    <Variable Name="AuditScoreMale" Type="Unknown" Value="" />
+    <Variable Name="Binge Male" Type="Unknown" Value="" />
+    <Variable Name="BingeFemale" Type="Unknown" Value="" />
+    <Variable Name="CategoryTypWeek" Type="Unknown" Value="" />
+    <Variable Name="ContactMedical" Type="Unknown" Value="" />
+    <Variable Name="DrinkingDaysMale" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ1" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ10" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ2" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ3" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ4" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ5" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ6" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ7" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ8" Type="Unknown" Value="" />
+    <Variable Name="ExpectancyQ9" Type="Unknown" Value="" />
+    <Variable Name="FailedNormalActivities" Type="Unknown" Value="" />
+    <Variable Name="FastScoreFemale" Type="Unknown" Value="" />
+    <Variable Name="FastScoreMale" Type="Unknown" Value="" />
+    <Variable Name="Forget" Type="Unknown" Value="" />
+    <Variable Name="FridayTypical" Type="Unknown" Value="" />
+    <Variable Name="FriendsConcerned" Type="Unknown" Value="" />
+    <Variable Name="Friendship" Type="Unknown" Value="" />
+    <Variable Name="Gender" Type="Unknown" Value="" />
+    <Variable Name="Health" Type="Unknown" Value="" />
+    <Variable Name="Hyperactivity Mean" Type="Unknown" Value="" />
+    <Variable Name="HyperactivityQ1" Type="Unknown" Value="" />
+    <Variable Name="HyperactivityQ2" Type="Unknown" Value="" />
+    <Variable Name="HyperactivityQ3" Type="Unknown" Value="" />
+    <Variable Name="HyperactivityQ4" Type="Unknown" Value="" />
+    <Variable Name="Impulsivity Mean" Type="Unknown" Value="" />
+    <Variable Name="ImpulsivityQ1" Type="Unknown" Value="" />
+    <Variable Name="ImpulsivityQ2" Type="Unknown" Value="" />
+    <Variable Name="ImpulsivityQ3" Type="Unknown" Value="" />
+    <Variable Name="ImpulsivityQ4" Type="Unknown" Value="" />
+    <Variable Name="Independence" Type="Unknown" Value="" />
+    <Variable Name="Interupt Registration" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramMI" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramMI2" Type="Unknown" Value="" />
+    <Variable Name="JoinProgramYellow" Type="Unknown" Value="" />
+    <Variable Name="MIImportance" Type="Unknown" Value="" />
+    <Variable Name="MISelfEfficacy" Type="Unknown" Value="" />
+    <Variable Name="Mobile" Type="Unknown" Value="" />
+    <Variable Name="MondayTypical" Type="Unknown" Value="" />
+    <Variable Name="Perform" Type="Unknown" Value="" />
+    <Variable Name="Perspektiv" Type="Unknown" Value="" />
+    <Variable Name="Program Selection Group 1" Type="Unknown" Value="" />
+    <Variable Name="SaturdayTypical" Type="Unknown" Value="" />
+    <Variable Name="Self Esteem" Type="Unknown" Value="" />
+    <Variable Name="SelfEfficacyHelper" Type="Unknown" Value="" />
+    <Variable Name="SelfEfficacyOften" Type="Unknown" Value="" />
+    <Variable Name="Stability" Type="Unknown" Value="" />
+    <Variable Name="Stop registration" Type="Unknown" Value="" />
+    <Variable Name="SundayTypical" Type="Unknown" Value="" />
+    <Variable Name="ThursdayTypical" Type="Unknown" Value="" />
+    <Variable Name="TuesdayTypical" Type="Unknown" Value="" />
+    <Variable Name="TxtBingeFemale" Type="Unknown" Value="" />
+    <Variable Name="TxtBingeMale" Type="Unknown" Value="" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Unknown" Value="" />
+    <Variable Name="TxtStrength1" Type="Unknown" Value="" />
+    <Variable Name="TypicalWEEK" Type="Unknown" Value="" />
+    <Variable Name="WednesdayTypical" Type="Unknown" Value="" />
+    <Variable Name="Ydmykhet" Type="Unknown" Value="" />
+  </ProgramVariables>
+  <TipMessages>
+    <Message Name="UserNotExisted" Title="Ukjent bruker." Message="Denne brukeren er ikke registrert i Focus. " BackButtonName="Avslutt" />
+    <Message Name="PreferenceRequired" Title="Vi mangler informasjon." Message="Du må markere alternativ eller svare før du kan gå videre." BackButtonName="OK" />
+    <Message Name="NetworkError" Title="Problemer med tilkobling til nettverk." Message="Vennligst sjekk at du har tilgang til internett.&#xD;&#xA;&#xD;&#xA;Hvis du har tilgang til internett, sjekk at ikke tilgangen blokkeres av brannmur eller antivirusprogram.&#xD;&#xA;" BackButtonName="OK" />
+    <Message Name="QuestionRequired" Title="Vi trenger ditt svar før du kan gå videre." Message="Vennligst svar så godt du kan på spørsmålet (eller spørsmålene) på siden før du går videre." BackButtonName="OK" />
+    <Message Name="PreferenceInfo" Title="Passer dette på deg?" Message="Preference Information" BackButtonName="Tilbake" />
+    <Message Name="PauseProgramFailed" Title="Å pause programmet mislyktes." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="HaveFinishedTodaysClass" Title="Hei igjen!" Message="Du har allerede gjennomgått dagens program. Velkommen tilbake en annen dag. " BackButtonName="Avslutt" />
+    <Message Name="NavigationError" Title="Navigeringsfeil" Message="Vennligst ring support på tlf. 926 14 398 og oppgi feilmeldingen du har mottatt." BackButtonName="OK" />
+    <Message Name="PasswordRemiderInfoRequired" Title="Glemt passord?" Message="Skriv inn din epostadresse, så sender vi deg nytt passord.&#xD;&#xA;&#xD;&#xA;Du kan forandre det passordet du får under Innstillinger og hjelp." BackButtonName="OK" />
+    <Message Name="RegisteredButPasswordWrong" Title="Feil ved innlogging." Message="Brukernavn eller passord er feil. Prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="RegisterPasswordConfirm" Title="Passordene dine stemmer ikke overens." Message="Kontroller stavingen og gjenta passordet på nytt." BackButtonName="OK" />
+    <Message Name="NeedToJoinProgram" Title="Du er ikke påmeldt." Message="Du har ikke meldt deg på Focusl. Gå til www.janssen-cilag.no/?product=adhd og meld deg på!" BackButtonName="OK" />
+    <Message Name="RegisterInfoRequired" Title="Vi trenger e-post adresse og passord." Message="For å registrere deg trenger vi e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Vennligst fyll inn." BackButtonName="OK" />
+    <Message Name="ProfileChangeSuccessful" Title="Oppdateringen var vellykket." Message="Oppdatering av profilen din var vellykket, og all informasjon er overført." BackButtonName="OK" />
+    <Message Name="PauseProgramSuccessful" Title="Programmet er nå satt på pause." Message="For å starte igjen, vennligst gå til www.janssen-cilag.no/?product=adhd og logg deg inn eller gå inn i Focus gjennom siste mottatte e-post." BackButtonName="OK" />
+    <Message Name="EndingFailed" Title="Overføring mislykket." Message="Det har oppstått en feil og informasjon kan ha gått tapt. &#xD;&#xA;&#xD;&#xA;Forsøk å gå igjennom dagen i programmet en gang til.&#xD;&#xA;&#xD;&#xA;Hvis du får denne feilmeldingen en gang til, vennligst kontakt support." BackButtonName="Internal error" />
+    <Message Name="TipFriendSuccessful" Title="Meldingen er sendt." Message="Vi har sendt meldingen til den epostadressen du oppga.&#xD;&#xA;&#xD;&#xA;Takk for at du tipset en venn!" BackButtonName="OK" />
+    <Message Name="WaitUntilNextModay" Title="Programmet starter alltid på en mandag." Message="Hvis du er påmeldt vil du få en e-post med link til dagens program førstkommende mandag. Velkommen tilbake!" BackButtonName="Avslutt" />
+    <Message Name="LoginFailed" Title="Det oppsto en feil ved innlogging." Message="Sjekk at du tastet riktig brukernavn og passord, og at ikke &quot;Caps Lock&quot; på tastaturet ditt er på. - sjekk. " BackButtonName="OK" />
+    <Message Name="RegisteredInProgram" Title="Du er påmeldt." Message="Du er allerede registrert som bruker. Dersom du ønsker å registrere deg flere ganger må du oppgi ny e-post adresse." BackButtonName="Avslutt" />
+    <Message Name="InvalidEmail" Title="Feil i epostadresse" Message="Dette er ikke en gyldig e-post adresse." BackButtonName="OK" />
+    <Message Name="ProfileChangeFailed" Title="Oppdateringen var mislykket." Message="Oppdatering av profilen din var mislykket. Vennligst prøv igjen, og ta kontakt med Support på telefon 926 14 398 dersom oppdateringen fremdeles ikke lykkes." BackButtonName="Tilbake" />
+    <Message Name="HaveDoneAllClassed" Title="Du har fullført hele Focus!" Message="Du kan gjerne ta programmet en gang til. Gå til www.janssen-cilag.no/?product=adhd og meld deg på." BackButtonName="Avslutt" />
+    <Message Name="InvalidEmailAddress" Title="E-post adressen er ikke korrekt." Message="Kontroller stavingen og prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="PasswordWrong" Title="Feil passord" Message="Vennligst kontroller passord og skriv inn på nytt." BackButtonName="OK" />
+    <Message Name="LoginInfoRequired" Title="Velkommen til innlogging." Message="Vennligst skriv inn e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Takk!" BackButtonName="OK" />
+    <Message Name="ExitProgramSuccessful" Title="Avmelding var vellykket." Message="Du har nå meldt deg av Focus og vil ikke motta flere e-poster fra programmet. Du kan klikke Tilbake og fullføre dagen i dag om du ønsker. Velkommen tilbake ved en senere anledning." BackButtonName="OK" />
+    <Message Name="NoClassYet" Title="Dagens program er ikke tilgjengelig." Message="Dagens program er ikke tilgjengelig ennå. Prøv igjen senere." BackButtonName="Avslutt" />
+    <Message Name="CatchingUpEarlyDay" Title="You miss some days" Message="hello you have missed some days in program" BackButtonName="ok" />
+    <Message Name="RegisterSuccessfully" Title="Du er påmeldt Focus!" Message="Programmet starter førstkommende mandag. Da får du en e-post på den oppgitte e-postadressen. Den inneholder en link du skal klikke på for å starte programmet. &#xD;&#xA;&#xD;&#xA;Hvis det er mandag i dag, vil du allerede om kort tid motta en e-post med link til dagens program.&#xD;&#xA;&#xD;&#xA;Hjertelig takk for påmeldingen og velkommen til Focus" BackButtonName="OK" />
+    <Message Name="ExitProgramFailed" Title="Avmelding var mislykket." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="RegisterFailed" Title="Feil ved registrering." Message="Det har oppstått en feil ved registrering. &#xD;&#xA;&#xD;&#xA;Vennligst prøv igjen eller kontakt Support på tlf 926 14 398&#xD;&#xA;&#xD;&#xA;Med hjertelig hilsen&#xD;&#xA;Focus" BackButtonName="Tilbake" />
+    <Message Name="TipFriendFailed" Title="Meldingen ble ikke sent." Message="Vi kunne ikke sende meldingen. Vennligst sjekk at e-post adressen er korrekt." BackButtonName="OK" />
+    <Message Name="ProgramRoomDescription" Title="Beskrivelse av rommene." Message="Beskrivelse av rommene." BackButtonName="Tilbake" />
+    <Message Name="TimerRequired" Title="Oppgi tid" Message="Venligst oppgi tider, eller kryss av ''Vet ikke'', for å gå videre." BackButtonName="OK" />
+  </TipMessages>
+  <SettingMenu Title="Innstillinger og hjelp">
+    <MenuItem FunctionName="HelpFunction" />
+    <MenuItem FunctionName="TipFriendFunction" />
+    <MenuItem FunctionName="PauseProgramFunction" Name="Pause" />
+    <MenuItem FunctionName="ProfileFunction" />
+    <MenuItem FunctionName="ExitProgramFunction" />
+  </SettingMenu>
+  <Help Title="HelpFunction" />
+  <TipFriend Title="TipFriendFunction" />
+  <ProgramStatus Title="PauseProgramFunction" Text="Pause" BackButtonName="Cancel" SubmitButtonName="OK" />
+  <Profile Title="ProfileFunction">
+    <Item Name="Email" OldValue="pchen@ethos.com.cn" Format="email" />
+  </Profile>
+  <ExitProgram Title="ExitProgramFunction" />
+  <Relapse>
+    <PageSequence GUID="AD274F00-9AF2-4F67-9260-0708186CD65F" CategoryName="Domain-Specific" CategoryDescription="Aspects of health, behaviours, organizations, etc. that are specialized. " Order="4" TopBarColor="0x5cab3c" PrimaryButtonColorNormal="0x5CAB3C,0x0A8342" PrimaryButtonColorOver="0x66C141,0x096F31" PrimaryButtonColorDown="0x5CAB3C,0x0A8342" PrimaryButtonColorDisable="0x5CAB3C,0x0A8342" CoverShadowVisible="1">
+      <Page GUID="BE149B6F-DCA9-4C53-B90F-57FC4194DF9A" Order="1" Title="Welcome to this testprogram" Text="This program demonstrate the different functionality that can be included in the programs developed on the Changetech platform.&#xD;&#xD;Click through the different pages to see the features in action." Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="4892A6CD-16AF-4B5F-A52E-7FA0B9C72A32" Order="2" Title="Standard page" Text="This is an example of the most basic page. It includes a title, some text and the button below.&#xD;&#xD;Text can also be formattet, for example we can make text &lt;b&gt;bold&lt;/b&gt;, we can make text &lt;i&gt;italics&lt;/i&gt; and we can make it &lt;u&gt;underlined&lt;/u&gt;. &#xD;&#xD;Text can also be resized:&#xD;&lt;small&gt;Small text&lt;/small&gt; &#xD;&lt;medium&gt;Medium text&lt;/medium&gt;&#xD;&lt;large&gt;Large text&lt;/large&gt;" Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="3663B8A0-9E19-443B-B35D-8342746F0958" Order="3" Title="Use a presenter" Text="Pages can include a presenter. We have a wide range of presenters, this is the standard presenter page." Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" PresenterImage="4a2e7131-d011-46e5-9ffb-ed3f8243a2f2.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="42E005A2-CD87-4F3D-9A77-9C80B50D344F" Order="4" Title="Larger presenter" Text="To make it more personal we can use a larger presenter." Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" PresenterImage="1a6b363c-4b2f-48f3-8fa3-17bbd9187f83.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="83CD93D8-C042-4BAF-ABD7-885A7159633F" Order="5" Title="An even larger presenter" Text="We can even cut out a part of the presenter image and blow it up to really make a big point." Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" PresenterImage="b529b0d1-9b64-4c7b-bfad-e63bd39f0cee.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="AC1B6FA2-07AE-4F2E-8D65-FD2C950A7DE7" Order="6" Title="We can also place a large picture in the background" Text="" Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" PresenterImagePosition="Left" PresenterMode="Normal" BackgroundImage="768c7034-48de-4bf9-8cb2-4d821ad4eaff.jpg" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8C85D6E7-6507-4096-B046-94C6E2CFD119" Order="7" Title="" Text="" Type="Standard" ButtonPrimaryName="Only the button - Next" ButtonSecondaryName="Back" BackgroundImage="17a00732-ab90-4e88-bb36-596a7f67e1ab.jpg" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="D76E3BBB-3AD1-4978-8279-998151FA150B" Order="8" Title="Color on page" Text="As you see in this program, the frames are blue and the button is green. These colours can be changed per program." Type="Standard" ButtonPrimaryName="Next" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Relapse>
+  <SpecialStrings>
+    <SpecialString Name="Day" Value="Day"></SpecialString>
+  </SpecialStrings>
+</XMLModel>

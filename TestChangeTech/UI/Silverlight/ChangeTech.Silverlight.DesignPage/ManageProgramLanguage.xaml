@@ -1,0 +1,108 @@
+﻿<navigation:Page x:Class="ChangeTech.Silverlight.DesignPage.ManageProgramLanguage" 
+           xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="ManageProgramLanguagePage" Loaded="Page_Loaded"
+           xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+        <Grid x:Name="LayoutRoot" Margin="10,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="640"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock x:Name="PromptTxtBlock" Text="Languages have supported by your program:" Grid.Row="0" Grid.Column="0"></TextBlock>
+            <Border Grid.Row="1" Grid.Column="0" BorderThickness="1" BorderBrush="Black">                
+                <data:DataGrid x:Name="SupportLanguageList" AutoGenerateColumns="False"
+                               LoadingRow="SupportLanguageList_LoadingRow"
+                               CanUserReorderColumns="False" 
+                               CanUserSortColumns="False"
+                               ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                               ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <data:DataGrid.Columns>
+                        <data:DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150" IsReadOnly="True"></data:DataGridTextColumn>
+                        <data:DataGridCheckBoxColumn Header="Is Default"  Binding="{Binding IsDefaultLanguage}" IsReadOnly="True" Width="80" />
+                        <data:DataGridTemplateColumn Header="Export" Width="100">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="ExportButton" Content="Export" Click="ExportButton_Click" Width="80" Height="25"></Button>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Import" Width="100">                            
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="ImportButton" Content="Import" Click="ImportButton_Click" Width="80" Height="25"></Button>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Report" Width="100">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="ReportButton" Content="Report" Click="ReportButton_Click" Width="80" Height="25"></Button>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                        <data:DataGridTemplateColumn Header="Remove" Width="100">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="RemoveButton" Content="Remove" Click="RemoveButton_Click" Width="80" Height="25"></Button>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                    </data:DataGrid.Columns>
+                </data:DataGrid>
+            </Border>
+            <TextBlock x:Name="PromptTxtBlock1" Text="Languages NOT supported by your program:" Grid.Row="0" Grid.Column="2"></TextBlock>
+            <Border Grid.Row="1" Grid.Column="2" BorderThickness="1" BorderBrush="Black">
+                <data:DataGrid x:Name="NotSupportLanguageList" AutoGenerateColumns="False"
+                               LoadingRow="NotSupportLanguageList_LoadingRow"
+                               CanUserReorderColumns="False" 
+                               CanUserSortColumns="False"
+                               ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                               ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <data:DataGrid.Columns>
+                        <data:DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150" IsReadOnly="True"></data:DataGridTextColumn>                       
+                        <data:DataGridTemplateColumn Header="Add" Width="100">
+                            <data:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="AddButton" Content="Add" Click="AddButton_Click" Width="80" Height="25"></Button>
+                                </DataTemplate>
+                            </data:DataGridTemplateColumn.CellTemplate>
+                        </data:DataGridTemplateColumn>
+                    </data:DataGrid.Columns>
+                </data:DataGrid>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" BorderThickness="0" BorderBrush="Gray">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="100"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="400"></ColumnDefinition>
+                        <ColumnDefinition Width="200"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="StatusMessage" Text="" Grid.Row="0" Grid.Column="0" Foreground="Blue"></TextBlock>
+                    <TextBlock x:Name="TimeMessage" Text="" Grid.Row="0" Grid.Column="1" Foreground="Blue"></TextBlock>
+                    <HyperlinkButton Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="downloadLnk" Content="File is generated successfully, click to download" Click="downloadLnk_Click" Visibility="Collapsed"></HyperlinkButton>
+                    <TextBlock x:Name="ErrorMessage" Text="" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Foreground="Red"></TextBlock>
+                </Grid>                
+            </Border>
+
+            <ChangeTechControl:ExportOption x:Name="ExportOption" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="2" Visibility="Collapsed" Canvas.Left="40" Canvas.Top="40"></ChangeTechControl:ExportOption>
+        </Grid>
+    </ScrollViewer>
+</navigation:Page>

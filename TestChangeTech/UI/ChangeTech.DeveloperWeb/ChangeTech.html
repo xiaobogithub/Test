@@ -1,0 +1,77 @@
+<!-- saved from url=(0013)about:internet -->
+<html lang="en">
+<head>
+    <link href="Flash/ChangeTech.css" rel="stylesheet" type="text/css" />
+    <title>Changetech V2.643</title>
+    <script type="text/javascript" src="/Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="/Scripts/json2.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.program.js"></script>
+    <script type="text/javascript" src="/Scripts/Global.js"></script>
+    <script type="text/javascript" src="/Scripts/html5SupportDetection.js"></script>
+    <script type="text/javascript" src="/Scripts/getServerUrl.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+//        $(document).ready(function () {
+//            var programCode = getProgramCode();
+//            CT.Program.GetChoiceOfFlashOrHtml5(null, programCode, function (widget, data) {
+//                switch (data) {
+//                    case 0: window.location.href = document.URL.replace("ChangeTech.html", "ChangeTechF.html"); break; //Flash only
+//                    case 1:
+//                        var boolHTML5 = isSupportHtml5Detection();
+//                        if (boolHTML5) {
+//                            window.location.href = document.URL.replace("ChangeTech.html", "ChangeTech5.html");
+//                        }
+//                        else {
+//                            window.location.href = document.URL.replace("ChangeTech.html", "ChangeTechF.html");
+//                        }
+//                        break;
+//                    case 2: window.location.href = document.URL.replace("ChangeTech.html", "ChangeTech5.html"); break; //html5 only
+//                }
+//            });
+//        });
+
+        //GetRedirectInfo
+        $(document).ready(function () {
+            var programCode = getProgramCode(); //get programCode ,if no programCode, get programGuid
+            var mode = getMode();
+            var security = getSecurityQueryString();
+            var serverURL = getDomainStr();
+            if (serverURL == "") {
+                serverURL = document.URL.split("?")[0].replace("/ChangeTech.html", "");
+            }
+            var redirectParameterModel =
+            {
+                ProgramCodeOrGuid: programCode,
+                Mode: mode,
+                Security: security
+            };
+            CT.Program.GetRedirectInfo(null, redirectParameterModel, function (widget, data) {
+                switch (data.RedirectChoice) {
+                    case 0: window.location.href = document.URL.replace("ChangeTech.html", "ChangeTechF.html"); break; //Flash only
+                    case 1:
+                        var boolHTML5 = isSupportHtml5Detection();
+                        if (boolHTML5) {
+                            if (!data.IsNewHtml5UIEnable) {
+                                window.location.href = document.URL.replace("ChangeTech.html", "ChangeTech5.html");
+                            }
+                            else {
+                                window.location.href = document.URL.replace("ChangeTech.html", "ChangeTech5r.html");
+                            }
+                        }
+                        else {
+                            window.location.href = document.URL.replace("ChangeTech.html", "ChangeTechF.html");
+                        }
+                        break;
+                    case 2: window.location.href = document.URL.replace("ChangeTech.html", "ChangeTech5.html"); break; //html5 only
+
+
+                    case 11: window.location.href = serverURL + "/" + data.RedirectToCTPPURL; break; //Goto ctpp page.
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

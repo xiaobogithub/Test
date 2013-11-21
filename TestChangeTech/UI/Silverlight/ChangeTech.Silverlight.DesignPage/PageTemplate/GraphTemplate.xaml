@@ -1,0 +1,128 @@
+﻿<UserControl xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"  x:Class="ChangeTech.Silverlight.DesignPage.PageTemplate.Graph"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+            xmlns:ChangeTechControl="clr-namespace:ChangeTech.Silverlight.DesignPage.Controls"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Loaded="UserControl_Loaded">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="160"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Title:" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <TextBox x:Name="titleTextBox" Grid.Row="1" Grid.Column="2" Height="25" Grid.ColumnSpan="3" Width="180" HorizontalAlignment="Left"></TextBox>
+        
+        <TextBlock Text="Text:" Grid.Row="2" VerticalAlignment="Top" Grid.Column="1" FontWeight="Bold"></TextBlock>
+        <ScrollViewer x:Name="textScrollView" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="5" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="textTextBox" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+        </ScrollViewer>
+        
+        <HyperlinkButton x:Name="InserVariableHyperlinkButton" Content="Insert variable" Grid.Row="4" Grid.Column="2" Click="InserVariableHyperlinkButton_Click"></HyperlinkButton>
+        
+        <TextBlock Text="Graph Name:" Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <TextBox x:Name="graphNameTextBox" Grid.Row="5" Grid.Column="2" Height="25" Grid.ColumnSpan="2" Width="180" HorizontalAlignment="Left"></TextBox>
+        
+        <TextBlock Text="Graph Type" Grid.Row="5" Grid.Column="4" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <ComboBox x:Name="graphTypeComboBox" Grid.Row="5" Grid.Column="5" Height="25" Width="100"></ComboBox>       
+        
+        <TextBlock Text="Time range:" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <TextBox x:Name="timeRangeTextBox" Grid.Row="6" Grid.Column="2" Height="25" Width="100" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="(i.e: 1-4)" Grid.Row="6" Grid.Column="3" VerticalAlignment="Center"></TextBlock>
+        
+        <TextBlock Text="Time unit:" Grid.Row="6" Grid.Column="4" VerticalAlignment="Center" FontWeight="Bold"></TextBlock>
+        <ComboBox x:Name="timeUnitCombobox" Grid.Row="6" Grid.Column="5" Height="25" Width="100">
+            <ComboBoxItem Content="Week"></ComboBoxItem>
+            <ComboBoxItem Content="Day"></ComboBoxItem>
+        </ComboBox>
+        
+        <TextBlock Text="Score range:" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+        <TextBox x:Name="scoreRangeTextBox" Grid.Row="7" Grid.Column="2" Height="25" Width="100" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="(i.e: 0-6)" Grid.Row="7" Grid.Column="3" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Good score range:" Grid.Row="7" Grid.Column="4" VerticalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+        <TextBox x:Name="goodScoreRangeTextBox" Grid.Row="7" Grid.Column="5" Height="25" Width="100" ></TextBox>
+        <TextBlock Text="(i.e: 3-4;5-6)" Grid.Row="7" Grid.Column="6" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Medium score range:" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+        <TextBox x:Name="mediumScoreRangeTextBox" Grid.Row="8" Grid.Column="2" Height="25" Width="100" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="(i.e: 2-3;4-5)" Grid.Row="8" Grid.Column="3" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Bad score range:" Grid.Row="8" Grid.Column="4" VerticalAlignment="Center" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+        <TextBox x:Name="badScoreRangeTextBox" Grid.Row="8" Grid.Column="5" Height="25" Width="100"></TextBox>
+        <TextBlock Text="(i.e: 0-2;5-6)" Grid.Row="8" Grid.Column="6" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Primary button name:" Grid.Row="9" Grid.Column="1" FontWeight="Bold" VerticalAlignment="Center" TextWrapping="Wrap"></TextBlock>
+        <TextBox x:Name="buttonPrimaryNameTextBox" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="3" Height="25" Width="180" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="Graph items" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="3" VerticalAlignment="Bottom" FontWeight="Bold"></TextBlock>
+        <HyperlinkButton x:Name="AddItemHyperlinkButton" Content="Add item" Click="AddItemHyperlinkButton_Click" Grid.Row="10" Grid.Column="4" VerticalAlignment="Bottom" FontWeight="Bold"></HyperlinkButton>
+        <data:DataGrid x:Name="graphItemDataGrid" Grid.Column="1" Grid.ColumnSpan="6" Grid.Row="11" AutoGenerateColumns="False" LoadingRow="graphItemDataGrid_LoadingRow"
+                       CellEditEnded="graphItemDataGrid_CellEditEnded" CanUserReorderColumns="False" CanUserSortColumns="False">
+            <data:DataGrid.Columns>
+                <data:DataGridTextColumn Header="Caption" Width="150" Binding="{Binding Name}"></data:DataGridTextColumn>
+                <!--<data:DataGridTextColumn Header="Color" Width="150" Binding="{Binding Color}"></data:DataGridTextColumn>-->
+                <data:DataGridTemplateColumn Header="Color" Width="100">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox x:Name="ColorCombobox" SelectionChanged="ColorCombobox_SelectionChanged">
+                                <ComboBoxItem Content="Red"></ComboBoxItem>
+                                <ComboBoxItem Content="Green"></ComboBoxItem>
+                                <ComboBoxItem Content="blue"></ComboBoxItem>
+                            </ComboBox>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTemplateColumn Header="Point type" Width="100">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox x:Name="pointTypeCombobox" SelectionChanged="pointTypeCombobox_SelectionChanged">
+                                <ComboBoxItem Content="square"></ComboBoxItem>
+                                <ComboBoxItem Content="triangle"></ComboBoxItem>
+                                <ComboBoxItem Content="diamond"></ComboBoxItem>
+                                <ComboBoxItem Content="round"></ComboBoxItem>
+                                <ComboBoxItem Content="del"></ComboBoxItem>
+                            </ComboBox>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTemplateColumn Header="Expression">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <HyperlinkButton x:Name="hbtnBindExpression" Content="Bind Expression" VerticalContentAlignment="Center" FontSize="12" 
+                                               Click="hbtnBindExpression_Click" FontWeight="Bold"></HyperlinkButton>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+                <data:DataGridTemplateColumn Header="Delete">
+                    <data:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <HyperlinkButton x:Name="hbtnDeleteDataItem" Content="Delete" VerticalContentAlignment="Center" FontSize="12" 
+                                               Click="hbtnDeleteDataItem_Click" FontWeight="Bold"></HyperlinkButton>
+                        </DataTemplate>
+                    </data:DataGridTemplateColumn.CellTemplate>
+                </data:DataGridTemplateColumn>
+            </data:DataGrid.Columns>
+        </data:DataGrid>
+        <!--Expresion Builder-->
+        <ChangeTechControl:ExpressionBuilder x:Name="ExpressionBuilder" Grid.Row="0" Grid.Column="0" Grid.RowSpan="12" Grid.ColumnSpan="6" Visibility="Collapsed" Width="400" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible" ExpressionType="GraphDataItemExpression"></ChangeTechControl:ExpressionBuilder>
+        <!-- Page Variable -->
+        <ChangeTechControl:PageVariableManager x:Name="pageVarible" Grid.Row="0" Grid.Column="0" Grid.RowSpan="12" Grid.ColumnSpan="6" Visibility="Collapsed" Width="500" Height="400" ScrollViewer.VerticalScrollBarVisibility="Visible"></ChangeTechControl:PageVariableManager>
+    </Grid>
+</UserControl>

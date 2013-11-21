@@ -1,0 +1,2854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9D3A270-2952-41AE-AC3F-731DAA9A18EC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChangeTech.DeveloperWeb</RootNamespace>
+    <AssemblyName>ChangeTech.DeveloperWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightApplicationList>{8E57865C-4CFC-495A-B1CB-E635264CF804}|..\Silverlight\ChangeTech.Silverlight.DesignPage\ChangeTech.Silverlight.DesignPage.csproj|ClientBin|False</SilverlightApplicationList>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.31106.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependency\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleTranslateAPI">
+      <HintPath>..\..\Dependency\GoogleTranslateAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Intelligencia.UrlRewriter, Version=2.0.0.6, Culture=neutral, PublicKeyToken=0573f3650687980d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependency\Intelligencia.UrlRewriter.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Ajax, Version=3.0.31106.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependency\System.Web.Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Silverlight, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependency\System.Web.Silverlight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddBrand.aspx" />
+    <Content Include="AddTranslationJob.aspx" />
+    <Content Include="ChangeTech5r.html" />
+    <Content Include="ChangeTech5.html" />
+    <Content Include="ChangeTechF.html" />
+    <Content Include="ChangeTechService.svc" />
+    <Content Include="ClientBin\ChangeTech.Silverlight.DesignPage.xap" />
+    <Content Include="css\added.css" />
+    <Content Include="css\general.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="CTPP.aspx" />
+    <Content Include="CTPPS.aspx" />
+    <Content Include="ctpp\css\default.css" />
+    <Content Include="ctpp\css\programcolors.css" />
+    <Content Include="ctpp\css\reset.css" />
+    <Content Include="ctpp\css\responsive.css" />
+    <Content Include="ctpp\design\bg-button-login.png" />
+    <Content Include="ctpp\design\forward.png" />
+    <Content Include="ctpp\design\gui.png" />
+    <Content Include="ctpp\design\gui1.png" />
+    <Content Include="ctpp\design\symbol-easychange-grey.png" />
+    <Content Include="ctpp\design\symbol-easychange-white.png" />
+    <Content Include="ctpp\img\banner00.jpg" />
+    <Content Include="ctpp\img\banner01.jpg" />
+    <Content Include="ctpp\img\banner02.jpg" />
+    <Content Include="ctpp\img\poster-balance.jpg" />
+    <Content Include="ctpp\img\poster-betterdays.jpg" />
+    <Content Include="ctpp\img\poster-feelbetter.jpg" />
+    <Content Include="ctpp\img\poster-fullstop.jpg" />
+    <Content Include="ctpp\img\poster-gethealthier.jpg" />
+    <Content Include="ctpp\img\poster-lessconflict.jpg" />
+    <Content Include="ctpp\img\poster-lessstress.jpg" />
+    <Content Include="ctpp\img\poster-lessworries.jpg" />
+    <Content Include="ctpp\img\poster-looseweight.jpg" />
+    <Content Include="ctpp\img\temporary-host1.jpg" />
+    <Content Include="ctpp\img\temporary-host2.jpg" />
+    <Content Include="ctpp\img\temporary-host3.jpg" />
+    <Content Include="ctpp\img\temporary-host4.jpg" />
+    <Content Include="ctpp\img\temporary-host5.jpg" />
+    <Content Include="ctpp\img\temporary-host6.jpg" />
+    <Content Include="ctpp\img\temporary-host7.jpg" />
+    <Content Include="ctpp\img\temporary-host8.jpg" />
+    <Content Include="ctpp\programbanners\img\app-balance.jpg" />
+    <Content Include="ctpp\programbanners\img\app-betterdays.jpg" />
+    <Content Include="ctpp\programbanners\img\app-feelbetter.jpg" />
+    <Content Include="ctpp\programbanners\img\app-gethealthier.jpg" />
+    <Content Include="ctpp\programbanners\img\app-lessconflict.jpg" />
+    <Content Include="ctpp\programbanners\img\app-lessstress.jpg" />
+    <Content Include="ctpp\programbanners\img\app-lessworries.jpg" />
+    <Content Include="ctpp\programbanners\img\app-looseweight.jpg" />
+    <Content Include="ctpp\programbanners\img\app-smokefree.jpg" />
+    <Content Include="ctpp\programbanners\img\icon-easychange.png" />
+    <Content Include="ctpp\programbanners\img\thmb-host-alessandro-militarygreen.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-anette-seagreen.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-balance-brown.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-karin-maroon.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-karine-magenta.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-kjersti-limegreen.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-kjetil-coolblue.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-maren-oceanblue.jpg" />
+    <Content Include="ctpp\programbanners\img\thmb-host-olejorgen-oceanblue.jpg" />
+    <Content Include="ctpp\programbanners\programbanners.css" />
+    <Content Include="ctpp\scripts\jquery-1.10.2.min.js" />
+    <Content Include="ctpp\scripts\programhomepage.js" />
+    <Content Include="EditBrand.aspx" />
+    <Content Include="EditTranslationJob.aspx" />
+    <Content Include="ExportUserVariableExtension.aspx" />
+    <Content Include="Files\TimeZoneOpts.txt" />
+    <Content Include="gfx\bg-flip-active.png" />
+    <Content Include="gfx\bg-mainbox.png" />
+    <Content Include="gfx\editpage.png" />
+    <Content Include="gfx\icon-add.png" />
+    <Content Include="gfx\icon-arrow-down-grey0.png" />
+    <Content Include="gfx\icon-arrow-down-grey1.png" />
+    <Content Include="gfx\icon-arrow-down-grey2.png" />
+    <Content Include="gfx\icon-arrow-left-grey1.png" />
+    <Content Include="gfx\icon-arrow-left-grey2.png" />
+    <Content Include="gfx\icon-arrow-right-grey1.png" />
+    <Content Include="gfx\icon-arrow-right-grey2.png" />
+    <Content Include="gfx\icon-arrow-right.png" />
+    <Content Include="gfx\icon-arrow-up-grey0.png" />
+    <Content Include="gfx\icon-arrow-up-grey1.png" />
+    <Content Include="gfx\icon-arrow-up-grey2.png" />
+    <Content Include="gfx\icon-delete.png" />
+    <Content Include="gfx\logo-developer.png" />
+    <Content Include="gfx\logo-program.png" />
+    <Content Include="gfx\miniactionbutton.png" />
+    <Content Include="gfx\presenterpic.png" />
+    <Content Include="HealthProfileSystem\AddNewOrder.aspx" />
+    <Content Include="HealthProfileSystem\EditOrder.aspx" />
+    <Content Include="HealthProfileSystem\gfx\bg-setup-foretag.jpg" />
+    <Content Include="HealthProfileSystem\gfx\helseprofil-startpage-gui.png" />
+    <Content Include="HealthProfileSystem\halsoprofil-setup-independent.aspx" />
+    <Content Include="HealthProfileSystem\halsoprofil-setup-offline-independent.aspx" />
+    <Content Include="HealthProfileSystem\MainPage.aspx" />
+    <Content Include="html5temp\Images\2008.png" />
+    <Content Include="html5temp\Images\actionbutton-blue-hover.png" />
+    <Content Include="html5temp\Images\actionbutton-blue-idle.png" />
+    <Content Include="html5temp\Images\actionbutton-green.png" />
+    <Content Include="html5temp\Images\actionbutton-grey-hover.png" />
+    <Content Include="html5temp\Images\actionbutton-grey-idle.png" />
+    <Content Include="html5temp\Images\actionbutton-red-hover.png" />
+    <Content Include="html5temp\Images\actionbutton-red-idle.png" />
+    <Content Include="html5temp\Images\actionbutton-yellow-hover.png" />
+    <Content Include="html5temp\Images\actionbutton-yellow-idle.png" />
+    <Content Include="html5temp\Images\ad-box.jpg" />
+    <Content Include="html5temp\Images\arrow-collapsed.png" />
+    <Content Include="html5temp\Images\arrow-expanded.png" />
+    <Content Include="html5temp\Images\arrow_down_blue.gif" />
+    <Content Include="html5temp\Images\arrow_up_blue.gif" />
+    <Content Include="html5temp\Images\audio-breath.jpg" />
+    <Content Include="html5temp\Images\background-gradient.jpg" />
+    <Content Include="html5temp\Images\background.jpg" />
+    <Content Include="html5temp\Images\banner-ad01.png" />
+    <Content Include="html5temp\Images\banner-ad02.png" />
+    <Content Include="html5temp\Images\banner-small-littsunnere.png" />
+    <Content Include="html5temp\Images\bg-footer.png" />
+    <Content Include="html5temp\Images\bg-programwindow.png" />
+    <Content Include="html5temp\Images\bg.png" />
+    <Content Include="html5temp\Images\bg_dl_expand.png" />
+    <Content Include="html5temp\Images\bg_ft.png" />
+    <Content Include="html5temp\Images\bg_hd.png" />
+    <Content Include="html5temp\Images\bg_setting_menu.gif" />
+    <Content Include="html5temp\Images\bg_setting_menu_em_hover.gif" />
+    <Content Include="html5temp\Images\bg_setting_menu_hover.gif" />
+    <Content Include="html5temp\Images\btn.gif" />
+    <Content Include="html5temp\Images\bubble-black-arrow.png" />
+    <Content Include="html5temp\Images\bubble-blue-arrow.png" />
+    <Content Include="html5temp\Images\bubble-white-arrow.png" />
+    <Content Include="html5temp\Images\bubble-yellow-arrow.png" />
+    <Content Include="html5temp\Images\buttondivider_v2.png" />
+    <Content Include="html5temp\Images\c-closewindow-hover.png" />
+    <Content Include="html5temp\Images\c-closewindow-idle.png" />
+    <Content Include="html5temp\Images\changetechlogo.png" />
+    <Content Include="html5temp\Images\conner_lb.gif" />
+    <Content Include="html5temp\Images\conner_lt.gif" />
+    <Content Include="html5temp\Images\conner_rb.gif" />
+    <Content Include="html5temp\Images\conner_rt.gif" />
+    <Content Include="html5temp\Images\CTPPpresenterBackground.jpg" />
+    <Content Include="html5temp\Images\d-closewindow-hover.png" />
+    <Content Include="html5temp\Images\d-closewindow-idle.png" />
+    <Content Include="html5temp\Images\divider.jpg" />
+    <Content Include="html5temp\Images\facebook-like.png" />
+    <Content Include="html5temp\Images\fullscreen-pic.jpg" />
+    <Content Include="html5temp\Images\googleplus.jpg" />
+    <Content Include="html5temp\Images\header-gradient-pattern.jpg" />
+    <Content Include="html5temp\Images\hostpic-01.png" />
+    <Content Include="html5temp\Images\hostpic.png" />
+    <Content Include="html5temp\Images\icn-back.png" />
+    <Content Include="html5temp\Images\icn-back4.png" />
+    <Content Include="html5temp\Images\icn-mobile-back.png" />
+    <Content Include="html5temp\Images\icn-mobile-settings.png" />
+    <Content Include="html5temp\Images\icn-settings.png" />
+    <Content Include="html5temp\Images\icn-settings2.png" />
+    <Content Include="html5temp\Images\icon-bookmark-osx.png" />
+    <Content Include="html5temp\Images\icon-bookmark-win.jpg" />
+    <Content Include="html5temp\Images\icon-sosinternational.png" />
+    <Content Include="html5temp\Images\icons-sharing.png" />
+    <Content Include="html5temp\Images\icon_alertdevices.png" />
+    <Content Include="html5temp\Images\icon_close.png" />
+    <Content Include="html5temp\Images\icon_email.png" />
+    <Content Include="html5temp\Images\icon_help.png" />
+    <Content Include="html5temp\Images\icon_mail.png" />
+    <Content Include="html5temp\Images\icon_pause.png" />
+    <Content Include="html5temp\Images\icon_setting_detail_closed.png" />
+    <Content Include="html5temp\Images\icon_setting_list_dt.png" />
+    <Content Include="html5temp\Images\icon_setting_list_dt_expand.png" />
+    <Content Include="html5temp\Images\icon_shutdown.png" />
+    <Content Include="html5temp\Images\icon_timezone.png" />
+    <Content Include="html5temp\Images\like.jpg" />
+    <Content Include="html5temp\Images\like.png" />
+    <Content Include="html5temp\Images\loading.gif" />
+    <Content Include="html5temp\Images\loginbutton.png" />
+    <Content Include="html5temp\Images\logo-changetech.png" />
+    <Content Include="html5temp\Images\logo-facebook-footer.png" />
+    <Content Include="html5temp\Images\logo-newme-footer.png" />
+    <Content Include="html5temp\Images\logo.gif" />
+    <Content Include="html5temp\Images\logo_changetech.jpg" />
+    <Content Include="html5temp\Images\mediaicon-pdf-unavailable.png" />
+    <Content Include="html5temp\Images\mediaicon-pdf.png" />
+    <Content Include="html5temp\Images\mediaicon-pdf2-unavailable.png" />
+    <Content Include="html5temp\Images\mediaicon-pdf2.png" />
+    <Content Include="html5temp\Images\mediaicon-sound-unavailable.png" />
+    <Content Include="html5temp\Images\mediaicon-sound.png" />
+    <Content Include="html5temp\Images\mediaicon-unavailable.png" />
+    <Content Include="html5temp\Images\mediaicon-video-unavailable.png" />
+    <Content Include="html5temp\Images\mediaicon-video.png" />
+    <Content Include="html5temp\Images\mediaicon.png" />
+    <Content Include="html5temp\Images\posterimage.jpg" />
+    <Content Include="html5temp\Images\programlogo.jpg" />
+    <Content Include="html5temp\Images\temp-hostpic.png" />
+    <Content Include="html5temp\Images\temp-hostpic2.png" />
+    <Content Include="html5temp\Images\testImage.jpg" />
+    <Content Include="html5temp\Images\thmb-video.png" />
+    <Content Include="html5temp\Images\twitter.jpg" />
+    <Content Include="html5temp\Images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="html5temp\Images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="html5temp\Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="html5temp\Images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="html5temp\Images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="html5temp\Images\vid-pause-icon.png" />
+    <Content Include="html5temp\Images\vid-play-icon.png" />
+    <Content Include="html5temp\Images\vid-volume-full-icon.png" />
+    <Content Include="html5temp\Images\vid-volume-mute-icon.png" />
+    <Content Include="html5temp\Images\video-loader.png" />
+    <Content Include="html5temp\Images\wait-anim-small.gif" />
+    <Content Include="html5temp\Images\wait-anim.gif" />
+    <Content Include="html5temp\Images\Win8\nedivekt-host-about.jpg" />
+    <Content Include="html5temp\Images\Win8\nedivekt-host-welcome.jpg" />
+    <Content Include="html5temp\Images\Win8\nedivekt-host.jpg" />
+    <Content Include="html5temp\Images\Win8\nedivekt-motive-large.jpg" />
+    <Content Include="html5temp\Images\Win8\nedivekt-motive-small.jpg" />
+    <Content Include="html5temp\Images\Win8\opptur-host-about.jpg" />
+    <Content Include="html5temp\Images\Win8\opptur-host-welcome.jpg" />
+    <Content Include="html5temp\Images\Win8\opptur-host.jpg" />
+    <Content Include="html5temp\Images\Win8\opptur-motive-large.jpg" />
+    <Content Include="html5temp\Images\Win8\opptur-motive-small.jpg" />
+    <Content Include="html5temp\Images\Win8\utenkrangel-host-about.jpg" />
+    <Content Include="html5temp\Images\Win8\utenkrangel-host-welcome.jpg" />
+    <Content Include="html5temp\Images\Win8\utenkrangel-host.jpg" />
+    <Content Include="html5temp\Images\Win8\utenkrangel-motive-large.jpg" />
+    <Content Include="html5temp\Images\Win8\utenkrangel-motive-small.jpg" />
+    <Content Include="html5temp\jwplayer\jwplayer.js" />
+    <Content Include="html5temp\jwplayer\player.swf" />
+    <Content Include="html5temp\jwplayer\swfobject.js" />
+    <Content Include="html5temp\Scripts\blenderMultiply.js" />
+    <Content Include="html5temp\Scripts\choosePreferenceTemplate.js" />
+    <Content Include="html5temp\Scripts\custom.js" />
+    <Content Include="html5temp\Scripts\getInformationTemplate.js" />
+    <Content Include="html5temp\Scripts\getServerUrl.js" />
+    <Content Include="html5temp\Scripts\graphTemplate.js" />
+    <Content Include="html5temp\Scripts\html5global.js" />
+    <Content Include="html5temp\Scripts\html5SupportDetection.js" />
+    <Content Include="html5temp\Scripts\intro.js" />
+    <Content Include="html5temp\Scripts\layout-details.js" />
+    <Content Include="html5temp\Scripts\libraries\RGraph.common.core.js" />
+    <Content Include="html5temp\Scripts\libraries\RGraph.common.dynamic.js" />
+    <Content Include="html5temp\Scripts\libraries\RGraph.common.effects.js" />
+    <Content Include="html5temp\Scripts\libraries\RGraph.common.tooltips.js" />
+    <Content Include="html5temp\Scripts\libraries\RGraph.line.js" />
+    <Content Include="html5temp\Scripts\login-AccountCreationTemplate.js" />
+    <Content Include="html5temp\Scripts\PageTransition.js" />
+    <Content Include="html5temp\Scripts\resultTemplate.js" />
+    <Content Include="html5temp\Scripts\standardTemplate.js" />
+    <Content Include="html5temp\Scripts\timerTemplate.js" />
+    <Content Include="html5temp\Themes\actionbuttons.css" />
+    <Content Include="html5temp\Themes\actionbuttonsforsmartphone.css" />
+    <Content Include="html5temp\Themes\added.css" />
+    <Content Include="html5temp\Themes\addition.css" />
+    <Content Include="html5temp\Themes\ctpp-screen7.css" />
+    <Content Include="html5temp\Themes\default.css" />
+    <Content Include="html5temp\Themes\dialoguebox.css" />
+    <Content Include="html5temp\Themes\gb_styles.css" />
+    <Content Include="html5temp\Themes\ghindaVideoPlayer.css" />
+    <Content Include="html5temp\Themes\graph.css" />
+    <Content Include="html5temp\Themes\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="html5temp\Themes\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="html5temp\Themes\images\ui-icons_222222_256x240.png" />
+    <Content Include="html5temp\Themes\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="html5temp\Themes\images\ui-icons_454545_256x240.png" />
+    <Content Include="html5temp\Themes\images\ui-icons_888888_256x240.png" />
+    <Content Include="html5temp\Themes\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="html5temp\Themes\jquery-ui-1.8.16.custom.css" />
+    <Content Include="html5temp\Themes\jquery-ui-1.css" />
+    <Content Include="html5temp\Themes\mobile.css" />
+    <Content Include="html5temp\Themes\payment.css" />
+    <Content Include="html5temp\Themes\styles.css" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="html5temp\Themes\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="html5temp\Themes\ui-lightness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="ImageManager.aspx" />
+    <Content Include="Images\actionbutton-blue-hover.png" />
+    <Content Include="Images\actionbutton-blue-idle.png" />
+    <Content Include="Images\actionbutton-green.png" />
+    <Content Include="Images\actionbutton-grey-hover.png" />
+    <Content Include="Images\actionbutton-grey-idle.png" />
+    <Content Include="Images\actionbutton-red-hover.png" />
+    <Content Include="Images\actionbutton-red-idle.png" />
+    <Content Include="Images\actionbutton-yellow-hover.png" />
+    <Content Include="Images\actionbutton-yellow-idle.png" />
+    <Content Include="Images\ad-box.jpg" />
+    <Content Include="Images\arrow-collapsed.png" />
+    <Content Include="Images\arrow-expanded.png" />
+    <Content Include="Images\audio-breath.jpg" />
+    <Content Include="Images\background-gradient.jpg" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\banner-ad01.png" />
+    <Content Include="Images\banner-ad02.png" />
+    <Content Include="Images\banner-small-littsunnere.png" />
+    <Content Include="Images\bg-footer.png" />
+    <Content Include="Images\bg-programwindow.png" />
+    <Content Include="Images\bg_dl_expand.png" />
+    <Content Include="Images\bg_setting_menu.gif" />
+    <Content Include="Images\bg_setting_menu_em_hover.gif" />
+    <Content Include="Images\bg_setting_menu_hover.gif" />
+    <Content Include="Images\btn.gif" />
+    <Content Include="Images\bubble-black-arrow.png" />
+    <Content Include="Images\bubble-blue-arrow.png" />
+    <Content Include="Images\bubble-white-arrow.png" />
+    <Content Include="Images\bubble-yellow-arrow.png" />
+    <Content Include="Images\buttondivider_v2.png" />
+    <Content Include="Images\c-closewindow-hover.png" />
+    <Content Include="Images\c-closewindow-idle.png" />
+    <Content Include="Images\changetechlogo.png" />
+    <Content Include="Images\CTPPpresenterBackground.jpg" />
+    <Content Include="Images\d-closewindow-hover.png" />
+    <Content Include="Images\d-closewindow-idle.png" />
+    <Content Include="Images\divider.jpg" />
+    <Content Include="Images\facebook-like.png" />
+    <Content Include="Images\fullscreen-pic.jpg" />
+    <Content Include="Images\googleplus.jpg" />
+    <Content Include="Images\hostpic-01.png" />
+    <Content Include="Images\hostpic.png" />
+    <Content Include="Images\icn-back.png" />
+    <Content Include="Images\icn-back4.png" />
+    <Content Include="Images\icn-mobile-back.png" />
+    <Content Include="Images\icn-mobile-settings.png" />
+    <Content Include="Images\icn-settings.png" />
+    <Content Include="Images\icn-settings2.png" />
+    <Content Include="Images\icon-bookmark-osx.png" />
+    <Content Include="Images\icon-bookmark-win.jpg" />
+    <Content Include="Images\icon-sosinternational.png" />
+    <Content Include="Images\icons-sharing.png" />
+    <Content Include="Images\icon_alertdevices.png" />
+    <Content Include="Images\icon_close.png" />
+    <Content Include="Images\icon_email.png" />
+    <Content Include="Images\icon_help.png" />
+    <Content Include="Images\icon_mail.png" />
+    <Content Include="Images\icon_pause.png" />
+    <Content Include="Images\icon_setting_detail_closed.png" />
+    <Content Include="Images\icon_setting_list_dt.png" />
+    <Content Include="Images\icon_setting_list_dt_expand.png" />
+    <Content Include="Images\icon_shutdown.png" />
+    <Content Include="Images\icon_timezone.png" />
+    <Content Include="Images\like.jpg" />
+    <Content Include="Images\like.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\logo-changetech.png" />
+    <Content Include="Images\logo-facebook-footer.png" />
+    <Content Include="Images\logo-newme-footer.png" />
+    <Content Include="Images\mediaicon-pdf-unavailable.png" />
+    <Content Include="Images\mediaicon-pdf.png" />
+    <Content Include="Images\mediaicon-pdf2-unavailable.png" />
+    <Content Include="Images\mediaicon-pdf2.png" />
+    <Content Include="Images\mediaicon-sound-unavailable.png" />
+    <Content Include="Images\mediaicon-sound.png" />
+    <Content Include="Images\mediaicon-unavailable.png" />
+    <Content Include="Images\mediaicon-video-unavailable.png" />
+    <Content Include="Images\mediaicon-video.png" />
+    <Content Include="Images\mediaicon.png" />
+    <Content Include="Images\posterimage.jpg" />
+    <Content Include="Images\programlogo.jpg" />
+    <Content Include="Images\temp-hostpic.png" />
+    <Content Include="Images\temp-hostpic2.png" />
+    <Content Include="Images\testImage.jpg" />
+    <Content Include="Images\thmb-video.png" />
+    <Content Include="Images\twitter.jpg" />
+    <Content Include="Images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Images\vid-pause-icon.png" />
+    <Content Include="Images\vid-play-icon.png" />
+    <Content Include="Images\vid-volume-full-icon.png" />
+    <Content Include="Images\vid-volume-mute-icon.png" />
+    <Content Include="Images\video-loader.png" />
+    <Content Include="Images\wait-anim-small.gif" />
+    <Content Include="Images\wait-anim.gif" />
+    <Content Include="Images\Win8\nedivekt-host-about.jpg" />
+    <Content Include="Images\Win8\nedivekt-host-welcome.jpg" />
+    <Content Include="Images\Win8\nedivekt-host.jpg" />
+    <Content Include="Images\Win8\nedivekt-motive-large.jpg" />
+    <Content Include="Images\Win8\nedivekt-motive-small.jpg" />
+    <Content Include="Images\Win8\opptur-host-about.jpg" />
+    <Content Include="Images\Win8\opptur-host-welcome.jpg" />
+    <Content Include="Images\Win8\opptur-host.jpg" />
+    <Content Include="Images\Win8\opptur-motive-large.jpg" />
+    <Content Include="Images\Win8\opptur-motive-small.jpg" />
+    <Content Include="Images\Win8\utenkrangel-host-about.jpg" />
+    <Content Include="Images\Win8\utenkrangel-host-welcome.jpg" />
+    <Content Include="Images\Win8\utenkrangel-host.jpg" />
+    <Content Include="Images\Win8\utenkrangel-motive-large.jpg" />
+    <Content Include="Images\Win8\utenkrangel-motive-small.jpg" />
+    <Content Include="jwplayer\error.png" />
+    <Content Include="jwplayer\flash.png" />
+    <Content Include="jwplayer\html5.png" />
+    <Content Include="jwplayer\jwplayer.flash.swf" />
+    <Content Include="jwplayer\jwplayer.html5.js" />
+    <Content Include="jwplayer\player.swf" />
+    <Content Include="jwplayer\playerposter.jpg" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\changetech_audio.xml" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\back.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\cc.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\ccOffButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\ccOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\divider.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\fullscreenButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\fullscreenButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\hd.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\hdOffButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\hdOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\left.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\muteButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\muteButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\nextButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\nextButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\normalscreenButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\normalscreenButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\pauseButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\pauseButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\playButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\playButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\prevButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\prevButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\right.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderBuffer.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderBufferCapLeft.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderBufferCapRight.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderCap.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderProgress.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderProgressCapLeft.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderProgressCapRight.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderRail.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderRailCapLeft.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderRailCapRight.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\timeSliderThumb.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\unmuteButton.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\controlbar\unmuteButtonOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\back.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\buffer.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\error.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\left.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\play.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\playOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\replay.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\replayOver.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\display\right.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\dock\active.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\dock\button.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\dock\divider.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\active.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\cap.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\divider.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\image.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\item.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\rail.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\railBottom.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\railTop.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\thumb.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\thumbBottom.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\playlist\thumbTop.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\arrow.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\back.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\bottomLeft.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\bottomRight.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\cc.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\hd.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\option.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\over.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\topLeft.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\topRight.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderCap.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderProgress.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderProgressCapBottom.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderProgressCapTop.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderRail.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderRailCapBottom.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderRailCapTop.png" />
+    <Content Include="jwplayer\skin\audio\changetech_audio\tooltip\volumeSliderThumb.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\changetech_video.xml" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\back.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\cc.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\ccOffButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\ccOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\divider.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\fullscreenButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\fullscreenButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\hd.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\hdOffButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\hdOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\left.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\muteButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\muteButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\nextButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\nextButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\normalscreenButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\normalscreenButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\pauseButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\pauseButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\playButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\playButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\prevButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\prevButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\right.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderBuffer.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderBufferCapLeft.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderBufferCapRight.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderCap.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderProgress.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderProgressCapLeft.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderProgressCapRight.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderRail.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderRailCapLeft.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderRailCapRight.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\timeSliderThumb.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\unmuteButton.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\controlbar\unmuteButtonOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\back.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\buffer.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\error.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\left.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\play.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\playOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\replay.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\replayOver.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\display\right.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\dock\active.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\dock\button.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\dock\divider.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\active.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\cap.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\divider.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\image.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\item.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\rail.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\railBottom.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\railTop.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\thumb.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\thumbBottom.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\playlist\thumbTop.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\arrow.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\back.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\bottomLeft.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\bottomRight.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\cc.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\hd.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\option.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\over.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\topLeft.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\topRight.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderCap.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderProgress.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderProgressCapBottom.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderProgressCapTop.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderRail.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderRailCapBottom.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderRailCapTop.png" />
+    <Content Include="jwplayer\skin\video\changetech_video\tooltip\volumeSliderThumb.png" />
+    <Content Include="jwplayer\swfobject.js" />
+    <Content Include="ManageBrand.aspx" />
+    <Content Include="ManageCopyTipMessage.aspx" />
+    <Content Include="ManageCTPP.aspx" />
+    <Content Include="ManageDailyReportSMS.aspx" />
+    <Content Include="ManageDailyReportSMSService.svc" />
+    <Content Include="ManageOrderEmailTemplate.aspx" />
+    <Content Include="ManageTranslationJob.aspx" />
+    <Content Include="Scripts\animatedcollapse.js" />
+    <Content Include="Scripts\Gohttps.js" />
+    <Content Include="Scripts\graphTemplate.js" />
+    <Content Include="Scripts\Html5Scripts\rotateLoader.js" />
+    <Content Include="Scripts\Html5Scripts\showHide.js" />
+    <Content Include="Scripts\jquery-1.7.2.min.js" />
+    <Content Include="Scripts\jquery.imagesloaded.min.js" />
+    <Content Include="Scripts\jquery.tooltipster.min.js" />
+    <Content Include="Scripts\libraries\highcharts.js" />
+    <Content Include="Scripts\libraries\RGraph.common.core.js" />
+    <Content Include="Scripts\libraries\RGraph.common.dynamic.js" />
+    <Content Include="Scripts\libraries\RGraph.common.effects.js" />
+    <Content Include="Scripts\libraries\RGraph.common.tooltips.js" />
+    <Content Include="Scripts\libraries\RGraph.line.js" />
+    <Content Include="Scripts\resultTemplate.js" />
+    <Content Include="LFSupportEmaileHandler.ashx" />
+    <Content Include="LFResultHandler.ashx" />
+    <Content Include="DecryptUrlHandler.ashx" />
+    <Content Include="HealthProfileSystem\HealthProfileSystem.Master" />
+    <Content Include="HealthProfileSystem\HealthProfileSystem.sitemap" />
+    <Content Include="html5temp\jwplayer\skin\audio\changetech_audio.zip" />
+    <Content Include="html5temp\jwplayer\skin\video\changetech_video.zip" />
+    <None Include="Service References\LFPortalService\ChangeTech.DeveloperWeb.LFPortalService.PortalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LFPortalService\configuration91.svcinfo" />
+    <None Include="Service References\LFPortalService\configuration.svcinfo" />
+    <None Include="Service References\LFPortalService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Services\Win8Service.svc" />
+    <Content Include="Themes\calendar.css" />
+    <Content Include="Themes\design\forms-inputs.png" />
+    <Content Include="Themes\design\forward.png" />
+    <Content Include="Themes\design\gui1.png" />
+    <Content Include="Themes\design\gui2.png" />
+    <Content Include="Themes\design\loading-small.png" />
+    <Content Include="Themes\design\logo-easychange-small.png" />
+    <Content Include="Themes\design\waiting-small.gif" />
+    <Content Include="Themes\graph.css" />
+    <Content Include="Themes\html5Css\default.css" />
+    <Content Include="Themes\html5Css\fluid.css" />
+    <Content Include="Themes\html5Css\reset.css" />
+    <Content Include="Themes\html5Css\tooltipster.css" />
+    <Content Include="Translator\ManageTranslationJobContent.aspx" />
+    <Content Include="Translator\ManageTranslationJobElement.aspx" />
+    <Content Include="Monitor\App_LocalResources\EditLogType.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListInactiveUser.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListLoginUser.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListLogType.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListMissedClassUser.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListRegisteredUser.aspx.resx" />
+    <Content Include="Monitor\App_LocalResources\ListUserLog.aspx.resx" />
+    <Content Include="Monitor\EditLogType.aspx" />
+    <Content Include="Monitor\ListCTDLog.aspx" />
+    <Content Include="Monitor\ListErrorLog.aspx" />
+    <Content Include="Monitor\ListInactiveUser.aspx" />
+    <Content Include="Monitor\ListLoginUser.aspx" />
+    <Content Include="Monitor\ListLogType.aspx" />
+    <Content Include="Monitor\ListMissedClassUser.aspx" />
+    <Content Include="Monitor\ListRegisteredUser.aspx" />
+    <Content Include="Monitor\ListSQLAzure.aspx" />
+    <Content Include="Monitor\ListSystemLog.aspx" />
+    <Content Include="Monitor\ListUserLog.aspx" />
+    <Content Include="Monitor\Monitor.Master" />
+    <Content Include="Monitor\MonitorHome.aspx" />
+    <Content Include="Monitor\MonitorSendGrid.aspx" />
+    <Content Include="Monitor\MonitorWorkerRole.aspx" />
+    <Content Include="NewMe\AJS.js" />
+    <Content Include="NewMe\AJS_fx.js" />
+    <Content Include="NewMe\gb_scripts.js" />
+    <Content Include="NewMe\gb_styles.css" />
+    <Content Include="NewMe\g_close.gif" />
+    <Content Include="NewMe\header_bg.gif" />
+    <Content Include="NewMe\indicator.gif" />
+    <Content Include="NewMe\loader_frame.html" />
+    <Content Include="NewMe\next.gif" />
+    <Content Include="NewMe\prev.gif" />
+    <Content Include="NewMe\w_close_new.gif" />
+    <Content Include="OrderSystem\AddNewOrder.aspx" />
+    <Content Include="OrderSystem\OrderInfo.aspx" />
+    <Content Include="OrderSystem\OrdersHome.aspx" />
+    <Content Include="OrderSystem\ListOrder.aspx" />
+    <Content Include="PageReview.aspx" />
+    <Content Include="PageReviewService.svc" />
+    <Content Include="Scripts\AJS.js" />
+    <Content Include="Scripts\AJS_fx.js" />
+    <Content Include="Scripts\blenderMultiply.js" />
+    <Content Include="Scripts\choosePreferenceTemplate.js" />
+    <Content Include="Scripts\context_blender.js" />
+    <Content Include="Scripts\ct.base.js" />
+    <Content Include="Scripts\ct.program.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\gb_scripts.js" />
+    <Content Include="Scripts\getInformationTemplate.js" />
+    <Content Include="Scripts\getServerUrl.js" />
+    <Content Include="Scripts\globalDemo.js" />
+    <Content Include="Scripts\html5global.js" />
+    <Content Include="Scripts\html5SupportDetection.js" />
+    <Content Include="Scripts\IF-bak.js" />
+    <Content Include="Scripts\IF-SET-bak.js" />
+    <Content Include="Scripts\intro.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.managedailyreportsms.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.ordercontent.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.programuserreport.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.timezone.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.translationjobcontent.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.pagereview.js" />
+    <Content Include="Scripts\jquery-1.6.2.ct.translationjobelement.js" />
+    <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\jquery-1.js" />
+    <Content Include="Scripts\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="Scripts\jquery-ui-1.js" />
+    <Content Include="Scripts\jquery.ghindaVideoPlayer.js" />
+    <Content Include="Scripts\jquery.stopwatch.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\layout-details.js" />
+    <Content Include="Scripts\login-AccountCreationTemplate.js" />
+    <Content Include="Scripts\orderSystem.js" />
+    <Content Include="Scripts\PageTransition.js" />
+    <Content Include="Scripts\standardTemplate.js" />
+    <Content Include="Scripts\timerTemplate.js" />
+    <Content Include="Services\MonitorService.svc" />
+    <Content Include="Services\OrderSystemService.svc" />
+    <Content Include="Themes\actionbuttons.css" />
+    <Content Include="Themes\actionbuttonsforsmartphone.css" />
+    <Content Include="Themes\added.css" />
+    <Content Include="Themes\addition.css" />
+    <Content Include="Themes\ctpp-screen7.css" />
+    <Content Include="Themes\dialoguebox.css" />
+    <Content Include="Themes\gb_styles.css" />
+    <Content Include="Themes\ghindaVideoPlayer.css" />
+    <Content Include="Themes\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Themes\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Themes\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Themes\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Themes\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Themes\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <Content Include="Themes\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Themes\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="Themes\images\ui-icons_222222_256x240.png" />
+    <Content Include="Themes\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Themes\images\ui-icons_454545_256x240.png" />
+    <Content Include="Themes\images\ui-icons_888888_256x240.png" />
+    <Content Include="Themes\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Themes\jquery-ui-1.8.16.custom.css" />
+    <Content Include="Themes\mobile.css" />
+    <Content Include="Themes\styles.css" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Themes\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Themes\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Themes\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Themes\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Themes\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Themes\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Themes\ui-lightness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Services\TranslationJobService.svc" />
+    <Content Include="Translator\TranslatorHome.aspx" />
+    <Content Include="UsersByEmailOrMobile.aspx" />
+    <Content Include="jwplayer\jwplayer.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3rdParty.Master.cs">
+      <DependentUpon>3rdParty.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3rdParty.Master.designer.cs">
+      <DependentUpon>3rdParty.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptAnswer.ashx.cs">
+      <DependentUpon>AcceptAnswer.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityLogList.aspx.cs">
+      <DependentUpon>ActivityLogList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivityLogList.aspx.designer.cs">
+      <DependentUpon>ActivityLogList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAdminForApplication.aspx.cs">
+      <DependentUpon>AddAdminForApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAdminForApplication.aspx.designer.cs">
+      <DependentUpon>AddAdminForApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddBrand.aspx.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBrand.aspx.designer.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCompany.aspx.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCompany.aspx.designer.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCompay3rdParty.aspx.cs">
+      <DependentUpon>AddCompay3rdParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCompay3rdParty.aspx.designer.cs">
+      <DependentUpon>AddCompay3rdParty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddHelpItem.aspx.cs">
+      <DependentUpon>AddHelpItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddHelpItem.aspx.designer.cs">
+      <DependentUpon>AddHelpItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddLanguage.aspx.cs">
+      <DependentUpon>AddLanguage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddLanguage.aspx.designer.cs">
+      <DependentUpon>AddLanguage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPinCode.aspx.cs">
+      <DependentUpon>AddPinCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPinCode.aspx.designer.cs">
+      <DependentUpon>AddPinCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProgramRoom.aspx.cs">
+      <DependentUpon>AddProgramRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProgramRoom.aspx.designer.cs">
+      <DependentUpon>AddProgramRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudy.aspx.cs">
+      <DependentUpon>AddStudy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStudy.aspx.designer.cs">
+      <DependentUpon>AddStudy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudyContent.aspx.cs">
+      <DependentUpon>AddStudyContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddStudyContent.aspx.designer.cs">
+      <DependentUpon>AddStudyContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddTranslationJob.aspx.cs">
+      <DependentUpon>AddTranslationJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddTranslationJob.aspx.designer.cs">
+      <DependentUpon>AddTranslationJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPopUp.aspx.cs">
+      <DependentUpon>AdminPopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPopUp.aspx.designer.cs">
+      <DependentUpon>AdminPopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignProjectManager.aspx.cs">
+      <DependentUpon>AssignProjectManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssignProjectManager.aspx.designer.cs">
+      <DependentUpon>AssignProjectManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthenticateLFAccount.ashx.cs">
+      <DependentUpon>AuthenticateLFAccount.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeTechService.svc.cs">
+      <DependentUpon>ChangeTechService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="CheckProgram.aspx.cs">
+      <DependentUpon>CheckProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckProgram.aspx.designer.cs">
+      <DependentUpon>CheckProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyUserInfoPage.aspx.cs">
+      <DependentUpon>CompanyUserInfoPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyUserInfoPage.aspx.designer.cs">
+      <DependentUpon>CompanyUserInfoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyUsers.aspx.cs">
+      <DependentUpon>CompanyUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyUsers.aspx.designer.cs">
+      <DependentUpon>CompanyUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompletePayment.aspx.cs">
+      <DependentUpon>CompletePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompletePayment.aspx.designer.cs">
+      <DependentUpon>CompletePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFromAnotherDay.aspx.cs">
+      <DependentUpon>CopyFromAnotherDay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CopyFromAnotherDay.aspx.designer.cs">
+      <DependentUpon>CopyFromAnotherDay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CTPP.aspx.cs">
+      <DependentUpon>CTPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CTPP.aspx.designer.cs">
+      <DependentUpon>CTPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CTPPS.aspx.cs">
+      <DependentUpon>CTPPS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CTPPS.aspx.designer.cs">
+      <DependentUpon>CTPPS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditBrand.aspx.cs">
+      <DependentUpon>EditBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditBrand.aspx.designer.cs">
+      <DependentUpon>EditBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCompany3rdParty.aspx.cs">
+      <DependentUpon>EditCompany3rdParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCompany3rdParty.aspx.designer.cs">
+      <DependentUpon>EditCompany3rdParty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCompanyRight.aspx.cs">
+      <DependentUpon>EditCompanyRight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCompanyRight.aspx.designer.cs">
+      <DependentUpon>EditCompanyRight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmailTemplate.aspx.cs">
+      <DependentUpon>EditEmailTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditEmailTemplate.aspx.designer.cs">
+      <DependentUpon>EditEmailTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddInterventCategory.aspx.cs">
+      <DependentUpon>AddInterventCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddInterventCategory.aspx.designer.cs">
+      <DependentUpon>AddInterventCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewPageSequence.aspx.cs">
+      <DependentUpon>AddNewPageSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNewPageSequence.aspx.designer.cs">
+      <DependentUpon>AddNewPageSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPage.aspx.cs">
+      <DependentUpon>AddPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPage.aspx.designer.cs">
+      <DependentUpon>AddPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPageSequence.aspx.cs">
+      <DependentUpon>AddPageSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPageSequence.aspx.designer.cs">
+      <DependentUpon>AddPageSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPredictor.aspx.cs">
+      <DependentUpon>AddPredictor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPredictor.aspx.designer.cs">
+      <DependentUpon>AddPredictor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPredictorCategory.aspx.cs">
+      <DependentUpon>AddPredictorCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPredictorCategory.aspx.designer.cs">
+      <DependentUpon>AddPredictorCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProgram.aspx.cs">
+      <DependentUpon>AddProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProgram.aspx.designer.cs">
+      <DependentUpon>AddProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProgramStatus.aspx.cs">
+      <DependentUpon>AddProgramStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProgramStatus.aspx.designer.cs">
+      <DependentUpon>AddProgramStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddSession.aspx.cs">
+      <DependentUpon>AddSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSession.aspx.designer.cs">
+      <DependentUpon>AddSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddIntervent.aspx.cs">
+      <DependentUpon>AddIntervent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddIntervent.aspx.designer.cs">
+      <DependentUpon>AddIntervent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Share.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Share.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthenticateUser.ashx.cs">
+      <DependentUpon>AuthenticateUser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Constants.cs" />
+    <Compile Include="ContextService.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditHelpItem.aspx.cs">
+      <DependentUpon>EditHelpItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditHelpItem.aspx.designer.cs">
+      <DependentUpon>EditHelpItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditInterventCategory.aspx.cs">
+      <DependentUpon>EditInterventCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditInterventCategory.aspx.designer.cs">
+      <DependentUpon>EditInterventCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditNullCompany3rdParty.aspx.cs">
+      <DependentUpon>EditNullCompany3rdParty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditNullCompany3rdParty.aspx.designer.cs">
+      <DependentUpon>EditNullCompany3rdParty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPage.aspx.cs">
+      <DependentUpon>EditPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPage.aspx.designer.cs">
+      <DependentUpon>EditPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPageSequence.aspx.cs">
+      <DependentUpon>EditPageSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPageSequence.aspx.designer.cs">
+      <DependentUpon>EditPageSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPredictor.aspx.cs">
+      <DependentUpon>EditPredictor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPredictor.aspx.designer.cs">
+      <DependentUpon>EditPredictor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPredictorCategory.aspx.cs">
+      <DependentUpon>EditPredictorCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPredictorCategory.aspx.designer.cs">
+      <DependentUpon>EditPredictorCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProfile.aspx.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProfile.aspx.designer.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProgram.aspx.cs">
+      <DependentUpon>EditProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProgram.aspx.designer.cs">
+      <DependentUpon>EditProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProgramRoom.aspx.cs">
+      <DependentUpon>EditProgramRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProgramRoom.aspx.designer.cs">
+      <DependentUpon>EditProgramRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProgramStatus.aspx.cs">
+      <DependentUpon>EditProgramStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProgramStatus.aspx.designer.cs">
+      <DependentUpon>EditProgramStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSession.aspx.cs">
+      <DependentUpon>EditSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSession.aspx.designer.cs">
+      <DependentUpon>EditSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditIntervent.aspx.cs">
+      <DependentUpon>EditIntervent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditIntervent.aspx.designer.cs">
+      <DependentUpon>EditIntervent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditSpecialString.aspx.cs">
+      <DependentUpon>EditSpecialString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditSpecialString.aspx.designer.cs">
+      <DependentUpon>EditSpecialString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudy.aspx.cs">
+      <DependentUpon>EditStudy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditStudy.aspx.designer.cs">
+      <DependentUpon>EditStudy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudyContent.aspx.cs">
+      <DependentUpon>EditStudyContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditStudyContent.aspx.designer.cs">
+      <DependentUpon>EditStudyContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTranslationJob.aspx.cs">
+      <DependentUpon>EditTranslationJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTranslationJob.aspx.designer.cs">
+      <DependentUpon>EditTranslationJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditUserMenu.aspx.cs">
+      <DependentUpon>EditUserMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditUserMenu.aspx.designer.cs">
+      <DependentUpon>EditUserMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportUserVariable.aspx.cs">
+      <DependentUpon>ExportUserVariable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportUserVariable.aspx.designer.cs">
+      <DependentUpon>ExportUserVariable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportUserVariableExtension.aspx.cs">
+      <DependentUpon>ExportUserVariableExtension.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportUserVariableExtension.aspx.designer.cs">
+      <DependentUpon>ExportUserVariableExtension.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetLayoutSetting.ashx.cs">
+      <DependentUpon>GetLayoutSetting.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="GetPreviewModelXML.ashx.cs">
+      <DependentUpon>GetPreviewModelXML.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="DecryptUrlHandler.ashx.cs">
+      <DependentUpon>DecryptUrlHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\AddNewOrder.aspx.cs">
+      <DependentUpon>AddNewOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\AddNewOrder.aspx.designer.cs">
+      <DependentUpon>AddNewOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\common\Constants.cs" />
+    <Compile Include="HealthProfileSystem\EditOrder.aspx.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\EditOrder.aspx.designer.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\halsoprofil-setup-independent.aspx.cs">
+      <DependentUpon>halsoprofil-setup-independent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\halsoprofil-setup-independent.aspx.designer.cs">
+      <DependentUpon>halsoprofil-setup-independent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\halsoprofil-setup-offline-independent.aspx.cs">
+      <DependentUpon>halsoprofil-setup-offline-independent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\halsoprofil-setup-offline-independent.aspx.designer.cs">
+      <DependentUpon>halsoprofil-setup-offline-independent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\HealthProfileSystem.Master.cs">
+      <DependentUpon>HealthProfileSystem.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\HealthProfileSystem.Master.designer.cs">
+      <DependentUpon>HealthProfileSystem.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HealthProfileSystem\MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HealthProfileSystem\MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageManager.aspx.cs">
+      <DependentUpon>ImageManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageManager.aspx.designer.cs">
+      <DependentUpon>ImageManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information.aspx.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information.aspx.designer.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InvalidUrl.aspx.cs">
+      <DependentUpon>InvalidUrl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvalidUrl.aspx.designer.cs">
+      <DependentUpon>InvalidUrl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Language.aspx.cs">
+      <DependentUpon>Language.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Language.aspx.designer.cs">
+      <DependentUpon>Language.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LFResultHandler.ashx.cs">
+      <DependentUpon>LFResultHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LFSupportEmaileHandler.ashx.cs">
+      <DependentUpon>LFSupportEmaileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ListInterventCategory.aspx.cs">
+      <DependentUpon>ListInterventCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListInterventCategory.aspx.designer.cs">
+      <DependentUpon>ListInterventCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListPredictor.aspx.cs">
+      <DependentUpon>ListPredictor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListPredictor.aspx.designer.cs">
+      <DependentUpon>ListPredictor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListPredictorCategory.aspx.cs">
+      <DependentUpon>ListPredictorCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListPredictorCategory.aspx.designer.cs">
+      <DependentUpon>ListPredictorCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListProgram.aspx.cs">
+      <DependentUpon>ListProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListProgram.aspx.designer.cs">
+      <DependentUpon>ListProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListProgramRoom.aspx.cs">
+      <DependentUpon>ListProgramRoom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListProgramRoom.aspx.designer.cs">
+      <DependentUpon>ListProgramRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListProgramStatus.aspx.cs">
+      <DependentUpon>ListProgramStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListProgramStatus.aspx.designer.cs">
+      <DependentUpon>ListProgramStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListIntervent.aspx.cs">
+      <DependentUpon>ListIntervent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListIntervent.aspx.designer.cs">
+      <DependentUpon>ListIntervent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListSMS.aspx.cs">
+      <DependentUpon>ListSMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListSMS.aspx.designer.cs">
+      <DependentUpon>ListSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListStudy.aspx.cs">
+      <DependentUpon>ListStudy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListStudy.aspx.designer.cs">
+      <DependentUpon>ListStudy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogReport.aspx.cs">
+      <DependentUpon>LogReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogReport.aspx.designer.cs">
+      <DependentUpon>LogReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaintenanceHome.aspx.cs">
+      <DependentUpon>MaintenanceHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaintenanceHome.aspx.designer.cs">
+      <DependentUpon>MaintenanceHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageBrand.aspx.cs">
+      <DependentUpon>ManageBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageBrand.aspx.designer.cs">
+      <DependentUpon>ManageBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCopyTipMessage.aspx.cs">
+      <DependentUpon>ManageCopyTipMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCopyTipMessage.aspx.designer.cs">
+      <DependentUpon>ManageCopyTipMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCTPP.aspx.cs">
+      <DependentUpon>ManageCTPP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageCTPP.aspx.designer.cs">
+      <DependentUpon>ManageCTPP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDailyReportSMS.aspx.cs">
+      <DependentUpon>ManageDailyReportSMS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageDailyReportSMS.aspx.designer.cs">
+      <DependentUpon>ManageDailyReportSMS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDailyReportSMSService.svc.cs">
+      <DependentUpon>ManageDailyReportSMSService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ManageDeleteProgram.aspx.cs">
+      <DependentUpon>ManageDeleteProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageDeleteProgram.aspx.designer.cs">
+      <DependentUpon>ManageDeleteProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageHelpItem.aspx.cs">
+      <DependentUpon>ManageHelpItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageHelpItem.aspx.designer.cs">
+      <DependentUpon>ManageHelpItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageLanguage.aspx.cs">
+      <DependentUpon>ManageLanguage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageLanguage.aspx.designer.cs">
+      <DependentUpon>ManageLanguage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageLoginTemplate.aspx.cs">
+      <DependentUpon>ManageLoginTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageLoginTemplate.aspx.designer.cs">
+      <DependentUpon>ManageLoginTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageOrderEmailTemplate.aspx.cs">
+      <DependentUpon>ManageOrderEmailTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageOrderEmailTemplate.aspx.designer.cs">
+      <DependentUpon>ManageOrderEmailTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePasswordReminderTemplate.aspx.cs">
+      <DependentUpon>ManagePasswordReminderTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagePasswordReminderTemplate.aspx.designer.cs">
+      <DependentUpon>ManagePasswordReminderTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePaymentOrder.aspx.cs">
+      <DependentUpon>ManagePaymentOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManagePaymentOrder.aspx.designer.cs">
+      <DependentUpon>ManagePaymentOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProgram.aspx.cs">
+      <DependentUpon>ManageProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProgram.aspx.designer.cs">
+      <DependentUpon>ManageProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProgramColor.aspx.cs">
+      <DependentUpon>ManageProgramColor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProgramColor.aspx.designer.cs">
+      <DependentUpon>ManageProgramColor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProgramLanguage.aspx.cs">
+      <DependentUpon>ManageProgramLanguage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProgramLanguage.aspx.designer.cs">
+      <DependentUpon>ManageProgramLanguage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProgramSecurity.aspx.cs">
+      <DependentUpon>ManageProgramSecurity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProgramSecurity.aspx.designer.cs">
+      <DependentUpon>ManageProgramSecurity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageApplicationSecurity.aspx.cs">
+      <DependentUpon>ManageApplicationSecurity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageApplicationSecurity.aspx.designer.cs">
+      <DependentUpon>ManageApplicationSecurity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageRelapsePageSequence.aspx.cs">
+      <DependentUpon>ManageRelapsePageSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageRelapsePageSequence.aspx.designer.cs">
+      <DependentUpon>ManageRelapsePageSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSessionEndingTemplate.aspx.cs">
+      <DependentUpon>ManageSessionEndingTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSessionEndingTemplate.aspx.designer.cs">
+      <DependentUpon>ManageSessionEndingTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSM.aspx.cs">
+      <DependentUpon>ManageSM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSM.aspx.designer.cs">
+      <DependentUpon>ManageSM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSpecialString.aspx.cs">
+      <DependentUpon>ManageSpecialString.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageSpecialString.aspx.designer.cs">
+      <DependentUpon>ManageSpecialString.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTipMeassage.aspx.cs">
+      <DependentUpon>ManageTipMeassage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageTipMeassage.aspx.designer.cs">
+      <DependentUpon>ManageTipMeassage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageTranslationJob.aspx.cs">
+      <DependentUpon>ManageTranslationJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageTranslationJob.aspx.designer.cs">
+      <DependentUpon>ManageTranslationJob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LFPortalService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Services\IWin8Service.cs" />
+    <Compile Include="Services\Win8Service.svc.cs">
+      <DependentUpon>Win8Service.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Translator\ManageTranslationJobContent.aspx.cs">
+      <DependentUpon>ManageTranslationJobContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Translator\ManageTranslationJobContent.aspx.designer.cs">
+      <DependentUpon>ManageTranslationJobContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Translator\ManageTranslationJobElement.aspx.cs">
+      <DependentUpon>ManageTranslationJobElement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Translator\ManageTranslationJobElement.aspx.designer.cs">
+      <DependentUpon>ManageTranslationJobElement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUser.aspx.cs">
+      <DependentUpon>ManageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUser.aspx.designer.cs">
+      <DependentUpon>ManageUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserCompany.aspx.cs">
+      <DependentUpon>ManageUserCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUserCompany.aspx.designer.cs">
+      <DependentUpon>ManageUserCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserMenu.aspx.cs">
+      <DependentUpon>ManageUserMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUserMenu.aspx.designer.cs">
+      <DependentUpon>ManageUserMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManatePayment.aspx.cs">
+      <DependentUpon>ManatePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManatePayment.aspx.designer.cs">
+      <DependentUpon>ManatePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MergeIntervent.aspx.cs">
+      <DependentUpon>MergeIntervent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MergeIntervent.aspx.designer.cs">
+      <DependentUpon>MergeIntervent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\EditLogType.aspx.cs">
+      <DependentUpon>EditLogType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\EditLogType.aspx.designer.cs">
+      <DependentUpon>EditLogType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListCTDLog.aspx.cs">
+      <DependentUpon>ListCTDLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListCTDLog.aspx.designer.cs">
+      <DependentUpon>ListCTDLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListErrorLog.aspx.cs">
+      <DependentUpon>ListErrorLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListErrorLog.aspx.designer.cs">
+      <DependentUpon>ListErrorLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListInactiveUser.aspx.cs">
+      <DependentUpon>ListInactiveUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListInactiveUser.aspx.designer.cs">
+      <DependentUpon>ListInactiveUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListLoginUser.aspx.cs">
+      <DependentUpon>ListLoginUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListLoginUser.aspx.designer.cs">
+      <DependentUpon>ListLoginUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListLogType.aspx.cs">
+      <DependentUpon>ListLogType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListLogType.aspx.designer.cs">
+      <DependentUpon>ListLogType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListMissedClassUser.aspx.cs">
+      <DependentUpon>ListMissedClassUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListMissedClassUser.aspx.designer.cs">
+      <DependentUpon>ListMissedClassUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListRegisteredUser.aspx.cs">
+      <DependentUpon>ListRegisteredUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListRegisteredUser.aspx.designer.cs">
+      <DependentUpon>ListRegisteredUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListSQLAzure.aspx.cs">
+      <DependentUpon>ListSQLAzure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListSQLAzure.aspx.designer.cs">
+      <DependentUpon>ListSQLAzure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListSystemLog.aspx.cs">
+      <DependentUpon>ListSystemLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListSystemLog.aspx.designer.cs">
+      <DependentUpon>ListSystemLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\ListUserLog.aspx.cs">
+      <DependentUpon>ListUserLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\ListUserLog.aspx.designer.cs">
+      <DependentUpon>ListUserLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\Monitor.Master.cs">
+      <DependentUpon>Monitor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\Monitor.Master.designer.cs">
+      <DependentUpon>Monitor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\MonitorHome.aspx.cs">
+      <DependentUpon>MonitorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\MonitorHome.aspx.designer.cs">
+      <DependentUpon>MonitorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\MonitorSendGrid.aspx.cs">
+      <DependentUpon>MonitorSendGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\MonitorSendGrid.aspx.designer.cs">
+      <DependentUpon>MonitorSendGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor\MonitorWorkerRole.aspx.cs">
+      <DependentUpon>MonitorWorkerRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitor\MonitorWorkerRole.aspx.designer.cs">
+      <DependentUpon>MonitorWorkerRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MovePageSequence.aspx.cs">
+      <DependentUpon>MovePageSequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MovePageSequence.aspx.designer.cs">
+      <DependentUpon>MovePageSequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserForApplication.aspx.cs">
+      <DependentUpon>NewUserForApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewUserForApplication.aspx.designer.cs">
+      <DependentUpon>NewUserForApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSystem\AddNewOrder.aspx.cs">
+      <DependentUpon>AddNewOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSystem\AddNewOrder.aspx.designer.cs">
+      <DependentUpon>AddNewOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSystem\OrderInfo.aspx.cs">
+      <DependentUpon>OrderInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSystem\OrderInfo.aspx.designer.cs">
+      <DependentUpon>OrderInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSystem\OrdersHome.aspx.cs">
+      <DependentUpon>OrdersHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSystem\OrdersHome.aspx.designer.cs">
+      <DependentUpon>OrdersHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSystem\ListOrder.aspx.cs">
+      <DependentUpon>ListOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSystem\ListOrder.aspx.designer.cs">
+      <DependentUpon>ListOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSystem\OrderSystem.Master.cs">
+      <DependentUpon>OrderSystem.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderSystem\OrderSystem.Master.designer.cs">
+      <DependentUpon>OrderSystem.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PageReview.aspx.cs">
+      <DependentUpon>PageReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageReview.aspx.designer.cs">
+      <DependentUpon>PageReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageReviewService.svc.cs">
+      <DependentUpon>PageReviewService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="PageVariableList.aspx.cs">
+      <DependentUpon>PageVariableList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageVariableList.aspx.designer.cs">
+      <DependentUpon>PageVariableList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Preview.aspx.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Preview.aspx.designer.cs">
+      <DependentUpon>Preview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.aspx.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Program.aspx.designer.cs">
+      <DependentUpon>Program.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramSchedule.aspx.cs">
+      <DependentUpon>ProgramSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramSchedule.aspx.designer.cs">
+      <DependentUpon>ProgramSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NewUserForProgram.aspx.cs">
+      <DependentUpon>NewUserForProgram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewUserForProgram.aspx.designer.cs">
+      <DependentUpon>NewUserForProgram.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RandomStudy.aspx.cs">
+      <DependentUpon>RandomStudy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RandomStudy.aspx.designer.cs">
+      <DependentUpon>RandomStudy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequestResource.aspx.cs">
+      <DependentUpon>RequestResource.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequestResource.aspx.designer.cs">
+      <DependentUpon>RequestResource.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\EPaymentService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service.svc.cs">
+      <DependentUpon>Service.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Services\MonitorService.svc.cs">
+      <DependentUpon>MonitorService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Services\OrderSystemService.svc.cs">
+      <DependentUpon>OrderSystemService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SMSKickStart.ashx.cs">
+      <DependentUpon>SMSKickStart.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="TempSite.Master.cs">
+      <DependentUpon>TempSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TempSite.Master.designer.cs">
+      <DependentUpon>TempSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TestReminderEmailStart.aspx.cs">
+      <DependentUpon>TestReminderEmailStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestReminderEmailStart.aspx.designer.cs">
+      <DependentUpon>TestReminderEmailStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\TranslationJobService.svc.cs">
+      <DependentUpon>TranslationJobService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Translator\Translator.Master.cs">
+      <DependentUpon>Translator.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Translator\Translator.Master.designer.cs">
+      <DependentUpon>Translator.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Translator\TranslatorHome.aspx.cs">
+      <DependentUpon>TranslatorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Translator\TranslatorHome.aspx.designer.cs">
+      <DependentUpon>TranslatorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePassword.aspx.cs">
+      <DependentUpon>UpdatePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePassword.aspx.designer.cs">
+      <DependentUpon>UpdatePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateUser.aspx.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateUser.aspx.designer.cs">
+      <DependentUpon>UpdateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadResource.ashx.cs">
+      <DependentUpon>UploadResource.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPopUp.aspx.cs">
+      <DependentUpon>UserPopUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPopUp.aspx.designer.cs">
+      <DependentUpon>UserPopUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersByEmailOrMobile.aspx.cs">
+      <DependentUpon>UsersByEmailOrMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersByEmailOrMobile.aspx.designer.cs">
+      <DependentUpon>UsersByEmailOrMobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersNotInCompany.aspx.cs">
+      <DependentUpon>UsersNotInCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersNotInCompany.aspx.designer.cs">
+      <DependentUpon>UsersNotInCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="EditProgram.aspx" />
+    <Content Include="InvalidUrl.aspx" />
+    <Content Include="ListProgram.aspx" />
+    <Content Include="Site.Master" />
+    <Content Include="Themes\default.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business\ChangeTech.Contracts\ChangeTech.Contracts.csproj">
+      <Project>{7C30318B-69F9-4985-B609-594FBCCCD650}</Project>
+      <Name>ChangeTech.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business\ChangeTech.Models\ChangeTech.Models.csproj">
+      <Project>{1C3228C5-3E1C-44E7-A455-C33881F29927}</Project>
+      <Name>ChangeTech.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business\ChangeTech.Services\ChangeTech.Services.csproj">
+      <Project>{AF1631D2-5D18-4F9E-9A96-C0A37DBE72BC}</Project>
+      <Name>ChangeTech.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.DependencyInjection\Ethos.DependencyInjection.csproj">
+      <Project>{4D195A03-665E-464C-A3D6-C8C36C239859}</Project>
+      <Name>Ethos.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.EmailModule\Ethos.EmailModule.csproj">
+      <Project>{EE414145-D643-4766-9BB4-B38F73AEC4E2}</Project>
+      <Name>Ethos.EmailModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.SMSModule\Ethos.SMSModule\Ethos.SMSModule.csproj">
+      <Project>{31BCC1C1-910A-4EDA-BC91-3B4FC40AD90F}</Project>
+      <Name>Ethos.SMSModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Ethos.Utility\Ethos.Utility.csproj">
+      <Project>{6E5B19D4-0E0C-46F2-8DBE-7B42D2C07A35}</Project>
+      <Name>Ethos.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\ChangeTech.Entities\ChangeTech.Entities.csproj">
+      <Project>{EEAB1A3A-D4DD-402F-9310-ADF00D2AFCA3}</Project>
+      <Name>ChangeTech.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\ChangeTech.IDataRepository\ChangeTech.IDataRepository.csproj">
+      <Project>{4878FA0E-57DA-4FF1-B06D-B1397A97B7E4}</Project>
+      <Name>ChangeTech.IDataRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\ChangeTech.SQLServerRepository\ChangeTech.SQLServerRepository.csproj">
+      <Project>{B752A3A4-8DB1-453F-A537-2D7A42F9006E}</Project>
+      <Name>ChangeTech.SQLServerRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditProgram.aspx.resx">
+    </Content>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ListProgram.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddProgram.aspx" />
+    <Content Include="App_GlobalResources\Share.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Share.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddProgram.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddSession.aspx" />
+    <Content Include="App_LocalResources\AddSession.aspx.resx">
+    </Content>
+    <Content Include="EditSession.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddPageSequence.aspx" />
+    <Content Include="App_LocalResources\EditSession.aspx.resx">
+    </Content>
+    <Content Include="Global.asax" />
+    <Content Include="Flash\Images\header-gradient-pattern.jpg" />
+    <Content Include="Flash\Images\logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddPageSequence.aspx.resx">
+    </Content>
+    <Content Include="NewUserForProgram.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\NewUserForProgram.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Default.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddNewPageSequence.aspx.resx" />
+    <Content Include="ManageApplicationSecurity.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageApplicationSecurity.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManageProgramSecurity.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageProgramSecurity.aspx.resx">
+    </Content>
+    <Content Include="Flash\Images\2008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddNewPageSequenceBaseOnExist.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddExistPageSequence.aspx.resx">
+    </Content>
+    <Content Include="EditPageSequence.aspx" />
+    <Content Include="Home.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditPageSequence.aspx.resx">
+    </Content>
+    <Content Include="EditPage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Language.aspx" />
+    <Content Include="App_LocalResources\Language.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddPage.aspx" />
+    <Content Include="App_LocalResources\EditPage.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddPage.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Translation.aspx.resx">
+    </Content>
+    <Content Include="ListPredictorCategory.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddPredictorCategory.aspx" />
+    <Content Include="App_LocalResources\ListPredictorCategory.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddPredictorCategory.aspx.resx">
+    </Content>
+    <Content Include="EditPredictorCategory.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditPredictorCategory.aspx.resx">
+    </Content>
+    <Content Include="ListInterventCategory.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddInterventCategory.aspx" />
+    <Content Include="App_LocalResources\ListInterventCategory.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddInterventCategory.aspx.resx">
+    </Content>
+    <Content Include="EditInterventCategory.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditInterventCategory.aspx.resx">
+    </Content>
+    <Content Include="ListPredictor.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddPredictor.aspx" />
+    <Content Include="App_LocalResources\ListPredictor.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddPredictor.aspx.resx">
+    </Content>
+    <Content Include="EditPredictor.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditPredictor.aspx.resx">
+    </Content>
+    <Content Include="ListIntervent.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditTranslation.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddIntervent.aspx" />
+    <Content Include="App_LocalResources\ListIntervent.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddIntervent.aspx.resx">
+    </Content>
+    <Content Include="EditIntervent.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditIntervent.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ProgramTranslation.aspx.resx">
+    </Content>
+    <Content Include="Flash\Images\bg.png" />
+    <Content Include="Flash\Images\bg_ft.png" />
+    <Content Include="Flash\Images\bg_hd.png" />
+    <Content Include="Flash\Images\logo_changetech.jpg" />
+    <Content Include="ListProgramStatus.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ListProgramStatus.aspx.resx">
+    </Content>
+    <Content Include="EditProgramStatus.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddProgramStatus.aspx" />
+    <Content Include="App_LocalResources\EditProgramStatus.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddProgramStatus.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Profile.aspx" />
+    <Content Include="GetPreviewModelXML.ashx" />
+    <Content Include="UploadResource.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Profile.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EditProfile.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditProfile.aspx.resx">
+    </Content>
+    <Content Include="UpdatePassword.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\UpdatePassword.aspx.resx">
+    </Content>
+    <Content Include="Information.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Information.aspx.resx">
+    </Content>
+    <Content Include="ForgetPassword.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ForgetPassword.aspx.resx">
+    </Content>
+    <Content Include="App_LocalResources\TipPage.aspx.resx" />
+    <Content Include="clientaccesspolicy.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Flash\SkinOverPlaySeekStop.swf" />
+    <Content Include="Flash\Images\arrow_down_blue.gif" />
+    <Content Include="Flash\Images\arrow_up_blue.gif" />
+    <Content Include="Service.svc" />
+    <Content Include="Silverlight.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AuthenticateUser.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ManageUser.aspx" />
+    <Content Include="UpdateUser.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\UpdateUser.aspx.resx">
+    </Content>
+    <Content Include="NewUserForApplication.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddAdminForApplication.aspx" />
+    <Content Include="App_LocalResources\NewUserForApplication.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\AC_RunActiveContent.js" />
+    <Content Include="App_LocalResources\AddAdminForApplication.aspx.resx">
+    </Content>
+    <Content Include="ChangeTech.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcceptAnswer.ashx" />
+    <Content Include="AddNewPageSequence.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EditEmailTemplate.aspx" />
+    <Content Include="App_LocalResources\ManageUser.aspx.resx">
+    </Content>
+    <Content Include="Preview.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditEmailTemplate.aspx.resx">
+    </Content>
+    <Content Include="ListProgramRoom.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Preview.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddProgramRoom.aspx" />
+    <Content Include="App_LocalResources\ListProgramRoom.aspx.resx">
+    </Content>
+    <Content Include="EditProgramRoom.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddProgramRoom.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditProgramRoom.aspx.resx">
+    </Content>
+    <Content Include="ExpressionHelper.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ManageTipMeassage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageTipMeassage.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ManageLoginTemplate.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageLoginTemplate.aspx.resx">
+    </Content>
+    <Content Include="ManagePasswordReminderTemplate.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActivityLogList.aspx" />
+    <Content Include="App_LocalResources\ManagePasswordReminderTemplate.aspx.resx">
+    </Content>
+    <Content Include="Flash\Images\loginbutton.png" />
+    <Content Include="PageVariableList.aspx" />
+    <Content Include="Program.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Program.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ActivityLogList.aspx.resx">
+    </Content>
+    <Content Include="ManageHelpItem.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddHelpItem.aspx" />
+    <Content Include="App_LocalResources\ManageHelpItem.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddHelpItem.aspx.resx">
+    </Content>
+    <Content Include="EditHelpItem.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditHelpItem.aspx.resx">
+    </Content>
+    <Content Include="ManageUserMenu.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageUserMenu.aspx.resx">
+    </Content>
+    <Content Include="EditUserMenu.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditUserMenu.aspx.resx">
+    </Content>
+    <Content Include="Report.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Report.aspx.resx">
+    </Content>
+    <Content Include="ManageSessionEndingTemplate.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageSessionEndingTemplate.aspx.resx">
+    </Content>
+    <Content Include="Flash\ChangeTech.css" />
+    <Content Include="UserPopUp.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\UserPopUp.aspx.resx">
+    </Content>
+    <Content Include="ManageProgramLanguage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageProgramLanguage.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AdminPopUp.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminPopUp.aspx" />
+    <Content Include="App_LocalResources\AssignProjectManager.aspx.resx" />
+    <Content Include="AssignProjectManager.aspx" />
+    <Content Include="LogReport.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\LogReport.aspx.resx">
+    </Content>
+    <Content Include="ManageDeleteProgram.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageDeleteProgram.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GetLayoutSetting.ashx" />
+    <Content Include="Scripts\jquery\color_picker\color_picker-ie6.css" />
+    <Content Include="Scripts\jquery\color_picker\color_picker-ie7.css" />
+    <Content Include="Scripts\jquery\color_picker\color_picker.css" />
+    <Content Include="Scripts\jquery\color_picker\color_picker.js" />
+    <Content Include="Scripts\jquery\color_picker\howto_color_picker.txt" />
+    <Content Include="Scripts\jquery\color_picker\images\color_indic.gif" />
+    <Content Include="Scripts\jquery\color_picker\images\hue.png" />
+    <Content Include="Scripts\jquery\color_picker\images\pickerbg.png" />
+    <Content Include="Scripts\jquery\color_picker\images\select.gif" />
+    <Content Include="Scripts\jquery\idrag.js" />
+    <Content Include="Scripts\jquery\idrop.js" />
+    <Content Include="Scripts\jquery\ifx.js" />
+    <Content Include="Scripts\jquery\islider.js" />
+    <Content Include="Scripts\jquery\iutil.js" />
+    <Content Include="Scripts\jquery\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddProgramLanguageStatus.aspx.resx">
+    </Content>
+    <Content Include="Images\2008.png" />
+    <Content Include="Images\arrow_down_blue.gif" />
+    <Content Include="Images\arrow_up_blue.gif" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg_ft.png" />
+    <Content Include="Images\bg_hd.png" />
+    <Content Include="Images\header-gradient-pattern.jpg" />
+    <Content Include="Images\loginbutton.png" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\logo_changetech.jpg" />
+    <Content Include="ManageProgramColor.aspx" />
+    <Content Include="Scripts\Global.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageProgramColor.aspx.resx">
+    </Content>
+    <Content Include="MovePageSequence.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MovePageSequence.aspx.resx">
+    </Content>
+    <Content Include="MergeIntervent.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MergeIntervent.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ProgramReport.aspx.resx">
+    </Content>
+    <Content Include="CheckProgram.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CheckProgram.aspx.resx">
+    </Content>
+    <Content Include="ProgramSchedule.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ProgramSchedule.aspx.resx">
+    </Content>
+    <Content Include="ManageLanguage.aspx" />
+    <Content Include="TranslationTemplate.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddLanguage.aspx" />
+    <Content Include="App_LocalResources\ManageLanguage.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddLanguage.aspx.resx">
+    </Content>
+    <Content Include="ManageRelapsePageSequence.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageRelapsePageSequence.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddUserGroup.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditUserGroup.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageGroup.aspx.resx">
+    </Content>
+    <Content Include="TestReminderEmailStart.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\TestReminderEmailStart.aspx.resx">
+    </Content>
+    <Content Include="ManageUserCompany.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddCompany.aspx" />
+    <Content Include="App_LocalResources\ManageUserCompany.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddCompany.aspx.resx">
+    </Content>
+    <Content Include="EditCompanyRight.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditCompanyRight.aspx.resx">
+    </Content>
+    <Content Include="CopyFromAnotherDay.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CopyFromAnotherDay.aspx.resx">
+    </Content>
+    <Content Include="ManageSpecialString.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageSpecialString.aspx.resx">
+    </Content>
+    <Content Include="EditSpecialString.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddPinCode.aspx" />
+    <Content Include="App_LocalResources\EditSpecialString.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddPinCode.aspx.resx">
+    </Content>
+    <Content Include="ManageSM.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\appSettings.config" />
+    <Content Include="Config\connectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\log4net.config" />
+    <Content Include="Config\system.diagnostics.sharedListeners.config" />
+    <Content Include="Config\system.diagnostics.sources.config" />
+    <Content Include="Config\system.diagnostics.trace.config" />
+    <Content Include="Config\system.serviceModel.behaviors.config" />
+    <Content Include="Config\system.serviceModel.bindings.config" />
+    <Content Include="Config\system.serviceModel.client.config" />
+    <Content Include="Config\system.serviceModel.services.config" />
+    <Content Include="Config\unity.config" />
+    <Content Include="jwplayer\skin\audio\changetech_audio.zip" />
+    <Content Include="jwplayer\skin\video\changetech_video.zip" />
+    <Content Include="Config\monitorSettings.config" />
+    <Content Include="OrderSystem\OrderSystem.Master" />
+    <Content Include="OrderSystem\OrderSystem.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="AuthenticateLFAccount.ashx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\EPaymentService\Netaxept.wsdl" />
+    <None Include="Service References\EPaymentService\Netaxept.xsd" />
+    <None Include="Service References\EPaymentService\Netaxept1.xsd" />
+    <None Include="Service References\EPaymentService\Netaxept2.xsd" />
+    <Content Include="TempSite.Master" />
+    <Content Include="Translator\Translator.Master" />
+    <Content Include="Translator\TranslatorSiteMap.sitemap" />
+    <None Include="Service References\LFPortalService\PortalAutenticationServiceService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageSM.aspx.resx">
+    </Content>
+    <Content Include="ManageProgram.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageProgram.aspx.resx">
+    </Content>
+    <Content Include="CompletePayment.aspx" />
+    <Content Include="Payment.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Payment.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CompletePayment.aspx.resx">
+    </Content>
+    <Content Include="ManatePayment.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManatePayment.aspx.resx">
+    </Content>
+    <Content Include="ExportUserVariable.aspx" />
+    <Content Include="Images\conner_lb.gif" />
+    <Content Include="Images\conner_lt.gif" />
+    <Content Include="Images\conner_rb.gif" />
+    <Content Include="Images\conner_rt.gif" />
+    <Content Include="Themes\payment.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ExportUserVariable.aspx.resx">
+    </Content>
+    <Content Include="ManagePaymentOrder.aspx" />
+    <Content Include="RequestResource.aspx" />
+    <Content Include="3rdParty.Master" />
+    <Content Include="3partySiteMap.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Service References\EPaymentService\ChangeTech.DeveloperWeb.EPaymentService.ProcessResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EPaymentService\ChangeTech.DeveloperWeb.EPaymentService.QueryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EPaymentService\ChangeTech.DeveloperWeb.EPaymentService.RegisterResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\EPaymentService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\EPaymentService\configuration.svcinfo" />
+    <None Include="Service References\EPaymentService\configuration91.svcinfo" />
+    <None Include="Service References\EPaymentService\Netaxept.disco" />
+    <None Include="Service References\EPaymentService\Netaxept1.wsdl" />
+    <Content Include="SMSKickStart.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\EPaymentService\" />
+    <WCFMetadataStorage Include="Service References\LFPortalService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddCompay3rdParty.aspx" />
+    <Content Include="App_LocalResources\ManagePaymentOrder.aspx.resx">
+    </Content>
+    <Content Include="MaintenanceHome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\MaintenanceHome.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddCompay3rdParty.aspx.resx">
+    </Content>
+    <Content Include="EditCompany3rdParty.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditCompany3rdParty.aspx.resx">
+    </Content>
+    <Content Include="CompanyUsers.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CompanyUsers.aspx.resx">
+    </Content>
+    <Content Include="CompanyUserInfoPage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CompanyUserInfoPage.aspx.resx">
+    </Content>
+    <Content Include="ListSMS.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ListSMS.aspx.resx">
+    </Content>
+    <Content Include="ListStudy.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddStudy.aspx" />
+    <Content Include="App_LocalResources\ListStudy.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddStudy.aspx.resx">
+    </Content>
+    <Content Include="EditStudy.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\InsertProgramToStudy.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditStudy.aspx.resx">
+    </Content>
+    <Content Include="RandomStudy.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\RandomStudy.aspx.resx">
+    </Content>
+    <Content Include="EditNullCompany3rdParty.aspx" />
+    <Content Include="UsersNotInCompany.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditNullCompany3rdParty.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddStudyContent.aspx" />
+    <Content Include="App_LocalResources\UsersNotInCompany.aspx.resx">
+    </Content>
+    <Content Include="EditStudyContent.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddStudyContent.aspx.resx">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditStudyContent.aspx.resx">
+    </Content>
+    <Content Include="Flash\ChangeTech.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="ClientBin\Audio\" />
+    <Folder Include="ClientBin\Document\" />
+    <Folder Include="ClientBin\ProgramImages\CutDown\" />
+    <Folder Include="ClientBin\ProgramImages\Logo\" />
+    <Folder Include="ClientBin\ProgramImages\Original\" />
+    <Folder Include="ClientBin\Video\" />
+    <Folder Include="Excel\" />
+    <Folder Include="Handler\" />
+    <Folder Include="Log\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\UsersByEmailOrMobile.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageBrand.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddBrand.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditBrand.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageCTPP.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CTPP.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\PageReview.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ExportUserVariableExtension.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageTranslationJob.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\AddTranslationJob.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\EditTranslationJob.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Monitor\App_LocalResources\MonitorWorkerRole.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Monitor\App_LocalResources\MonitorSendGrid.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageDailyReportSMS.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\CTPPS.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrderSystem\App_LocalResources\ListOrder.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrderSystem\App_LocalResources\OrderInfo.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrderSystem\App_LocalResources\AddNewOrder.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageOrderEmailTemplate.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OrderSystem\App_LocalResources\OrdersHome.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Translator\App_LocalResources\ManageTranslationJobContent.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Translator\App_LocalResources\ManageTranslationJobElement.aspx.resx" />
+    <Content Include="Translator\App_LocalResources\TranslatorHome.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\ManageCopyTipMessage.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HealthProfileSystem\App_LocalResources\AddNewOrder.aspx.resx" />
+    <Content Include="HealthProfileSystem\App_LocalResources\EditOrder.aspx.resx" />
+    <Content Include="HealthProfileSystem\App_LocalResources\MainPage.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HealthProfileSystem\App_LocalResources\halsoprofil-setup-independent.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HealthProfileSystem\App_LocalResources\halsoprofil-setup-offline-independent.aspx.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>41265</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="ChangeTech.WebOnAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WebRole name="ChangeTech.Web" vmsize="Large">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="HttpIn" endpointName="HttpIn" />
+          <Binding name="HttpsIn" endpointName="HttpsIn" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <ConfigurationSettings>
+      <Setting name="AudioContainer" />
+      <Setting name="OriginalImageContainer" />
+      <Setting name="ThumnailContainer" />
+      <Setting name="LogoContainer" />
+      <Setting name="VideoContainer" />
+      <Setting name="DocumentContainer" />
+      <Setting name="TestContainer" />
+      <Setting name="ExportContainer" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="ChangeTech.Cer" storeLocation="CurrentUser" storeName="My" />
+    </Certificates>
+    <Endpoints>
+      <InputEndpoint name="HttpIn" protocol="http" port="80" />
+      <InputEndpoint name="HttpsIn" protocol="https" port="443" certificate="ChangeTech.Cer" />
+    </Endpoints>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+      <Import moduleName="Diagnostics" />
+    </Imports>
+  </WebRole>
+</ServiceDefinition>

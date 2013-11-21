@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="ChangeTech.Silverlight.DesignPage.Controls.ThumbImage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <Storyboard x:Name="ImageLoadStoryboard" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse0" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse1" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse2" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value=".66"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ellipse3" Storyboard.TargetProperty="(UIElement.Opacity)" BeginTime="00:00:00">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value=".33"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.33" Value=".66"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.66" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.33" Value=".33"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="#5f7d00">
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="25"></RowDefinition>-->
+            <RowDefinition Height="70"></RowDefinition>
+            <!--<RowDefinition Height="30"></RowDefinition>-->
+        </Grid.RowDefinitions>
+        <!--Name-->
+        <TextBlock x:Name="ImageNameTextBlock" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"></TextBlock>
+        <Border Style="{StaticResource ImageViewStyle}" Grid.Row="0" x:Name="ImageBorder">
+            <Grid>
+                <StackPanel x:Name="ImageLoadPanel" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse0"/>
+                    <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse1"/>
+                    <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse2"/>
+                    <Ellipse Height="8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="8" Fill="#FFFFFFFF" Stroke="#FF000000" x:Name="ellipse3"/>
+                </StackPanel>
+                <Image x:Name="ImageView" Margin="5,5,5,5" Stretch="Uniform"></Image>
+            </Grid>
+        </Border>
+        <!--<StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
+            <HyperlinkButton x:Name="Sel" Content="Sel" Click="Select_Click" Cursor="Hand" Height="25" Width="20" HorizontalAlignment="Left"></HyperlinkButton>
+            <HyperlinkButton x:Name="Inf" Content="Inf" Click="Inf_Click" Cursor="Hand" Height="25" Width="20" HorizontalAlignment="Center"></HyperlinkButton>
+            <HyperlinkButton x:Name="Del" Content="Del" Click="Delete_Click" Cursor="Hand" Height="25" Width="22" HorizontalAlignment="Right"></HyperlinkButton>            
+        </StackPanel>-->
+    </Grid>
+</UserControl>

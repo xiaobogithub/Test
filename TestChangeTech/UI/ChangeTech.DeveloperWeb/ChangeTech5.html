@@ -1,0 +1,192 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />-->
+    <link type="text/css" rel="stylesheet" href="html5temp/Themes/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="html5temp/Themes/addition.css"/>
+    <link type="text/css" rel="Stylesheet" href="html5temp/Themes/graph.css" />
+    <script type="text/javascript" src="Scripts/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.js"></script>
+    <link type="text/css" href="Themes/ui-lightness/jquery-ui-1.8.13.custom.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Scripts/json2.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.base.js"></script>
+    <script type="text/javascript" src="/Scripts/ct.program.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.ghindaVideoPlayer.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/PageTransition.js"></script>
+    <script type="text/javascript" src="Scripts/context_blender.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/libraries/RGraph.common.core.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/libraries/RGraph.common.dynamic.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/libraries/RGraph.common.effects.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/libraries/RGraph.common.tooltips.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/libraries/RGraph.line.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/html5global.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/layout-details.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/intro.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/getServerUrl.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/standardTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/getInformationTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/choosePreferenceTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/login-AccountCreationTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/resultTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/html5SupportDetection.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/timerTemplate.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/graphTemplate.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.stopwatch.js"></script>
+    <script type="text/javascript" src="html5temp/Scripts/blenderMultiply.js"></script>
+    <script type="text/javascript" src="html5temp/jwplayer/jwplayer.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (navigator.userAgent.toLowerCase().match(/iP(hone|ad)/i) == null) {
+                //$('body').addClass('iphone');
+                $('body').addClass('no-ipad');
+            }
+           /* if (navigator.userAgent.toLowerCase().match(/iPhone/i) != null) {
+                $('body').addClass('iphone');
+                var mt = $('meta[name=some-name]');
+                mt = mt.length ? mt : $('<meta name="viewport" />').appendTo('head');
+                mt.attr('content', 'width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;');
+                window.addEventListener("load", function () { setTimeout(loaded, 1000) }, false);
+            }*/
+            //$.getScript("Scripts/custom.js");
+            resizeImg();
+            var isFirstTimeLoadingPage=true;
+            loadingAnimation(isFirstTimeLoadingPage);
+            //loadXmlAjax();
+            windowResize();
+        });
+    </script>
+</head>
+<body>
+    <div id="page_wrapper">
+        <!--<div id="topbar" class="hiddenTopBar">
+				<div class="divider-left"></div>
+				<div class="divider-right"></div>
+				<a href="#" class="backbtn"><span>Back</span></a>
+				<p class="progtitle">
+					PROGRAMTITLE<span> DAY #</span>
+				</p>
+				<a href="#" class="setbtn"><span>Settings</span></a>
+			</div>-->
+        <div id="programbar" class="hiddenTopBar">
+            <a class="button-settings" href="javascript:void(0)">Settings</a> <a class="button-back"
+                href="javascript:void(0)">
+                <div class="button-back-text">
+                    Back</div>
+            </a>
+            <div class="buttondivider right">
+            </div>
+            <div class="programtitle">
+                <!--Program name <span class="programday">day 2</span>-->
+            </div>
+        </div>
+        <div id="programRoomBar" class="hiddenProgramRoomBar">
+            <div class="programRoomName">
+            </div>
+        </div>
+        <div id="mainarea">
+            <div id="introBubble" class="center">
+                <div id="bubble-orange" style="display: none;">
+                    <div class="bubcontent">
+                        <p>
+                            &nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div id="bubbles" class="center">
+                <div id="bubble-white" style="display: none;">
+                    <div class="bubcontent">
+                        <p>
+                            &nbsp;</p>
+                    </div>
+                    <div class="bubble-white-arrow">
+                    </div>
+                </div>
+                <div id="bubble-yellow" style="display: none;">
+                    <div class="bubcontent">
+                        <p>
+                            &nbsp;</p>
+                    </div>
+                    <div class="bubble-yellow-arrow">
+                    </div>
+                </div>
+                <div id="bubble-black" style="display: none;">
+                    <div class="bubcontent">
+                        <p>
+                            &nbsp;</p>
+                    </div>
+                    <div class="bubble-black-arrow">
+                    </div>
+                </div>
+                <div id="bubble-graph">
+                <!-- START OF GRAPH -->
+                  <div class="graphcontainer">
+                      <div class="graphlegend"> 
+                       </div>
+                      <canvas id="cvs" width="800" height="300"></canvas>
+                  </div>
+                </div>
+                <div id="bubble-blue" style="display: none;">
+                    <div class="bubcontent">
+                    </div>
+                    <div class="bubble-blue-arrow">
+                    </div>
+                </div>
+            </div>
+                           
+        </div>
+
+        <div id="pic">
+            <img src='' id="over" />
+            <img src="" id='under' />
+            <canvas id="backgroundpic"></canvas>
+            <!--<img src="" id="backgroundpic" /> -->
+            <img src="" class="fullbg" id="fullbgImg" alt="" />
+        </div>
+    </div>
+    <div id="hiddenElements">
+    </div>
+    <div id="hiddenImage" style="display: none;">
+    </div>
+    <div id="hiddenBg" style="display: none;">
+    </div>
+    <div id="hiddenActualImage" style="position: absolute; top: 46px; right: 0; display: none;">
+    </div>
+    <div id="hiddenLoadingInfo">
+    </div>
+    <div class="body-loading" style="display: none">
+        <p>
+            <img src="Images/wait-anim.gif" alt="" /></p>
+    </div>
+    <!-- <div class="body-wrapper"><p><img src="Images/loading.gif"></p></div>-->
+    <!--dummy input value-->
+    <input type="hidden" id="AttentionQ1" value="30" />
+    <input type="hidden" id="AttentionQ2" value="40" />
+    <input type="hidden" id="AttentionQ3" value="50" />
+    <input type="hidden" id="AttentionQ4" value="60" />
+    <!-- popup  -->
+    <div id="main-wrapper">
+    </div>
+    <div id="popupDialog">
+        <div class="popupButWrapper">
+        </div>
+    </div>
+    <!--settings menu-->
+    <div class="setting-menu-wrapper">
+    </div>
+    <div class="mask">
+    <p><img src="Images/wait-anim.gif" alt="" /></p>
+    </div>
+    <div class="setting-menu">
+        <em><a href="#x"></a></em>
+    </div>
+    <div class="setting-detail">
+        <div class="setting-detail-close">
+            <a href="#x"></a>
+        </div>
+    </div>
+</body>
+</html>

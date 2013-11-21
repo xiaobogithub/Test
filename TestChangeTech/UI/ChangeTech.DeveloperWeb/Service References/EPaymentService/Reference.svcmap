@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1a2737f2-02a7-4d4a-9523-c970ab2ecbf9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://epayment.bbs.no/Netaxept.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Netaxept.wsdl" MetadataType="Wsdl" ID="f79de384-f16a-4626-858c-211b3da04d55" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?wsdl" />
+    <MetadataFile FileName="Netaxept.xsd" MetadataType="Schema" ID="6016fef4-6b95-49fb-989e-02323169cf5c" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?xsd=xsd0" />
+    <MetadataFile FileName="Netaxept1.xsd" MetadataType="Schema" ID="6de7a124-70e0-4f18-a14c-07b929757327" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?xsd=xsd1" />
+    <MetadataFile FileName="Netaxept2.xsd" MetadataType="Schema" ID="dd8d2d20-717a-40ac-9448-a63e6cc8750d" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?xsd=xsd2" />
+    <MetadataFile FileName="Netaxept.disco" MetadataType="Disco" ID="9b46855b-b977-4ecf-97bd-f6cf8d6e455c" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?disco" />
+    <MetadataFile FileName="Netaxept1.wsdl" MetadataType="Wsdl" ID="b763810e-363d-4fef-9060-1b3070645a83" SourceId="1" SourceUrl="https://epayment.bbs.no/Netaxept.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

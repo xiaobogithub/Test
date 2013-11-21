@@ -1,0 +1,59 @@
+﻿<UserControl xmlns:dataInput="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data.Input"  x:Class="ChangeTech.Silverlight.DesignPage.Controls.ExportOption"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Canvas>
+        <Canvas MouseLeftButtonDown="RenameCategoryPopupPanel_MouseLeftButtonDown" 
+                MouseLeftButtonUp="RenameCategoryPopupPanel_MouseLeftButtonUp" 
+                MouseMove="RenameCategoryPopupPanel_MouseMove" 
+                Cursor="Arrow">
+            <Border Padding="3" CornerRadius="5" BorderBrush="#FFFFFFFF" BorderThickness="1,1,1,1" Cursor="Hand">
+                <Border.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#bbcf7f"/>
+                        <GradientStop Color="#5f7d00" Offset="1"/>
+                    </RadialGradientBrush>
+                </Border.Background>
+                <Grid x:Name="LayoutRoot" Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="10"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <dataInput:Label Content="Export option" FontWeight="Bold" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></dataInput:Label>
+                    <dataInput:Label Content="From day:" Grid.Column="1" Grid.Row="2"></dataInput:Label>
+                    <ComboBox x:Name="StartDayDDL" Grid.Column="2" Grid.Row="2"  Height="25" Width="80"></ComboBox>
+                    <dataInput:Label Content="to day:" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center"></dataInput:Label>
+                    <ComboBox x:Name="EndDayDDL" Grid.Column="4" Grid.Row="2"  Height="25" Width="80"></ComboBox>
+                    
+                    <CheckBox x:Name="IncludeRelapse" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" Content="Relapse Page Sequence" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeProgramRoom" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="3" Content="Program Room" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeAccessoryTemplate" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Content="Accessory Template" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeEmailTemplate" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="4" Content="Email Template" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeHelpItem" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" Content="Help Item" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeUserMenu" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="5" Content="User Menu" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeTipMessage" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Content="Tip Message" IsChecked="False"></CheckBox>
+                    <CheckBox x:Name="IncludeSpecialString" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="6" Content="Special String" IsChecked="False"></CheckBox>
+                    
+                    <Button x:Name="OKButton" Grid.Column="2" Grid.Row="7" Content="OK" Click="OKButton_Click" Height="25" Width="80"></Button>
+                    <Button x:Name="CancelButton" Grid.Column="3" Grid.Row="7" Content="Cancel" Click="CancelButton_Click" Height="25" Width="80"></Button>
+                </Grid>
+            </Border>
+        </Canvas>
+    </Canvas>
+</UserControl>

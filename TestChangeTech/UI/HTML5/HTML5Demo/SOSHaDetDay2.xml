@@ -1,0 +1,407 @@
+﻿1;<XMLModel Mode="Preview" UserGUID="1B5071D3-7FD4-489D-A068-874FBD907B00" ProgramGUID="5D7F8183-13C2-4DAC-BECA-DD438876788B" ProgramName="SOS Ha det bedre" CTPPName="Ha det bedre" IsNeedPinCode="0" IsContainTwoParts="0" IsNeedSerialNumber="0" MissedDay="false" IsRetake="False" IsCTPPEnable="1">
+  <Session GUID="74B50BF0-E729-4096-9720-CD6F7ED0D839" Name="Ta vare på de gode øyeblikkene" Day="2" Description="Tankene dine påvirker følelsene dine&#xD;&#xA;Ta vare på de små positive tingene&#xD;&#xA;3 gode ting&#xD;&#xA;" Logo="9c7dfca9-3bdf-43a2-862c-2facbf8da7e3.png">
+    <PageSequence GUID="613CA044-40BC-4CEC-B1DE-7B126588430D" CategoryName="Emotion" CategoryDescription="Subjective experiences associated with mood, temperament, personality, and disposition. " Order="1" TopBarColor="0x6a99cb" PrimaryButtonColorNormal="0x5e89b7,0x2f4c6c" PrimaryButtonColorOver="0x6ba2dd,0x2f4c6c" PrimaryButtonColorDown="0x6ba2dd,0x213852" PrimaryButtonColorDisable="" CoverShadowVisible="1" ProgramRoomName="Ha det bedre" ProgramRoomDescription="">
+      <Page GUID="C1F93D69-D643-4A0F-87DC-18E820C3336C" Order="1" Title="Hei! Syns du det var greit å ta testen?" Text="Kanskje du har tenkt litt på spørsmålene og resultatet av testen. &#xA;&#xA;Det er bare fint fordi det bidrar til at du blir mer bevisst på hvordan du lever livet og hva du skulle ønske var annerledes.&#xA;&#xA;I dag skal vi fortsette litt i samme gate. Vi skal se på hvordan du kan ta vare på de gode øyeblikkene som finnes i hverdagen.&#xA;&#xA;Du får også din første øvelse." Type="Standard" ButtonPrimaryName="Kjenner du denne typen?" ButtonSecondaryName="Back" PresenterImage="2445879a-025c-4d8b-bf18-ad904a9b4b4c.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="B468C90D-D14B-4339-AF07-EA1576992990" Order="2" Title="Han eller hun som liksom aldri er sur og grinete?" Text="Som alltid ser det beste i alt, aldri kritiserer og alltid er glad og fornøyd?&#xA;&#xA;Du kjenner sikkert noen som er sånn, eller i alle fall nesten. Han eller hun er heldig, tenker du kanskje.&#xA;&#xA;Det er akkurat som om gode ting bare dumper ned i hodet på dem. Og sola alltid skinner der de er.&#xA;&#xA;Hvordan går det an å være, eller bli, så fornøyd med livet?" Type="Standard" ButtonPrimaryName="Nå skal vi gjøre en liten test" ButtonSecondaryName="Back" PresenterImage="2dec4766-5d3c-443f-b873-ce6f79999325.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="68C6A8BA-76D2-4508-BE2F-75462504C927" Order="3" Title="En gang du bruste av lykke!" Text="Et viktig poeng i dette programmet er at det du tenker, påvirker følelsene dine. Tankene dine er altså en viktig kilde til hvor bra du føler deg.&#xA;&#xA;La oss gjøre en liten test.&#xA;&#xA;Nå skal du tenke tilbake på en bestemt situasjon der du virkelig var lykkelig. En gang da du rett og slett bruste av lykke.&#xA;&#xA;Hva var det som skjedde?" Type="Standard" ButtonPrimaryName="Hvor var du?" ButtonSecondaryName="Back" PresenterImage="ae42bcb6-a1f2-4749-96fc-4705d6a2990b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="1602CBC6-3080-48E7-950E-FF13FA123479" Order="4" Title="Og hva var begivenheten?" Text="Hadde du nettopp fått barn? Tatt en eksamen? Giftet deg? Eller hadde fotballklubben din vunnet serien?&#xA;&#xA;Det spiller ingen rolle hva det var.&#xA;&#xA;Du husker bare at i akkurat det øyeblikket bruste og kokte du over av lykkefølelse. Nå skal du tenke tilbake på det. &#xA;&#xA;Hvilket øyeblikk velger du?" Type="Standard" ButtonPrimaryName="Klikk når du har funnet et slikt øyeblikk" ButtonSecondaryName="Back" PresenterImage="2216854d-6e04-47a8-870b-dd8a62cfa494.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="42A3B7F6-2C97-46A7-8A3A-E63F733E1A0C" Order="5" Title="Gjenopplev det lykkelige øyeblikket!" Text="Nå skal du lukke øynene og gjenskape situasjonen. Det er viktig at du legger merke til så mange detaljer som mulig.&#xA;&#xA;Hvor var du? Hva skjedde? Når på året var det? Hvem andre var der? Hva slags vær var det? Hva luktet det der? &#xA;&#xA;Forsøk å gå inn i opplevelsen. Og bli der en stund. Du merker selv når du ferdig og kan åpne øynene.&#xA;&#xA;Lukk øynene og gjør det nå!" Type="Standard" ButtonPrimaryName="Klikk når du er ferdig" ButtonSecondaryName="Back" PresenterImage="7fc9abd3-3f41-4484-a244-c702aec4b9f7.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="4AAC68CD-4B70-45F6-BDC5-CD0FE86C0202" Order="6" Title="Hvordan gikk det?" Text="Fikk du det til? Hvordan var det å gjenoppleve dette?&#xA;&#xA;Du har sikkert opplevd flere slike øyeblikk. Da du var virkelig &quot;høy&quot; på lykke. Og det kommer sikkert flere også.&#xA;&#xA;Men det er sånn at det er hverdagene det er flest av. Det skjer ikke banebrytende ting som gir sterk følelse av lykke, hver dag.&#xA;&#xA;De fleste hverdagene er til og med litt grå og ordinære. Er det noe vi kan gjøre for å ha det best de dagene det er aller flest av?" Type="Standard" ButtonPrimaryName="Ja, det er det faktisk!" ButtonSecondaryName="Back" PresenterImage="0431a4f4-3090-478a-bfdc-ef3aa226f7c5.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="BE3C9269-5DEF-4AED-8021-D556DACFFDB5" Order="7" Title="Legg merke til alle de små tingene." Text="Forskningen på lykkefølelse viser noe du kanskje vil synes er rart.&#xA;&#xA;Nemlig at folk som er fornøyd med livet sitt også har en egen evne til å legge merke til små positive ting som skjer i hverdagen.&#xA;&#xA;Det kan være helt banale ting som:&#xA;&#xA;I dag tittet sola fram! Jeg hadde en fin telefonsamtale med venninnen min! Sønnen min spiste med god apetitt! Jeg fikk ros av en kollega! &#xA;&#xA;Jeg klarte å være vennlig mot kundene! Det var hyggelig i spisepausen. Kjæresten min hadde middagen ferdig da jeg kom hjem!" Type="Standard" ButtonPrimaryName="Bitte små gledespakker" ButtonSecondaryName="Back" PresenterImage="25c1ca62-b03b-4022-a176-1f26ca2b4e62.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C53B5B18-2055-44D9-B2CA-1E8A095C1986" Order="8" Title="De ligger og venter på deg." Text="Det viser seg at folk som er mer fornøyd også er flinkere til å ta vare på de små pakkene med positive ting som vi alle får &quot;utlevert&quot; hver dag.&#xA;&#xA;Det er fordi de er spesielt oppmerksomme på dem. Og legger merke til dem. &#xA;&#xA;Ikke bare en gang i blant. Men som en daglig vane. Dette kan vi andre lære noe av. Og vi begynner om et øyeblikk!" Type="Standard" ButtonPrimaryName="Vi har så lett for å feste oss ved det som ikke er bra" ButtonSecondaryName="Back" PresenterImage="0431a4f4-3090-478a-bfdc-ef3aa226f7c5.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="28A427BD-169D-4DBE-B199-7D97C475E63B" Order="9" Title="Alle de små positive tingene har lett for å bli borte." Text="Det er kanskje ikke så rart at vi går rundt og tenker på alt det vi ikke er fornøyde med. På alle de tingene vi synes vi må forbedre.&#xA;&#xA;Problemet er bare at det skyver de positive tingene som også skjer hver dag, ut i glemselen.&#xA;&#xA;Vi raser bare forbi de små gledespakkene. Uten å feste oss ved dem." Type="Standard" ButtonPrimaryName="Dette er det forsket en god del på" ButtonSecondaryName="Back" PresenterImage="fe3ae254-16ca-473b-b664-f960b9b5d91b.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="2A9A885A-677C-4BED-9AF3-9762A105039A" Order="10" Title="Stell godt med de små gode opplevelsene!" Text="De siste årenes forskning viser at vi både kommer i bedre humør og føler oss bedre, hvis vi klarer å ta vare på de små positive opplevelsene.&#xA;&#xA;Ved å tenke på de små tingene som har gått bra i dag, kan du faktisk &#xA;påvirke humøret ditt ganske mye. &#xA;&#xA;Den øvelsen du skal gjøre nå har til og med vært prøvet ut på personer som er deprimerte, med veldig godt resultat!" Type="Standard" ButtonPrimaryName="Her er øvelsen" ButtonSecondaryName="Back" PresenterImage="2796a2a4-9a55-4326-9322-3f2b110148a9.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+    <PageSequence GUID="FC351EFF-B801-4B2A-AE5D-31CF1C98F406" CategoryName="Emotion" CategoryDescription="Subjective experiences associated with mood, temperament, personality, and disposition. " Order="2" TopBarColor="0x6a99cb" PrimaryButtonColorNormal="0x5e89b7,0x2f4c6c" PrimaryButtonColorOver="0x6ba2dd,0x2f4c6c" PrimaryButtonColorDown="0x6ba2dd,0x213852" PrimaryButtonColorDisable="0xdadee1,0x92999d" CoverShadowVisible="1" ProgramRoomName="Teknikker &amp; Øvelser" ProgramRoomDescription="">
+      <Page GUID="9EFB314A-A6C2-4A00-94F0-EBCE88ACDB3D" Order="1" Title="Hva har vært bra i dag?" Text="Tenk gjennom hvordan dagen din har vært hittil. Eller hvordan gårsdagen var, hvis du leser dette om morgenen. &#xA;&#xA;Finn tre ting som var bra! Det kan være store ting eller små ting. Det viktigste er at du opplevde dem som positive for deg.&#xA;&#xA;Tenk også litt på hvorfor disse tingene ble så bra." Type="Standard" ButtonPrimaryName="Her er noen eksempler på hva andre har sagt" ButtonSecondaryName="Back" PresenterImage="869bff5e-a83c-489b-95c0-8223cad29e66.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="0605F01A-86A1-4B89-9DD2-AF51922C6B73" Order="2" Title="Positive ting andre har husket." Text="Jeg fikk besøk av en god venn. Jeg våknet til lukten av kaffe som kjærsten min hadde laget.&#xA;&#xA;Jeg var tålmodig under møtet på jobben. Jeg var flink og trente selv om jeg var sliten.&#xA;&#xA;Jeg fikk ros for presentasjonen min. Jeg ble ferdig med prosjektet før fristen. Datteren min hadde gjort ferdig leksene da jeg kom hjem." Type="Standard" ButtonPrimaryName="Nå er det din tur" ButtonSecondaryName="Back" PresenterImage="8b7148b3-4475-4303-ad9a-9ca981ad5a89.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="C02915B5-3671-4CE2-BC58-EE6F452462A1" Order="3" Title="Hva har vært bra i dag, eller i går?" Text="" Type="Get information" ButtonPrimaryName="Vil du ha en fin dag i morgen?" ButtonSecondaryName="Back" Interval="0" MaxPreferences="0" AfterExpression="" FooterText="">
+        <Questions>
+          <Question GUID="0F872CF2-5E3C-4336-95A1-95BEAAAE2DB7" Type="Multiline" Caption="Skriv tre positive ting." IsRequired="0">
+            <Items />
+          </Question>
+        </Questions>
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="8942698D-1203-493B-883B-6AF109256596" Order="4" Title="Gjør det til en vane." Text="Hver dag, helst om kvelden, skal du gjennomføre øvelsen 3 gode ting.&#xA;&#xA;Den du nettopp gjorde.&#xA;&#xA;Du skal altså tenke gjennom dagen, og finne tre gode ting du har opplevd. Små eller store. Og du skal tenke på hvorfor de ble så bra." Type="Standard" ButtonPrimaryName="Kan det ha noen effekt da?" ButtonSecondaryName="Back" PresenterImage="09f3fb0f-6d11-4d05-a5fa-3fa92502c442.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+      <Page GUID="55199C94-9ABD-4469-891F-6E26DCBA48E4" Order="5" Title="Du kommer til å merke forskjell." Text="Denne øvelsen har faktisk vist seg å ha betydelig effekt på humøret. Prøv, så skal du se.&#xA;&#xA;Neste gang skal vi se på hva du konkret kan gjøre for å oppleve mer glede i hverdagen. Du vil også få tips til hvordan du kan forholde deg til mennesker du ikke liker så godt.&#xA;&#xA;Vi sees om et par dager. Ha det fint så lenge!" Type="Standard" ButtonPrimaryName="Avslutt" ButtonSecondaryName="Back" PresenterImage="1e92a52d-840e-4b92-bdc3-38be1eae9b50.png" PresenterImagePosition="Left" PresenterMode="Normal" Interval="0" MaxPreferences="0" AfterExpression="EndPage">
+        <Questions />
+        <Preferences />
+        <Graphs />
+      </Page>
+    </PageSequence>
+  </Session>
+  <GeneralVariables>
+    <Variable Name="FirstName" Value="Chen" Type="String" />
+    <Variable Name="LastName" Value="Pu" Type="String" />
+    <Variable Name="Email" Value="pchen@ethos.com.cn" Type="String" />
+    <Variable Name="MobilePhone" Value="13126656325                                                                                                                                                                                                                                                    " Type="String" />
+    <Variable Name="Gender" Value="0" Type="Numeric" />
+  </GeneralVariables>
+  <ProgramVariables>
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="Styrke2" Type="Numeric" Value="entusiasme" />
+    <Variable Name="Takknemlighet" Type="Numeric" Value="0" />
+    <Variable Name="Ekte" Type="Numeric" Value="1" />
+    <Variable Name="Nysgjerrighet" Type="Numeric" Value="0" />
+    <Variable Name="Jordnaerhet" Type="Numeric" Value="0" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="GraphGoal" Type="Numeric" Value="15" />
+    <Variable Name="TotalDrinksW2" Type="Numeric" Value="21" />
+    <Variable Name="Haap" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="2" />
+    <Variable Name="Attention Mean" Type="Numeric" Value="1" />
+    <Variable Name="Kreativitet" Type="Numeric" Value="0" />
+    <Variable Name="GraphDrinks" Type="Numeric" Value="21" />
+    <Variable Name="Humor" Type="Numeric" Value="0" />
+    <Variable Name="Kjaerlighet" Type="Numeric" Value="0" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="Estetisksans" Type="Numeric" Value="0" />
+    <Variable Name="PA0" Type="Numeric" Value="1" />
+    <Variable Name="AttentionQ4" Type="Numeric" Value="1.22" />
+    <Variable Name="Tilgivelse" Type="Numeric" Value="0" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="Takknemlighet" Type="Numeric" Value="0" />
+    <Variable Name="AuditScoreMale" Type="Numeric" Value="13" />
+    <Variable Name="Laere" Type="Numeric" Value="0" />
+    <Variable Name="Laere" Type="Numeric" Value="0" />
+    <Variable Name="P1 Lasagna" Type="Numeric" Value="0" />
+    <Variable Name="Modig" Type="Numeric" Value="1" />
+    <Variable Name="Attention Mean" Type="Numeric" Value="1" />
+    <Variable Name="MET TWO" Type="Numeric" Value="0" />
+    <Variable Name="ACT Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="Styrke3" Type="Numeric" Value="viljestyrke" />
+    <Variable Name="FastScoreMale" Type="Numeric" Value="7" />
+    <Variable Name="Entusiasme" Type="Numeric" Value="1" />
+    <Variable Name="Kjaerlighet" Type="Numeric" Value="0" />
+    <Variable Name="Haap" Type="Numeric" Value="0" />
+    <Variable Name="Nutrition Mean" Type="Numeric" Value="5" />
+    <Variable Name="Estetisksans" Type="Numeric" Value="0" />
+    <Variable Name="TypicalWEEK" Type="Numeric" Value="0" />
+    <Variable Name="Impulsivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Snill" Type="Numeric" Value="0" />
+    <Variable Name="Rettferdighet" Type="Numeric" Value="0" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="5" />
+    <Variable Name="MET0" Type="Numeric" Value="0" />
+    <Variable Name="P6 Ice Cream D10" Type="Numeric" Value="0" />
+    <Variable Name="Week1Goal" Type="Numeric" Value="0" />
+    <Variable Name="Stryrke1" Type="Numeric" Value="modig" />
+    <Variable Name="TxtDrinkingDaysMale" Type="Numeric" Value="6 til 7 dager i uken" />
+    <Variable Name="TotalGoalW2" Type="Numeric" Value="15" />
+    <Variable Name="SHS Mean" Type="Numeric" Value="1" />
+    <Variable Name="Sosialintelligens" Type="Numeric" Value="0" />
+    <Variable Name="Sosialintelligens" Type="Numeric" Value="0" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="6" />
+    <Variable Name="Ekte" Type="Numeric" Value="0" />
+    <Variable Name="SHS Median" Type="Numeric" Value="1" />
+    <Variable Name="P5 Lasagna D10" Type="Numeric" Value="1" />
+    <Variable Name="CategoryTypWeek" Type="Numeric" Value="0" />
+    <Variable Name="NextEgoDepLapse" Type="Numeric" Value="1" />
+    <Variable Name="Modig" Type="Numeric" Value="0" />
+    <Variable Name="PAFD Optimism Total" Type="Numeric" Value="5" />
+    <Variable Name="Week 1" Type="Numeric" Value="0" />
+    <Variable Name="PAFD Flow Total" Type="Numeric" Value="5" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="Viljestyrke" Type="Numeric" Value="1" />
+    <Variable Name="P1 Chocolate Cake D10" Type="Numeric" Value="0" />
+    <Variable Name="Styrke2" Type="Numeric" Value="utholdenhet" />
+    <Variable Name="BG" Type="Numeric" Value="1" />
+    <Variable Name="BG" Type="Numeric" Value="0" />
+    <Variable Name="NAC Sum Scores" Type="Numeric" Value="12" />
+    <Variable Name="P2 Potato Chips" Type="Numeric" Value="1" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="1" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="TotalWeeklyDrinks68" Type="Numeric" Value="0" />
+    <Variable Name="Impulsivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Snill" Type="Numeric" Value="0" />
+    <Variable Name="Jordnaerhet" Type="Numeric" Value="0" />
+    <Variable Name="P5 Chocolate Cake" Type="Numeric" Value="0" />
+    <Variable Name="P2 Buffalo Wings D10" Type="Numeric" Value="0" />
+    <Variable Name="Tilgivelse" Type="Numeric" Value="1" />
+    <Variable Name="Styrke1" Type="Numeric" Value="1" />
+    <Variable Name="NextSelfEfficacyLapse" Type="Numeric" Value="1" />
+    <Variable Name="P4 Potato Chips D10" Type="Numeric" Value="0" />
+    <Variable Name="NextRelapse" Type="Numeric" Value="1" />
+    <Variable Name="Styrke3" Type="Numeric" Value="tilgiv" />
+    <Variable Name="Nysgjerrighet" Type="Numeric" Value="0" />
+    <Variable Name="TxtBingeMale" Type="Numeric" Value="Daglig eller nesten daglig" />
+    <Variable Name="Utholdenhet" Type="Numeric" Value="1" />
+    <Variable Name="Rettferdighet" Type="Numeric" Value="0" />
+    <Variable Name="PAFD Act of Kidness Total" Type="Numeric" Value="5" />
+    <Variable Name="P6 Ice Cream" Type="Numeric" Value="0" />
+    <Variable Name="NextMotivationLapse" Type="Numeric" Value="1" />
+    <Variable Name="P3 Buffalo Wings" Type="Numeric" Value="0" />
+    <Variable Name="Utholdenhet" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="Humor" Type="Numeric" Value="0" />
+    <Variable Name="Viljestyrke" Type="Numeric" Value="0" />
+    <Variable Name="Myth Buster Total Score" Type="Numeric" Value="5" />
+    <Variable Name="P3 Pizza D10" Type="Numeric" Value="0" />
+    <Variable Name="Hyperactivity Mean" Type="Numeric" Value="1" />
+    <Variable Name="Entusiasme" Type="Numeric" Value="0" />
+    <Variable Name="P4 Pizza" Type="Numeric" Value="0" />
+    <Variable Name="TotalDrinksW1" Type="Numeric" Value="6" />
+    <Variable Name="Kreativitet" Type="Numeric" Value="0" />
+    <Variable Name=" Flourishing Total T1" Type="Unknown" Value="" />
+    <Variable Name="Account Created Harmoni" Type="Unknown" Value="" />
+    <Variable Name="AccountCreated" Type="Unknown" Value="" />
+    <Variable Name="BG Harmoni" Type="Unknown" Value="" />
+    <Variable Name="Breath or Gong Harmoni" Type="Unknown" Value="" />
+    <Variable Name="Breathe og Gong 2 Harmoni" Type="Unknown" Value="" />
+    <Variable Name="EPDS T2" Type="Unknown" Value="" />
+    <Variable Name="Fantasy Baby 2" Type="Unknown" Value="" />
+    <Variable Name="Fantasy Baby Post birth" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q1" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q2" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q3" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q4" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q5" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q6" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q7" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Q8" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q1" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q2" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q3" Type="Unknown" Value="" />
+    <Variable Name="flourishing T2 Q4" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q5" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q6" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q7" Type="Unknown" Value="" />
+    <Variable Name="Flourishing T2 Q8" Type="Unknown" Value="" />
+    <Variable Name="Flourishing Total T2" Type="Unknown" Value="" />
+    <Variable Name="FlourTotal" Type="Unknown" Value="" />
+    <Variable Name="FlourTotal2" Type="Unknown" Value="" />
+    <Variable Name="Gratitude Monday Week 1" Type="Unknown" Value="" />
+    <Variable Name="Gratitude Monday Week 2a" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q1" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q10" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q2" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q3" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q4" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q5" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q6" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q7" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q8" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Q9" Type="Unknown" Value="" />
+    <Variable Name="Jobb engasjement Total T1" Type="Unknown" Value="" />
+    <Variable Name="Krafte Stress Scale Q13" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q1" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q10" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q11" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q12" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q14" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q15" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q16" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q17" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q18" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q19" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q2" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q20" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q3" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q4" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q5" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q6" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q7" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q8" Type="Unknown" Value="" />
+    <Variable Name="Krafts Stress Scale Q9" Type="Unknown" Value="" />
+    <Variable Name="Mindfulness Breathe" Type="Unknown" Value="" />
+    <Variable Name="Rumination" Type="Unknown" Value="" />
+    <Variable Name="RuminationPostponementD3" Type="Unknown" Value="" />
+    <Variable Name="RuminationPostponementD6" Type="Unknown" Value="" />
+    <Variable Name="SHS Mean Baseline" Type="Unknown" Value="" />
+    <Variable Name="SHS Mean T2" Type="Unknown" Value="" />
+    <Variable Name="SHS Q1 Baseline " Type="Unknown" Value="" />
+    <Variable Name="SHS Q1 T2" Type="Unknown" Value="" />
+    <Variable Name="SHS Q2 Baseline" Type="Unknown" Value="" />
+    <Variable Name="SHS Q2 T2" Type="Unknown" Value="" />
+    <Variable Name="SHS Q3 Baseline" Type="Unknown" Value="" />
+    <Variable Name="SHS Q3 T2" Type="Unknown" Value="" />
+    <Variable Name="SHS Q4 Baseline" Type="Unknown" Value="" />
+    <Variable Name="SHS Q4T2" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q1" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q10" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q2" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q3" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q4" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q5" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q6" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q7" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q8" Type="Unknown" Value="" />
+    <Variable Name="Stress test Q9" Type="Unknown" Value="" />
+    <Variable Name="Stress test Total T1" Type="Unknown" Value="" />
+    <Variable Name="Tiger Task Q1" Type="Unknown" Value="" />
+    <Variable Name="Total Stress Level T1" Type="Unknown" Value="" />
+    <Variable Name="Types of Procrastination H" Type="Unknown" Value="" />
+    <Variable Name="Utbrenhet Q10" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q1" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q2" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q3" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q4" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q5" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q6" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q7" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q8" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Q9" Type="Unknown" Value="" />
+    <Variable Name="Utbrenthet Total T1" Type="Unknown" Value="" />
+    <Variable Name="Worry" Type="Unknown" Value="" />
+    <Variable Name="Worry Postponement T1" Type="Unknown" Value="" />
+    <Variable Name="WorryPostponementD5" Type="Unknown" Value="" />
+    <Variable Name="WorryPostponementD6" Type="Unknown" Value="" />
+  </ProgramVariables>
+  <TipMessages>
+    <Message Name="QuestionRequired" Title="Vi trenger ditt svar før du kan gå videre." Message="Vennligst svar så godt du kan på spørsmålet (eller spørsmålene) på siden før du går videre." BackButtonName="OK" />
+    <Message Name="TipFriendSuccessful" Title="Meldingen er sendt." Message="Vi har sendt meldingen til den epostadressen du oppga.&#xD;&#xA;&#xD;&#xA;Takk for at du tipset en venn!" BackButtonName="OK" />
+    <Message Name="WaitUntilNextModay" Title="Programmet starter alltid på en mandag." Message="Hvis du er påmeldt vil du få en e-post med link til dagens program førstkommende mandag. &#xD;&#xA;&#xD;&#xA;Velkommen tilbake!" BackButtonName="Avslutt" />
+    <Message Name="PauseProgramSuccessful" Title="Programmet er nå satt på pause." Message="For å starte igjen, vennligst logg deg inn gjennom siste mottatte e-post." BackButtonName="OK" />
+    <Message Name="RegisteredButPasswordWrong" Title="Feil ved innlogging." Message="Brukernavn eller passord er feil. Prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="PreferenceRequired" Title="Vi mangler informasjon." Message="Du må markere alternativ eller svare før du kan gå videre." BackButtonName="OK" />
+    <Message Name="ProgramRoomDescription" Title="Beskrivelse av rommene." Message="Beskrivelse av rommene." BackButtonName="Tilbake" />
+    <Message Name="RegisterPasswordConfirm" Title="Passordene dine stemmer ikke overens." Message="Kontroller stavingen og gjenta passordet på nytt." BackButtonName="OK" />
+    <Message Name="NetworkError" Title="Problemer med tilkobling til nettverk." Message="Vennligst sjekk at du har tilgang til internett.&#xD;&#xA;&#xD;&#xA;Hvis du har tilgang til internett, sjekk at ikke tilgangen blokkeres av brannmur eller antivirusprogram.&#xD;&#xA;" BackButtonName="OK" />
+    <Message Name="NoClassYet" Title="Dagens program er ikke tilgjengelig." Message="Dagens program er ikke tilgjengelig ennå. Prøv igjen senere." BackButtonName="Avslutt" />
+    <Message Name="PauseProgramFailed" Title="Å pause programmet mislyktes." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="InvalidEmailAddress" Title="E-post adressen er ikke korrekt." Message="Kontroller stavingen og prøv igjen!" BackButtonName="Tilbake" />
+    <Message Name="PasswordWrong" Title="Feil passord" Message="Vennligst kontroller passord og skriv inn på nytt." BackButtonName="OK" />
+    <Message Name="HaveFinishedTodaysClass" Title="Hei igjen!" Message="Du har allerede gjennomgått dagens program. &#xD;&#xA;Velkommen tilbake en annen dag. " BackButtonName="Avslutt" />
+    <Message Name="TipFriendFailed" Title="Meldingen ble ikke sent." Message="Vi kunne ikke sende meldingen. Vennligst sjekk at e-post adressen er korrekt." BackButtonName="OK" />
+    <Message Name="RegisteredInProgram" Title="Du er påmeldt." Message="Du er allerede registrert som bruker. Dersom du ønsker å registrere deg flere ganger må du oppgi ny e-post adresse." BackButtonName="Avslutt" />
+    <Message Name="EndingFailed" Title="Overføring mislykket." Message="Det har oppstått en feil og informasjon kan ha gått tapt. &#xD;&#xA;&#xD;&#xA;Forsøk å gå igjennom dagen i programmet en gang til.&#xD;&#xA;&#xD;&#xA;Hvis du får denne feilmeldingen en gang til, vennligst kontakt support." BackButtonName="Internal error" />
+    <Message Name="LoginInfoRequired" Title="Velkommen til innlogging." Message="Vennligst skriv inn e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Takk!" BackButtonName="OK" />
+    <Message Name="ProfileChangeSuccessful" Title="Oppdateringen var vellykket." Message="Oppdatering av profilen din var vellykket, og all informasjon er overført." BackButtonName="OK" />
+    <Message Name="RegisterInfoRequired" Title="Vi trenger e-post adresse og passord." Message="For å registrere deg trenger vi e-postadresse og passord.&#xD;&#xA;&#xD;&#xA;Vennligst fyll inn." BackButtonName="OK" />
+    <Message Name="ExitProgramSuccessful" Title="Avmelding var vellykket." Message="Du har nå meldt deg av programmet og vil ikke motta flere e-poster. Du kan klikke &quot;Tilbake&quot; og fullføre dagen i dag om du ønsker. Velkommen tilbake ved en senere anledning." BackButtonName="OK" />
+    <Message Name="HaveDoneAllClassed" Title="Du har fullført hele Ha det bedre" Message="Du kan gjerne ta programmet en gang til. " BackButtonName="Avslutt" />
+    <Message Name="ProfileChangeFailed" Title="Oppdateringen var mislykket." Message="Oppdatering av profilen din var mislykket. Vennligst prøv igjen, og ta kontakt med Support dersom oppdateringen fremdeles ikke lykkes." BackButtonName="Tilbake" />
+    <Message Name="UserNotExisted" Title="Ukjent bruker." Message="Denne brukeren er ikke registrert i programmet. " BackButtonName="Avslutt" />
+    <Message Name="InvalidEmail" Title="Feil i epostadresse" Message="Dette er ikke en gyldig e-post adresse." BackButtonName="OK" />
+    <Message Name="PreferenceInfo" Title="Virker dette litt fristende?" Message="Virker dette litt fristende?" BackButtonName="Tilbake" />
+    <Message Name="NeedToJoinProgram" Title="Du er ikke påmeldt." Message="Du har ikke meldt deg på programmet. Gå til &lt;a href=&quot;http://program.changetech.no/sos/hadetbedre&quot;_blank&quot;&gt;Ha det bedre &lt;/a&gt; og meld deg på. " BackButtonName="OK" />
+    <Message Name="TimerRequired" Title="Oppgi tid" Message="Venligst oppgi tider, eller kryss av ''Vet ikke'', for å gå videre." BackButtonName="OK" />
+    <Message Name="RegisterSuccessfully" Title="Du er påmeldt programmet!!" Message="Programmet starter førstkommende mandag. Da får du en e-post på den oppgitte e-postadressen. Den inneholder en link du skal klikke på for å starte programmet. &#xD;&#xA;&#xD;&#xA;Hvis det er mandag i dag, vil du allerede om kort tid motta en e-post med link til dagens program.&#xD;&#xA;&#xD;&#xA;Hjertelig takk for påmeldingen og velkommen!" BackButtonName="OK" />
+    <Message Name="PasswordRemiderInfoRequired" Title="Glemt passord?" Message="Skriv inn din epostadresse, så sender vi deg passord på nytt." BackButtonName="OK" />
+    <Message Name="LoginFailed" Title="Det oppsto en feil ved innlogging." Message="Sjekk at du tastet riktig brukernavn og passord, og at ikke &quot;Caps Lock&quot; på tastaturet ditt er på." BackButtonName="OK" />
+    <Message Name="ExitProgramFailed" Title="Avmelding var mislykket." Message="Vennligst prøv igjen." BackButtonName="OK" />
+    <Message Name="RegisterFailed" Title="Feil ved registrering." Message="Det har oppstått en feil ved registrering. &#xD;&#xA;&#xD;&#xA;Vennligst prøv igjen eller kontakt Support.&#xD;&#xA;" BackButtonName="Tilbake" />
+    <Message Name="CatchingUpEarlyDay" Title="Du har gått glipp av noen dager i programmet." Message="Derfor vil du nå først gå igjennom de dagene du har gått glipp av, slik at du kommer ajour. " BackButtonName="ok" />
+    <Message Name="NavigationError" Title="Navigeringsfeil" Message="Vennligst ta kontakt med support på support@changetech.no og oppgi hele feilmeldingen du har mottatt.&#xD;&#xA;&#xD;&#xA;Legg gjerne ved et skjermbildet av feilmeldingen.&#xD;&#xA;Trykk &quot;Print Screen&quot; på tastaturet for skjermbilde.&#xD;&#xA;Tast CTRL+V i e-posten for å lime inn skjermbildet." BackButtonName="OK" />
+  </TipMessages>
+  <SettingMenu Title="Innstillinger og hjelp">
+    <MenuItem FunctionName="HelpFunction" Name="Spørsmål og svar" />
+    <MenuItem FunctionName="TipFriendFunction" Name="Tips en venn" />
+    <MenuItem FunctionName="PauseProgramFunction" Name="Ta pause i programmet" />
+    <MenuItem FunctionName="ProfileFunction" Name="Skift e-post adresse" />
+    <MenuItem FunctionName="ExitProgramFunction" Name="Meld meg av programmet." />
+  </SettingMenu>
+  <Help Title="FAQ" BackButtonName="Tilbake">
+    <HelpItem Title="Jeg har ikke fått e-post." Text="Sjekk at du har internettforbindelse.&#xD;&#xA;Sjekk at e-posten din virker. Har du fått annen e-post i dag? Kontakt evt. din e-postleverandør eller systemadministrator.&#xD;&#xA;Sjekk at innboksen din ikke er full.&#xD;&#xA;Sjekk at e-posten ikke har havnet i innboksen for useriøs e-post eller spamfilteret.&#xD;&#xA;Er du ikke inne i programmet i en periode på mer enn 10 dager setter programmet deg på &quot;pause&quot; slik at utsendelse av e-post stopper opp. Du kan når som helst starte opp igjen, ved å logge deg inn via linken i en tidligere e-post eller gå til programhjemmesidene.&#xD;&#xA;Ta evt. kontakt med support (se &quot;Kontaktinformasjon&quot;). " />
+    <HelpItem Title="Jeg får ikke opp dagens sider. " Text="Sjekk at du har internettforbindelse. &#xD;&#xA;Sjekk at du har Flash installert riktig (kontakt evt. din systemadministrator for hjelp). " />
+    <HelpItem Title="Jeg blir uten e-post en periode. " Text="Hvis du har tilgang til internett, men ikke tilgang til e-post, kan du gå inn via programhjemmesidene.&#xD;&#xA;Hvis du ikke har tilgang til internett, anbefaler vi deg å sette programmet på pause (se &quot;Sett programmet på pause&quot;). " />
+    <HelpItem Title="Hva skjer om jeg ikke har vært inne i programmet enkelte dager? " Text="Du får muligheten til å ta igjen de tapte dagene neste gang du logger inn i programmet. Slik er du sikret å ikke gå glipp av noe. &#xD;&#xA;Er du ikke inne i programmet i en periode på mer enn 10 dager setter vi deg på &quot;pause&quot; slik at utsendelse av e-post stopper opp. Du kan når som helst starte opp igjen, ved å logge deg inn via linken i en tidligere e-post.&#xD;&#xA;Du kan også logge inn via programhjemmesidene." />
+    <HelpItem Title="Hvordan navigerer jeg i programmet? " Text="Navigering foregår ved å klikke på den blå knappen (”videreknappen”) for å gå til neste side. &#xD;&#xA;Dersom du har glemt hva som står på forrige side kan du klikke på den venstre delen av knappen som er grå og har en pil som peker bakover. " />
+    <HelpItem Title="”Videreknappen” er ikke synlig. " Text="Øk skjermstørrelsen ved å trykke F11-tasten eller ved å maksimere skjermstørrelsen oppe i høyre hjørne i nettleseren. &#xD;&#xA;Du kan også bruke scrollfunksjonen i høyre billedkant. " />
+    <HelpItem Title="”Videreknappen” virker ikke. " Text="Sjekk at du har internettforbindelse. &#xD;&#xA;Ta kontakt med support (se &quot;Kontaktinformasjon&quot;)." />
+    <HelpItem Title="Kan jeg ta en ukes pause i programmet, f.eks ved ferie?" Text="Programmet gir mulighet for å ta pause f.eks. hvis du skal reise bort og ikke har tilgang til internett. Ettersom programmet er tilpasset ukedagene anbefaler vi å ta pause i hele uker. Dette gjøres ved å klikke på &quot;Ta pause i programmet&quot; under Innstillinger og hjelp. Når du så vil starte opp igjen logger du deg på ved å klikke på innloggingsknappen i den siste e-posten du mottok fra programmet eller via programhjemmesidene. Vi gjør oppmerksom på at programmet i utgangspunktet er laget for å følges uten pauser." />
+    <HelpItem Title="Jeg ønsker å avslutte programmet." Text="Du kan melde deg av ved å gå inn under &quot;Innstillinger og hjelp&quot; og trykke på &quot;Meld meg av&quot;. Følg deretter de instruksjonene som dukker opp på skjermen din." />
+    <HelpItem Title="Programmet støtter følgende nettlesere:" Text="Internet Explorer version 6 and higher, Firefox version 2 and higher, Safari version 3.0 and higher, Chrome, all versions." />
+    <HelpItem Title="Datasikkerhet. " Text="Programmet driftes av Changetech AS uten innsyn fra andre parter. &#xD;&#xA;Personidentifiserbar innformasjon utleveres ikke til andre parter med mindre dette er lovpålagt. " />
+    <HelpItem Title="Kontaktinformasjon." Text="Ta kontakt ved å sende en e-post til: &lt;a href=&quot;mailto:changetechsupport@ethostech.no&quot;&gt;support@changetech.no&lt;/a&gt;. Vi svarer på e-post innen 24 timer på vanlige virkedager. &#xD;&#xA;&#xD;&#xA;Husk at du kan logge deg inn via linken i en tidligere e-post eller gå til &lt;a href=&quot;	http://program.changetech.no/sos/hadetbedre&quot;_blank&quot;&gt;Ha det bedre sin logg inn side&lt;/a&gt;  (åpner en ny fane eller et nytt vindu)." />
+  </Help>
+  <TipFriend Title="Tips en venn" Text="Skriv inn din venns e-postadresse i feltet under og klikk &quot;Send invitasjon&quot;. Han eller hun vil motta en invitasjon til programmet om kort tid." BackButtonName="Tilbake" SubmitButtonName="Send invitasjon" />
+  <ProgramStatus Title="Ta pause i programmet" Text="Klikk på knappen for å sette programmet på pause i en uke." BackButtonName="Tilbake" SubmitButtonName="Pause" />
+  <Profile Title="Skift e-post adresse" Text="Du kan bytte e-post ved å skrive inn din nye e-post adresse i feltet under og klikke &quot;Send inn&quot;." BackButtonName="Tilbake" SubmitButtonName="Send inn">
+    <Item Name="Email" OldValue="pchen@ethos.com.cn" Format="email" />
+  </Profile>
+  <ExitProgram Title="Meld meg av programmet." Text="Du er i ferd med å melde deg av programmet. Klikk &quot;Tilbake&quot; hvis du ikke er helt sikker." BackButtonName="Tilbake" SubmitButtonName="Meld meg av" />
+  <Relapse />
+  <SpecialString>
+    <StringItem Name="all_rights_reserved" Value="All rights reserved" />
+    <StringItem Name="Back" Value="Tilbake" />
+    <StringItem Name="Bubble_titile_From_Payment_in_CTPP" Value="Betaling" />
+    <StringItem Name="Buy" Value="Meld deg på" />
+    <StringItem Name="Buy_subtext" Value="Undertekst" />
+    <StringItem Name="Click_a_day" Value="Klikk på en dag for å se mer av programmet" />
+    <StringItem Name="Completed" Value="Fullført" />
+    <StringItem Name="Day" Value="Dag" />
+    <StringItem Name="DAY_RANGE" Value="0-30" />
+    <StringItem Name="DAY_STRING" Value="Dager" />
+    <StringItem Name="Days_in_program" Value="Dager i programmet" />
+    <StringItem Name="Free" Value="Gratis" />
+    <StringItem Name="HOUR_RANGE" Value="0-23" />
+    <StringItem Name="HOUR_STRING" Value="Timer" />
+    <StringItem Name="Login" Value="Logg inn" />
+    <StringItem Name="Logout" Value="Logg ut" />
+    <StringItem Name="MINUTE_RANGE" Value="0-59" />
+    <StringItem Name="MINUTE_STRING" Value="Minutter" />
+    <StringItem Name="More_about_us_at_FB" Value="Besøk også våre" />
+    <StringItem Name="Not_Support_HTML5" Value="Nettleser støtter ikke HTML5" />
+    <StringItem Name="Other_programs_from" Value="Andre programmer fra" />
+    <StringItem Name="Price" Value="Pris" />
+    <StringItem Name="Price_subtext" Value="Se gratis demo her" />
+    <StringItem Name="provided_by" Value="er en tjeneste levert av" />
+    <StringItem Name="Ready_To_Go" Value="Start" />
+    <StringItem Name="Retake" Value="Ta dagen på nytt" />
+    <StringItem Name="SettingMenu" Value="Innstillinger og hjelp" />
+    <StringItem Name="Start_day" Value="Start dag" />
+    <StringItem Name="Startpunkt" Value="Startpunkt" />
+    <StringItem Name="unavailable" Value="Ikke tilgjengelig" />
+    <StringItem Name="untaken" Value="Ikke gjennomført" />
+    <StringItem Name="use_from" Value="som bruker teknologi levert av" />
+    <StringItem Name="Video_Subtext_1" Value="Psykologien bak NewMe" />
+    <StringItem Name="Video_Subtext_2" Value="Professor Pål Kraft" />
+    <StringItem Name="Week" Value="Uke" />
+  </SpecialString>
+</XMLModel>

@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ChangeTech.Models" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ChangeTech.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:41265/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System.Collections.Generic" />
+  <xs:complexType name="EditPageVariableGroupModel">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ObjectStatus" nillable="true" type="q1:ArrayOfKeyValueOfguidModelStatuse4aVheFe" />
+      <xs:element minOccurs="0" name="ProgramGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VariableGroupModels" nillable="true" type="tns:ArrayOfPageVariableGroupModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EditPageVariableGroupModel" nillable="true" type="tns:EditPageVariableGroupModel" />
+  <xs:simpleType name="ModelStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="QuestionNoChange" />
+      <xs:enumeration value="QuestionUpdated" />
+      <xs:enumeration value="QuestionDeleted" />
+      <xs:enumeration value="QuestionAdded" />
+      <xs:enumeration value="QuestionItemNoChange" />
+      <xs:enumeration value="QuestionItemUpdated" />
+      <xs:enumeration value="QuestionItemDeleted" />
+      <xs:enumeration value="QuestionItemAdded" />
+      <xs:enumeration value="ModelAdd" />
+      <xs:enumeration value="ModelEdit" />
+      <xs:enumeration value="ModelNoChange" />
+      <xs:enumeration value="ModelDelete" />
+      <xs:enumeration value="GraphItemAdded" />
+      <xs:enumeration value="GraphItemUpdated" />
+      <xs:enumeration value="GraphItemDeleted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ModelStatus" nillable="true" type="tns:ModelStatus" />
+  <xs:complexType name="ArrayOfPageVariableGroupModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PageVariableGroupModel" nillable="true" type="tns:PageVariableGroupModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPageVariableGroupModel" nillable="true" type="tns:ArrayOfPageVariableGroupModel" />
+  <xs:complexType name="PageVariableGroupModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageVariableGroupGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProgramGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageVariableGroupModel" nillable="true" type="tns:PageVariableGroupModel" />
+  <xs:complexType name="EditStandardTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BackgroudImage" nillable="true" type="tns:ResourceModel" />
+          <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Media" nillable="true" type="tns:PageMediaModel" />
+          <xs:element minOccurs="0" name="PresenterImage" nillable="true" type="tns:ResourceModel" />
+          <xs:element minOccurs="0" name="PresenterImagePosition" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditStandardTemplatePageContentModel" nillable="true" type="tns:EditStandardTemplatePageContentModel" />
+  <xs:complexType name="EditPageContentModelBase">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Template" nillable="true" type="tns:PageTemplateModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EditPageContentModelBase" nillable="true" type="tns:EditPageContentModelBase" />
+  <xs:complexType name="PageTemplateModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Guid" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageTemplateModel" nillable="true" type="tns:PageTemplateModel" />
+  <xs:complexType name="EditGraphTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BadScoreRange" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GoodScoreRange" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GraphCaption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="GraphGUID" type="ser:guid" />
+          <xs:element minOccurs="0" name="GraphItem" nillable="true" type="tns:ArrayOfGraphItemModel" />
+          <xs:element minOccurs="0" name="GraphType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MediumScoreRange" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ScoreRange" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TimeRange" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TimeUnit" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditGraphTemplatePageContentModel" nillable="true" type="tns:EditGraphTemplatePageContentModel" />
+  <xs:complexType name="ArrayOfGraphItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GraphItemModel" nillable="true" type="tns:GraphItemModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGraphItemModel" nillable="true" type="tns:ArrayOfGraphItemModel" />
+  <xs:complexType name="GraphItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Expression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GraphGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="GraphItemModelGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PointType" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GraphItemModel" nillable="true" type="tns:GraphItemModel" />
+  <xs:complexType name="EditGetInfoTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PageQuestions" nillable="true" type="tns:ArrayOfPageQuestionModel" />
+          <xs:element minOccurs="0" name="PresenterImage" nillable="true" type="tns:ResourceModel" />
+          <xs:element minOccurs="0" name="PresenterImagePosition" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Questions" nillable="true" type="tns:ArrayOfQuestionModel" />
+          <xs:element minOccurs="0" name="SecondaryButtonCaption" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditGetInfoTemplatePageContentModel" nillable="true" type="tns:EditGetInfoTemplatePageContentModel" />
+  <xs:complexType name="ArrayOfPageQuestionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PageQuestionModel" nillable="true" type="tns:PageQuestionModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPageQuestionModel" nillable="true" type="tns:ArrayOfPageQuestionModel" />
+  <xs:complexType name="PageQuestionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BeginContent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Caption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndContent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsRequired" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ItemOrderList" nillable="true" type="tns:ArrayOfOrderObject" />
+      <xs:element minOccurs="0" name="Order" type="xs:int" />
+      <xs:element minOccurs="0" name="PageVariable" nillable="true" type="tns:PageVariable" />
+      <xs:element minOccurs="0" name="QuestionGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="SubItems" nillable="true" type="tns:ArrayOfPageQuestionItemModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageQuestionModel" nillable="true" type="tns:PageQuestionModel" />
+  <xs:complexType name="ArrayOfOrderObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrderObject" nillable="true" type="tns:OrderObject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrderObject" nillable="true" type="tns:ArrayOfOrderObject" />
+  <xs:complexType name="OrderObject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="OrderNo" type="xs:int" />
+      <xs:element minOccurs="0" name="PageQuestionGUID" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrderObject" nillable="true" type="tns:OrderObject" />
+  <xs:complexType name="PageVariable">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageVariableGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PageVariableType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Questions" nillable="true" type="tns:ArrayOfPageQuestionModel" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ValueType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageVariable" nillable="true" type="tns:PageVariable" />
+  <xs:complexType name="EditPageModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Page" nillable="true" type="tns:EditPageContentModelBase" />
+      <xs:element minOccurs="0" name="PageMaterials" nillable="true" type="tns:PageMaterials" />
+      <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EditPageModel" nillable="true" type="tns:EditPageModel" />
+  <xs:complexType name="PageMaterials">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageTemplates" nillable="true" type="tns:ArrayOfPageTemplateModel" />
+      <xs:element minOccurs="0" name="Questions" nillable="true" type="tns:ArrayOfQuestionModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageMaterials" nillable="true" type="tns:PageMaterials" />
+  <xs:complexType name="ArrayOfPageTemplateModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PageTemplateModel" nillable="true" type="tns:PageTemplateModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPageTemplateModel" nillable="true" type="tns:ArrayOfPageTemplateModel" />
+  <xs:complexType name="ArrayOfQuestionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QuestionModel" nillable="true" type="tns:QuestionModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestionModel" nillable="true" type="tns:ArrayOfQuestionModel" />
+  <xs:complexType name="QuestionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Guid" type="ser:guid" />
+      <xs:element minOccurs="0" name="HasSubItem" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="QuestionModel" nillable="true" type="tns:QuestionModel" />
+  <xs:complexType name="ArrayOfPageQuestionItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PageQuestionItemModel" nillable="true" type="tns:PageQuestionItemModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPageQuestionItemModel" nillable="true" type="tns:ArrayOfPageQuestionItemModel" />
+  <xs:complexType name="PageQuestionItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Feedback" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" type="ser:guid" />
+      <xs:element minOccurs="0" name="Item" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Order" type="xs:int" />
+      <xs:element minOccurs="0" name="Score" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageQuestionItemModel" nillable="true" type="tns:PageQuestionItemModel" />
+  <xs:complexType name="ResourceModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Extension" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NameOnServer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResourceModel" nillable="true" type="tns:ResourceModel" />
+  <xs:complexType name="EditTimerTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PageVariable" nillable="true" type="tns:PageVariableModel" />
+          <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditTimerTemplatePageContentModel" nillable="true" type="tns:EditTimerTemplatePageContentModel" />
+  <xs:complexType name="PageVariableModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageVariableGuid" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageVariableModel" nillable="true" type="tns:PageVariableModel" />
+  <xs:complexType name="EditChoosePreferencesTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="MaxPrefereneces" type="xs:int" />
+          <xs:element minOccurs="0" name="Preferences" nillable="true" type="tns:ArrayOfPreferenceItemModel" />
+          <xs:element minOccurs="0" name="PrimaryButtonName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditChoosePreferencesTemplatePageContentModel" nillable="true" type="tns:EditChoosePreferencesTemplatePageContentModel" />
+  <xs:complexType name="ArrayOfPreferenceItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PreferenceItemModel" nillable="true" type="tns:PreferenceItemModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPreferenceItemModel" nillable="true" type="tns:ArrayOfPreferenceItemModel" />
+  <xs:complexType name="PreferenceItemModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnswerText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ButtonName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreferenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Resource" nillable="true" type="tns:ResourceModel" />
+      <xs:element minOccurs="0" name="Variable" nillable="true" type="tns:PageVariableModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PreferenceItemModel" nillable="true" type="tns:PreferenceItemModel" />
+  <xs:complexType name="EditPushPictureTemplatePageContentModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EditPageContentModelBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="PresenterImage" nillable="true" type="tns:ResourceModel" />
+          <xs:element minOccurs="0" name="Wait" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditPushPictureTemplatePageContentModel" nillable="true" type="tns:EditPushPictureTemplatePageContentModel" />
+  <xs:complexType name="PageMediaModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Resource" nillable="true" type="tns:ResourceModel" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageMediaModel" nillable="true" type="tns:PageMediaModel" />
+  <xs:complexType name="ResourceListModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Resources" nillable="true" type="tns:ArrayOfResourceModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResourceListModel" nillable="true" type="tns:ResourceListModel" />
+  <xs:complexType name="ArrayOfResourceModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceModel" nillable="true" type="tns:ResourceModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResourceModel" nillable="true" type="tns:ArrayOfResourceModel" />
+  <xs:complexType name="ResourceCategoriesModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Categories" nillable="true" type="tns:ArrayOfResourceCategoryModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResourceCategoriesModel" nillable="true" type="tns:ResourceCategoriesModel" />
+  <xs:complexType name="ArrayOfResourceCategoryModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResourceCategoryModel" nillable="true" type="tns:ResourceCategoryModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResourceCategoryModel" nillable="true" type="tns:ArrayOfResourceCategoryModel" />
+  <xs:complexType name="ResourceCategoryModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CategoryGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResourceCategoryModel" nillable="true" type="tns:ResourceCategoryModel" />
+  <xs:complexType name="EditSessionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Day" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PageSequences" nillable="true" type="tns:ArrayOfPageSequenceModel" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProgramName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EditSessionModel" nillable="true" type="tns:EditSessionModel" />
+  <xs:complexType name="ArrayOfPageSequenceModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PageSequenceModel" nillable="true" type="tns:PageSequenceModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPageSequenceModel" nillable="true" type="tns:ArrayOfPageSequenceModel" />
+  <xs:complexType name="PageSequenceModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CountOfPages" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="InterventCategory" type="q2:KeyValuePairOfguidstring" />
+      <xs:element minOccurs="0" name="InterventID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Order" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceID" type="ser:guid" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/System.Collections.Generic" minOccurs="0" name="Predictor" type="q3:KeyValuePairOfguidstring" />
+      <xs:element minOccurs="0" name="ProgramRoom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionContentID" type="ser:guid" />
+      <xs:element minOccurs="0" name="UsedInProgram" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PageSequenceModel" nillable="true" type="tns:PageSequenceModel" />
+  <xs:complexType name="ArrayOfLanguageModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LanguageModel" nillable="true" type="tns:LanguageModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLanguageModel" nillable="true" type="tns:ArrayOfLanguageModel" />
+  <xs:complexType name="LanguageModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LanguageModel" nillable="true" type="tns:LanguageModel" />
+  <xs:complexType name="ArrayOfSimplePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SimplePageContentModel" nillable="true" type="tns:SimplePageContentModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSimplePageContentModel" nillable="true" type="tns:ArrayOfSimplePageContentModel" />
+  <xs:complexType name="SimplePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Order" type="xs:int" />
+      <xs:element minOccurs="0" name="SequenceOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SimplePageContentModel" nillable="true" type="tns:SimplePageContentModel" />
+  <xs:complexType name="ArrayOfEditPageVariable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EditPageVariable" nillable="true" type="tns:EditPageVariable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEditPageVariable" nillable="true" type="tns:ArrayOfEditPageVariable" />
+  <xs:complexType name="EditPageVariable">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PageVariable">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="modelStatus" type="tns:ModelStatus" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="EditPageVariable" nillable="true" type="tns:EditPageVariable" />
+  <xs:complexType name="StandardTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BackgroundImageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IllustrationImageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PresenterImageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PresenterImagePosition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="RadioGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="VideoGUID" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StandardTemplatePageContentModel" nillable="true" type="tns:StandardTemplatePageContentModel" />
+  <xs:complexType name="GetInfoTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ObjectStatus" nillable="true" type="q4:ArrayOfKeyValueOfguidModelStatuse4aVheFe" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageQuestions" nillable="true" type="tns:ArrayOfPageQuestionModel" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PresenterImageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PresenterImagePosition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetInfoTemplatePageContentModel" nillable="true" type="tns:GetInfoTemplatePageContentModel" />
+  <xs:complexType name="ChoosePreferencesTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="MaxPreferences" type="xs:int" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PreferenceStatus" nillable="true" type="q5:ArrayOfKeyValueOfguidModelStatuse4aVheFe" />
+      <xs:element minOccurs="0" name="Preferences" nillable="true" type="tns:ArrayOfPreferenceItemModel" />
+      <xs:element minOccurs="0" name="PrimaryButtonName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChoosePreferencesTemplatePageContentModel" nillable="true" type="tns:ChoosePreferencesTemplatePageContentModel" />
+  <xs:complexType name="GraphTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BadScoreRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Body" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GoodScoreRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GraphCaption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GraphGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="GraphItem" nillable="true" type="tns:ArrayOfGraphItemModel" />
+      <xs:element minOccurs="0" name="GraphType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Heading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="MediumScoreRange" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ObjectStatus" nillable="true" type="q6:ArrayOfKeyValueOfguidModelStatuse4aVheFe" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="ScoreRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TimeRange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeUnit" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GraphTemplatePageContentModel" nillable="true" type="tns:GraphTemplatePageContentModel" />
+  <xs:complexType name="PushPictureTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PresenterImageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Wait" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PushPictureTemplatePageContentModel" nillable="true" type="tns:PushPictureTemplatePageContentModel" />
+  <xs:complexType name="TimerTemplatePageContentModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AfterExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BeforeExpression" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LanguageGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PageOrder" type="xs:int" />
+      <xs:element minOccurs="0" name="PageSequenceGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PageVariableGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="PrimaryButtonAction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryButtonCaption" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ProgramGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="SessionGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="TemplateGUID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TimerTemplatePageContentModel" nillable="true" type="tns:TimerTemplatePageContentModel" />
+</xs:schema>
